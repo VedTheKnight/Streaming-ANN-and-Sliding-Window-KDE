@@ -125,6 +125,7 @@ class StreamingANN:
     def insert(self, point):
         """Insert sampled point into LSH tables."""
         if not self._should_sample():
+            self.dropped_points += 1
             return
         
         pid = len(self.points)   # new point ID
