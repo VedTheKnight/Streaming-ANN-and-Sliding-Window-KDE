@@ -15,7 +15,7 @@ d = points.shape[1]
 n_estimate = len(points)       # upper bound on stream size
 eta = 0.2                      # sampling parameter, 0 = store all points
 r = 1.0                        # inner radius for LSH
-epsilon = 1                    # approximation factor
+epsilon = 0.5                  # approximation factor
 
 ann = StreamingANN(d=d, n_estimate=n_estimate, eta=eta, r=r, epsilon=epsilon)
 

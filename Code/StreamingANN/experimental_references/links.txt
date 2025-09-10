@@ -1,0 +1,5 @@
+Benchmark Github: https://github.com/erikbern/ann-benchmarks/?tab=readme-ov-file
+
+Sliding Window ANN : https://jshun.csail.mit.edu/filteredANN.pdf
+
+Benchmark Paper: https://arxiv.org/pdf/1807.05614

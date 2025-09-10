@@ -117,9 +117,10 @@ class StreamingANN:
         return key
     
     def _should_sample(self):
-        """Bernoulli sampling with probability i^(-eta)."""
+        """Bernoulli sampling with probability i^(-eta) or n^(-eta)"""
         self.stream_count += 1
-        prob = self.stream_count ** (-self.eta)
+        # prob = self.stream_count ** (-self.eta)
+        prob = self.n ** (-self.eta) 
         return random.random() < prob
     
     def insert(self, point):
