@@ -4,6 +4,9 @@ import numpy as np
 from scipy.stats import norm
 from scipy.optimize import minimize_scalar
 from collections import defaultdict
+import psutil
+import os
+import gc
 
 class StreamingANN:
     def __init__(self, d, n_estimate = None, eta=0.0, r = 1.0, epsilon=0.0, w=None, bits_per_hash=32):
@@ -33,7 +36,6 @@ class StreamingANN:
 
         self.bits_per_hash = bits_per_hash
         
-        
         # Parameters 
         self.k = math.ceil(math.log(self.n, 1/self.p2))
         self.L = int(self.n ** self.rho / self.p1)
@@ -46,14 +48,14 @@ class StreamingANN:
         for _ in range(self.L):
             g = []
             for _ in range(self.k):
-                a = np.random.normal(0, 1, self.d)   # Gaussian vector
-                b = np.random.uniform(0, self.w)     # Uniform offset
+                a = np.random.normal(0, 1, self.d).astype(np.float32)   # Gaussian vector
+                b = np.float32(np.random.uniform(0, self.w))             # Uniform offset
                 g.append((a, b))
             self.hash_functions.append(g)
         
         self.stream_count = 0
         self.dropped_points = 0
-        self.points = []
+        self.points = []  # store points as float32 for memory efficiency
 
         print(f"[Init] Inputs : eta={self.eta:.2f}, epsilon={self.epsilon:0.2f}, r={self.r:0.2f}")
         print(f"[Init] LSH Parameters : w={self.w:.3f}, p1={self.p1:.4f}, p2={self.p2:.4f}, rho={self.rho:.4f}")
@@ -130,7 +132,7 @@ class StreamingANN:
             return
         
         pid = len(self.points)   # new point ID
-        self.points.append(point)
+        self.points.append(np.array(point, dtype=np.float32))  # float32 to save memory
 
         for j in range(self.L):
             key = self._make_key(point, self.hash_functions[j])
@@ -158,3 +160,154 @@ class StreamingANN:
                 return p
         return None
 
+    def query_topk(self, q, K=10, max_candidates=None):
+        """
+        Return top-K candidate IDs and distances for query q.
+        """
+        candidates = set()
+        for j in range(self.L):
+            key = self._make_key(q, self.hash_functions[j])
+            if key is None:
+                continue
+            candidates.update(self.hash_tables[j].get(key, []))
+            if max_candidates is None:
+                cap = 3 * self.L
+            else:
+                cap = max_candidates
+            if len(candidates) >= cap:
+                break
+
+        # compute exact distances for candidate set
+        cand_list = []
+        for pid in candidates:
+            p = self.points[pid]
+            dist = float(np.linalg.norm(p - q))
+            cand_list.append((pid, dist))
+
+        cand_list.sort(key=lambda x: x[1])
+        return cand_list[:K]
+
+
+# -----------------------------
+# Function to track memory vs points
+# -----------------------------
+def build_ann_memory_track(files, lengths, idx, r, epsilon, K, eta, queries, interval=100):
+    """
+    Stream points into ANN and track memory vs points stored.
+    Every 'interval' inserts, log number of points stored, memory usage, and avg insert time.
+    """
+    import time
+    process = psutil.Process(os.getpid())
+    d = queries.shape[1]
+    ann = StreamingANN(d=d, n_estimate=len(idx), eta=eta, epsilon=epsilon, r=r)
+
+    # Generator to yield points
+    def sample_points(files, lengths, indices):
+        import numpy as np
+        start = 0
+        idx_set = set(indices)
+        for f, L in zip(files, lengths):
+            arr = np.load(f, mmap_mode="r")
+            for i in range(L):
+                gid = start + i
+                if gid in idx_set:
+                    yield arr[i]
+            start += L
+
+    gen = sample_points(files, lengths, idx)
+
+    points_logged = []
+    memory_logged = []
+    insert_times = []
+    fetch_time = 0
+    insert_time = 0
+
+    total_points = len(idx)
+    mem0 = process.memory_info().rss
+    last_t = time.time()
+
+    for i in range(total_points):
+        t0 = time.time()
+        p = next(gen)
+        t1 = time.time()
+        fetch_time += (t1 - t0)
+
+        t2 = time.time()
+        ann.insert(p)
+        t3 = time.time()
+        insert_time += (t3 - t2)
+
+        if (i + 1) % interval == 0 or (i + 1) == total_points:
+            points_logged.append(len(ann.points))
+            mem_now = process.memory_info().rss
+            memory_logged.append((mem_now - mem0)/1024/1024)  # in MB
+            avg_insert = insert_time / interval * 1e3
+            insert_times.append(avg_insert)
+            fetch_time = 0
+            insert_time = 0
+            last_t = time.time()
+
+    # Interpolate slope and estimate total memory
+    import numpy as np
+    points_logged = np.array(points_logged)
+    memory_logged = np.array(memory_logged)
+    slope, _ = np.polyfit(points_logged, memory_logged, 1)
+    estimated_total_memory_MB = slope * total_points
+
+    # Return estimated memory and epsilon recall
+    del ann
+    gc.collect()
+    return estimated_total_memory_MB, points_logged, memory_logged, insert_times
+
+
+# -------------------------
+# Config
+# -------------------------
+# files = ["data/encodings_combined.npy"]  # list of npy files
+# epsilon = 0.2
+# r = 1.0
+# K = 10
+# eta = 0.0
+# n_points_to_insert = 1000
+# n_queries = 100
+
+# # Count points in files
+# def count_points(files):
+#     total = 0
+#     lengths = []
+#     for f in files:
+#         arr = np.load(f, mmap_mode="r")
+#         lengths.append(arr.shape[0])
+#         total += arr.shape[0]
+#     return total, lengths
+
+# total, lengths = count_points(files)
+
+# # Sample indices
+# rng = np.random.default_rng(0)
+# idx = rng.choice(total, size=n_points_to_insert, replace=False)
+# remaining = list(set(range(total)) - set(idx))
+# q_idx = rng.choice(remaining, size=n_queries, replace=False)
+
+# # Sample queries
+# def sample_points(files, lengths, indices):
+#     start = 0
+#     idx_set = set(indices)
+#     for f, L in zip(files, lengths):
+#         arr = np.load(f, mmap_mode="r")
+#         for i in range(L):
+#             gid = start + i
+#             if gid in idx_set:
+#                 yield arr[i]
+#         start += L
+
+# queries = np.array([p for p in sample_points(files, lengths, q_idx)])
+
+# # -------------------------
+# # Run ANN with memory tracking
+# # -------------------------
+# mem_estimate_MB, points_logged, memory_logged, insert_times = build_ann_memory_track(
+#     files, lengths, idx, r, epsilon, K, eta, queries, interval=100
+# )
+
+# print(f"Estimated total memory for {n_points_to_insert} points: {mem_estimate_MB:.2f} MB")
