@@ -96,7 +96,7 @@ if __name__=="__main__":
     query=data[random.sample(range(71000,80000),n_query)] # n_query random queries from the data points
 
     # query=np.random.randn(dim) # random query
-    n_row=100 # number of rows initialized to 1
+    n_row=2560 # number of rows initialized to 1
 
     true_kde=np.zeros(n_query) # true kde for the n_query query points
     st_time=time.time()
@@ -115,15 +115,14 @@ if __name__=="__main__":
         for j in tqdm(range(num_data), desc="Adding data to RACE sketch"):
             r_sketch.update_counter(data[j,:]) # updating the sketch with the streaming data  
         end_time=time.time()
-        print(f'Time taken to add {num_data} data points to RACE with R={n_row} is {end_time-st_time:.2f} seconds') 
+        # print(f'Time taken to add {num_data} data points to RACE with R={n_row} is {end_time-st_time:.2f} seconds') 
         st_time=time.time()
         for j in tqdm(range(n_query),desc='Answering queries'):
             app_kde[j]=r_sketch.query(query[j]) # calculate the approximate kde from the race sketch
         end_time=time.time()
-        print(f'Time taken to answer {n_query} queries with R={n_row} is {end_time-st_time:.2f} seconds')
-        # print(f'Approximate KDE={app_kde:.6f}')
+        # print(f'Time taken to answer {n_query} queries with R={n_row} is {end_time-st_time:.2f} seconds')
         rel_err=np.mean(abs((app_kde-true_kde)/true_kde)) # calculate relative error
-        print(f'R={n_row} Mean A-KDE={np.mean(app_kde):.6f} Mean Relative error={rel_err:.6f}')
+        print(f'R={n_row} Mean A-KDE={np.mean(app_kde):.6f} Mean Relative error={rel_err:.6f}\n')
         del r_sketch # delete the sketch to free memory
 
         n_row=2*n_row # doubling the number of rows
