@@ -2,7 +2,7 @@ from Exponential_Histogram import ExpHst
 from angular_hash import Angular_Hash
 import math
 import numpy as np
-class RACE:
+class RACE_2:
     def __init__(self,rows:int,hash_range:int,k:int,dim:int,N:int,eps=0.5):
         self.L=rows # number of ACE repetitions
         self.R=hash_range # range of the Hash function
@@ -27,7 +27,7 @@ class RACE:
             else:
                 self.sparse_dic[(k,r)].new_bucket(t) # add a new element to the Exponential histogram at timestamp t
     
-    def query1(self,data): # return the KDE for the query data
+    def query1(self,data): # return the KDE for the query data as the mean of the RACE cells
         val=0
         for k,i in enumerate(self.hash_list):
             r=0
@@ -37,7 +37,8 @@ class RACE:
                 val+=self.sparse_dic[(k,r)].count_est()
 
         return val/self.L # return the mean
-    def query2(self,data): # return the KDE for the query data
+    
+    def query2(self,data): # return the KDE for the query data as the median of means of RACE cells
         N=self.L
         m=5 # chunk size
         arr=np.zeros(N)
