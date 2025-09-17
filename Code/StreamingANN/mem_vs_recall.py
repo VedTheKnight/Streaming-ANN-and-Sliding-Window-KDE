@@ -1,7 +1,6 @@
 import argparse, gc, sys, time, os
 import numpy as np
 from StreamingANN import StreamingANN
-import psutil
 import pandas as pd
 
 def count_points(files):
@@ -13,16 +12,21 @@ def count_points(files):
         total += arr.shape[0]
     return total, lengths
 
-def sample_points(files, lengths, indices):
-    start = 0
-    idx_set = set(indices)
-    for f, L in zip(files, lengths):
-        arr = np.load(f, mmap_mode="r")
-        for i in range(L):
-            gid = start + i
-            if gid in idx_set:
-                yield arr[i]
-        start += L
+class DatasetAccessor:
+    """Lightweight accessor across multiple shards with mmap."""
+    def __init__(self, files):
+        self.files = [np.load(f, mmap_mode="r") for f in files]
+        self.offsets = np.cumsum([0] + [arr.shape[0] for arr in self.files])
+
+    def __getitem__(self, idx):
+        shard = np.searchsorted(self.offsets, idx, side="right") - 1
+        local_idx = idx - self.offsets[shard]
+        return self.files[shard][local_idx]
+
+def sample_ids(total, indices):
+    """Yield IDs instead of vectors."""
+    for gid in indices:
+        yield gid
 
 def ground_truth_topk(dataset, queries, K):
     res, kth_dists = [], []
@@ -34,40 +38,37 @@ def ground_truth_topk(dataset, queries, K):
         kth_dists.append(dists[topk[-1]])
     return res, np.array(kth_dists)
 
-def build_ann(files, lengths, idx, r, epsilon, K, eta, queries, log_interval=100, save_dir="results"):
+def build_ann(dataset, idx, r, epsilon, K, eta, queries, log_interval=100):
     d = queries.shape[1]
-    ann = StreamingANN(d=d, n_estimate=len(idx), eta=eta, epsilon=epsilon, r=r)
+    ann = StreamingANN(d=d, n_estimate=len(idx), eta=eta, epsilon=epsilon, r=r, dataset=dataset)
     total_points = len(idx)
-    process = psutil.Process(os.getpid())
 
-    # Prepare logging arrays
-    memory_usage = []
-    avg_insert_time = []
-    stored_points_list = []
-
-    gen = sample_points(files, lengths, idx)
     insert_times = []
+    stored_points_list = []
+    query_times = []
 
-    start_total = time.time()
-    for i in range(total_points):
-        t0 = time.time()
-        p = next(gen)
-        t1 = time.time()
-        insert_start = time.time()
-        ann.insert(p)
-        insert_end = time.time()
-        insert_times.append(insert_end - insert_start)
+    print("[Build] Starting insertion...")
+    for i, point_id in enumerate(sample_ids(total_points, idx), 1):
+        start = time.time()
+        ann.insert(point_id)
+        insert_times.append(time.time() - start)
 
-        # Track stats every log_interval
-        if (i + 1) % log_interval == 0 or (i + 1) == total_points:
-            mem_now = process.memory_info().rss
-            memory_usage.append(mem_now / 1024 / 1024)  # MB
-            avg_insert_time.append(np.mean(insert_times) * 1e3)  # ms
-            stored_points_list.append(len(ann.points))
+        stored_points_list.append(ann.num_stored_points)
+        if i % log_interval == 0 or i == total_points:
+            print(f"[Build] Inserted {i}/{total_points} points, "
+                  f"avg insert time: {np.mean(insert_times)*1e3:.3f} ms")
             insert_times = []
 
-    # Ground truth for recall
-    dataset_split = np.array([p for p in sample_points(files, lengths, idx)])
+    print("[Build] Starting queries...")
+    for i, q in enumerate(queries, 1):
+        start = time.time()
+        ann.query_topk(q, K=K)
+        query_times.append(time.time() - start)
+        if i % log_interval == 0 or i == len(queries):
+            print(f"[Query] Processed {i}/{len(queries)} queries, "
+                  f"avg query time: {np.mean(query_times)*1e3:.3f} ms")
+
+    dataset_split = np.array([dataset[pid] for pid in idx])
     gt_topk, kth_dists = ground_truth_topk(dataset_split, queries, K)
 
     exact_hits, eps_hits, total = 0, 0, 0
@@ -81,21 +82,15 @@ def build_ann(files, lengths, idx, r, epsilon, K, eta, queries, log_interval=100
     recall_exact = exact_hits / total if total > 0 else None
     recall_eps = eps_hits / total if total > 0 else None
 
-    # Save memory & timing results
-    folder_name = f"eta{eta}_epsilon{epsilon}_r{r}_K{K}_n{len(idx)}"
-    save_path = os.path.join(save_dir, folder_name)
-    os.makedirs(save_path, exist_ok=True)
-    df = pd.DataFrame({
-        "stored_points": stored_points_list,
-        "memory_MB": memory_usage,
-        "avg_insert_time_ms": avg_insert_time
-    })
-    df.to_csv(os.path.join(save_path, "memory_insert_stats.csv"), index=False)
+    mem_mb = ann.memory_breakdown()["total_MB"] if isinstance(ann.memory_breakdown(), dict) else ann.memory_breakdown()
 
-    total_memory = memory_usage[-1]
+    print("[Result] Memory breakdown (MB):", ann.memory_breakdown())
+    print(f"[Result] Epsilon-recall: {recall_eps:.4f}")
+
     del ann
     gc.collect()
-    return total_memory, recall_eps
+
+    return recall_eps, mem_mb
 
 def main():
     parser = argparse.ArgumentParser()
@@ -109,20 +104,18 @@ def main():
     args = parser.parse_args()
 
     total, lengths = count_points(args.files)
-
     rng = np.random.default_rng(0)
+
     idx = rng.choice(total, size=args.n, replace=False)
     remaining = list(set(range(total)) - set(idx))
     q_idx = rng.choice(remaining, size=args.n_queries, replace=False)
-    queries = np.array([p for p in sample_points(args.files, lengths, q_idx)])
 
-    total_memory, recall_eps = build_ann(
-        args.files, lengths, idx,
-        args.r, args.epsilon, args.K, args.eta, queries
-    )
+    accessor = DatasetAccessor(args.files)
+    queries = np.array([accessor[pid] for pid in q_idx])
 
-    print(f"Total memory used: {total_memory:.2f} MB")
-    print(f"Epsilon-recall: {recall_eps:.4f}")
+    recall_eps, mem_mb = build_ann(accessor, idx, args.r, args.epsilon, args.K, args.eta, queries)
+
+    print(f"[SUMMARY] eps={args.epsilon}, eta={args.eta}, recall={recall_eps:.4f}, memory={mem_mb}")
 
 if __name__ == "__main__":
     main()

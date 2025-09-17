@@ -7,25 +7,32 @@ from collections import defaultdict
 import psutil
 import os
 import gc
+from array import array
+from typing import Optional
+
 
 class StreamingANN:
-    def __init__(self, d, n_estimate = None, eta=0.0, r = 1.0, epsilon=0.0, w=None, bits_per_hash=32):
+    def __init__(self, d, dataset, n_estimate=None, eta=0.0, r=1.0, epsilon=0.0, w=None,
+                 bits_per_hash=32, mode: str = "speed"):
         """
         n_estimate: upper bound on stream size
         d: dimension of data points
+        dataset: accessor supporting __getitem__(idx) (e.g. np.memmap or custom accessor)
         eta: sampling parameter
         r: inner radius for the LSH data structure 
         epsilon: approximation factor (so c = 1+epsilon)
         w: bucket width for p-stable LSH (if None, we will tune it)
         bits_per_hash: number of bits allocated per hash in packed key
+        mode: "speed" (faster, slightly more memory) or "memory" (smaller memory, slower)
         """
-    
         self.epsilon = epsilon
         self.c = 1 + epsilon
         self.r = r
         self.eta = eta
         self.n = n_estimate
         self.d = d
+        self.dataset = dataset
+        self.mode = mode
 
         # Define the LSH parameters (p1, p2, rho, w) given epsilon
         if w is None:
@@ -35,279 +42,231 @@ class StreamingANN:
             self.p1, self.p2, self.rho = self._get_gaussian_lsh_probs(self.w, self.c, self.r)
 
         self.bits_per_hash = bits_per_hash
-        
+        self.inv_w = 1.0 / self.w  # precompute 1/w
+        self.stream_count = 0
+        self.dropped_points = 0
+        self.num_stored_points = 0
+
         # Parameters 
-        self.k = math.ceil(math.log(self.n, 1/self.p2))
-        self.L = int(self.n ** self.rho / self.p1)
-        
+        p2_safe = max(self.p2, 1e-12)
+        self.k = max(1, math.ceil(math.log(max(1, (self.n if self.n else 1)), 1.0/p2_safe)))
+        try:
+            self.L = max(1, int((self.n ** self.rho) / max(self.p1, 1e-12)))
+        except Exception:
+            self.L = 1
+
         # Initialize L hash tables
-        self.hash_tables = [defaultdict(list) for _ in range(self.L)]
-        
+        self.hash_tables = [defaultdict(lambda: array('I')) for _ in range(self.L)]
+
         # Build L hash families, each with k hash functions (a,b)
         self.hash_functions = []
         for _ in range(self.L):
             g = []
             for _ in range(self.k):
-                a = np.random.normal(0, 1, self.d).astype(np.float32)   # Gaussian vector
-                b = np.float32(np.random.uniform(0, self.w))             # Uniform offset
+                if self.mode == "speed":
+                    a = np.random.normal(0, 1, self.d).astype(np.float32)
+                else:
+                    a = np.random.normal(0, 1, self.d).astype(np.float16)
+                b = np.float32(np.random.uniform(0, self.w))
                 g.append((a, b))
-            self.hash_functions.append(g)
-        
-        self.stream_count = 0
-        self.dropped_points = 0
-        self.points = []  # store points as float32 for memory efficiency
+            a_stack = np.vstack([aa for aa, _ in g])
+            b_vec = np.array([bb for _, bb in g], dtype=np.float32)
+            b_scaled = b_vec * self.inv_w  # precompute division
+            self.hash_functions.append((a_stack, b_vec, b_scaled))
+
+        # Precompute whether packed key fits in 64 bits
+        self._total_key_bits = int(self.k * self.bits_per_hash)
+        self._use_uint64_key = (self._total_key_bits <= 64)
 
         print(f"[Init] Inputs : eta={self.eta:.2f}, epsilon={self.epsilon:0.2f}, r={self.r:0.2f}")
         print(f"[Init] LSH Parameters : w={self.w:.3f}, p1={self.p1:.4f}, p2={self.p2:.4f}, rho={self.rho:.4f}")
-        print(f"[Init] Data Structure Parameters : k={self.k}, L={self.L}")
-    
-    def _get_gaussian_lsh_probs(self, w, c, r):
-        """
-        Compute (p1, p2, rho) for L2 (Gaussian) p-stable LSH given c using the closed form given in Datar-Indyk
-        w : Bucket width
-        c : Approximation factor (1+epsilon) (>1).
-        Return (p1, p2, rho)
-        """
-        # p1 corresponds to distance = r
-        t1 = w/r
-        p1 = 1 - 2*norm.cdf(-t1) - (2.0/(math.sqrt(2*math.pi)*t1)) * (1 - math.exp(-0.5*t1*t1))
+        print(f"[Init] Data Structure Parameters : k={self.k}, L={self.L}, key_bits={self._total_key_bits}, mode={self.mode}")
 
-        # p2 corresponds to distance = cr
-        t2 = w / (c*r)  
-        p2 = 1 - 2*norm.cdf(-t2) - (2.0/(math.sqrt(2*math.pi)*t2)) * (1 - math.exp(-0.5*t2*t2))
+    def _h_vectorized(self, point: np.ndarray, a_stack: np.ndarray, b_scaled: np.ndarray) -> np.ndarray:
+        """Vectorized computation of k hashes for a table"""
+        proj_bins = a_stack.dot(point.astype(np.float32)) * self.inv_w + b_scaled
+        return proj_bins.astype(np.int64)
 
-        rho = math.log(1.0/p1) / math.log(1.0/p2)
-        return p1, p2, rho
-    
-    def _get_optimal_w(self, c, r):
-        """
-        Use continuous optimization to find w that minimizes rho.
-        Returns (w*, p1, p2, rho).
-        """
-        def objective(w):
-            if w <= 0:  # avoid invalid widths
-                return float("inf")
-            _, _, rho = self._get_gaussian_lsh_probs(w, c, r)
-            return rho
-        
-        res = minimize_scalar(objective, bounds=(1e-3, 10), method='bounded')
-        
-        w_opt = res.x
-        p1, p2, rho = self._get_gaussian_lsh_probs(w_opt, c, r)
-        return w_opt, p1, p2, rho
-
-    def _h(self, v, a, b):
-        """Single p-stable hash h_{a,b}(v)."""
-        return int(np.floor((np.dot(a, v) + b) / self.w))
-    
-    def _make_key(self, point, hash_funcs):
-        """
-        Pack the outputs of k p-stable hashes into a single integer.
-        Normalize negative hash values into unsigned space so they fit in bits_per_hash.
-        Drop the point if any hash exceeds bits_per_hash capacity.
-        """
-        key = 0
+    def _pack_key_from_hashes(self, hashes: np.ndarray):
+        """Pack k integer hash values into a single key"""
         max_val = (1 << self.bits_per_hash) - 1
-        offset = max_val // 2   # center around 0
+        offset = max_val // 2
 
-        for (a, b) in hash_funcs:
-            val = self._h(point, a, b)
-            val_shifted = val + offset
-            if val_shifted < 0 or val_shifted > max_val:
-                return None
-            key = (key << self.bits_per_hash) | val_shifted
-        return key
-    
+        if self._use_uint64_key:
+            key = np.uint64(0)
+            for v in hashes:
+                v_shift = int(v) + offset
+                if v_shift < 0 or v_shift > max_val:
+                    return None
+                key = (key << np.uint64(self.bits_per_hash)) | np.uint64(v_shift)
+            return key
+        else:
+            key = 0
+            for v in hashes:
+                v_shift = int(v) + offset
+                if v_shift < 0 or v_shift > max_val:
+                    return None
+                key = (key << self.bits_per_hash) | v_shift
+            return key
+
     def _should_sample(self):
-        """Bernoulli sampling with probability i^(-eta) or n^(-eta)"""
         self.stream_count += 1
-        # prob = self.stream_count ** (-self.eta)
         prob = self.n ** (-self.eta) 
         return random.random() < prob
-    
-    def insert(self, point):
-        """Insert sampled point into LSH tables."""
+
+    def insert(self, point_id):
         if not self._should_sample():
             self.dropped_points += 1
             return
-        
-        pid = len(self.points)   # new point ID
-        self.points.append(np.array(point, dtype=np.float32))  # float32 to save memory
 
-        for j in range(self.L):
-            key = self._make_key(point, self.hash_functions[j])
+        point = self.dataset[point_id].astype(np.float32)
+
+        inserted_ok = True
+        for j, (a_stack, b_vec, b_scaled) in enumerate(self.hash_functions):
+            # vectorized dot
+            proj_bins = a_stack.dot(point) * self.inv_w + b_scaled
+            hashes = proj_bins.astype(np.int64)
+
+            key = self._pack_key_from_hashes(hashes)
             if key is None:
-                self.dropped_points += 1
-                return
-            self.hash_tables[j][key].append(pid)
-    
-    def query(self, q):
-        """Find an approximate near neighbor for q using L2 distance."""
-        candidates = set()
-        for j in range(self.L):
-            key = self._make_key(q, self.hash_functions[j])
-            if key is None:
-                continue
-            candidates.update(self.hash_tables[j].get(key, []))
-            if len(candidates) >= 3 * self.L:
+                inserted_ok = False
                 break
 
+            self.hash_tables[j][key].append(np.uint32(point_id))
+
+        if inserted_ok:
+            self.num_stored_points += 1
+        else:
+            self.dropped_points += 1
+        del point
+
+    def query(self, q):
+        q32 = q.astype(np.float32, copy=False)
+        candidate_ids = []
+        for j in range(self.L):
+            a_stack, b_vec, b_scaled = self.hash_functions[j]
+            hashes = self._h_vectorized(q32, a_stack, b_scaled)
+            if hashes is None:
+                continue
+            key = self._pack_key_from_hashes(hashes)
+            if key is None:
+                continue
+            bucket = self.hash_tables[j].get(key)
+            if bucket:
+                candidate_ids.extend(bucket)
+            if len(candidate_ids) >= 3 * self.L * 10:
+                break
+        if not candidate_ids:
+            return None
+
+        uniq = np.unique(np.array(candidate_ids, dtype=np.uint32))
         cr = self.c * self.r
-        for pid in candidates:
-            p = self.points[pid]
-            # Euclidean distance check
-            if np.linalg.norm(p - q) <= cr:
-                return p
+        if uniq.size > 64:
+            mats = np.vstack([self.dataset[int(pid)].astype(np.float32) for pid in uniq])
+            dists = np.linalg.norm(mats - q32, axis=1)
+            idx = np.where(dists <= cr)[0]
+            if idx.size > 0:
+                return mats[idx[0]].copy()
+            del mats, dists
+        else:
+            for pid in uniq:
+                p = self.dataset[int(pid)]
+                if np.linalg.norm(p.astype(np.float32, copy=False) - q32) <= cr:
+                    return np.array(p, copy=True)
+                del p
         return None
 
     def query_topk(self, q, K=10, max_candidates=None):
-        """
-        Return top-K candidate IDs and distances for query q.
-        """
-        candidates = set()
+        q32 = q.astype(np.float32, copy=False)
+        candidate_ids = []
         for j in range(self.L):
-            key = self._make_key(q, self.hash_functions[j])
+            a_stack, b_vec, b_scaled = self.hash_functions[j]
+            hashes = self._h_vectorized(q32, a_stack, b_scaled)
+            if hashes is None:
+                continue
+            key = self._pack_key_from_hashes(hashes)
             if key is None:
                 continue
-            candidates.update(self.hash_tables[j].get(key, []))
+            bucket = self.hash_tables[j].get(key)
+            if bucket:
+                candidate_ids.extend(bucket)
             if max_candidates is None:
                 cap = 3 * self.L
             else:
                 cap = max_candidates
-            if len(candidates) >= cap:
+            if len(candidate_ids) >= cap:
                 break
 
-        # compute exact distances for candidate set
+        if not candidate_ids:
+            return []
+
+        uniq = np.unique(np.array(candidate_ids, dtype=np.uint32))
         cand_list = []
-        for pid in candidates:
-            p = self.points[pid]
-            dist = float(np.linalg.norm(p - q))
-            cand_list.append((pid, dist))
+        if uniq.size > 256:
+            mats = np.vstack([self.dataset[int(pid)].astype(np.float32) for pid in uniq])
+            dists = np.linalg.norm(mats - q32, axis=1)
+            cand_list = [(int(pid), float(dist)) for pid, dist in zip(uniq, dists)]
+            del mats, dists
+        else:
+            for pid in uniq:
+                p = self.dataset[int(pid)]
+                dist = float(np.linalg.norm(p.astype(np.float32, copy=False) - q32))
+                cand_list.append((int(pid), dist))
+                del p
 
         cand_list.sort(key=lambda x: x[1])
         return cand_list[:K]
 
+    def memory_breakdown(self):
+        """Memory in MB (updated with precomputed b_scaled)"""
+        breakdown = {}
 
-# -----------------------------
-# Function to track memory vs points
-# -----------------------------
-def build_ann_memory_track(files, lengths, idx, r, epsilon, K, eta, queries, interval=100):
-    """
-    Stream points into ANN and track memory vs points stored.
-    Every 'interval' inserts, log number of points stored, memory usage, and avg insert time.
-    """
-    import time
-    process = psutil.Process(os.getpid())
-    d = queries.shape[1]
-    ann = StreamingANN(d=d, n_estimate=len(idx), eta=eta, epsilon=epsilon, r=r)
+        hash_bytes = 0
+        for a_stack, b_vec, b_scaled in self.hash_functions:
+            hash_bytes += a_stack.nbytes + b_vec.nbytes + b_scaled.nbytes
+        breakdown["hash_functions_MB"] = hash_bytes / (1024**2)
 
-    # Generator to yield points
-    def sample_points(files, lengths, indices):
-        import numpy as np
-        start = 0
-        idx_set = set(indices)
-        for f, L in zip(files, lengths):
-            arr = np.load(f, mmap_mode="r")
-            for i in range(L):
-                gid = start + i
-                if gid in idx_set:
-                    yield arr[i]
-            start += L
+        bucket_bytes = 0
+        n_ids = 0
+        n_buckets = 0
+        for table in self.hash_tables:
+            for bucket in table.values():
+                bucket_bytes += len(bucket) * 4
+                n_ids += len(bucket)
+                n_buckets += 1
+        breakdown["bucket_ids_MB"] = bucket_bytes / (1024**2)
+        breakdown["num_ids"] = n_ids
+        breakdown["num_buckets"] = n_buckets
 
-    gen = sample_points(files, lengths, idx)
+        dict_overhead = sum(len(table) * (72 + 16) for table in self.hash_tables)
+        breakdown["hash_tables_overhead_MB"] = dict_overhead / (1024**2)
+        breakdown["total_MB"] = breakdown["hash_functions_MB"] + breakdown["bucket_ids_MB"] + breakdown["hash_tables_overhead_MB"]
 
-    points_logged = []
-    memory_logged = []
-    insert_times = []
-    fetch_time = 0
-    insert_time = 0
+        return breakdown
 
-    total_points = len(idx)
-    mem0 = process.memory_info().rss
-    last_t = time.time()
+    def _get_gaussian_lsh_probs(self, w, c, r):
+        """Compute (p1, p2, rho) for L2 (Gaussian) p-stable LSH"""
+        t1 = w / r
+        p1 = 1 - 2*norm.cdf(-t1) - (2.0/(math.sqrt(2*math.pi)*t1)) * (1 - math.exp(-0.5*t1*t1))
 
-    for i in range(total_points):
-        t0 = time.time()
-        p = next(gen)
-        t1 = time.time()
-        fetch_time += (t1 - t0)
+        t2 = w / (c*r)
+        p2 = 1 - 2*norm.cdf(-t2) - (2.0/(math.sqrt(2*math.pi)*t2)) * (1 - math.exp(-0.5*t2*t2))
 
-        t2 = time.time()
-        ann.insert(p)
-        t3 = time.time()
-        insert_time += (t3 - t2)
+        p1 = min(max(p1, 1e-12), 1-1e-12)
+        p2 = min(max(p2, 1e-12), 1-1e-12)
 
-        if (i + 1) % interval == 0 or (i + 1) == total_points:
-            points_logged.append(len(ann.points))
-            mem_now = process.memory_info().rss
-            memory_logged.append((mem_now - mem0)/1024/1024)  # in MB
-            avg_insert = insert_time / interval * 1e3
-            insert_times.append(avg_insert)
-            fetch_time = 0
-            insert_time = 0
-            last_t = time.time()
+        rho = math.log(1.0/p1) / math.log(1.0/p2)
+        return p1, p2, rho
 
-    # Interpolate slope and estimate total memory
-    import numpy as np
-    points_logged = np.array(points_logged)
-    memory_logged = np.array(memory_logged)
-    slope, _ = np.polyfit(points_logged, memory_logged, 1)
-    estimated_total_memory_MB = slope * total_points
+    def _get_optimal_w(self, c, r):
+        """Use continuous optimization to find w that minimizes rho"""
+        def objective(w):
+            if w <= 0:
+                return float("inf")
+            _, _, rho = self._get_gaussian_lsh_probs(w, c, r)
+            return rho
 
-    # Return estimated memory and epsilon recall
-    del ann
-    gc.collect()
-    return estimated_total_memory_MB, points_logged, memory_logged, insert_times
-
-
-# -------------------------
-# Config
-# -------------------------
-# files = ["data/encodings_combined.npy"]  # list of npy files
-# epsilon = 0.2
-# r = 1.0
-# K = 10
-# eta = 0.0
-# n_points_to_insert = 1000
-# n_queries = 100
-
-# # Count points in files
-# def count_points(files):
-#     total = 0
-#     lengths = []
-#     for f in files:
-#         arr = np.load(f, mmap_mode="r")
-#         lengths.append(arr.shape[0])
-#         total += arr.shape[0]
-#     return total, lengths
-
-# total, lengths = count_points(files)
-
-# # Sample indices
-# rng = np.random.default_rng(0)
-# idx = rng.choice(total, size=n_points_to_insert, replace=False)
-# remaining = list(set(range(total)) - set(idx))
-# q_idx = rng.choice(remaining, size=n_queries, replace=False)
-
-# # Sample queries
-# def sample_points(files, lengths, indices):
-#     start = 0
-#     idx_set = set(indices)
-#     for f, L in zip(files, lengths):
-#         arr = np.load(f, mmap_mode="r")
-#         for i in range(L):
-#             gid = start + i
-#             if gid in idx_set:
-#                 yield arr[i]
-#         start += L
-
-# queries = np.array([p for p in sample_points(files, lengths, q_idx)])
-
-# # -------------------------
-# # Run ANN with memory tracking
-# # -------------------------
-# mem_estimate_MB, points_logged, memory_logged, insert_times = build_ann_memory_track(
-#     files, lengths, idx, r, epsilon, K, eta, queries, interval=100
-# )
-
-# print(f"Estimated total memory for {n_points_to_insert} points: {mem_estimate_MB:.2f} MB")
+        res = minimize_scalar(objective, bounds=(1e-3, 10), method='bounded')
+        w_opt = res.x
+        p1, p2, rho = self._get_gaussian_lsh_probs(w_opt, c, r)
+        return w_opt, p1, p2, rho

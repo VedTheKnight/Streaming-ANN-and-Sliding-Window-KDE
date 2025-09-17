@@ -1,0 +1,23 @@
+[Init] Inputs : eta=0.30, epsilon=0.20, r=1.00
+[Init] LSH Parameters : w=2.785, p1=0.7141, p2=0.6591, rho=0.8080
+[Init] Data Structure Parameters : k=17, L=371, key_bits=544, mode=speed
+[Build] Starting insertion...
+[Build] Inserted 100/1000 points, avg insert time: 1.123 ms
+[Build] Inserted 200/1000 points, avg insert time: 0.311 ms
+[Build] Inserted 300/1000 points, avg insert time: 0.928 ms
+[Build] Inserted 400/1000 points, avg insert time: 0.624 ms
+[Build] Inserted 500/1000 points, avg insert time: 0.824 ms
+[Build] Inserted 600/1000 points, avg insert time: 1.469 ms
+[Build] Inserted 700/1000 points, avg insert time: 0.736 ms
+[Build] Inserted 800/1000 points, avg insert time: 0.821 ms
+[Build] Inserted 900/1000 points, avg insert time: 0.694 ms
+[Build] Inserted 1000/1000 points, avg insert time: 1.020 ms
+[Build] Starting queries...
+[Query] Processed 100/500 queries, avg query time: 7.183 ms
+[Query] Processed 200/500 queries, avg query time: 7.517 ms
+[Query] Processed 300/500 queries, avg query time: 7.068 ms
+[Query] Processed 400/500 queries, avg query time: 7.312 ms
+[Query] Processed 500/500 queries, avg query time: 7.161 ms
+[Result] Memory breakdown (MB): {'hash_functions_MB': 9.286888122558594, 'bucket_ids_MB': 0.17973709106445312, 'num_ids': 47117, 'num_buckets': 27725, 'hash_tables_overhead_MB': 2.3267745971679688, 'total_MB': 11.793399810791016}
+[Result] Epsilon-recall: 1.0000
+[SUMMARY] eps=0.2, eta=0.3, recall=1.0000, memory=11.793399810791016
