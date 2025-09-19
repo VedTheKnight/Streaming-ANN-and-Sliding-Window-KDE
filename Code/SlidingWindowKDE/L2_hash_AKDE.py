@@ -91,7 +91,7 @@ if __name__ == "__main__":
     print(f"Time taken to compute true KDE for {n_query} queries is {end_time - st_time:.2f} seconds")
     print(f"Mean True KDE={np.mean(true_kde):.6f}")
 
-    n_row = [100,200,300,400,500,600,700,800,1000,1200]
+    n_row = [100,200,400,600,800,1000,1200,1400,1600,1800,2000]
     err=[]
     for i in range(len(n_row)):
         print(f'Rows ={n_row[i]}')

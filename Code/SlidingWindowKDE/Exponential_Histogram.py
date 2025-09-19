@@ -15,7 +15,10 @@ class ExpHst: # define the class for Exponential Histogram
         a=self.bucket_list[0].get_size()
         del self.bucket_list[0] # delete the last bucket from the list
         # update the counters total and last
-        self.last=self.bucket_list[0].get_size()
+        if len(self.bucket_list)!=0:
+            self.last=self.bucket_list[0].get_size()
+        else:
+            self.last=0
         self.total-=a
     
     def new_bucket(self,t): # new element arriving at time t
