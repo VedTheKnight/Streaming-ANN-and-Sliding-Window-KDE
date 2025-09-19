@@ -1,7 +1,7 @@
 from RACE_19 import RACE_1
 from RACE_AKDE import RACE_2
 import numpy as np
-import time,random,gc,math,sys,os
+import time,random,gc,math,sys,os,argparse
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 
@@ -25,11 +25,21 @@ def angle_between_vectors(x, y): # find the angle in radians between two vectors
     return angle
 
 if __name__=="__main__":
-    files = ["data/encodings.npy", "data/encodings_2.npy", "data/encodings_3.npy", "data/encodings_4.npy"]
-    arrays = [np.load(f) for f in files]
-    data = np.vstack(arrays)
-    dim=data.shape[1]
-    print(f"Data shape: {data.shape}")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--file_name",choices=['text','image'],help="type of file : text or image encoding")
+    arg=parser.parse_args()
+    if arg.file_name=='text':
+        files = ["data/encodings.npy", "data/encodings_2.npy", "data/encodings_3.npy", "data/encodings_4.npy"]
+        arrays = [np.load(f) for f in files]
+        data = np.vstack(arrays)
+        dim=data.shape[1]
+        print(f"Data shape: {data.shape}")
+    
+    elif arg.file_name=='image':
+        data=np.load('data/hsi_data_points.npy')
+        dim=data.shape[1]
+        print(f"Data shape: {data.shape}")
+
 
 
     k=1 # the bandwidth parameter of hash function
@@ -76,7 +86,7 @@ if __name__=="__main__":
     print(f'Mean True KDE={np.mean(true_kde_2):.6f}')
 
 # number of rows in RACE structure to be used for the experiments
-    n_row=[100,200,300,400,500,600,700,800]
+    n_row=2 #[100,200,300,400,500,600,700,800]
     
     err1=[] # list of log of mean relative errors for original RACE
     err2=[] # list of log of mean relative errors for sliding window RACE
@@ -84,10 +94,10 @@ if __name__=="__main__":
     # sk_sz_1=[] # size of RACE sketch
     # sk_sz_2=[] # size of sliding window RACE sketch
 
-    for i in range(len(n_row)):
-        r_sketch=RACE_1(n_row[i],2,k,dim)# creating an instance of a RACE'19 sketch
+    for i in range(10):
+        r_sketch=RACE_1(n_row,2,k,dim)# creating an instance of a RACE'19 sketch
         app_kde=np.zeros(n_query) # approximate kde
-        print(f'Rows ={n_row[i]}')
+        print(f'Rows ={n_row}')
         st_time=time.time()
         for j in tqdm(range(num_data), desc="Adding data to RACE sketch"):
             r_sketch.update_counter(data[j,:]) # updating the sketch with the streaming data  
@@ -105,7 +115,7 @@ if __name__=="__main__":
         # sk_sz_1.append(tmp/1024)
         del r_sketch # delete the sketch to free memory
  
-        r_sketch=RACE_2(n_row[i],2,k,dim,N[1],eps)# creating an instance of a SW RACE sketch
+        r_sketch=RACE_2(n_row,2,k,dim,N[1],eps)# creating an instance of a SW RACE sketch
         
         st_time=time.time()
         for j in tqdm(range(num_data), desc="Adding data to (SW) RACE sketch"):
@@ -122,9 +132,14 @@ if __name__=="__main__":
         # sk_sz_2.append(tmp/1024)
         err2.append(np.log(rel_err))
         del r_sketch # delete the sketch to free memory
+        n_row*=2
+        if rel_err<eps_:
+            print("Threshold achieved")
+            break
 
     # print(sk_sz_1)
     # print(sk_sz_2)
+    
 # plotting the graphs
 # create a directory to store the graph
     print(" In plot section ")
