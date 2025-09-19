@@ -66,8 +66,13 @@ if __name__ == "__main__":
     print(f"Data shape: {data.shape}")
 
     k = 1
+<<<<<<< HEAD
     num_data = 10000
     n_query = 1000
+=======
+    num_data = 1000
+    n_query = 100
+>>>>>>> 67aec3df9942f578412a1c77f6186a1f0e19d4e0
     wd = 4
     eps = 0.1
     N = [500]
@@ -91,7 +96,11 @@ if __name__ == "__main__":
     print(f"Time taken to compute true KDE for {n_query} queries is {end_time - st_time:.2f} seconds")
     print(f"Mean True KDE={np.mean(true_kde):.6f}")
 
+<<<<<<< HEAD
     n_row = [100,200,300,400,500,600,700,800,1000,1200]
+=======
+    n_row = [100,200]#[100,200,300,400,500,600]
+>>>>>>> 67aec3df9942f578412a1c77f6186a1f0e19d4e0
     err=[]
     for i in range(len(n_row)):
         print(f'Rows ={n_row[i]}')
@@ -110,14 +119,22 @@ if __name__ == "__main__":
         print(f' Mean A-KDE={np.mean(app_kde):.6f} Mean Relative error={rel_err:.6f}\n')
         del r_sketch
     print(" In plot section ")
+<<<<<<< HEAD
     current_dir = os.getcwd()
 
     os.makedirs(os.path.join(current_dir, 'Outputs/Plots'),exist_ok=True)
+=======
+    os.makedirs("./Code/SlidingWindowKDE/Outputs/Plots", exist_ok=True)
+>>>>>>> 67aec3df9942f578412a1c77f6186a1f0e19d4e0
     plt.figure(figsize=(10,6))
     plt.plot(n_row, err, marker='+',mec='blue',linestyle='-',color='red',lw=1.75, label='SW RACE')
     plt.xlabel('Number of Rows in RACE Sketch')
     plt.ylabel('Log(Mean Relative Error)')
+<<<<<<< HEAD
     plt.title('Mean Relative Error vs Number of Rows for window size 500')
+=======
+    plt.title('Mean Relative Error vs Number of Rows')
+>>>>>>> 67aec3df9942f578412a1c77f6186a1f0e19d4e0
     plt.legend()
     # plt.show()
     plt.savefig("Outputs/Plots/L2_hash_mean_relative_error_vs_rows.pdf")
