@@ -4,12 +4,12 @@ import random, math, time, gc,os
 import matplotlib.pyplot as plt
 from scipy.stats import norm
 from tqdm import tqdm
-from Exponential_Histogram import ExpHst  # keep as-is (CPU)
+from Exponential_Histogram import ExpHst
 from p_stable import *
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-class RACE_2:
+class RACE_L2:
     def __init__(self, rows:int, hash_range:int, k:int, dim:int, N:int, width:int, eps=0.5):
         self.L = rows
         self.R = hash_range

@@ -1,0 +1,138 @@
+# to check the variation of mean relative error of sliding window RACE with sketch size
+
+from Ang_hash_AKDE import RACE_Ah
+from L2_hash_AKDE import RACE_L2,l2_lsh_collision_probability
+import numpy as np
+import time,random,gc,math,sys,os,argparse
+from tqdm import tqdm
+import matplotlib.pyplot as plt
+
+def angle_between_vectors(x, y): # find the angle in radians between two vectors x and y
+    # Ensure input is numpy array
+    x = np.array(x)
+    y = np.array(y)
+    # Compute dot product and norms
+    dot_product = np.dot(x, y)
+    norm_x = np.linalg.norm(x)
+    norm_y = np.linalg.norm(y)
+    # Avoid division by zero
+    if norm_x == 0 or norm_y == 0:
+        raise ValueError("Zero vector has no defined angle.")
+    # Compute cosine of angle
+    cos_theta = dot_product / (norm_x * norm_y)
+    # Clamp value to avoid numerical errors outside [-1, 1]
+    cos_theta = np.clip(cos_theta, -1.0, 1.0)
+    # Compute angle in radians
+    angle = np.arccos(cos_theta)
+    return angle
+
+if __name__=="__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--file_name",choices=['text','image'],help="type of file : text or image encoding")
+    parser.add_argument("--n",help="Number of streaming data")
+    parser.add_argument("--n_query",help="Number of queries")
+    parser.add_argument("--lsh",choices=["1","2"],help="type of lsh kernel to use")
+    parser.add_argument("--w",help="width of p stable LSH")
+    parser.add_argument("--r",help="hash range for L2 LSH")
+    parser.add_argument("--b",help="Bandwidth of the LSH kernel")
+    parser.add_argument("--eps",help="Relative error of exponential histogram")
+    arg=parser.parse_args()
+    if arg.file_name=='text':
+        files = ["data/encodings.npy", "data/encodings_2.npy", "data/encodings_3.npy", "data/encodings_4.npy"]
+        arrays = [np.load(f) for f in files]
+        data = np.vstack(arrays)
+        dim=data.shape[1]
+        print(f"Data shape: {data.shape}")
+    
+    elif arg.file_name=='image':
+        data=np.load('data/hsi_data_points.npy')
+        dim=data.shape[1]
+        print(f"Data shape: {data.shape}")
+
+
+
+    k=int(arg.b) # the bandwidth parameter of hash function
+    num_data=int(arg.n) # number of streaming data
+    n_query=int(arg.n_query) # number of queries
+
+    # parameters for our RACE in sliding window
+    eps=float(arg.eps) # relative error for Exponential Histogram
+    N=[450]
+    eps_=2*eps+eps*eps # relative error of A-KDE
+
+    print('---------Parameters for Sliding window RACE----------')
+    print(f'Bandwidth parameter={k}, Window size={N[0]}, Relative error of EH={eps}, Data dimension {dim}')
+    print(f'Relative error of A-KDE ={eps_:.6f}, Number of streaming data={num_data}, Number of queries={n_query}')
+    print('----------------------------')
+    random.seed(124)
+    query=data[random.sample(range(15000,20000),n_query)] # n_query random queries from the data points
+# computing true KDE in the sliding window setting 
+    true_kde=np.zeros(n_query) # true kde for the last N data points
+
+    if arg.lsh=="1": # choose angular LSH
+        st_time=time.time()
+        for j in tqdm(range(n_query), desc="Traversing the data for true KDE"):
+            for i in range(num_data-N[0],num_data):
+                true_kde[j]+=math.pow(1-1/np.pi*angle_between_vectors(data[i,:],query[j]),k) # calculating the collision probability
+    # print(f'True KDE={true_kde:.6f}')
+        end_time=time.time()
+    elif arg.lsh=='2': # choose L2 LSH
+        wd=int(arg.w)
+        R=int(arg.r)
+        st_time = time.time()
+        for j in tqdm(range(n_query), desc="Traversing the data for true KDE"):
+            for i in range(num_data - N[0], num_data):
+                d = torch.linalg.norm(data[i, :] - query[j]).item()
+                true_kde[j] += l2_lsh_collision_probability(d, wd)
+        end_time = time.time()
+    print(f'Time taken to compute true KDE for {n_query} queries is {end_time-st_time:.2f} seconds')
+    print(f'Mean True KDE={np.mean(true_kde)}')
+
+# number of rows in RACE structure to be used for the experiments
+    n_row=np.arange(100, 10000, 500) #[100,200,300,400,500,600,700,800]
+    sk_sz=[] # sketch size
+    err=[] # relative error
+
+    for i in range(len(n_row)):
+        print(f'Rows {n_row[i]}')
+        app_kde=np.zeros(n_query)
+        if arg.lsh=="1":
+            r_sketch=RACE_Ah(n_row[i],2,k,dim,N[0],eps)# creating an instance of a SW RACE sketch using angular LSH kernel
+        else:
+            r_sketch=RACE_L2(n_row[i], R, k, dim, N[0], wd, eps)# creating an instance of a SW RACE sketch using pstable LSH kernel
+        
+        st_time=time.time()
+        for j in tqdm(range(num_data), desc="Adding data to (SW) RACE sketch"):
+            r_sketch.update_counter(data[j,:],j+1) # updating the sketch with the streaming data  
+        end_time=time.time()
+        st_time=time.time()
+        for j in range(n_query):
+            app_kde[j]=r_sketch.query1(query[j]) # calculate the approximate kde from the race sketch
+        end_time=time.time()
+        # print(f'Time taken to answer {n_query} queries with R={n_row} is {end_time-st_time:.2f} seconds')
+        rel_err=np.mean(abs((app_kde-true_kde)/true_kde)) # calculate relative error
+        print(f'Mean A-KDE={np.mean(app_kde):.6f} Mean Relative error={rel_err:.6f}\n')
+        tmp=sys.getsizeof(r_sketch.sparse_dic)
+        sk_sz.append(tmp/1024)
+        err.append(np.log(rel_err))
+        del r_sketch
+
+
+# plotting the graphs
+# create a directory to store the graph
+    print(" In plot section ")
+    current_dir = os.getcwd()
+    dir_name="Outputs/"+arg.file_name
+    os.makedirs(os.path.join(current_dir,dir_name),exist_ok=True)
+    lb="Angular hash" if arg.lsh=="1" else "L2 Hash"
+    plt.plot(sk_sz, err, marker='+',mec='blue',linestyle='-',color='red',lw=1.75,label=lb)
+    del err
+        
+    plt.xlabel('Sketch size (KB)')
+    plt.ylabel('Log(Mean Relative Error)')
+    plt.title('Mean Relative Error vs Sketch size')
+    plt.legend()
+    f_n=dir_name+"/Effect_of_sketch_size.pdf"
+    plt.savefig(f_n)
+    plt.close()
+    gc.collect()
