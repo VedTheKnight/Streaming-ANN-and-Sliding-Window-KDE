@@ -1,121 +1,152 @@
 # to check the variation of mean relative error of sliding window RACE with sketch size
-
-from Ang_hash_AKDE import RACE_Ah
-from L2_hash_AKDE import RACE_L2,l2_lsh_collision_probability
-import numpy as np
-import time,random,gc,math,sys,os,argparse
+import argparse, random, time, gc, sys, torch
 from tqdm import tqdm
-import matplotlib.pyplot as plt
+from Ang_hash_AKDE import RACE_Ah
+from L2_hash_AKDE import RACE_L2, l2_lsh_collision_probability
 
-def angle_between_vectors(x, y): # find the angle in radians between two vectors x and y
-    # Ensure input is numpy array
-    x = np.array(x)
-    y = np.array(y)
-    # Compute dot product and norms
-    dot_product = np.dot(x, y)
-    norm_x = np.linalg.norm(x)
-    norm_y = np.linalg.norm(y)
-    # Avoid division by zero
-    if norm_x == 0 or norm_y == 0:
-        raise ValueError("Zero vector has no defined angle.")
-    # Compute cosine of angle
-    cos_theta = dot_product / (norm_x * norm_y)
-    # Clamp value to avoid numerical errors outside [-1, 1]
-    cos_theta = np.clip(cos_theta, -1.0, 1.0)
-    # Compute angle in radians
-    angle = np.arccos(cos_theta)
-    return angle
+# choose device
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-if __name__=="__main__":
+def compute_true_kde_angular(data, query, k, window_size):
+    """
+    Compute true KDE for angular LSH using vectorized PyTorch operations.
+    data: (num_data, dim) tensor
+    query: (n_query, dim) tensor
+    k: bandwidth parameter
+    window_size: number of last points to consider
+    """
+    window = data[-window_size:]  # shape (N, dim)
+    # normalize to unit vectors
+    window_norm = torch.norm(window, dim=1, keepdim=True).clamp_min(1e-12)
+    query_norm = torch.norm(query, dim=1, keepdim=True).clamp_min(1e-12)
+
+    # cosine similarities: (n_query, N)
+    cosines = (query @ window.T) / (query_norm * window_norm.T)
+    cosines = cosines.clamp(-1.0, 1.0)
+    angles = torch.acos(cosines)
+    kde = torch.sum((1.0 - angles / torch.pi) ** k, dim=1)
+    return kde
+
+def compute_true_kde_l2(data, query, k, window_size, wd):
+    """
+    Compute true KDE for L2 LSH using vectorized PyTorch ops.
+    """
+    window = data[-window_size:]  # (N, dim)
+    # pairwise squared distances
+    q_norm2 = torch.sum(query ** 2, dim=1, keepdim=True)  # (nq, 1)
+    w_norm2 = torch.sum(window ** 2, dim=1).unsqueeze(0)  # (1, N)
+    sqdist = (q_norm2 + w_norm2 - 2.0 * (query @ window.T)).clamp_min(0.0)
+    dists = torch.sqrt(sqdist)  # (nq, N)
+
+    # apply l2_lsh_collision_probability elementwise
+    # (this function is likely scalar-based, so we vectorize via Python)
+    probs = torch.empty_like(dists)
+    for i in range(dists.shape[0]):
+        # convert to numpy for compatibility if function is not torch-based
+        d_np = dists[i].cpu().numpy()
+        probs[i] = torch.from_numpy(
+            l2_lsh_collision_probability(d_np, wd)
+        ).to(device)
+    kde = probs.sum(dim=1)
+    return kde
+
+if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--file_name",choices=['text','image'],help="type of file : text or image encoding")
-    parser.add_argument("--n",help="Number of streaming data")
-    parser.add_argument("--n_query",help="Number of queries")
-    parser.add_argument("--lsh",choices=["1","2"],help="type of lsh kernel to use")
-    parser.add_argument("--w",help="width of p stable LSH")
-    parser.add_argument("--r",help="hash range for L2 LSH")
-    parser.add_argument("--b",help="Bandwidth of the LSH kernel")
-    parser.add_argument("--eps",help="Relative error of exponential histogram")
-    arg=parser.parse_args()
-    if arg.file_name=='text':
+    parser.add_argument("--file_name", choices=['text', 'image'], required=True)
+    parser.add_argument("--n", type=int, required=True, help="Number of streaming data")
+    parser.add_argument("--n_query", type=int, required=True, help="Number of queries")
+    parser.add_argument("--lsh", choices=["1", "2"], required=True)
+    parser.add_argument("--w", type=int, default=4)
+    parser.add_argument("--r", type=int, default=1000)
+    parser.add_argument("--b", type=int, required=True)
+    parser.add_argument("--eps", type=float, default=0.05)
+    args = parser.parse_args()
+
+    # Load data into torch
+    if args.file_name == 'text':
+        import numpy as np
         files = ["data/encodings.npy", "data/encodings_2.npy", "data/encodings_3.npy", "data/encodings_4.npy"]
         arrays = [np.load(f) for f in files]
-        data = np.vstack(arrays)
-        dim=data.shape[1]
-        print(f"Data shape: {data.shape}")
-    
-    elif arg.file_name=='image':
-        data=np.load('data/hsi_data_points.npy')
-        dim=data.shape[1]
-        print(f"Data shape: {data.shape}")
+        data_np = np.vstack(arrays)
+    else:
+        import numpy as np
+        data_np = np.load('data/hsi_data_points.npy')
 
+    data = torch.from_numpy(data_np).float().to(device)
+    dim = data.shape[1]
+    print(f"Data shape: {tuple(data.shape)}")
 
+    k = args.b
+    num_data = args.n
+    n_query = args.n_query
+    eps = args.eps
+    N = [450]
+    eps_ = 2 * eps + eps * eps
 
-    k=int(arg.b) # the bandwidth parameter of hash function
-    num_data=int(arg.n) # number of streaming data
-    n_query=int(arg.n_query) # number of queries
+    # pick queries safely
+    rng_start = max(0, min(15000, data.shape[0] - n_query - 1))
+    query_idx = random.sample(range(rng_start, min(data.shape[0], rng_start + 5000)), n_query)
+    query = data[query_idx]
 
-    # parameters for our RACE in sliding window
-    eps=float(arg.eps) # relative error for Exponential Histogram
-    N=[450]
-    eps_=2*eps+eps*eps # relative error of A-KDE
+    # compute true KDE
+    torch.cuda.synchronize() if device.type == "cuda" else None
+    t0 = time.time()
+    if args.lsh == "1":
+        true_kde = compute_true_kde_angular(data[:num_data], query, k, N[0])
+    else:
+        true_kde = compute_true_kde_l2(data[:num_data], query, k, N[0], args.w)
+    torch.cuda.synchronize() if device.type == "cuda" else None
+    print(f"Mean True KDE={true_kde.mean().item():.6f} (time {time.time()-t0:.2f}s)")
 
-    print('---------Parameters for Sliding window RACE----------')
-    print(f'Bandwidth parameter={k}, Window size={N[0]}, Relative error of EH={eps}, Data dimension {dim}')
-    print(f'Relative error of A-KDE ={eps_:.6f}, Number of streaming data={num_data}, Number of queries={n_query}')
-    print('----------------------------')
-    random.seed(124)
-    query=data[random.sample(range(15000,20000),n_query)] # n_query random queries from the data points
-# computing true KDE in the sliding window setting 
-    true_kde=np.zeros(n_query) # true kde for the last N data points
+    # experiment loop
+    n_row_values = torch.arange(100, 2000, 50)
+    sk_sz = []
+    err = []
 
-    if arg.lsh=="1": # choose angular LSH
-        st_time=time.time()
-        for j in tqdm(range(n_query), desc="Traversing the data for true KDE"):
-            for i in range(num_data-N[0],num_data):
-                true_kde[j]+=math.pow(1-1/np.pi*angle_between_vectors(data[i,:],query[j]),k) # calculating the collision probability
-    # print(f'True KDE={true_kde:.6f}')
-        end_time=time.time()
-    elif arg.lsh=='2': # choose L2 LSH
-        wd=int(arg.w)
-        R=int(arg.r)
-        st_time = time.time()
-        for j in tqdm(range(n_query), desc="Traversing the data for true KDE"):
-            for i in range(num_data - N[0], num_data):
-                d = torch.linalg.norm(data[i, :] - query[j]).item()
-                true_kde[j] += l2_lsh_collision_probability(d, wd)
-        end_time = time.time()
-    print(f'Time taken to compute true KDE for {n_query} queries is {end_time-st_time:.2f} seconds')
-    print(f'Mean True KDE={np.mean(true_kde)}')
+    for rows in n_row_values:
+        print(f"Rows {rows.item()}")
+        app_kde = torch.zeros(n_query, device=device)
 
-# number of rows in RACE structure to be used for the experiments
-    n_row=np.arange(100, 10000, 500) #[100,200,300,400,500,600,700,800]
-    sk_sz=[] # sketch size
-    err=[] # relative error
-
-    for i in range(len(n_row)):
-        print(f'Rows {n_row[i]}')
-        app_kde=np.zeros(n_query)
-        if arg.lsh=="1":
-            r_sketch=RACE_Ah(n_row[i],2,k,dim,N[0],eps)# creating an instance of a SW RACE sketch using angular LSH kernel
+        if args.lsh == "1":
+            r_sketch = RACE_Ah(rows.item(), 2, k, dim, N[0], eps)
         else:
-            r_sketch=RACE_L2(n_row[i], R, k, dim, N[0], wd, eps)# creating an instance of a SW RACE sketch using pstable LSH kernel
-        
-        st_time=time.time()
-        for j in tqdm(range(num_data), desc="Adding data to (SW) RACE sketch"):
-            r_sketch.update_counter(data[j,:],j+1) # updating the sketch with the streaming data  
-        end_time=time.time()
-        st_time=time.time()
-        for j in range(n_query):
-            app_kde[j]=r_sketch.query1(query[j]) # calculate the approximate kde from the race sketch
-        end_time=time.time()
-        # print(f'Time taken to answer {n_query} queries with R={n_row} is {end_time-st_time:.2f} seconds')
-        rel_err=np.mean(abs((app_kde-true_kde)/true_kde)) # calculate relative error
-        print(f'Mean A-KDE={np.mean(app_kde):.6f} Mean Relative error={rel_err:.6f}\n')
-        tmp=sys.getsizeof(r_sketch.sparse_dic)
-        sk_sz.append(tmp/1024)
-        err.append(np.log(rel_err))
+            r_sketch = RACE_L2(rows.item(), args.r, k, dim, N[0], args.w, eps)
+
+        # update sketch
+        torch.cuda.synchronize() if device.type == "cuda" else None
+        t0 = time.time()
+        for j in tqdm(range(num_data), desc="Updating sketch"):
+            r_sketch.update_counter(data[j], j + 1)
+        torch.cuda.synchronize() if device.type == "cuda" else None
+        print(f"Update time: {time.time()-t0:.2f}s")
+
+        # query sketch
+        torch.cuda.synchronize() if device.type == "cuda" else None
+        t0 = time.time()
+        for i in range(n_query):
+            app_kde[i] = r_sketch.query1(query[i])
+        torch.cuda.synchronize() if device.type == "cuda" else None
+        print(f"Query time: {time.time()-t0:.2f}s")
+
+        # compute relative error safely
+        eps_rel = 1e-12
+        rel_err = torch.mean(torch.abs(app_kde - true_kde) / (true_kde.abs().clamp_min(eps_rel)))
+        print(f"Mean A-KDE={app_kde.mean().item():.6f}, Mean Relative Error={rel_err.item():.6f}")
+
+        # memory size estimate
+        total_bytes = 0
+        for v in getattr(r_sketch, "sparse_dic", {}).values():
+            if isinstance(v, torch.Tensor):
+                total_bytes += v.element_size() * v.nelement()
+            else:
+                total_bytes += sys.getsizeof(v)
+        sk_sz.append(total_bytes / 1024)
+        err.append(torch.log(rel_err + 1e-16).item())
+
         del r_sketch
+        gc.collect()
+        if device.type == "cuda":
+            torch.cuda.empty_cache()
 
 
 # plotting the graphs
