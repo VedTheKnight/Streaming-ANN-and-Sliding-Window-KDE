@@ -89,7 +89,7 @@ if __name__ == "__main__":
     else:
         true_kde = compute_true_kde_l2(data, query, k, N_window, args.w)
     print(f"Mean True KDE={np.mean(true_kde):.6f} (time {time.time()-t0:.2f}s)")
-    n_row_values = list(range(100, 1050, 100))
+    n_row_values = list(range(100, 3000, 100))
     sk_sz = []
     err_log = []
     current_dir = os.getcwd()
