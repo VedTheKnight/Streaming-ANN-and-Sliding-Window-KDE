@@ -1,0 +1,12 @@
+6
+Log Mean Error
+Sketch size in KB
+L2
+Mean Relative Error vs Sketch size
+/mnt/HDD-1/srijan/Streaming-ANN-and-Sliding-Window-KDE/Code/SlidingWindowKDE/Outputs/text/error_vs_sz_L2.pdf
+13.078125,-3.5976119158722635
+26.296875,-4.134921627416811
+52.5,-4.318995451563058
+105.046875,-4.461038574561664
+210.1875,-4.934682098493119
+418.640625,-5.144523062890181

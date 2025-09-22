@@ -89,19 +89,19 @@ if __name__ == "__main__":
     else:
         true_kde = compute_true_kde_l2(data, query, k, N_window, args.w)
     print(f"Mean True KDE={np.mean(true_kde):.6f} (time {time.time()-t0:.2f}s)")
-    n_row_values = list(range(100, 3000, 100))
+    n_row_values = [100*2**i for i in range(0,6)]
     sk_sz = []
     err_log = []
     current_dir = os.getcwd()
     dir_name = os.path.join(current_dir, "Outputs", args.file_name)
     os.makedirs(dir_name, exist_ok=True)
-    lb="Angular hash" if args.lsh=="1" else "L2 Hash"
-    f_n=f"obs_mean_error_vs_sketch_sz_{args.file_name}.txt"
+    lb="Angular" if args.lsh=="1" else "L2"
+    f_n=f"error_vs_sz_{args.file_name}_{lb}.txt"
     with open(f_n,"w") as f:
         f.write(str(len(n_row_values))+"\n")
         f.write("Log Mean Error\nSketch size in KB\n"+lb+"\n")
         f.write("Mean Relative Error vs Sketch size\n")
-        f.write(os.path.join(dir_name, f"Effect_of_sketch_size_{args.file_name}.pdf") + "\n")
+        f.write(os.path.join(dir_name, f"error_vs_sz_{lb}.pdf") + "\n")
 
     for rows in n_row_values:
         print(f"\nRows {rows}")
@@ -130,5 +130,5 @@ if __name__ == "__main__":
             f.write(f"{total_bytes/1024},{math.log(rel_err+1e-16)}\n")
         del r_sketch
 
-    plot_from_textfile(f_n)
+    # plot_from_textfile(f_n)
     gc.collect()

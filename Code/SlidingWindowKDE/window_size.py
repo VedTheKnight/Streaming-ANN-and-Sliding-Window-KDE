@@ -77,7 +77,7 @@ if __name__=="__main__":
     query_idx = random.sample(available_indices, n_query)
     query = data[query_idx]
 
-    N=[300,450,600,1000,2000,5000] # list of window sizes
+    N=[2**i for i in range(6,12)] # list of window sizes
     eps_=2*eps+eps*eps # relative error of A-KDE
 
 
@@ -98,7 +98,7 @@ if __name__=="__main__":
     print(f"True KDE calculation done in {time.time()-t0:.2f} s")
     
 # number of rows in RACE structure to be used for the experiments
-    n_row=[100,200,300,400,500,600]
+    n_row=[100,200,400,800,1600,3200]
     color_list=['b','g','r','c','m','y']
     
     # create a directory to store the graph
@@ -108,7 +108,7 @@ if __name__=="__main__":
     f_n=f"{dir_name}/Window_variation_{args.file_name}.pdf"
     print(f"Destination path {f_n}")
     plt.figure(figsize=(10,6))
-    f=open("Window_data.txt","w")
+    f=open(f"Window_data_{args.file_name}_{lb}.txt","w")
     for k_ in range(len(N)):
         err2=[] # list of log of mean relative errors for sliding window RACE
         print(f'\nWindow size {N[k_]}')
@@ -141,7 +141,7 @@ if __name__=="__main__":
 # plotting the graphs   
         print(" In plot section ")
         l_name='N='+str(N[k_])
-        plt.plot(n_row, err2, marker='+',mec='lime',linestyle='-',color=color_list[k_],lw=1.75,label=l_name)
+        plt.plot(n_row, err2, marker='*',mec='black',linestyle='-',color=color_list[k_],lw=1.75,label=l_name)
         del err2
         
     plt.xlabel('Number of rows')

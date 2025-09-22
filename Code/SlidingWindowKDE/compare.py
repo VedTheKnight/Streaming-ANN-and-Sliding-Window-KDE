@@ -139,8 +139,8 @@ if __name__=="__main__":
     os.makedirs(os.path.join(current_dir,dir_name),exist_ok=True)
 
     plt.figure(figsize=(10,6))
-    plt.plot(n_row, err1, marker='+',mec='blue',linestyle='-',color='red',lw=1.75, label='Original RACE')
-    plt.plot(n_row, err2, marker='o',mec='green',linestyle='-',color='yellow',lw=1.75,label='Sliding Window RACE')
+    plt.plot(n_row, err1, marker='*',mec='black',linestyle='-',color='blue',lw=1.75, label='Original RACE')
+    plt.plot(n_row, err2, marker='*',mec='black',linestyle='-',color='green',lw=1.75,label='Sliding Window RACE')
     plt.xlabel('Number of Rows in RACE Sketch')
     plt.ylabel('Log(Mean Relative Error)')
     plt.title('Mean Relative Error vs Number of Rows')

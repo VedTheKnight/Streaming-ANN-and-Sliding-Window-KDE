@@ -1,11 +1,11 @@
 import matplotlib.pyplot as plt
-
+import os
 
 # Example usage:
 # plot_from_textfile("obs_mean_error_vs_sketch_sz_text.txt")
 
 
-def plot_from_textfile(file_path):
+def plot_from_textfile(file_path,legend_label,col):
     with open(file_path, "r") as f:
         lines = [line.strip() for line in f if line.strip()]  # remove empty lines
 
@@ -13,9 +13,7 @@ def plot_from_textfile(file_path):
     N = int(lines[0])                   # number of data points
     ylabel = lines[1]                   # y-axis label
     xlabel = lines[2]                   # x-axis label
-    legend_label = lines[3]             # legend text
-    title = lines[4]                    # plot title
-    output_path = lines[5]              # output pdf path
+    title=lines[4]
 
     # Read x, y data
     x_vals = []
@@ -26,16 +24,23 @@ def plot_from_textfile(file_path):
         y_vals.append(y)
 
     # Plotting
+
+    plt.plot(x_vals, y_vals, marker='*',mec='black',linestyle='-',color=col,lw=1.75,label=legend_label)
+    return xlabel,ylabel,title
+
+if __name__=="__main__":
+    current_dir = os.getcwd()
+    dir_name = os.path.join(current_dir, "Outputs")
+    os.makedirs(dir_name, exist_ok=True)
+    f_n=f"{dir_name}/error_vs_sz_L2.pdf"
     plt.figure(figsize=(8, 5))
-    plt.plot(x_vals, y_vals, marker='+',mec='blue',linestyle='-',color='red',lw=1.75,label=legend_label)
+    xlabel,ylabel,title=plot_from_textfile("error_vs_sz_text_L2.txt",'text','blue')
+    _,_,_=plot_from_textfile("error_vs_sz_image_L2.txt",'image','green')
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
     plt.title(title)
     plt.legend()
     plt.tight_layout()
-    plt.savefig(output_path)
+    plt.savefig(f_n)
     plt.close()
-    print(f"Plot saved to {output_path}")
-
-if __name__=="__main__":
-    plot_from_textfile("obs_mean_error_vs_sketch_sz_text.txt")
+    print(f"Plot saved to {f_n}")
