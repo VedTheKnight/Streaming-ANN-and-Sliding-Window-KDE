@@ -120,6 +120,8 @@ class StreamingANN:
             return
 
         point = self.dataset[point_id].astype(np.float32)
+        # print(point)
+
 
         inserted_ok = True
         for j, (a_stack, b_vec, b_scaled) in enumerate(self.hash_functions):
@@ -178,26 +180,32 @@ class StreamingANN:
 
     def query_topk(self, q, K=10, max_candidates=None):
         q32 = q.astype(np.float32, copy=False)
+        # print(q32)
         candidate_ids = []
+        if max_candidates is None:
+            cap = 3 * self.L
+        else:
+            cap = max_candidates
         for j in range(self.L):
             a_stack, b_vec, b_scaled = self.hash_functions[j]
             hashes = self._h_vectorized(q32, a_stack, b_scaled)
             if hashes is None:
+                # print("hash is None", j)
                 continue
             key = self._pack_key_from_hashes(hashes)
             if key is None:
+                # print("Key is None", j)
                 continue
             bucket = self.hash_tables[j].get(key)
             if bucket:
+                # print(bucket)
                 candidate_ids.extend(bucket)
-            if max_candidates is None:
-                cap = 3 * self.L
-            else:
-                cap = max_candidates
+            
             if len(candidate_ids) >= cap:
                 break
 
         if not candidate_ids:
+            # print("no candidates")
             return []
 
         uniq = np.unique(np.array(candidate_ids, dtype=np.uint32))
