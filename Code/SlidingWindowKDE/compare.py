@@ -56,12 +56,12 @@ if __name__=="__main__":
 
     # parameters for our RACE in sliding window
     eps=float(arg.eps) # relative error for Exponential Histogram
-    N=[300,450,600,1000,2000,5000] # list of window sizes
+    N=260 # window size
     eps_=2*eps+eps*eps # relative error of A-KDE
 
 
     print('---------Parameters for Sliding window RACE----------')
-    print(f'Bandwidth parameter={k}, Window size={N[1]}, Relative error of EH={eps}, Data dimension {dim}')
+    print(f'Bandwidth parameter={k}, Window size={N}, Relative error of EH={eps}, Data dimension {dim}')
     print(f'Relative error of A-KDE ={eps_:.6f}, Number of streaming data={num_data}, Number of queries={n_query}')
     print('----------------------------')
     random.seed(124)
@@ -82,7 +82,7 @@ if __name__=="__main__":
     true_kde_2=np.zeros(n_query) # true kde for the last N data points
     st_time=time.time()
     for j in tqdm(range(n_query), desc="Traversing the data for true KDE"):
-        for i in range(num_data-N[1],num_data):
+        for i in range(num_data-N,num_data):
             true_kde_2[j]+=math.pow(1-1/np.pi*angle_between_vectors(data[i,:],query[j]),k) # calculating the collision probability
     # print(f'True KDE={true_kde:.6f}')
     end_time=time.time()
@@ -116,7 +116,7 @@ if __name__=="__main__":
         print(f'Mean A-KDE={np.mean(app_kde):.6f} Mean Relative error={rel_err:.6f}')
         del r_sketch # delete the sketch to free memory
  
-        r_sketch=RACE_Ah(n_row[i],2,k,dim,N[1],eps)# creating an instance of a SW RACE sketch
+        r_sketch=RACE_Ah(n_row[i],2,k,dim,N,eps)# creating an instance of a SW RACE sketch
         
         st_time=time.time()
         for j in tqdm(range(num_data), desc="Adding data to (SW) RACE sketch"):
@@ -135,8 +135,8 @@ if __name__=="__main__":
 # create a directory to store the graph
     print(" In plot section ")
     current_dir = os.getcwd()
-    dir_name="Outputs/"+arg.data_type
-    os.makedirs(os.path.join(current_dir,dir_name),exist_ok=True)
+    tar_dir=os.path.join(current_dir,"Outputs",arg.data_type)
+    os.makedirs(tar_dir,exist_ok=True)
 
     plt.figure(figsize=(10,6))
     plt.plot(n_row, err1, marker='*',mec='black',linestyle='-',color='blue',lw=1.75, label='Original RACE')
@@ -146,7 +146,7 @@ if __name__=="__main__":
     plt.title('Mean Relative Error vs Number of Rows')
     plt.legend()
     # plt.show()
-    f_n=dir_name+"/mean_relative_error_vs_rows.pdf"
+    f_n=tar_dir+"/mean_relative_error_vs_rows.pdf"
     plt.savefig(f_n)
     plt.close()
 
