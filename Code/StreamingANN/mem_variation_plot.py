@@ -1,53 +1,52 @@
-#!/usr/bin/env python3
-import argparse
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--csv", type=str, required=True, help="Results CSV file")
-    parser.add_argument("--out", type=str, default="mem_vs_N.png", help="Output figure filename")
-    args = parser.parse_args()
+# Load CSV
+df = pd.read_csv("results_mem_variation.csv")
 
-    # Load results
-    df = pd.read_csv(args.csv)
+# Color list convention
+color_list = ['b','g','r','c','m','y','orange']
 
-    # Ensure correct types
-    df["N"] = df["N"].astype(int)
-    df["epsilon"] = df["epsilon"].astype(float)
-    df["eta"] = df["eta"].astype(float)
-    df["memory_MB"] = df["memory_MB"].astype(float)
+# Get unique epsilons and etas
+epsilons = sorted(df["epsilon"].unique())
+etas = sorted(df["eta"].unique())
 
-    # Pick only eta=0.5 and eta=0.3
-    etas = [0.5, 0.3]
+# Assume dataset dimension 'd' (set manually or compute elsewhere)
+d = 128  # <-- update this depending on your dataset
 
-    fig, axes = plt.subplots(1, 2, figsize=(12, 5), sharey=True)
+for eps in epsilons:
+    subset = df[df["epsilon"] == eps]
 
-    for ax, eta in zip(axes, etas):
-        subset = df[df["eta"] == eta]
-        for eps in sorted(subset["epsilon"].unique()):
-            df_eps = subset[subset["epsilon"] == eps]
-            df_eps = df_eps.sort_values("N")
-            ax.plot(
-                df_eps["N"],
-                df_eps["memory_MB"],
-                marker="o",
-                label=f"$\\epsilon={eps}$"
+    plt.figure(figsize=(10, 6))
+    for k_, eta in enumerate(etas):
+        eta_subset = subset[subset["eta"] == eta].sort_values("N")
+        if not eta_subset.empty:
+            plt.plot(
+                eta_subset["N"].to_numpy(),
+                eta_subset["memory_MB"].to_numpy(),
+                marker='*', mec='black', linestyle='-',
+                color=color_list[k_ % len(color_list)],
+                lw=1.75,
+                label=f"eta={eta}"
             )
 
-        ax.set_xscale("log")
-        ax.set_yscale("log")
-        ax.set_xlabel("N (dataset size)")
-        ax.set_title(f"$\\eta={eta}$")
-        ax.grid(True, which="both", ls="--", lw=0.5)
-        if ax == axes[0]:
-            ax.set_ylabel("Memory (MB)")
-        ax.legend()
 
-    plt.suptitle("Memory vs N for different $\\epsilon$, fixed $\\eta$")
+    # Add theoretical linear memory curve in black
+    N_vals = np.sort(subset["N"].unique())
+    mem_theory = (N_vals * d * 4) / (1024*1024)
+    plt.plot(
+        N_vals, mem_theory,
+        linestyle='--', color='black', lw=2.0, label="Linear Sketch"
+    )
+
+    plt.xlabel("N")
+    plt.ylabel("Sketch Size (MB)")
+    plt.title(f"Sketch Size vs N (epsilon={eps})")
+    plt.legend()
+    plt.grid(True)
     plt.tight_layout()
-    plt.savefig(args.out, dpi=300)
-    print(f"[INFO] Plot saved to {args.out}")
 
-if __name__ == "__main__":
-    main()
+    # Save figure instead of showing
+    plt.savefig(f"memory_vs_N_eps{eps}.pdf")
+    plt.close()

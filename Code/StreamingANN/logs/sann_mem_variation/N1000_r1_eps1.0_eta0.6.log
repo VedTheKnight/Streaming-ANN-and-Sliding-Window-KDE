@@ -1,0 +1,41 @@
+[Init] Inputs : eta=0.60, epsilon=1.00, r=1.00
+[Init] LSH Parameters : w=3.772, p1=0.7885, p2=0.5891, rho=0.4491
+[Init] Data Structure Parameters : k=14, L=28, key_bits=448, mode=speed
+[Build] Starting insertion...
+[Build] Inserted 100/1000 points, avg insert time (ms): 0.005
+[Build] Inserted 200/1000 points, avg insert time (ms): 0.011
+[Build] Inserted 300/1000 points, avg insert time (ms): 0.001
+[Build] Inserted 400/1000 points, avg insert time (ms): 0.003
+[Build] Inserted 500/1000 points, avg insert time (ms): 0.006
+[Build] Inserted 600/1000 points, avg insert time (ms): 0.004
+[Build] Inserted 700/1000 points, avg insert time (ms): 0.009
+[Build] Inserted 800/1000 points, avg insert time (ms): 0.012
+[Build] Inserted 900/1000 points, avg insert time (ms): 0.094
+[Build] Inserted 1000/1000 points, avg insert time (ms): 0.007
+[Timing] Total insertion time: 0.02 s
+[Build] Starting queries...
+[Query] Processed 1/1 queries, avg query time (ms): 0.666
+[Timing] Total query time: 0.00 s
+[Eval] Computing ground truth top-K...
+[Timing] Ground truth (FAISS): 0.00 s (0.058 ms/query)
+[Timing] Ground truth computation: 0.01 s
+[Eval] Computing recall metrics...
+[Timing] Recall evaluation: 0.00 s
+[Eval] Computing (c,r)-ANN accuracy...
+[Timing] FAISS r* computation: 0.00 s (0.034 ms/query)
+[CR-ANN] 1/1 processed, avg time (ann.query): 0.387 ms
+[Timing] (c,r)-ANN eval: 0.00 s (0.696 ms/query)
+[Sanity Check] Total Relevant = 1
+[Timing] (c,r)-ANN evaluation: 0.00 s
+[Result] Memory breakdown (MB): {'hash_functions_MB': 0.195892333984375, 'bucket_ids_MB': 0.0020294189453125, 'num_ids': 532, 'num_buckets': 254, 'hash_tables_overhead_MB': 0.0213165283203125, 'total_MB': 0.21923828125}
+[Result] Epsilon-recall: 0.3800
+[Result] (c,r)-ANN accuracy: 1.0000
+
+[Timing Summary]
+  Insert phase: 0.02 s
+  Query phase: 0.00 s
+  Ground truth: 0.01 s
+  Recall eval: 0.00 s
+  (c,r)-ANN eval: 0.00 s
+  Total time: 0.04 s
+[SUMMARY] r=1.0, eps=1.0, eta=0.6, recall=0.3800, (c,r)-ANN accuracy=1.0, memory=0.21923828125

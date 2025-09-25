@@ -1,0 +1,629 @@
+[Init] Inputs : eta=0.10, epsilon=0.60, r=0.50
+[Init] LSH Parameters : w=1.638, p1=0.7566, p2=0.6177, rho=0.5790
+[Init] Data Structure Parameters : k=23, L=694, key_bits=736, mode=speed
+[Build] Starting insertion...
+[Build] Inserted 100/50000 points, avg insert time (ms): 3.486
+[Build] Inserted 200/50000 points, avg insert time (ms): 4.081
+[Build] Inserted 300/50000 points, avg insert time (ms): 4.159
+[Build] Inserted 400/50000 points, avg insert time (ms): 4.565
+[Build] Inserted 500/50000 points, avg insert time (ms): 3.897
+[Build] Inserted 600/50000 points, avg insert time (ms): 3.878
+[Build] Inserted 700/50000 points, avg insert time (ms): 3.878
+[Build] Inserted 800/50000 points, avg insert time (ms): 5.838
+[Build] Inserted 900/50000 points, avg insert time (ms): 5.387
+[Build] Inserted 1000/50000 points, avg insert time (ms): 3.880
+[Build] Inserted 1100/50000 points, avg insert time (ms): 5.750
+[Build] Inserted 1200/50000 points, avg insert time (ms): 4.437
+[Build] Inserted 1300/50000 points, avg insert time (ms): 3.328
+[Build] Inserted 1400/50000 points, avg insert time (ms): 4.424
+[Build] Inserted 1500/50000 points, avg insert time (ms): 3.850
+[Build] Inserted 1600/50000 points, avg insert time (ms): 4.624
+[Build] Inserted 1700/50000 points, avg insert time (ms): 6.043
+[Build] Inserted 1800/50000 points, avg insert time (ms): 3.831
+[Build] Inserted 1900/50000 points, avg insert time (ms): 6.769
+[Build] Inserted 2000/50000 points, avg insert time (ms): 4.803
+[Build] Inserted 2100/50000 points, avg insert time (ms): 5.792
+[Build] Inserted 2200/50000 points, avg insert time (ms): 6.915
+[Build] Inserted 2300/50000 points, avg insert time (ms): 5.282
+[Build] Inserted 2400/50000 points, avg insert time (ms): 6.274
+[Build] Inserted 2500/50000 points, avg insert time (ms): 4.791
+[Build] Inserted 2600/50000 points, avg insert time (ms): 4.617
+[Build] Inserted 2700/50000 points, avg insert time (ms): 4.295
+[Build] Inserted 2800/50000 points, avg insert time (ms): 4.751
+[Build] Inserted 2900/50000 points, avg insert time (ms): 4.384
+[Build] Inserted 3000/50000 points, avg insert time (ms): 3.700
+[Build] Inserted 3100/50000 points, avg insert time (ms): 3.798
+[Build] Inserted 3200/50000 points, avg insert time (ms): 3.864
+[Build] Inserted 3300/50000 points, avg insert time (ms): 4.500
+[Build] Inserted 3400/50000 points, avg insert time (ms): 4.678
+[Build] Inserted 3500/50000 points, avg insert time (ms): 4.831
+[Build] Inserted 3600/50000 points, avg insert time (ms): 5.436
+[Build] Inserted 3700/50000 points, avg insert time (ms): 3.648
+[Build] Inserted 3800/50000 points, avg insert time (ms): 4.739
+[Build] Inserted 3900/50000 points, avg insert time (ms): 3.243
+[Build] Inserted 4000/50000 points, avg insert time (ms): 5.155
+[Build] Inserted 4100/50000 points, avg insert time (ms): 6.755
+[Build] Inserted 4200/50000 points, avg insert time (ms): 3.098
+[Build] Inserted 4300/50000 points, avg insert time (ms): 4.337
+[Build] Inserted 4400/50000 points, avg insert time (ms): 4.773
+[Build] Inserted 4500/50000 points, avg insert time (ms): 4.431
+[Build] Inserted 4600/50000 points, avg insert time (ms): 5.404
+[Build] Inserted 4700/50000 points, avg insert time (ms): 4.690
+[Build] Inserted 4800/50000 points, avg insert time (ms): 4.365
+[Build] Inserted 4900/50000 points, avg insert time (ms): 4.914
+[Build] Inserted 5000/50000 points, avg insert time (ms): 3.675
+[Build] Inserted 5100/50000 points, avg insert time (ms): 4.773
+[Build] Inserted 5200/50000 points, avg insert time (ms): 3.907
+[Build] Inserted 5300/50000 points, avg insert time (ms): 4.508
+[Build] Inserted 5400/50000 points, avg insert time (ms): 4.455
+[Build] Inserted 5500/50000 points, avg insert time (ms): 4.755
+[Build] Inserted 5600/50000 points, avg insert time (ms): 5.892
+[Build] Inserted 5700/50000 points, avg insert time (ms): 3.422
+[Build] Inserted 5800/50000 points, avg insert time (ms): 3.797
+[Build] Inserted 5900/50000 points, avg insert time (ms): 5.751
+[Build] Inserted 6000/50000 points, avg insert time (ms): 4.981
+[Build] Inserted 6100/50000 points, avg insert time (ms): 3.810
+[Build] Inserted 6200/50000 points, avg insert time (ms): 4.265
+[Build] Inserted 6300/50000 points, avg insert time (ms): 3.165
+[Build] Inserted 6400/50000 points, avg insert time (ms): 3.950
+[Build] Inserted 6500/50000 points, avg insert time (ms): 3.486
+[Build] Inserted 6600/50000 points, avg insert time (ms): 4.028
+[Build] Inserted 6700/50000 points, avg insert time (ms): 3.803
+[Build] Inserted 6800/50000 points, avg insert time (ms): 3.972
+[Build] Inserted 6900/50000 points, avg insert time (ms): 5.501
+[Build] Inserted 7000/50000 points, avg insert time (ms): 5.494
+[Build] Inserted 7100/50000 points, avg insert time (ms): 2.931
+[Build] Inserted 7200/50000 points, avg insert time (ms): 4.188
+[Build] Inserted 7300/50000 points, avg insert time (ms): 4.089
+[Build] Inserted 7400/50000 points, avg insert time (ms): 4.814
+[Build] Inserted 7500/50000 points, avg insert time (ms): 3.908
+[Build] Inserted 7600/50000 points, avg insert time (ms): 3.637
+[Build] Inserted 7700/50000 points, avg insert time (ms): 4.138
+[Build] Inserted 7800/50000 points, avg insert time (ms): 3.503
+[Build] Inserted 7900/50000 points, avg insert time (ms): 3.186
+[Build] Inserted 8000/50000 points, avg insert time (ms): 4.319
+[Build] Inserted 8100/50000 points, avg insert time (ms): 6.189
+[Build] Inserted 8200/50000 points, avg insert time (ms): 7.446
+[Build] Inserted 8300/50000 points, avg insert time (ms): 4.521
+[Build] Inserted 8400/50000 points, avg insert time (ms): 4.237
+[Build] Inserted 8500/50000 points, avg insert time (ms): 4.668
+[Build] Inserted 8600/50000 points, avg insert time (ms): 3.268
+[Build] Inserted 8700/50000 points, avg insert time (ms): 3.279
+[Build] Inserted 8800/50000 points, avg insert time (ms): 3.977
+[Build] Inserted 8900/50000 points, avg insert time (ms): 6.327
+[Build] Inserted 9000/50000 points, avg insert time (ms): 4.062
+[Build] Inserted 9100/50000 points, avg insert time (ms): 4.089
+[Build] Inserted 9200/50000 points, avg insert time (ms): 4.437
+[Build] Inserted 9300/50000 points, avg insert time (ms): 4.782
+[Build] Inserted 9400/50000 points, avg insert time (ms): 5.058
+[Build] Inserted 9500/50000 points, avg insert time (ms): 3.782
+[Build] Inserted 9600/50000 points, avg insert time (ms): 4.435
+[Build] Inserted 9700/50000 points, avg insert time (ms): 4.439
+[Build] Inserted 9800/50000 points, avg insert time (ms): 4.342
+[Build] Inserted 9900/50000 points, avg insert time (ms): 4.845
+[Build] Inserted 10000/50000 points, avg insert time (ms): 4.414
+[Build] Inserted 10100/50000 points, avg insert time (ms): 3.846
+[Build] Inserted 10200/50000 points, avg insert time (ms): 5.555
+[Build] Inserted 10300/50000 points, avg insert time (ms): 5.803
+[Build] Inserted 10400/50000 points, avg insert time (ms): 3.319
+[Build] Inserted 10500/50000 points, avg insert time (ms): 4.476
+[Build] Inserted 10600/50000 points, avg insert time (ms): 4.818
+[Build] Inserted 10700/50000 points, avg insert time (ms): 3.780
+[Build] Inserted 10800/50000 points, avg insert time (ms): 3.561
+[Build] Inserted 10900/50000 points, avg insert time (ms): 4.767
+[Build] Inserted 11000/50000 points, avg insert time (ms): 5.460
+[Build] Inserted 11100/50000 points, avg insert time (ms): 4.617
+[Build] Inserted 11200/50000 points, avg insert time (ms): 4.326
+[Build] Inserted 11300/50000 points, avg insert time (ms): 4.213
+[Build] Inserted 11400/50000 points, avg insert time (ms): 6.008
+[Build] Inserted 11500/50000 points, avg insert time (ms): 4.694
+[Build] Inserted 11600/50000 points, avg insert time (ms): 4.260
+[Build] Inserted 11700/50000 points, avg insert time (ms): 4.601
+[Build] Inserted 11800/50000 points, avg insert time (ms): 3.687
+[Build] Inserted 11900/50000 points, avg insert time (ms): 7.284
+[Build] Inserted 12000/50000 points, avg insert time (ms): 5.520
+[Build] Inserted 12100/50000 points, avg insert time (ms): 2.945
+[Build] Inserted 12200/50000 points, avg insert time (ms): 3.914
+[Build] Inserted 12300/50000 points, avg insert time (ms): 4.060
+[Build] Inserted 12400/50000 points, avg insert time (ms): 4.150
+[Build] Inserted 12500/50000 points, avg insert time (ms): 3.992
+[Build] Inserted 12600/50000 points, avg insert time (ms): 4.426
+[Build] Inserted 12700/50000 points, avg insert time (ms): 4.121
+[Build] Inserted 12800/50000 points, avg insert time (ms): 4.540
+[Build] Inserted 12900/50000 points, avg insert time (ms): 7.099
+[Build] Inserted 13000/50000 points, avg insert time (ms): 4.279
+[Build] Inserted 13100/50000 points, avg insert time (ms): 5.155
+[Build] Inserted 13200/50000 points, avg insert time (ms): 4.714
+[Build] Inserted 13300/50000 points, avg insert time (ms): 5.345
+[Build] Inserted 13400/50000 points, avg insert time (ms): 4.539
+[Build] Inserted 13500/50000 points, avg insert time (ms): 4.249
+[Build] Inserted 13600/50000 points, avg insert time (ms): 4.094
+[Build] Inserted 13700/50000 points, avg insert time (ms): 4.172
+[Build] Inserted 13800/50000 points, avg insert time (ms): 4.691
+[Build] Inserted 13900/50000 points, avg insert time (ms): 4.645
+[Build] Inserted 14000/50000 points, avg insert time (ms): 4.168
+[Build] Inserted 14100/50000 points, avg insert time (ms): 3.974
+[Build] Inserted 14200/50000 points, avg insert time (ms): 6.460
+[Build] Inserted 14300/50000 points, avg insert time (ms): 4.460
+[Build] Inserted 14400/50000 points, avg insert time (ms): 5.368
+[Build] Inserted 14500/50000 points, avg insert time (ms): 3.210
+[Build] Inserted 14600/50000 points, avg insert time (ms): 3.450
+[Build] Inserted 14700/50000 points, avg insert time (ms): 3.710
+[Build] Inserted 14800/50000 points, avg insert time (ms): 4.167
+[Build] Inserted 14900/50000 points, avg insert time (ms): 3.469
+[Build] Inserted 15000/50000 points, avg insert time (ms): 4.242
+[Build] Inserted 15100/50000 points, avg insert time (ms): 3.677
+[Build] Inserted 15200/50000 points, avg insert time (ms): 4.763
+[Build] Inserted 15300/50000 points, avg insert time (ms): 4.845
+[Build] Inserted 15400/50000 points, avg insert time (ms): 3.396
+[Build] Inserted 15500/50000 points, avg insert time (ms): 3.520
+[Build] Inserted 15600/50000 points, avg insert time (ms): 5.854
+[Build] Inserted 15700/50000 points, avg insert time (ms): 4.689
+[Build] Inserted 15800/50000 points, avg insert time (ms): 4.089
+[Build] Inserted 15900/50000 points, avg insert time (ms): 4.178
+[Build] Inserted 16000/50000 points, avg insert time (ms): 4.970
+[Build] Inserted 16100/50000 points, avg insert time (ms): 4.908
+[Build] Inserted 16200/50000 points, avg insert time (ms): 4.660
+[Build] Inserted 16300/50000 points, avg insert time (ms): 3.091
+[Build] Inserted 16400/50000 points, avg insert time (ms): 4.396
+[Build] Inserted 16500/50000 points, avg insert time (ms): 4.779
+[Build] Inserted 16600/50000 points, avg insert time (ms): 4.410
+[Build] Inserted 16700/50000 points, avg insert time (ms): 3.652
+[Build] Inserted 16800/50000 points, avg insert time (ms): 4.051
+[Build] Inserted 16900/50000 points, avg insert time (ms): 5.014
+[Build] Inserted 17000/50000 points, avg insert time (ms): 5.974
+[Build] Inserted 17100/50000 points, avg insert time (ms): 4.715
+[Build] Inserted 17200/50000 points, avg insert time (ms): 4.521
+[Build] Inserted 17300/50000 points, avg insert time (ms): 3.132
+[Build] Inserted 17400/50000 points, avg insert time (ms): 5.885
+[Build] Inserted 17500/50000 points, avg insert time (ms): 3.682
+[Build] Inserted 17600/50000 points, avg insert time (ms): 4.044
+[Build] Inserted 17700/50000 points, avg insert time (ms): 4.556
+[Build] Inserted 17800/50000 points, avg insert time (ms): 3.863
+[Build] Inserted 17900/50000 points, avg insert time (ms): 4.751
+[Build] Inserted 18000/50000 points, avg insert time (ms): 4.479
+[Build] Inserted 18100/50000 points, avg insert time (ms): 5.295
+[Build] Inserted 18200/50000 points, avg insert time (ms): 3.941
+[Build] Inserted 18300/50000 points, avg insert time (ms): 4.146
+[Build] Inserted 18400/50000 points, avg insert time (ms): 4.588
+[Build] Inserted 18500/50000 points, avg insert time (ms): 3.244
+[Build] Inserted 18600/50000 points, avg insert time (ms): 4.951
+[Build] Inserted 18700/50000 points, avg insert time (ms): 5.376
+[Build] Inserted 18800/50000 points, avg insert time (ms): 4.407
+[Build] Inserted 18900/50000 points, avg insert time (ms): 4.075
+[Build] Inserted 19000/50000 points, avg insert time (ms): 3.551
+[Build] Inserted 19100/50000 points, avg insert time (ms): 4.319
+[Build] Inserted 19200/50000 points, avg insert time (ms): 4.081
+[Build] Inserted 19300/50000 points, avg insert time (ms): 4.692
+[Build] Inserted 19400/50000 points, avg insert time (ms): 3.804
+[Build] Inserted 19500/50000 points, avg insert time (ms): 4.899
+[Build] Inserted 19600/50000 points, avg insert time (ms): 4.986
+[Build] Inserted 19700/50000 points, avg insert time (ms): 4.090
+[Build] Inserted 19800/50000 points, avg insert time (ms): 4.614
+[Build] Inserted 19900/50000 points, avg insert time (ms): 3.826
+[Build] Inserted 20000/50000 points, avg insert time (ms): 4.173
+[Build] Inserted 20100/50000 points, avg insert time (ms): 3.838
+[Build] Inserted 20200/50000 points, avg insert time (ms): 4.708
+[Build] Inserted 20300/50000 points, avg insert time (ms): 3.667
+[Build] Inserted 20400/50000 points, avg insert time (ms): 3.762
+[Build] Inserted 20500/50000 points, avg insert time (ms): 3.870
+[Build] Inserted 20600/50000 points, avg insert time (ms): 4.313
+[Build] Inserted 20700/50000 points, avg insert time (ms): 4.199
+[Build] Inserted 20800/50000 points, avg insert time (ms): 3.507
+[Build] Inserted 20900/50000 points, avg insert time (ms): 3.823
+[Build] Inserted 21000/50000 points, avg insert time (ms): 3.621
+[Build] Inserted 21100/50000 points, avg insert time (ms): 4.362
+[Build] Inserted 21200/50000 points, avg insert time (ms): 4.935
+[Build] Inserted 21300/50000 points, avg insert time (ms): 4.933
+[Build] Inserted 21400/50000 points, avg insert time (ms): 3.968
+[Build] Inserted 21500/50000 points, avg insert time (ms): 4.180
+[Build] Inserted 21600/50000 points, avg insert time (ms): 3.333
+[Build] Inserted 21700/50000 points, avg insert time (ms): 5.157
+[Build] Inserted 21800/50000 points, avg insert time (ms): 3.819
+[Build] Inserted 21900/50000 points, avg insert time (ms): 3.535
+[Build] Inserted 22000/50000 points, avg insert time (ms): 4.784
+[Build] Inserted 22100/50000 points, avg insert time (ms): 4.752
+[Build] Inserted 22200/50000 points, avg insert time (ms): 3.705
+[Build] Inserted 22300/50000 points, avg insert time (ms): 3.357
+[Build] Inserted 22400/50000 points, avg insert time (ms): 2.900
+[Build] Inserted 22500/50000 points, avg insert time (ms): 5.203
+[Build] Inserted 22600/50000 points, avg insert time (ms): 4.050
+[Build] Inserted 22700/50000 points, avg insert time (ms): 3.927
+[Build] Inserted 22800/50000 points, avg insert time (ms): 5.107
+[Build] Inserted 22900/50000 points, avg insert time (ms): 4.808
+[Build] Inserted 23000/50000 points, avg insert time (ms): 4.499
+[Build] Inserted 23100/50000 points, avg insert time (ms): 4.470
+[Build] Inserted 23200/50000 points, avg insert time (ms): 5.340
+[Build] Inserted 23300/50000 points, avg insert time (ms): 7.195
+[Build] Inserted 23400/50000 points, avg insert time (ms): 4.725
+[Build] Inserted 23500/50000 points, avg insert time (ms): 4.739
+[Build] Inserted 23600/50000 points, avg insert time (ms): 4.398
+[Build] Inserted 23700/50000 points, avg insert time (ms): 4.932
+[Build] Inserted 23800/50000 points, avg insert time (ms): 3.633
+[Build] Inserted 23900/50000 points, avg insert time (ms): 3.983
+[Build] Inserted 24000/50000 points, avg insert time (ms): 3.016
+[Build] Inserted 24100/50000 points, avg insert time (ms): 7.132
+[Build] Inserted 24200/50000 points, avg insert time (ms): 5.518
+[Build] Inserted 24300/50000 points, avg insert time (ms): 5.182
+[Build] Inserted 24400/50000 points, avg insert time (ms): 4.056
+[Build] Inserted 24500/50000 points, avg insert time (ms): 3.723
+[Build] Inserted 24600/50000 points, avg insert time (ms): 4.256
+[Build] Inserted 24700/50000 points, avg insert time (ms): 5.374
+[Build] Inserted 24800/50000 points, avg insert time (ms): 5.258
+[Build] Inserted 24900/50000 points, avg insert time (ms): 4.189
+[Build] Inserted 25000/50000 points, avg insert time (ms): 4.806
+[Build] Inserted 25100/50000 points, avg insert time (ms): 4.795
+[Build] Inserted 25200/50000 points, avg insert time (ms): 6.779
+[Build] Inserted 25300/50000 points, avg insert time (ms): 3.478
+[Build] Inserted 25400/50000 points, avg insert time (ms): 4.573
+[Build] Inserted 25500/50000 points, avg insert time (ms): 4.235
+[Build] Inserted 25600/50000 points, avg insert time (ms): 5.137
+[Build] Inserted 25700/50000 points, avg insert time (ms): 3.760
+[Build] Inserted 25800/50000 points, avg insert time (ms): 5.005
+[Build] Inserted 25900/50000 points, avg insert time (ms): 4.968
+[Build] Inserted 26000/50000 points, avg insert time (ms): 4.960
+[Build] Inserted 26100/50000 points, avg insert time (ms): 3.994
+[Build] Inserted 26200/50000 points, avg insert time (ms): 4.363
+[Build] Inserted 26300/50000 points, avg insert time (ms): 4.990
+[Build] Inserted 26400/50000 points, avg insert time (ms): 4.305
+[Build] Inserted 26500/50000 points, avg insert time (ms): 5.256
+[Build] Inserted 26600/50000 points, avg insert time (ms): 4.689
+[Build] Inserted 26700/50000 points, avg insert time (ms): 5.300
+[Build] Inserted 26800/50000 points, avg insert time (ms): 4.415
+[Build] Inserted 26900/50000 points, avg insert time (ms): 4.680
+[Build] Inserted 27000/50000 points, avg insert time (ms): 4.577
+[Build] Inserted 27100/50000 points, avg insert time (ms): 4.914
+[Build] Inserted 27200/50000 points, avg insert time (ms): 5.556
+[Build] Inserted 27300/50000 points, avg insert time (ms): 3.281
+[Build] Inserted 27400/50000 points, avg insert time (ms): 4.298
+[Build] Inserted 27500/50000 points, avg insert time (ms): 4.429
+[Build] Inserted 27600/50000 points, avg insert time (ms): 4.634
+[Build] Inserted 27700/50000 points, avg insert time (ms): 4.211
+[Build] Inserted 27800/50000 points, avg insert time (ms): 6.404
+[Build] Inserted 27900/50000 points, avg insert time (ms): 4.175
+[Build] Inserted 28000/50000 points, avg insert time (ms): 5.095
+[Build] Inserted 28100/50000 points, avg insert time (ms): 4.576
+[Build] Inserted 28200/50000 points, avg insert time (ms): 3.824
+[Build] Inserted 28300/50000 points, avg insert time (ms): 6.794
+[Build] Inserted 28400/50000 points, avg insert time (ms): 5.056
+[Build] Inserted 28500/50000 points, avg insert time (ms): 4.009
+[Build] Inserted 28600/50000 points, avg insert time (ms): 4.930
+[Build] Inserted 28700/50000 points, avg insert time (ms): 4.672
+[Build] Inserted 28800/50000 points, avg insert time (ms): 5.452
+[Build] Inserted 28900/50000 points, avg insert time (ms): 6.048
+[Build] Inserted 29000/50000 points, avg insert time (ms): 6.556
+[Build] Inserted 29100/50000 points, avg insert time (ms): 6.323
+[Build] Inserted 29200/50000 points, avg insert time (ms): 4.068
+[Build] Inserted 29300/50000 points, avg insert time (ms): 4.413
+[Build] Inserted 29400/50000 points, avg insert time (ms): 5.718
+[Build] Inserted 29500/50000 points, avg insert time (ms): 4.853
+[Build] Inserted 29600/50000 points, avg insert time (ms): 5.523
+[Build] Inserted 29700/50000 points, avg insert time (ms): 2.622
+[Build] Inserted 29800/50000 points, avg insert time (ms): 4.640
+[Build] Inserted 29900/50000 points, avg insert time (ms): 3.818
+[Build] Inserted 30000/50000 points, avg insert time (ms): 4.495
+[Build] Inserted 30100/50000 points, avg insert time (ms): 5.391
+[Build] Inserted 30200/50000 points, avg insert time (ms): 4.809
+[Build] Inserted 30300/50000 points, avg insert time (ms): 3.448
+[Build] Inserted 30400/50000 points, avg insert time (ms): 4.211
+[Build] Inserted 30500/50000 points, avg insert time (ms): 5.265
+[Build] Inserted 30600/50000 points, avg insert time (ms): 5.130
+[Build] Inserted 30700/50000 points, avg insert time (ms): 4.004
+[Build] Inserted 30800/50000 points, avg insert time (ms): 5.564
+[Build] Inserted 30900/50000 points, avg insert time (ms): 6.456
+[Build] Inserted 31000/50000 points, avg insert time (ms): 4.472
+[Build] Inserted 31100/50000 points, avg insert time (ms): 6.055
+[Build] Inserted 31200/50000 points, avg insert time (ms): 5.193
+[Build] Inserted 31300/50000 points, avg insert time (ms): 4.641
+[Build] Inserted 31400/50000 points, avg insert time (ms): 6.744
+[Build] Inserted 31500/50000 points, avg insert time (ms): 3.327
+[Build] Inserted 31600/50000 points, avg insert time (ms): 4.494
+[Build] Inserted 31700/50000 points, avg insert time (ms): 5.389
+[Build] Inserted 31800/50000 points, avg insert time (ms): 3.983
+[Build] Inserted 31900/50000 points, avg insert time (ms): 3.826
+[Build] Inserted 32000/50000 points, avg insert time (ms): 5.148
+[Build] Inserted 32100/50000 points, avg insert time (ms): 5.808
+[Build] Inserted 32200/50000 points, avg insert time (ms): 3.581
+[Build] Inserted 32300/50000 points, avg insert time (ms): 5.536
+[Build] Inserted 32400/50000 points, avg insert time (ms): 5.555
+[Build] Inserted 32500/50000 points, avg insert time (ms): 4.338
+[Build] Inserted 32600/50000 points, avg insert time (ms): 4.467
+[Build] Inserted 32700/50000 points, avg insert time (ms): 4.252
+[Build] Inserted 32800/50000 points, avg insert time (ms): 6.884
+[Build] Inserted 32900/50000 points, avg insert time (ms): 4.886
+[Build] Inserted 33000/50000 points, avg insert time (ms): 4.742
+[Build] Inserted 33100/50000 points, avg insert time (ms): 5.143
+[Build] Inserted 33200/50000 points, avg insert time (ms): 3.806
+[Build] Inserted 33300/50000 points, avg insert time (ms): 9.432
+[Build] Inserted 33400/50000 points, avg insert time (ms): 3.492
+[Build] Inserted 33500/50000 points, avg insert time (ms): 4.876
+[Build] Inserted 33600/50000 points, avg insert time (ms): 4.489
+[Build] Inserted 33700/50000 points, avg insert time (ms): 3.157
+[Build] Inserted 33800/50000 points, avg insert time (ms): 3.964
+[Build] Inserted 33900/50000 points, avg insert time (ms): 3.953
+[Build] Inserted 34000/50000 points, avg insert time (ms): 4.456
+[Build] Inserted 34100/50000 points, avg insert time (ms): 3.865
+[Build] Inserted 34200/50000 points, avg insert time (ms): 5.685
+[Build] Inserted 34300/50000 points, avg insert time (ms): 3.678
+[Build] Inserted 34400/50000 points, avg insert time (ms): 3.447
+[Build] Inserted 34500/50000 points, avg insert time (ms): 3.833
+[Build] Inserted 34600/50000 points, avg insert time (ms): 4.249
+[Build] Inserted 34700/50000 points, avg insert time (ms): 3.903
+[Build] Inserted 34800/50000 points, avg insert time (ms): 4.684
+[Build] Inserted 34900/50000 points, avg insert time (ms): 4.825
+[Build] Inserted 35000/50000 points, avg insert time (ms): 4.881
+[Build] Inserted 35100/50000 points, avg insert time (ms): 3.456
+[Build] Inserted 35200/50000 points, avg insert time (ms): 3.332
+[Build] Inserted 35300/50000 points, avg insert time (ms): 4.797
+[Build] Inserted 35400/50000 points, avg insert time (ms): 5.153
+[Build] Inserted 35500/50000 points, avg insert time (ms): 3.115
+[Build] Inserted 35600/50000 points, avg insert time (ms): 4.517
+[Build] Inserted 35700/50000 points, avg insert time (ms): 3.678
+[Build] Inserted 35800/50000 points, avg insert time (ms): 4.476
+[Build] Inserted 35900/50000 points, avg insert time (ms): 3.674
+[Build] Inserted 36000/50000 points, avg insert time (ms): 5.281
+[Build] Inserted 36100/50000 points, avg insert time (ms): 4.252
+[Build] Inserted 36200/50000 points, avg insert time (ms): 4.333
+[Build] Inserted 36300/50000 points, avg insert time (ms): 4.564
+[Build] Inserted 36400/50000 points, avg insert time (ms): 4.088
+[Build] Inserted 36500/50000 points, avg insert time (ms): 4.336
+[Build] Inserted 36600/50000 points, avg insert time (ms): 4.083
+[Build] Inserted 36700/50000 points, avg insert time (ms): 4.744
+[Build] Inserted 36800/50000 points, avg insert time (ms): 4.359
+[Build] Inserted 36900/50000 points, avg insert time (ms): 4.149
+[Build] Inserted 37000/50000 points, avg insert time (ms): 3.793
+[Build] Inserted 37100/50000 points, avg insert time (ms): 4.465
+[Build] Inserted 37200/50000 points, avg insert time (ms): 3.529
+[Build] Inserted 37300/50000 points, avg insert time (ms): 4.528
+[Build] Inserted 37400/50000 points, avg insert time (ms): 4.188
+[Build] Inserted 37500/50000 points, avg insert time (ms): 4.840
+[Build] Inserted 37600/50000 points, avg insert time (ms): 4.882
+[Build] Inserted 37700/50000 points, avg insert time (ms): 3.520
+[Build] Inserted 37800/50000 points, avg insert time (ms): 5.366
+[Build] Inserted 37900/50000 points, avg insert time (ms): 6.876
+[Build] Inserted 38000/50000 points, avg insert time (ms): 4.494
+[Build] Inserted 38100/50000 points, avg insert time (ms): 4.696
+[Build] Inserted 38200/50000 points, avg insert time (ms): 3.924
+[Build] Inserted 38300/50000 points, avg insert time (ms): 3.584
+[Build] Inserted 38400/50000 points, avg insert time (ms): 4.351
+[Build] Inserted 38500/50000 points, avg insert time (ms): 5.683
+[Build] Inserted 38600/50000 points, avg insert time (ms): 5.475
+[Build] Inserted 38700/50000 points, avg insert time (ms): 4.418
+[Build] Inserted 38800/50000 points, avg insert time (ms): 4.378
+[Build] Inserted 38900/50000 points, avg insert time (ms): 3.518
+[Build] Inserted 39000/50000 points, avg insert time (ms): 4.436
+[Build] Inserted 39100/50000 points, avg insert time (ms): 5.690
+[Build] Inserted 39200/50000 points, avg insert time (ms): 4.014
+[Build] Inserted 39300/50000 points, avg insert time (ms): 4.984
+[Build] Inserted 39400/50000 points, avg insert time (ms): 5.220
+[Build] Inserted 39500/50000 points, avg insert time (ms): 3.758
+[Build] Inserted 39600/50000 points, avg insert time (ms): 3.844
+[Build] Inserted 39700/50000 points, avg insert time (ms): 5.294
+[Build] Inserted 39800/50000 points, avg insert time (ms): 4.153
+[Build] Inserted 39900/50000 points, avg insert time (ms): 4.101
+[Build] Inserted 40000/50000 points, avg insert time (ms): 2.791
+[Build] Inserted 40100/50000 points, avg insert time (ms): 4.023
+[Build] Inserted 40200/50000 points, avg insert time (ms): 4.212
+[Build] Inserted 40300/50000 points, avg insert time (ms): 5.760
+[Build] Inserted 40400/50000 points, avg insert time (ms): 3.484
+[Build] Inserted 40500/50000 points, avg insert time (ms): 4.323
+[Build] Inserted 40600/50000 points, avg insert time (ms): 4.772
+[Build] Inserted 40700/50000 points, avg insert time (ms): 4.158
+[Build] Inserted 40800/50000 points, avg insert time (ms): 5.934
+[Build] Inserted 40900/50000 points, avg insert time (ms): 4.676
+[Build] Inserted 41000/50000 points, avg insert time (ms): 4.436
+[Build] Inserted 41100/50000 points, avg insert time (ms): 5.117
+[Build] Inserted 41200/50000 points, avg insert time (ms): 4.693
+[Build] Inserted 41300/50000 points, avg insert time (ms): 4.552
+[Build] Inserted 41400/50000 points, avg insert time (ms): 5.379
+[Build] Inserted 41500/50000 points, avg insert time (ms): 4.221
+[Build] Inserted 41600/50000 points, avg insert time (ms): 4.816
+[Build] Inserted 41700/50000 points, avg insert time (ms): 5.821
+[Build] Inserted 41800/50000 points, avg insert time (ms): 5.591
+[Build] Inserted 41900/50000 points, avg insert time (ms): 3.739
+[Build] Inserted 42000/50000 points, avg insert time (ms): 4.431
+[Build] Inserted 42100/50000 points, avg insert time (ms): 5.543
+[Build] Inserted 42200/50000 points, avg insert time (ms): 4.853
+[Build] Inserted 42300/50000 points, avg insert time (ms): 4.031
+[Build] Inserted 42400/50000 points, avg insert time (ms): 3.862
+[Build] Inserted 42500/50000 points, avg insert time (ms): 3.990
+[Build] Inserted 42600/50000 points, avg insert time (ms): 4.479
+[Build] Inserted 42700/50000 points, avg insert time (ms): 5.218
+[Build] Inserted 42800/50000 points, avg insert time (ms): 4.304
+[Build] Inserted 42900/50000 points, avg insert time (ms): 4.601
+[Build] Inserted 43000/50000 points, avg insert time (ms): 3.980
+[Build] Inserted 43100/50000 points, avg insert time (ms): 4.415
+[Build] Inserted 43200/50000 points, avg insert time (ms): 3.925
+[Build] Inserted 43300/50000 points, avg insert time (ms): 5.364
+[Build] Inserted 43400/50000 points, avg insert time (ms): 4.981
+[Build] Inserted 43500/50000 points, avg insert time (ms): 3.560
+[Build] Inserted 43600/50000 points, avg insert time (ms): 4.333
+[Build] Inserted 43700/50000 points, avg insert time (ms): 6.238
+[Build] Inserted 43800/50000 points, avg insert time (ms): 5.005
+[Build] Inserted 43900/50000 points, avg insert time (ms): 5.423
+[Build] Inserted 44000/50000 points, avg insert time (ms): 4.644
+[Build] Inserted 44100/50000 points, avg insert time (ms): 5.379
+[Build] Inserted 44200/50000 points, avg insert time (ms): 4.240
+[Build] Inserted 44300/50000 points, avg insert time (ms): 4.260
+[Build] Inserted 44400/50000 points, avg insert time (ms): 4.139
+[Build] Inserted 44500/50000 points, avg insert time (ms): 4.764
+[Build] Inserted 44600/50000 points, avg insert time (ms): 3.831
+[Build] Inserted 44700/50000 points, avg insert time (ms): 3.410
+[Build] Inserted 44800/50000 points, avg insert time (ms): 4.052
+[Build] Inserted 44900/50000 points, avg insert time (ms): 3.847
+[Build] Inserted 45000/50000 points, avg insert time (ms): 5.305
+[Build] Inserted 45100/50000 points, avg insert time (ms): 3.988
+[Build] Inserted 45200/50000 points, avg insert time (ms): 4.104
+[Build] Inserted 45300/50000 points, avg insert time (ms): 4.223
+[Build] Inserted 45400/50000 points, avg insert time (ms): 3.593
+[Build] Inserted 45500/50000 points, avg insert time (ms): 4.427
+[Build] Inserted 45600/50000 points, avg insert time (ms): 4.287
+[Build] Inserted 45700/50000 points, avg insert time (ms): 4.059
+[Build] Inserted 45800/50000 points, avg insert time (ms): 3.995
+[Build] Inserted 45900/50000 points, avg insert time (ms): 5.906
+[Build] Inserted 46000/50000 points, avg insert time (ms): 4.300
+[Build] Inserted 46100/50000 points, avg insert time (ms): 3.996
+[Build] Inserted 46200/50000 points, avg insert time (ms): 4.488
+[Build] Inserted 46300/50000 points, avg insert time (ms): 4.716
+[Build] Inserted 46400/50000 points, avg insert time (ms): 4.599
+[Build] Inserted 46500/50000 points, avg insert time (ms): 5.101
+[Build] Inserted 46600/50000 points, avg insert time (ms): 4.533
+[Build] Inserted 46700/50000 points, avg insert time (ms): 4.499
+[Build] Inserted 46800/50000 points, avg insert time (ms): 5.504
+[Build] Inserted 46900/50000 points, avg insert time (ms): 3.321
+[Build] Inserted 47000/50000 points, avg insert time (ms): 3.324
+[Build] Inserted 47100/50000 points, avg insert time (ms): 4.687
+[Build] Inserted 47200/50000 points, avg insert time (ms): 4.315
+[Build] Inserted 47300/50000 points, avg insert time (ms): 4.416
+[Build] Inserted 47400/50000 points, avg insert time (ms): 4.383
+[Build] Inserted 47500/50000 points, avg insert time (ms): 12.348
+[Build] Inserted 47600/50000 points, avg insert time (ms): 3.168
+[Build] Inserted 47700/50000 points, avg insert time (ms): 4.135
+[Build] Inserted 47800/50000 points, avg insert time (ms): 4.759
+[Build] Inserted 47900/50000 points, avg insert time (ms): 4.134
+[Build] Inserted 48000/50000 points, avg insert time (ms): 4.552
+[Build] Inserted 48100/50000 points, avg insert time (ms): 2.972
+[Build] Inserted 48200/50000 points, avg insert time (ms): 5.584
+[Build] Inserted 48300/50000 points, avg insert time (ms): 4.437
+[Build] Inserted 48400/50000 points, avg insert time (ms): 4.291
+[Build] Inserted 48500/50000 points, avg insert time (ms): 4.378
+[Build] Inserted 48600/50000 points, avg insert time (ms): 4.797
+[Build] Inserted 48700/50000 points, avg insert time (ms): 2.959
+[Build] Inserted 48800/50000 points, avg insert time (ms): 4.336
+[Build] Inserted 48900/50000 points, avg insert time (ms): 5.123
+[Build] Inserted 49000/50000 points, avg insert time (ms): 5.418
+[Build] Inserted 49100/50000 points, avg insert time (ms): 3.458
+[Build] Inserted 49200/50000 points, avg insert time (ms): 3.583
+[Build] Inserted 49300/50000 points, avg insert time (ms): 3.466
+[Build] Inserted 49400/50000 points, avg insert time (ms): 5.053
+[Build] Inserted 49500/50000 points, avg insert time (ms): 4.399
+[Build] Inserted 49600/50000 points, avg insert time (ms): 4.334
+[Build] Inserted 49700/50000 points, avg insert time (ms): 4.249
+[Build] Inserted 49800/50000 points, avg insert time (ms): 4.272
+[Build] Inserted 49900/50000 points, avg insert time (ms): 5.550
+[Build] Inserted 50000/50000 points, avg insert time (ms): 4.630
+[Timing] Total insertion time: 227.50 s
+[Build] Starting queries...
+[Query] Processed 100/5000 queries, avg query time (ms): 25.002
+[Query] Processed 200/5000 queries, avg query time (ms): 29.657
+[Query] Processed 300/5000 queries, avg query time (ms): 31.397
+[Query] Processed 400/5000 queries, avg query time (ms): 24.396
+[Query] Processed 500/5000 queries, avg query time (ms): 24.844
+[Query] Processed 600/5000 queries, avg query time (ms): 27.048
+[Query] Processed 700/5000 queries, avg query time (ms): 24.348
+[Query] Processed 800/5000 queries, avg query time (ms): 28.041
+[Query] Processed 900/5000 queries, avg query time (ms): 28.588
+[Query] Processed 1000/5000 queries, avg query time (ms): 27.686
+[Query] Processed 1100/5000 queries, avg query time (ms): 22.936
+[Query] Processed 1200/5000 queries, avg query time (ms): 23.929
+[Query] Processed 1300/5000 queries, avg query time (ms): 24.825
+[Query] Processed 1400/5000 queries, avg query time (ms): 26.268
+[Query] Processed 1500/5000 queries, avg query time (ms): 26.151
+[Query] Processed 1600/5000 queries, avg query time (ms): 35.979
+[Query] Processed 1700/5000 queries, avg query time (ms): 29.152
+[Query] Processed 1800/5000 queries, avg query time (ms): 27.933
+[Query] Processed 1900/5000 queries, avg query time (ms): 25.842
+[Query] Processed 2000/5000 queries, avg query time (ms): 24.572
+[Query] Processed 2100/5000 queries, avg query time (ms): 24.692
+[Query] Processed 2200/5000 queries, avg query time (ms): 27.671
+[Query] Processed 2300/5000 queries, avg query time (ms): 28.429
+[Query] Processed 2400/5000 queries, avg query time (ms): 24.915
+[Query] Processed 2500/5000 queries, avg query time (ms): 26.098
+[Query] Processed 2600/5000 queries, avg query time (ms): 26.213
+[Query] Processed 2700/5000 queries, avg query time (ms): 26.947
+[Query] Processed 2800/5000 queries, avg query time (ms): 26.476
+[Query] Processed 2900/5000 queries, avg query time (ms): 26.803
+[Query] Processed 3000/5000 queries, avg query time (ms): 25.860
+[Query] Processed 3100/5000 queries, avg query time (ms): 26.924
+[Query] Processed 3200/5000 queries, avg query time (ms): 24.696
+[Query] Processed 3300/5000 queries, avg query time (ms): 26.712
+[Query] Processed 3400/5000 queries, avg query time (ms): 29.418
+[Query] Processed 3500/5000 queries, avg query time (ms): 30.225
+[Query] Processed 3600/5000 queries, avg query time (ms): 23.192
+[Query] Processed 3700/5000 queries, avg query time (ms): 23.526
+[Query] Processed 3800/5000 queries, avg query time (ms): 29.665
+[Query] Processed 3900/5000 queries, avg query time (ms): 23.100
+[Query] Processed 4000/5000 queries, avg query time (ms): 26.781
+[Query] Processed 4100/5000 queries, avg query time (ms): 29.906
+[Query] Processed 4200/5000 queries, avg query time (ms): 26.402
+[Query] Processed 4300/5000 queries, avg query time (ms): 23.931
+[Query] Processed 4400/5000 queries, avg query time (ms): 25.478
+[Query] Processed 4500/5000 queries, avg query time (ms): 23.922
+[Query] Processed 4600/5000 queries, avg query time (ms): 24.251
+[Query] Processed 4700/5000 queries, avg query time (ms): 27.108
+[Query] Processed 4800/5000 queries, avg query time (ms): 29.710
+[Query] Processed 4900/5000 queries, avg query time (ms): 26.967
+[Query] Processed 5000/5000 queries, avg query time (ms): 24.972
+[Timing] Total query time: 133.05 s
+[Eval] Computing ground truth top-K...
+[Timing] Ground truth (FAISS): 6.20 s (1.241 ms/query)
+[Timing] Ground truth computation: 7.17 s
+[Eval] Computing recall metrics...
+[Timing] Recall evaluation: 122.97 s
+[Eval] Computing (c,r)-ANN accuracy...
+[Timing] FAISS r* computation: 5.48 s (1.095 ms/query)
+[CR-ANN] 100/5000 processed, avg time (ann.query): 89.574 ms
+[CR-ANN] 200/5000 processed, avg time (ann.query): 83.097 ms
+[CR-ANN] 300/5000 processed, avg time (ann.query): 86.178 ms
+[CR-ANN] 400/5000 processed, avg time (ann.query): 90.817 ms
+[CR-ANN] 500/5000 processed, avg time (ann.query): 93.713 ms
+[CR-ANN] 600/5000 processed, avg time (ann.query): 96.150 ms
+[CR-ANN] 700/5000 processed, avg time (ann.query): 91.491 ms
+[CR-ANN] 800/5000 processed, avg time (ann.query): 76.549 ms
+[CR-ANN] 900/5000 processed, avg time (ann.query): 72.701 ms
+[CR-ANN] 1000/5000 processed, avg time (ann.query): 84.955 ms
+[CR-ANN] 1100/5000 processed, avg time (ann.query): 83.721 ms
+[CR-ANN] 1200/5000 processed, avg time (ann.query): 79.899 ms
+[CR-ANN] 1300/5000 processed, avg time (ann.query): 79.415 ms
+[CR-ANN] 1400/5000 processed, avg time (ann.query): 85.800 ms
+[CR-ANN] 1500/5000 processed, avg time (ann.query): 94.665 ms
+[CR-ANN] 1600/5000 processed, avg time (ann.query): 83.146 ms
+[CR-ANN] 1700/5000 processed, avg time (ann.query): 96.123 ms
+[CR-ANN] 1800/5000 processed, avg time (ann.query): 87.214 ms
+[CR-ANN] 1900/5000 processed, avg time (ann.query): 86.595 ms
+[CR-ANN] 2000/5000 processed, avg time (ann.query): 88.539 ms
+[CR-ANN] 2100/5000 processed, avg time (ann.query): 87.081 ms
+[CR-ANN] 2200/5000 processed, avg time (ann.query): 82.474 ms
+[CR-ANN] 2300/5000 processed, avg time (ann.query): 73.979 ms
+[CR-ANN] 2400/5000 processed, avg time (ann.query): 73.546 ms
+[CR-ANN] 2500/5000 processed, avg time (ann.query): 88.984 ms
+[CR-ANN] 2600/5000 processed, avg time (ann.query): 80.733 ms
+[CR-ANN] 2700/5000 processed, avg time (ann.query): 78.884 ms
+[CR-ANN] 2800/5000 processed, avg time (ann.query): 86.613 ms
+[CR-ANN] 2900/5000 processed, avg time (ann.query): 87.606 ms
+[CR-ANN] 3000/5000 processed, avg time (ann.query): 92.317 ms
+[CR-ANN] 3100/5000 processed, avg time (ann.query): 94.614 ms
+[CR-ANN] 3200/5000 processed, avg time (ann.query): 91.897 ms
+[CR-ANN] 3300/5000 processed, avg time (ann.query): 84.719 ms
+[CR-ANN] 3400/5000 processed, avg time (ann.query): 88.403 ms
+[CR-ANN] 3500/5000 processed, avg time (ann.query): 86.004 ms
+[CR-ANN] 3600/5000 processed, avg time (ann.query): 82.921 ms
+[CR-ANN] 3700/5000 processed, avg time (ann.query): 82.241 ms
+[CR-ANN] 3800/5000 processed, avg time (ann.query): 84.575 ms
+[CR-ANN] 3900/5000 processed, avg time (ann.query): 81.297 ms
+[CR-ANN] 4000/5000 processed, avg time (ann.query): 73.707 ms
+[CR-ANN] 4100/5000 processed, avg time (ann.query): 87.113 ms
+[CR-ANN] 4200/5000 processed, avg time (ann.query): 80.835 ms
+[CR-ANN] 4300/5000 processed, avg time (ann.query): 90.745 ms
+[CR-ANN] 4400/5000 processed, avg time (ann.query): 82.230 ms
+[CR-ANN] 4500/5000 processed, avg time (ann.query): 88.628 ms
+[CR-ANN] 4600/5000 processed, avg time (ann.query): 83.780 ms
+[CR-ANN] 4700/5000 processed, avg time (ann.query): 84.239 ms
+[CR-ANN] 4800/5000 processed, avg time (ann.query): 77.463 ms
+[CR-ANN] 4900/5000 processed, avg time (ann.query): 80.564 ms
+[CR-ANN] 5000/5000 processed, avg time (ann.query): 93.082 ms
+[Timing] (c,r)-ANN eval: 426.25 s (85.249 ms/query)
+[Sanity Check] Total Relevant = 4464
+[Timing] (c,r)-ANN evaluation: 431.94 s
+[Result] Memory breakdown (MB): {'hash_functions_MB': 47.92058563232422, 'bucket_ids_MB': 45.453208923339844, 'num_ids': 11915286, 'num_buckets': 2823042, 'hash_tables_overhead_MB': 236.9191131591797, 'total_MB': 330.29290771484375}
+[Result] Epsilon-recall: 1.0000
+[Result] (c,r)-ANN accuracy: 1.0000
+
+[Timing Summary]
+  Insert phase: 227.50 s
+  Query phase: 133.05 s
+  Ground truth: 7.17 s
+  Recall eval: 122.97 s
+  (c,r)-ANN eval: 431.94 s
+  Total time: 922.63 s
+[SUMMARY] r=0.5, eps=0.6, eta=0.1, recall=1.0000, (c,r)-ANN accuracy=1.0, memory=330.29290771484375

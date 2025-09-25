@@ -1,0 +1,51 @@
+[Init] Inputs : eta=0.50, epsilon=0.50, r=1.00
+[Init] LSH Parameters : w=3.154, p1=0.7472, p2=0.6267, rho=0.6236
+[Init] Data Structure Parameters : k=17, L=153, key_bits=544, mode=speed
+[Build] Starting insertion...
+[Build] Inserted 100/2000 points, avg insert time (ms): 0.001
+[Build] Inserted 200/2000 points, avg insert time (ms): 0.032
+[Build] Inserted 300/2000 points, avg insert time (ms): 0.046
+[Build] Inserted 400/2000 points, avg insert time (ms): 0.017
+[Build] Inserted 500/2000 points, avg insert time (ms): 0.030
+[Build] Inserted 600/2000 points, avg insert time (ms): 0.030
+[Build] Inserted 700/2000 points, avg insert time (ms): 0.042
+[Build] Inserted 800/2000 points, avg insert time (ms): 0.015
+[Build] Inserted 900/2000 points, avg insert time (ms): 0.070
+[Build] Inserted 1000/2000 points, avg insert time (ms): 0.035
+[Build] Inserted 1100/2000 points, avg insert time (ms): 0.001
+[Build] Inserted 1200/2000 points, avg insert time (ms): 0.031
+[Build] Inserted 1300/2000 points, avg insert time (ms): 0.048
+[Build] Inserted 1400/2000 points, avg insert time (ms): 0.051
+[Build] Inserted 1500/2000 points, avg insert time (ms): 0.017
+[Build] Inserted 1600/2000 points, avg insert time (ms): 0.048
+[Build] Inserted 1700/2000 points, avg insert time (ms): 0.104
+[Build] Inserted 1800/2000 points, avg insert time (ms): 0.021
+[Build] Inserted 1900/2000 points, avg insert time (ms): 0.016
+[Build] Inserted 2000/2000 points, avg insert time (ms): 0.001
+[Timing] Total insertion time: 0.08 s
+[Build] Starting queries...
+[Query] Processed 1/1 queries, avg query time (ms): 2.296
+[Timing] Total query time: 0.00 s
+[Eval] Computing ground truth top-K...
+[Timing] Ground truth (FAISS): 0.00 s (0.176 ms/query)
+[Timing] Ground truth computation: 0.02 s
+[Eval] Computing recall metrics...
+[Timing] Recall evaluation: 0.00 s
+[Eval] Computing (c,r)-ANN accuracy...
+[Timing] FAISS r* computation: 0.00 s (0.181 ms/query)
+[CR-ANN] 1/1 processed, avg time (ann.query): 2.184 ms
+[Timing] (c,r)-ANN eval: 0.00 s (2.841 ms/query)
+[Sanity Check] Total Relevant = 1
+[Timing] (c,r)-ANN evaluation: 0.00 s
+[Result] Memory breakdown (MB): {'hash_functions_MB': 1.2997856140136719, 'bucket_ids_MB': 0.0210113525390625, 'num_ids': 5508, 'num_buckets': 2771, 'hash_tables_overhead_MB': 0.23255157470703125, 'total_MB': 1.5533485412597656}
+[Result] Epsilon-recall: 0.3800
+[Result] (c,r)-ANN accuracy: 1.0000
+
+[Timing Summary]
+  Insert phase: 0.08 s
+  Query phase: 0.00 s
+  Ground truth: 0.02 s
+  Recall eval: 0.00 s
+  (c,r)-ANN eval: 0.00 s
+  Total time: 0.11 s
+[SUMMARY] r=1.0, eps=0.5, eta=0.5, recall=0.3800, (c,r)-ANN accuracy=1.0, memory=1.5533485412597656

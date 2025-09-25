@@ -13,8 +13,8 @@ RESULTS="jl_results.csv"
 MAX_PARALLEL=4
 
 # Sweep parameters
-K_VALUES=(8 16 32 64 128)
-C_VALUES=(1.1 1.5 1)
+K_VALUES=(2 4 8 16 32 64 128)
+C_VALUES=(1.6 1.7 1.8 1.9)
 
 mkdir -p "$LOGDIR" "$PLOT_DIR"
 echo "k,c,r,K,n_insert,n_queries,recall,cr_ann_accuracy,memory_MB" > "$RESULTS"

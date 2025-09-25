@@ -1,0 +1,1502 @@
+[Build] Inserted 100/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 200/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 300/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 400/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 500/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 600/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 700/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 800/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 900/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 1000/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 1100/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 1200/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 1300/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 1400/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 1500/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 1600/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 1700/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 1800/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 1900/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 2000/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 2100/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 2200/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 2300/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 2400/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 2500/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 2600/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 2700/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 2800/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 2900/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 3000/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 3100/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 3200/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 3300/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 3400/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 3500/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 3600/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 3700/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 3800/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 3900/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 4000/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 4100/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 4200/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 4300/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 4400/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 4500/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 4600/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 4700/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 4800/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 4900/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 5000/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 5100/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 5200/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 5300/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 5400/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 5500/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 5600/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 5700/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 5800/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 5900/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 6000/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 6100/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 6200/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 6300/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 6400/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 6500/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 6600/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 6700/50000 points, avg insert time: 0.037 ms
+[Build] Inserted 6800/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 6900/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 7000/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 7100/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 7200/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 7300/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 7400/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 7500/50000 points, avg insert time: 0.038 ms
+[Build] Inserted 7600/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 7700/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 7800/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 7900/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 8000/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 8100/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 8200/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 8300/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 8400/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 8500/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 8600/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 8700/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 8800/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 8900/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 9000/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 9100/50000 points, avg insert time: 0.037 ms
+[Build] Inserted 9200/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 9300/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 9400/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 9500/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 9600/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 9700/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 9800/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 9900/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 10000/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 10100/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 10200/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 10300/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 10400/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 10500/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 10600/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 10700/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 10800/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 10900/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 11000/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 11100/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 11200/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 11300/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 11400/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 11500/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 11600/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 11700/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 11800/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 11900/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 12000/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 12100/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 12200/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 12300/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 12400/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 12500/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 12600/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 12700/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 12800/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 12900/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 13000/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 13100/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 13200/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 13300/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 13400/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 13500/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 13600/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 13700/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 13800/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 13900/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 14000/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 14100/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 14200/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 14300/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 14400/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 14500/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 14600/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 14700/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 14800/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 14900/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 15000/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 15100/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 15200/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 15300/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 15400/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 15500/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 15600/50000 points, avg insert time: 0.038 ms
+[Build] Inserted 15700/50000 points, avg insert time: 0.038 ms
+[Build] Inserted 15800/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 15900/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 16000/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 16100/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 16200/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 16300/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 16400/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 16500/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 16600/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 16700/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 16800/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 16900/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 17000/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 17100/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 17200/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 17300/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 17400/50000 points, avg insert time: 0.037 ms
+[Build] Inserted 17500/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 17600/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 17700/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 17800/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 17900/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 18000/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 18100/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 18200/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 18300/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 18400/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 18500/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 18600/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 18700/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 18800/50000 points, avg insert time: 0.041 ms
+[Build] Inserted 18900/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 19000/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 19100/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 19200/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 19300/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 19400/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 19500/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 19600/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 19700/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 19800/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 19900/50000 points, avg insert time: 0.037 ms
+[Build] Inserted 20000/50000 points, avg insert time: 0.040 ms
+[Build] Inserted 20100/50000 points, avg insert time: 0.040 ms
+[Build] Inserted 20200/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 20300/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 20400/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 20500/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 20600/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 20700/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 20800/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 20900/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 21000/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 21100/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 21200/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 21300/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 21400/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 21500/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 21600/50000 points, avg insert time: 0.023 ms
+[Build] Inserted 21700/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 21800/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 21900/50000 points, avg insert time: 0.023 ms
+[Build] Inserted 22000/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 22100/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 22200/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 22300/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 22400/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 22500/50000 points, avg insert time: 0.042 ms
+[Build] Inserted 22600/50000 points, avg insert time: 0.039 ms
+[Build] Inserted 22700/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 22800/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 22900/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 23000/50000 points, avg insert time: 0.045 ms
+[Build] Inserted 23100/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 23200/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 23300/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 23400/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 23500/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 23600/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 23700/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 23800/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 23900/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 24000/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 24100/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 24200/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 24300/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 24400/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 24500/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 24600/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 24700/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 24800/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 24900/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 25000/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 25100/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 25200/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 25300/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 25400/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 25500/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 25600/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 25700/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 25800/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 25900/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 26000/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 26100/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 26200/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 26300/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 26400/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 26500/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 26600/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 26700/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 26800/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 26900/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 27000/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 27100/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 27200/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 27300/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 27400/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 27500/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 27600/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 27700/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 27800/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 27900/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 28000/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 28100/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 28200/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 28300/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 28400/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 28500/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 28600/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 28700/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 28800/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 28900/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 29000/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 29100/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 29200/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 29300/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 29400/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 29500/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 29600/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 29700/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 29800/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 29900/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 30000/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 30100/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 30200/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 30300/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 30400/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 30500/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 30600/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 30700/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 30800/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 30900/50000 points, avg insert time: 0.037 ms
+[Build] Inserted 31000/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 31100/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 31200/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 31300/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 31400/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 31500/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 31600/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 31700/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 31800/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 31900/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 32000/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 32100/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 32200/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 32300/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 32400/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 32500/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 32600/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 32700/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 32800/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 32900/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 33000/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 33100/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 33200/50000 points, avg insert time: 0.037 ms
+[Build] Inserted 33300/50000 points, avg insert time: 0.038 ms
+[Build] Inserted 33400/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 33500/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 33600/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 33700/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 33800/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 33900/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 34000/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 34100/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 34200/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 34300/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 34400/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 34500/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 34600/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 34700/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 34800/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 34900/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 35000/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 35100/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 35200/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 35300/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 35400/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 35500/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 35600/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 35700/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 35800/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 35900/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 36000/50000 points, avg insert time: 0.037 ms
+[Build] Inserted 36100/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 36200/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 36300/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 36400/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 36500/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 36600/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 36700/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 36800/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 36900/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 37000/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 37100/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 37200/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 37300/50000 points, avg insert time: 0.038 ms
+[Build] Inserted 37400/50000 points, avg insert time: 0.037 ms
+[Build] Inserted 37500/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 37600/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 37700/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 37800/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 37900/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 38000/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 38100/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 38200/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 38300/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 38400/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 38500/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 38600/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 38700/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 38800/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 38900/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 39000/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 39100/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 39200/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 39300/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 39400/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 39500/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 39600/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 39700/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 39800/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 39900/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 40000/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 40100/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 40200/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 40300/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 40400/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 40500/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 40600/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 40700/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 40800/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 40900/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 41000/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 41100/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 41200/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 41300/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 41400/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 41500/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 41600/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 41700/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 41800/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 41900/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 42000/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 42100/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 42200/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 42300/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 42400/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 42500/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 42600/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 42700/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 42800/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 42900/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 43000/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 43100/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 43200/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 43300/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 43400/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 43500/50000 points, avg insert time: 0.023 ms
+[Build] Inserted 43600/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 43700/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 43800/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 43900/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 44000/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 44100/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 44200/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 44300/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 44400/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 44500/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 44600/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 44700/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 44800/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 44900/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 45000/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 45100/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 45200/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 45300/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 45400/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 45500/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 45600/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 45700/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 45800/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 45900/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 46000/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 46100/50000 points, avg insert time: 0.038 ms
+[Build] Inserted 46200/50000 points, avg insert time: 0.038 ms
+[Build] Inserted 46300/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 46400/50000 points, avg insert time: 0.038 ms
+[Build] Inserted 46500/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 46600/50000 points, avg insert time: 0.040 ms
+[Build] Inserted 46700/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 46800/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 46900/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 47000/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 47100/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 47200/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 47300/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 47400/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 47500/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 47600/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 47700/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 47800/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 47900/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 48000/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 48100/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 48200/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 48300/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 48400/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 48500/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 48600/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 48700/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 48800/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 48900/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 49000/50000 points, avg insert time: 0.036 ms
+[Build] Inserted 49100/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 49200/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 49300/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 49400/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 49500/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 49600/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 49700/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 49800/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 49900/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 50000/50000 points, avg insert time: 0.034 ms
+[Recall] 10/5000 queries, avg recall: 1.0000, avg query time: 1054.720 ms
+[Recall] 20/5000 queries, avg recall: 1.0000, avg query time: 653.430 ms
+[Recall] 30/5000 queries, avg recall: 1.0000, avg query time: 530.605 ms
+[Recall] 40/5000 queries, avg recall: 1.0000, avg query time: 469.726 ms
+[Recall] 50/5000 queries, avg recall: 1.0000, avg query time: 436.314 ms
+[Recall] 60/5000 queries, avg recall: 1.0000, avg query time: 416.094 ms
+[Recall] 70/5000 queries, avg recall: 1.0000, avg query time: 398.058 ms
+[Recall] 80/5000 queries, avg recall: 1.0000, avg query time: 382.599 ms
+[Recall] 90/5000 queries, avg recall: 1.0000, avg query time: 394.865 ms
+[Recall] 100/5000 queries, avg recall: 1.0000, avg query time: 381.609 ms
+[Recall] 110/5000 queries, avg recall: 1.0000, avg query time: 369.745 ms
+[Recall] 120/5000 queries, avg recall: 1.0000, avg query time: 359.984 ms
+[Recall] 130/5000 queries, avg recall: 1.0000, avg query time: 352.053 ms
+[Recall] 140/5000 queries, avg recall: 1.0000, avg query time: 344.424 ms
+[Recall] 150/5000 queries, avg recall: 1.0000, avg query time: 337.965 ms
+[Recall] 160/5000 queries, avg recall: 1.0000, avg query time: 331.819 ms
+[Recall] 170/5000 queries, avg recall: 1.0000, avg query time: 327.312 ms
+[Recall] 180/5000 queries, avg recall: 1.0000, avg query time: 322.977 ms
+[Recall] 190/5000 queries, avg recall: 1.0000, avg query time: 318.900 ms
+[Recall] 200/5000 queries, avg recall: 1.0000, avg query time: 316.263 ms
+[Recall] 210/5000 queries, avg recall: 1.0000, avg query time: 313.203 ms
+[Recall] 220/5000 queries, avg recall: 1.0000, avg query time: 326.259 ms
+[Recall] 230/5000 queries, avg recall: 1.0000, avg query time: 323.148 ms
+[Recall] 240/5000 queries, avg recall: 1.0000, avg query time: 320.952 ms
+[Recall] 250/5000 queries, avg recall: 1.0000, avg query time: 318.477 ms
+[Recall] 260/5000 queries, avg recall: 1.0000, avg query time: 315.539 ms
+[Recall] 270/5000 queries, avg recall: 1.0000, avg query time: 313.237 ms
+[Recall] 280/5000 queries, avg recall: 1.0000, avg query time: 311.141 ms
+[Recall] 290/5000 queries, avg recall: 1.0000, avg query time: 309.294 ms
+[Recall] 300/5000 queries, avg recall: 1.0000, avg query time: 307.672 ms
+[Recall] 310/5000 queries, avg recall: 1.0000, avg query time: 306.386 ms
+[Recall] 320/5000 queries, avg recall: 1.0000, avg query time: 306.252 ms
+[Recall] 330/5000 queries, avg recall: 1.0000, avg query time: 306.248 ms
+[Recall] 340/5000 queries, avg recall: 1.0000, avg query time: 313.863 ms
+[Recall] 350/5000 queries, avg recall: 1.0000, avg query time: 312.278 ms
+[Recall] 360/5000 queries, avg recall: 1.0000, avg query time: 310.868 ms
+[Recall] 370/5000 queries, avg recall: 1.0000, avg query time: 309.289 ms
+[Recall] 380/5000 queries, avg recall: 1.0000, avg query time: 307.867 ms
+[Recall] 390/5000 queries, avg recall: 1.0000, avg query time: 306.523 ms
+[Recall] 400/5000 queries, avg recall: 1.0000, avg query time: 304.914 ms
+[Recall] 410/5000 queries, avg recall: 1.0000, avg query time: 304.142 ms
+[Recall] 420/5000 queries, avg recall: 1.0000, avg query time: 303.822 ms
+[Recall] 430/5000 queries, avg recall: 1.0000, avg query time: 303.608 ms
+[Recall] 440/5000 queries, avg recall: 1.0000, avg query time: 303.258 ms
+[Recall] 450/5000 queries, avg recall: 1.0000, avg query time: 301.819 ms
+[Recall] 460/5000 queries, avg recall: 1.0000, avg query time: 308.612 ms
+[Recall] 470/5000 queries, avg recall: 1.0000, avg query time: 307.562 ms
+[Recall] 480/5000 queries, avg recall: 1.0000, avg query time: 306.609 ms
+[Recall] 490/5000 queries, avg recall: 1.0000, avg query time: 305.997 ms
+[Recall] 500/5000 queries, avg recall: 1.0000, avg query time: 305.024 ms
+[Recall] 510/5000 queries, avg recall: 1.0000, avg query time: 304.066 ms
+[Recall] 520/5000 queries, avg recall: 1.0000, avg query time: 304.018 ms
+[Recall] 530/5000 queries, avg recall: 1.0000, avg query time: 303.269 ms
+[Recall] 540/5000 queries, avg recall: 1.0000, avg query time: 302.513 ms
+[Recall] 550/5000 queries, avg recall: 1.0000, avg query time: 301.587 ms
+[Recall] 560/5000 queries, avg recall: 1.0000, avg query time: 301.347 ms
+[Recall] 570/5000 queries, avg recall: 1.0000, avg query time: 301.249 ms
+[Recall] 580/5000 queries, avg recall: 1.0000, avg query time: 306.612 ms
+[Recall] 590/5000 queries, avg recall: 1.0000, avg query time: 306.212 ms
+[Recall] 600/5000 queries, avg recall: 1.0000, avg query time: 305.819 ms
+[Recall] 610/5000 queries, avg recall: 1.0000, avg query time: 304.920 ms
+[Recall] 620/5000 queries, avg recall: 1.0000, avg query time: 304.064 ms
+[Recall] 630/5000 queries, avg recall: 1.0000, avg query time: 303.543 ms
+[Recall] 640/5000 queries, avg recall: 1.0000, avg query time: 303.295 ms
+[Recall] 650/5000 queries, avg recall: 1.0000, avg query time: 302.892 ms
+[Recall] 660/5000 queries, avg recall: 1.0000, avg query time: 302.592 ms
+[Recall] 670/5000 queries, avg recall: 1.0000, avg query time: 301.923 ms
+[Recall] 680/5000 queries, avg recall: 1.0000, avg query time: 300.531 ms
+[Recall] 690/5000 queries, avg recall: 1.0000, avg query time: 299.416 ms
+[Recall] 700/5000 queries, avg recall: 1.0000, avg query time: 303.583 ms
+[Recall] 710/5000 queries, avg recall: 1.0000, avg query time: 302.462 ms
+[Recall] 720/5000 queries, avg recall: 1.0000, avg query time: 301.641 ms
+[Recall] 730/5000 queries, avg recall: 1.0000, avg query time: 300.789 ms
+[Recall] 740/5000 queries, avg recall: 1.0000, avg query time: 299.648 ms
+[Recall] 750/5000 queries, avg recall: 1.0000, avg query time: 298.618 ms
+[Recall] 760/5000 queries, avg recall: 1.0000, avg query time: 297.371 ms
+[Recall] 770/5000 queries, avg recall: 1.0000, avg query time: 295.960 ms
+[Recall] 780/5000 queries, avg recall: 1.0000, avg query time: 294.877 ms
+[Recall] 790/5000 queries, avg recall: 1.0000, avg query time: 293.947 ms
+[Recall] 800/5000 queries, avg recall: 1.0000, avg query time: 293.554 ms
+[Recall] 810/5000 queries, avg recall: 1.0000, avg query time: 292.675 ms
+[Recall] 820/5000 queries, avg recall: 1.0000, avg query time: 291.798 ms
+[Recall] 830/5000 queries, avg recall: 1.0000, avg query time: 290.973 ms
+[Recall] 840/5000 queries, avg recall: 1.0000, avg query time: 289.906 ms
+[Recall] 850/5000 queries, avg recall: 1.0000, avg query time: 292.920 ms
+[Recall] 860/5000 queries, avg recall: 1.0000, avg query time: 291.668 ms
+[Recall] 870/5000 queries, avg recall: 1.0000, avg query time: 290.422 ms
+[Recall] 880/5000 queries, avg recall: 1.0000, avg query time: 289.331 ms
+[Recall] 890/5000 queries, avg recall: 1.0000, avg query time: 288.770 ms
+[Recall] 900/5000 queries, avg recall: 1.0000, avg query time: 287.959 ms
+[Recall] 910/5000 queries, avg recall: 1.0000, avg query time: 287.187 ms
+[Recall] 920/5000 queries, avg recall: 1.0000, avg query time: 286.251 ms
+[Recall] 930/5000 queries, avg recall: 1.0000, avg query time: 285.543 ms
+[Recall] 940/5000 queries, avg recall: 1.0000, avg query time: 284.652 ms
+[Recall] 950/5000 queries, avg recall: 1.0000, avg query time: 283.730 ms
+[Recall] 960/5000 queries, avg recall: 1.0000, avg query time: 282.896 ms
+[Recall] 970/5000 queries, avg recall: 1.0000, avg query time: 282.120 ms
+[Recall] 980/5000 queries, avg recall: 1.0000, avg query time: 281.199 ms
+[Recall] 990/5000 queries, avg recall: 1.0000, avg query time: 280.515 ms
+[Recall] 1000/5000 queries, avg recall: 1.0000, avg query time: 282.946 ms
+[Recall] 1010/5000 queries, avg recall: 1.0000, avg query time: 282.024 ms
+[Recall] 1020/5000 queries, avg recall: 1.0000, avg query time: 281.471 ms
+[Recall] 1030/5000 queries, avg recall: 1.0000, avg query time: 280.952 ms
+[Recall] 1040/5000 queries, avg recall: 1.0000, avg query time: 280.352 ms
+[Recall] 1050/5000 queries, avg recall: 1.0000, avg query time: 279.733 ms
+[Recall] 1060/5000 queries, avg recall: 1.0000, avg query time: 279.186 ms
+[Recall] 1070/5000 queries, avg recall: 1.0000, avg query time: 278.548 ms
+[Recall] 1080/5000 queries, avg recall: 1.0000, avg query time: 277.990 ms
+[Recall] 1090/5000 queries, avg recall: 1.0000, avg query time: 277.166 ms
+[Recall] 1100/5000 queries, avg recall: 1.0000, avg query time: 276.549 ms
+[Recall] 1110/5000 queries, avg recall: 1.0000, avg query time: 276.077 ms
+[Recall] 1120/5000 queries, avg recall: 1.0000, avg query time: 275.514 ms
+[Recall] 1130/5000 queries, avg recall: 1.0000, avg query time: 274.841 ms
+[Recall] 1140/5000 queries, avg recall: 1.0000, avg query time: 274.215 ms
+[Recall] 1150/5000 queries, avg recall: 1.0000, avg query time: 273.664 ms
+[Recall] 1160/5000 queries, avg recall: 1.0000, avg query time: 276.074 ms
+[Recall] 1170/5000 queries, avg recall: 1.0000, avg query time: 275.445 ms
+[Recall] 1180/5000 queries, avg recall: 1.0000, avg query time: 274.920 ms
+[Recall] 1190/5000 queries, avg recall: 1.0000, avg query time: 274.386 ms
+[Recall] 1200/5000 queries, avg recall: 1.0000, avg query time: 273.985 ms
+[Recall] 1210/5000 queries, avg recall: 1.0000, avg query time: 273.313 ms
+[Recall] 1220/5000 queries, avg recall: 1.0000, avg query time: 272.838 ms
+[Recall] 1230/5000 queries, avg recall: 1.0000, avg query time: 272.287 ms
+[Recall] 1240/5000 queries, avg recall: 1.0000, avg query time: 271.849 ms
+[Recall] 1250/5000 queries, avg recall: 1.0000, avg query time: 271.262 ms
+[Recall] 1260/5000 queries, avg recall: 1.0000, avg query time: 270.808 ms
+[Recall] 1270/5000 queries, avg recall: 1.0000, avg query time: 270.614 ms
+[Recall] 1280/5000 queries, avg recall: 1.0000, avg query time: 270.135 ms
+[Recall] 1290/5000 queries, avg recall: 1.0000, avg query time: 269.662 ms
+[Recall] 1300/5000 queries, avg recall: 1.0000, avg query time: 269.162 ms
+[Recall] 1310/5000 queries, avg recall: 1.0000, avg query time: 271.482 ms
+[Recall] 1320/5000 queries, avg recall: 1.0000, avg query time: 270.971 ms
+[Recall] 1330/5000 queries, avg recall: 1.0000, avg query time: 270.606 ms
+[Recall] 1340/5000 queries, avg recall: 1.0000, avg query time: 270.071 ms
+[Recall] 1350/5000 queries, avg recall: 1.0000, avg query time: 269.541 ms
+[Recall] 1360/5000 queries, avg recall: 1.0000, avg query time: 268.986 ms
+[Recall] 1370/5000 queries, avg recall: 1.0000, avg query time: 268.546 ms
+[Recall] 1380/5000 queries, avg recall: 1.0000, avg query time: 267.865 ms
+[Recall] 1390/5000 queries, avg recall: 1.0000, avg query time: 267.280 ms
+[Recall] 1400/5000 queries, avg recall: 1.0000, avg query time: 267.044 ms
+[Recall] 1410/5000 queries, avg recall: 1.0000, avg query time: 266.483 ms
+[Recall] 1420/5000 queries, avg recall: 1.0000, avg query time: 266.086 ms
+[Recall] 1430/5000 queries, avg recall: 1.0000, avg query time: 265.743 ms
+[Recall] 1440/5000 queries, avg recall: 1.0000, avg query time: 265.326 ms
+[Recall] 1450/5000 queries, avg recall: 1.0000, avg query time: 265.062 ms
+[Recall] 1460/5000 queries, avg recall: 1.0000, avg query time: 264.733 ms
+[Recall] 1470/5000 queries, avg recall: 1.0000, avg query time: 266.827 ms
+[Recall] 1480/5000 queries, avg recall: 1.0000, avg query time: 266.571 ms
+[Recall] 1490/5000 queries, avg recall: 1.0000, avg query time: 266.242 ms
+[Recall] 1500/5000 queries, avg recall: 1.0000, avg query time: 265.973 ms
+[Recall] 1510/5000 queries, avg recall: 1.0000, avg query time: 265.561 ms
+[Recall] 1520/5000 queries, avg recall: 1.0000, avg query time: 265.000 ms
+[Recall] 1530/5000 queries, avg recall: 1.0000, avg query time: 264.502 ms
+[Recall] 1540/5000 queries, avg recall: 1.0000, avg query time: 264.052 ms
+[Recall] 1550/5000 queries, avg recall: 1.0000, avg query time: 263.577 ms
+[Recall] 1560/5000 queries, avg recall: 1.0000, avg query time: 263.061 ms
+[Recall] 1570/5000 queries, avg recall: 1.0000, avg query time: 262.749 ms
+[Recall] 1580/5000 queries, avg recall: 1.0000, avg query time: 262.348 ms
+[Recall] 1590/5000 queries, avg recall: 1.0000, avg query time: 262.017 ms
+[Recall] 1600/5000 queries, avg recall: 1.0000, avg query time: 261.556 ms
+[Recall] 1610/5000 queries, avg recall: 1.0000, avg query time: 261.187 ms
+[Recall] 1620/5000 queries, avg recall: 1.0000, avg query time: 260.649 ms
+[Recall] 1630/5000 queries, avg recall: 1.0000, avg query time: 262.505 ms
+[Recall] 1640/5000 queries, avg recall: 1.0000, avg query time: 262.047 ms
+[Recall] 1650/5000 queries, avg recall: 1.0000, avg query time: 261.836 ms
+[Recall] 1660/5000 queries, avg recall: 1.0000, avg query time: 261.624 ms
+[Recall] 1670/5000 queries, avg recall: 1.0000, avg query time: 261.185 ms
+[Recall] 1680/5000 queries, avg recall: 1.0000, avg query time: 260.923 ms
+[Recall] 1690/5000 queries, avg recall: 1.0000, avg query time: 260.486 ms
+[Recall] 1700/5000 queries, avg recall: 1.0000, avg query time: 260.011 ms
+[Recall] 1710/5000 queries, avg recall: 1.0000, avg query time: 259.667 ms
+[Recall] 1720/5000 queries, avg recall: 1.0000, avg query time: 259.392 ms
+[Recall] 1730/5000 queries, avg recall: 1.0000, avg query time: 259.093 ms
+[Recall] 1740/5000 queries, avg recall: 1.0000, avg query time: 258.872 ms
+[Recall] 1750/5000 queries, avg recall: 1.0000, avg query time: 258.436 ms
+[Recall] 1760/5000 queries, avg recall: 1.0000, avg query time: 258.098 ms
+[Recall] 1770/5000 queries, avg recall: 1.0000, avg query time: 257.820 ms
+[Recall] 1780/5000 queries, avg recall: 1.0000, avg query time: 259.636 ms
+[Recall] 1790/5000 queries, avg recall: 1.0000, avg query time: 259.346 ms
+[Recall] 1800/5000 queries, avg recall: 1.0000, avg query time: 259.025 ms
+[Recall] 1810/5000 queries, avg recall: 1.0000, avg query time: 258.648 ms
+[Recall] 1820/5000 queries, avg recall: 1.0000, avg query time: 258.324 ms
+[Recall] 1830/5000 queries, avg recall: 1.0000, avg query time: 258.029 ms
+[Recall] 1840/5000 queries, avg recall: 1.0000, avg query time: 257.823 ms
+[Recall] 1850/5000 queries, avg recall: 1.0000, avg query time: 257.491 ms
+[Recall] 1860/5000 queries, avg recall: 1.0000, avg query time: 257.344 ms
+[Recall] 1870/5000 queries, avg recall: 1.0000, avg query time: 257.071 ms
+[Recall] 1880/5000 queries, avg recall: 1.0000, avg query time: 256.777 ms
+[Recall] 1890/5000 queries, avg recall: 1.0000, avg query time: 256.450 ms
+[Recall] 1900/5000 queries, avg recall: 1.0000, avg query time: 256.128 ms
+[Recall] 1910/5000 queries, avg recall: 1.0000, avg query time: 255.893 ms
+[Recall] 1920/5000 queries, avg recall: 1.0000, avg query time: 255.697 ms
+[Recall] 1930/5000 queries, avg recall: 1.0000, avg query time: 255.390 ms
+[Recall] 1940/5000 queries, avg recall: 1.0000, avg query time: 256.973 ms
+[Recall] 1950/5000 queries, avg recall: 1.0000, avg query time: 256.697 ms
+[Recall] 1960/5000 queries, avg recall: 1.0000, avg query time: 256.439 ms
+[Recall] 1970/5000 queries, avg recall: 1.0000, avg query time: 256.133 ms
+[Recall] 1980/5000 queries, avg recall: 1.0000, avg query time: 256.014 ms
+[Recall] 1990/5000 queries, avg recall: 1.0000, avg query time: 255.740 ms
+[Recall] 2000/5000 queries, avg recall: 1.0000, avg query time: 255.556 ms
+[Recall] 2010/5000 queries, avg recall: 1.0000, avg query time: 255.316 ms
+[Recall] 2020/5000 queries, avg recall: 1.0000, avg query time: 255.067 ms
+[Recall] 2030/5000 queries, avg recall: 1.0000, avg query time: 254.794 ms
+[Recall] 2040/5000 queries, avg recall: 1.0000, avg query time: 254.566 ms
+[Recall] 2050/5000 queries, avg recall: 1.0000, avg query time: 254.320 ms
+[Recall] 2060/5000 queries, avg recall: 1.0000, avg query time: 254.089 ms
+[Recall] 2070/5000 queries, avg recall: 1.0000, avg query time: 253.778 ms
+[Recall] 2080/5000 queries, avg recall: 1.0000, avg query time: 253.481 ms
+[Recall] 2090/5000 queries, avg recall: 1.0000, avg query time: 253.343 ms
+[Recall] 2100/5000 queries, avg recall: 1.0000, avg query time: 254.855 ms
+[Recall] 2110/5000 queries, avg recall: 1.0000, avg query time: 254.581 ms
+[Recall] 2120/5000 queries, avg recall: 1.0000, avg query time: 254.313 ms
+[Recall] 2130/5000 queries, avg recall: 1.0000, avg query time: 254.242 ms
+[Recall] 2140/5000 queries, avg recall: 1.0000, avg query time: 254.072 ms
+[Recall] 2150/5000 queries, avg recall: 1.0000, avg query time: 253.806 ms
+[Recall] 2160/5000 queries, avg recall: 1.0000, avg query time: 253.661 ms
+[Recall] 2170/5000 queries, avg recall: 1.0000, avg query time: 253.365 ms
+[Recall] 2180/5000 queries, avg recall: 1.0000, avg query time: 253.174 ms
+[Recall] 2190/5000 queries, avg recall: 1.0000, avg query time: 252.974 ms
+[Recall] 2200/5000 queries, avg recall: 1.0000, avg query time: 252.925 ms
+[Recall] 2210/5000 queries, avg recall: 1.0000, avg query time: 252.829 ms
+[Recall] 2220/5000 queries, avg recall: 1.0000, avg query time: 252.675 ms
+[Recall] 2230/5000 queries, avg recall: 1.0000, avg query time: 252.494 ms
+[Recall] 2240/5000 queries, avg recall: 1.0000, avg query time: 252.341 ms
+[Recall] 2250/5000 queries, avg recall: 1.0000, avg query time: 253.722 ms
+[Recall] 2260/5000 queries, avg recall: 1.0000, avg query time: 253.526 ms
+[Recall] 2270/5000 queries, avg recall: 1.0000, avg query time: 253.284 ms
+[Recall] 2280/5000 queries, avg recall: 1.0000, avg query time: 253.061 ms
+[Recall] 2290/5000 queries, avg recall: 1.0000, avg query time: 252.848 ms
+[Recall] 2300/5000 queries, avg recall: 1.0000, avg query time: 252.594 ms
+[Recall] 2310/5000 queries, avg recall: 1.0000, avg query time: 252.341 ms
+[Recall] 2320/5000 queries, avg recall: 1.0000, avg query time: 252.107 ms
+[Recall] 2330/5000 queries, avg recall: 1.0000, avg query time: 251.857 ms
+[Recall] 2340/5000 queries, avg recall: 1.0000, avg query time: 251.749 ms
+[Recall] 2350/5000 queries, avg recall: 1.0000, avg query time: 251.524 ms
+[Recall] 2360/5000 queries, avg recall: 1.0000, avg query time: 251.431 ms
+[Recall] 2370/5000 queries, avg recall: 1.0000, avg query time: 251.354 ms
+[Recall] 2380/5000 queries, avg recall: 1.0000, avg query time: 251.228 ms
+[Recall] 2390/5000 queries, avg recall: 1.0000, avg query time: 251.077 ms
+[Recall] 2400/5000 queries, avg recall: 1.0000, avg query time: 252.436 ms
+[Recall] 2410/5000 queries, avg recall: 1.0000, avg query time: 252.239 ms
+[Recall] 2420/5000 queries, avg recall: 1.0000, avg query time: 252.010 ms
+[Recall] 2430/5000 queries, avg recall: 1.0000, avg query time: 251.758 ms
+[Recall] 2440/5000 queries, avg recall: 1.0000, avg query time: 251.507 ms
+[Recall] 2450/5000 queries, avg recall: 1.0000, avg query time: 251.288 ms
+[Recall] 2460/5000 queries, avg recall: 1.0000, avg query time: 251.120 ms
+[Recall] 2470/5000 queries, avg recall: 1.0000, avg query time: 250.958 ms
+[Recall] 2480/5000 queries, avg recall: 1.0000, avg query time: 250.903 ms
+[Recall] 2490/5000 queries, avg recall: 1.0000, avg query time: 250.751 ms
+[Recall] 2500/5000 queries, avg recall: 1.0000, avg query time: 250.590 ms
+[Recall] 2510/5000 queries, avg recall: 1.0000, avg query time: 250.326 ms
+[Recall] 2520/5000 queries, avg recall: 1.0000, avg query time: 250.065 ms
+[Recall] 2530/5000 queries, avg recall: 1.0000, avg query time: 249.940 ms
+[Recall] 2540/5000 queries, avg recall: 1.0000, avg query time: 249.790 ms
+[Recall] 2550/5000 queries, avg recall: 1.0000, avg query time: 249.523 ms
+[Recall] 2560/5000 queries, avg recall: 1.0000, avg query time: 250.677 ms
+[Recall] 2570/5000 queries, avg recall: 1.0000, avg query time: 250.429 ms
+[Recall] 2580/5000 queries, avg recall: 1.0000, avg query time: 250.293 ms
+[Recall] 2590/5000 queries, avg recall: 1.0000, avg query time: 250.052 ms
+[Recall] 2600/5000 queries, avg recall: 1.0000, avg query time: 249.950 ms
+[Recall] 2610/5000 queries, avg recall: 1.0000, avg query time: 249.775 ms
+[Recall] 2620/5000 queries, avg recall: 1.0000, avg query time: 249.625 ms
+[Recall] 2630/5000 queries, avg recall: 1.0000, avg query time: 249.414 ms
+[Recall] 2640/5000 queries, avg recall: 1.0000, avg query time: 249.250 ms
+[Recall] 2650/5000 queries, avg recall: 1.0000, avg query time: 249.041 ms
+[Recall] 2660/5000 queries, avg recall: 1.0000, avg query time: 248.955 ms
+[Recall] 2670/5000 queries, avg recall: 1.0000, avg query time: 248.732 ms
+[Recall] 2680/5000 queries, avg recall: 1.0000, avg query time: 248.488 ms
+[Recall] 2690/5000 queries, avg recall: 1.0000, avg query time: 248.420 ms
+[Recall] 2700/5000 queries, avg recall: 1.0000, avg query time: 248.205 ms
+[Recall] 2710/5000 queries, avg recall: 1.0000, avg query time: 248.071 ms
+[Recall] 2720/5000 queries, avg recall: 1.0000, avg query time: 249.209 ms
+[Recall] 2730/5000 queries, avg recall: 1.0000, avg query time: 249.096 ms
+[Recall] 2740/5000 queries, avg recall: 1.0000, avg query time: 248.965 ms
+[Recall] 2750/5000 queries, avg recall: 1.0000, avg query time: 248.846 ms
+[Recall] 2760/5000 queries, avg recall: 1.0000, avg query time: 248.841 ms
+[Recall] 2770/5000 queries, avg recall: 1.0000, avg query time: 248.621 ms
+[Recall] 2780/5000 queries, avg recall: 1.0000, avg query time: 248.516 ms
+[Recall] 2790/5000 queries, avg recall: 1.0000, avg query time: 248.395 ms
+[Recall] 2800/5000 queries, avg recall: 1.0000, avg query time: 248.294 ms
+[Recall] 2810/5000 queries, avg recall: 1.0000, avg query time: 248.176 ms
+[Recall] 2820/5000 queries, avg recall: 1.0000, avg query time: 248.014 ms
+[Recall] 2830/5000 queries, avg recall: 1.0000, avg query time: 248.004 ms
+[Recall] 2840/5000 queries, avg recall: 1.0000, avg query time: 247.820 ms
+[Recall] 2850/5000 queries, avg recall: 1.0000, avg query time: 247.764 ms
+[Recall] 2860/5000 queries, avg recall: 1.0000, avg query time: 247.575 ms
+[Recall] 2870/5000 queries, avg recall: 1.0000, avg query time: 248.635 ms
+[Recall] 2880/5000 queries, avg recall: 1.0000, avg query time: 248.474 ms
+[Recall] 2890/5000 queries, avg recall: 1.0000, avg query time: 248.353 ms
+[Recall] 2900/5000 queries, avg recall: 1.0000, avg query time: 248.262 ms
+[Recall] 2910/5000 queries, avg recall: 1.0000, avg query time: 248.097 ms
+[Recall] 2920/5000 queries, avg recall: 1.0000, avg query time: 247.914 ms
+[Recall] 2930/5000 queries, avg recall: 1.0000, avg query time: 247.730 ms
+[Recall] 2940/5000 queries, avg recall: 1.0000, avg query time: 247.545 ms
+[Recall] 2950/5000 queries, avg recall: 1.0000, avg query time: 247.436 ms
+[Recall] 2960/5000 queries, avg recall: 1.0000, avg query time: 247.256 ms
+[Recall] 2970/5000 queries, avg recall: 1.0000, avg query time: 247.112 ms
+[Recall] 2980/5000 queries, avg recall: 1.0000, avg query time: 246.992 ms
+[Recall] 2990/5000 queries, avg recall: 1.0000, avg query time: 246.846 ms
+[Recall] 3000/5000 queries, avg recall: 1.0000, avg query time: 246.723 ms
+[Recall] 3010/5000 queries, avg recall: 1.0000, avg query time: 246.597 ms
+[Recall] 3020/5000 queries, avg recall: 1.0000, avg query time: 246.440 ms
+[Recall] 3030/5000 queries, avg recall: 1.0000, avg query time: 247.405 ms
+[Recall] 3040/5000 queries, avg recall: 1.0000, avg query time: 247.312 ms
+[Recall] 3050/5000 queries, avg recall: 1.0000, avg query time: 247.216 ms
+[Recall] 3060/5000 queries, avg recall: 1.0000, avg query time: 247.069 ms
+[Recall] 3070/5000 queries, avg recall: 1.0000, avg query time: 246.950 ms
+[Recall] 3080/5000 queries, avg recall: 1.0000, avg query time: 246.833 ms
+[Recall] 3090/5000 queries, avg recall: 1.0000, avg query time: 246.669 ms
+[Recall] 3100/5000 queries, avg recall: 1.0000, avg query time: 246.516 ms
+[Recall] 3110/5000 queries, avg recall: 1.0000, avg query time: 246.451 ms
+[Recall] 3120/5000 queries, avg recall: 1.0000, avg query time: 246.328 ms
+[Recall] 3130/5000 queries, avg recall: 1.0000, avg query time: 246.201 ms
+[Recall] 3140/5000 queries, avg recall: 1.0000, avg query time: 246.040 ms
+[Recall] 3150/5000 queries, avg recall: 1.0000, avg query time: 245.842 ms
+[Recall] 3160/5000 queries, avg recall: 1.0000, avg query time: 245.713 ms
+[Recall] 3170/5000 queries, avg recall: 1.0000, avg query time: 245.593 ms
+[Recall] 3180/5000 queries, avg recall: 1.0000, avg query time: 246.576 ms
+[Recall] 3190/5000 queries, avg recall: 1.0000, avg query time: 246.400 ms
+[Recall] 3200/5000 queries, avg recall: 1.0000, avg query time: 246.270 ms
+[Recall] 3210/5000 queries, avg recall: 1.0000, avg query time: 246.200 ms
+[Recall] 3220/5000 queries, avg recall: 1.0000, avg query time: 246.033 ms
+[Recall] 3230/5000 queries, avg recall: 1.0000, avg query time: 245.914 ms
+[Recall] 3240/5000 queries, avg recall: 1.0000, avg query time: 245.771 ms
+[Recall] 3250/5000 queries, avg recall: 1.0000, avg query time: 245.619 ms
+[Recall] 3260/5000 queries, avg recall: 1.0000, avg query time: 245.501 ms
+[Recall] 3270/5000 queries, avg recall: 1.0000, avg query time: 245.430 ms
+[Recall] 3280/5000 queries, avg recall: 1.0000, avg query time: 245.321 ms
+[Recall] 3290/5000 queries, avg recall: 1.0000, avg query time: 245.257 ms
+[Recall] 3300/5000 queries, avg recall: 1.0000, avg query time: 245.152 ms
+[Recall] 3310/5000 queries, avg recall: 1.0000, avg query time: 245.042 ms
+[Recall] 3320/5000 queries, avg recall: 1.0000, avg query time: 244.891 ms
+[Recall] 3330/5000 queries, avg recall: 1.0000, avg query time: 244.741 ms
+[Recall] 3340/5000 queries, avg recall: 1.0000, avg query time: 245.711 ms
+[Recall] 3350/5000 queries, avg recall: 1.0000, avg query time: 245.557 ms
+[Recall] 3360/5000 queries, avg recall: 1.0000, avg query time: 245.417 ms
+[Recall] 3370/5000 queries, avg recall: 1.0000, avg query time: 245.311 ms
+[Recall] 3380/5000 queries, avg recall: 1.0000, avg query time: 245.117 ms
+[Recall] 3390/5000 queries, avg recall: 1.0000, avg query time: 245.054 ms
+[Recall] 3400/5000 queries, avg recall: 1.0000, avg query time: 245.004 ms
+[Recall] 3410/5000 queries, avg recall: 1.0000, avg query time: 244.934 ms
+[Recall] 3420/5000 queries, avg recall: 1.0000, avg query time: 244.845 ms
+[Recall] 3430/5000 queries, avg recall: 1.0000, avg query time: 244.731 ms
+[Recall] 3440/5000 queries, avg recall: 1.0000, avg query time: 244.642 ms
+[Recall] 3450/5000 queries, avg recall: 1.0000, avg query time: 244.538 ms
+[Recall] 3460/5000 queries, avg recall: 1.0000, avg query time: 244.444 ms
+[Recall] 3470/5000 queries, avg recall: 1.0000, avg query time: 244.346 ms
+[Recall] 3480/5000 queries, avg recall: 1.0000, avg query time: 244.190 ms
+[Recall] 3490/5000 queries, avg recall: 1.0000, avg query time: 244.040 ms
+[Recall] 3500/5000 queries, avg recall: 1.0000, avg query time: 244.893 ms
+[Recall] 3510/5000 queries, avg recall: 1.0000, avg query time: 244.810 ms
+[Recall] 3520/5000 queries, avg recall: 1.0000, avg query time: 244.724 ms
+[Recall] 3530/5000 queries, avg recall: 1.0000, avg query time: 244.583 ms
+[Recall] 3540/5000 queries, avg recall: 1.0000, avg query time: 244.447 ms
+[Recall] 3550/5000 queries, avg recall: 1.0000, avg query time: 244.351 ms
+[Recall] 3560/5000 queries, avg recall: 1.0000, avg query time: 244.274 ms
+[Recall] 3570/5000 queries, avg recall: 1.0000, avg query time: 244.173 ms
+[Recall] 3580/5000 queries, avg recall: 1.0000, avg query time: 244.045 ms
+[Recall] 3590/5000 queries, avg recall: 1.0000, avg query time: 243.937 ms
+[Recall] 3600/5000 queries, avg recall: 1.0000, avg query time: 243.832 ms
+[Recall] 3610/5000 queries, avg recall: 1.0000, avg query time: 243.713 ms
+[Recall] 3620/5000 queries, avg recall: 1.0000, avg query time: 243.686 ms
+[Recall] 3630/5000 queries, avg recall: 1.0000, avg query time: 243.610 ms
+[Recall] 3640/5000 queries, avg recall: 1.0000, avg query time: 243.565 ms
+[Recall] 3650/5000 queries, avg recall: 1.0000, avg query time: 244.462 ms
+[Recall] 3660/5000 queries, avg recall: 1.0000, avg query time: 244.293 ms
+[Recall] 3670/5000 queries, avg recall: 1.0000, avg query time: 244.243 ms
+[Recall] 3680/5000 queries, avg recall: 1.0000, avg query time: 244.144 ms
+[Recall] 3690/5000 queries, avg recall: 1.0000, avg query time: 244.006 ms
+[Recall] 3700/5000 queries, avg recall: 1.0000, avg query time: 243.928 ms
+[Recall] 3710/5000 queries, avg recall: 1.0000, avg query time: 243.840 ms
+[Recall] 3720/5000 queries, avg recall: 1.0000, avg query time: 243.737 ms
+[Recall] 3730/5000 queries, avg recall: 1.0000, avg query time: 243.606 ms
+[Recall] 3740/5000 queries, avg recall: 1.0000, avg query time: 243.470 ms
+[Recall] 3750/5000 queries, avg recall: 1.0000, avg query time: 243.345 ms
+[Recall] 3760/5000 queries, avg recall: 1.0000, avg query time: 243.242 ms
+[Recall] 3770/5000 queries, avg recall: 1.0000, avg query time: 243.140 ms
+[Recall] 3780/5000 queries, avg recall: 1.0000, avg query time: 243.047 ms
+[Recall] 3790/5000 queries, avg recall: 1.0000, avg query time: 242.926 ms
+[Recall] 3800/5000 queries, avg recall: 1.0000, avg query time: 242.867 ms
+[Recall] 3810/5000 queries, avg recall: 1.0000, avg query time: 243.689 ms
+[Recall] 3820/5000 queries, avg recall: 1.0000, avg query time: 243.618 ms
+[Recall] 3830/5000 queries, avg recall: 1.0000, avg query time: 243.527 ms
+[Recall] 3840/5000 queries, avg recall: 1.0000, avg query time: 243.432 ms
+[Recall] 3850/5000 queries, avg recall: 1.0000, avg query time: 243.338 ms
+[Recall] 3860/5000 queries, avg recall: 1.0000, avg query time: 243.248 ms
+[Recall] 3870/5000 queries, avg recall: 1.0000, avg query time: 243.128 ms
+[Recall] 3880/5000 queries, avg recall: 1.0000, avg query time: 243.001 ms
+[Recall] 3890/5000 queries, avg recall: 1.0000, avg query time: 242.942 ms
+[Recall] 3900/5000 queries, avg recall: 1.0000, avg query time: 242.845 ms
+[Recall] 3910/5000 queries, avg recall: 1.0000, avg query time: 242.789 ms
+[Recall] 3920/5000 queries, avg recall: 1.0000, avg query time: 242.679 ms
+[Recall] 3930/5000 queries, avg recall: 1.0000, avg query time: 242.574 ms
+[Recall] 3940/5000 queries, avg recall: 1.0000, avg query time: 242.496 ms
+[Recall] 3950/5000 queries, avg recall: 1.0000, avg query time: 242.378 ms
+[Recall] 3960/5000 queries, avg recall: 1.0000, avg query time: 243.197 ms
+[Recall] 3970/5000 queries, avg recall: 1.0000, avg query time: 243.145 ms
+[Recall] 3980/5000 queries, avg recall: 1.0000, avg query time: 243.066 ms
+[Recall] 3990/5000 queries, avg recall: 1.0000, avg query time: 243.001 ms
+[Recall] 4000/5000 queries, avg recall: 1.0000, avg query time: 242.913 ms
+[Recall] 4010/5000 queries, avg recall: 1.0000, avg query time: 242.794 ms
+[Recall] 4020/5000 queries, avg recall: 1.0000, avg query time: 242.744 ms
+[Recall] 4030/5000 queries, avg recall: 1.0000, avg query time: 242.670 ms
+[Recall] 4040/5000 queries, avg recall: 1.0000, avg query time: 242.605 ms
+[Recall] 4050/5000 queries, avg recall: 1.0000, avg query time: 242.516 ms
+[Recall] 4060/5000 queries, avg recall: 1.0000, avg query time: 242.437 ms
+[Recall] 4070/5000 queries, avg recall: 1.0000, avg query time: 242.370 ms
+[Recall] 4080/5000 queries, avg recall: 1.0000, avg query time: 242.303 ms
+[Recall] 4090/5000 queries, avg recall: 1.0000, avg query time: 242.183 ms
+[Recall] 4100/5000 queries, avg recall: 1.0000, avg query time: 242.163 ms
+[Recall] 4110/5000 queries, avg recall: 1.0000, avg query time: 243.039 ms
+[Recall] 4120/5000 queries, avg recall: 1.0000, avg query time: 242.969 ms
+[Recall] 4130/5000 queries, avg recall: 1.0000, avg query time: 242.816 ms
+[Recall] 4140/5000 queries, avg recall: 1.0000, avg query time: 242.784 ms
+[Recall] 4150/5000 queries, avg recall: 1.0000, avg query time: 242.687 ms
+[Recall] 4160/5000 queries, avg recall: 1.0000, avg query time: 242.595 ms
+[Recall] 4170/5000 queries, avg recall: 1.0000, avg query time: 242.498 ms
+[Recall] 4180/5000 queries, avg recall: 1.0000, avg query time: 242.402 ms
+[Recall] 4190/5000 queries, avg recall: 1.0000, avg query time: 242.307 ms
+[Recall] 4200/5000 queries, avg recall: 1.0000, avg query time: 242.202 ms
+[Recall] 4210/5000 queries, avg recall: 1.0000, avg query time: 242.169 ms
+[Recall] 4220/5000 queries, avg recall: 1.0000, avg query time: 242.092 ms
+[Recall] 4230/5000 queries, avg recall: 1.0000, avg query time: 241.973 ms
+[Recall] 4240/5000 queries, avg recall: 1.0000, avg query time: 241.873 ms
+[Recall] 4250/5000 queries, avg recall: 1.0000, avg query time: 241.765 ms
+[Recall] 4260/5000 queries, avg recall: 1.0000, avg query time: 241.681 ms
+[Recall] 4270/5000 queries, avg recall: 1.0000, avg query time: 242.452 ms
+[Recall] 4280/5000 queries, avg recall: 1.0000, avg query time: 242.398 ms
+[Recall] 4290/5000 queries, avg recall: 1.0000, avg query time: 242.335 ms
+[Recall] 4300/5000 queries, avg recall: 1.0000, avg query time: 242.247 ms
+[Recall] 4310/5000 queries, avg recall: 1.0000, avg query time: 242.189 ms
+[Recall] 4320/5000 queries, avg recall: 1.0000, avg query time: 242.103 ms
+[Recall] 4330/5000 queries, avg recall: 1.0000, avg query time: 241.999 ms
+[Recall] 4340/5000 queries, avg recall: 1.0000, avg query time: 241.940 ms
+[Recall] 4350/5000 queries, avg recall: 1.0000, avg query time: 241.818 ms
+[Recall] 4360/5000 queries, avg recall: 1.0000, avg query time: 241.731 ms
+[Recall] 4370/5000 queries, avg recall: 1.0000, avg query time: 241.652 ms
+[Recall] 4380/5000 queries, avg recall: 1.0000, avg query time: 241.556 ms
+[Recall] 4390/5000 queries, avg recall: 1.0000, avg query time: 241.446 ms
+[Recall] 4400/5000 queries, avg recall: 1.0000, avg query time: 241.315 ms
+[Recall] 4410/5000 queries, avg recall: 1.0000, avg query time: 241.218 ms
+[Recall] 4420/5000 queries, avg recall: 1.0000, avg query time: 241.109 ms
+[Recall] 4430/5000 queries, avg recall: 1.0000, avg query time: 241.828 ms
+[Recall] 4440/5000 queries, avg recall: 1.0000, avg query time: 241.786 ms
+[Recall] 4450/5000 queries, avg recall: 1.0000, avg query time: 241.665 ms
+[Recall] 4460/5000 queries, avg recall: 1.0000, avg query time: 241.623 ms
+[Recall] 4470/5000 queries, avg recall: 1.0000, avg query time: 241.518 ms
+[Recall] 4480/5000 queries, avg recall: 1.0000, avg query time: 241.420 ms
+[Recall] 4490/5000 queries, avg recall: 1.0000, avg query time: 241.337 ms
+[Recall] 4500/5000 queries, avg recall: 1.0000, avg query time: 241.181 ms
+[Recall] 4510/5000 queries, avg recall: 1.0000, avg query time: 241.097 ms
+[Recall] 4520/5000 queries, avg recall: 1.0000, avg query time: 240.973 ms
+[Recall] 4530/5000 queries, avg recall: 1.0000, avg query time: 240.915 ms
+[Recall] 4540/5000 queries, avg recall: 1.0000, avg query time: 240.810 ms
+[Recall] 4550/5000 queries, avg recall: 1.0000, avg query time: 240.718 ms
+[Recall] 4560/5000 queries, avg recall: 1.0000, avg query time: 240.628 ms
+[Recall] 4570/5000 queries, avg recall: 1.0000, avg query time: 240.507 ms
+[Recall] 4580/5000 queries, avg recall: 1.0000, avg query time: 240.418 ms
+[Recall] 4590/5000 queries, avg recall: 1.0000, avg query time: 241.072 ms
+[Recall] 4600/5000 queries, avg recall: 1.0000, avg query time: 240.951 ms
+[Recall] 4610/5000 queries, avg recall: 1.0000, avg query time: 240.806 ms
+[Recall] 4620/5000 queries, avg recall: 1.0000, avg query time: 240.669 ms
+[Recall] 4630/5000 queries, avg recall: 1.0000, avg query time: 240.594 ms
+[Recall] 4640/5000 queries, avg recall: 1.0000, avg query time: 240.572 ms
+[Recall] 4650/5000 queries, avg recall: 1.0000, avg query time: 240.473 ms
+[Recall] 4660/5000 queries, avg recall: 1.0000, avg query time: 240.373 ms
+[Recall] 4670/5000 queries, avg recall: 1.0000, avg query time: 240.260 ms
+[Recall] 4680/5000 queries, avg recall: 1.0000, avg query time: 240.293 ms
+[Recall] 4690/5000 queries, avg recall: 1.0000, avg query time: 240.187 ms
+[Recall] 4700/5000 queries, avg recall: 1.0000, avg query time: 240.104 ms
+[Recall] 4710/5000 queries, avg recall: 1.0000, avg query time: 240.012 ms
+[Recall] 4720/5000 queries, avg recall: 1.0000, avg query time: 239.897 ms
+[Recall] 4730/5000 queries, avg recall: 1.0000, avg query time: 239.796 ms
+[Recall] 4740/5000 queries, avg recall: 1.0000, avg query time: 239.714 ms
+[Recall] 4750/5000 queries, avg recall: 1.0000, avg query time: 239.602 ms
+[Recall] 4760/5000 queries, avg recall: 1.0000, avg query time: 240.259 ms
+[Recall] 4770/5000 queries, avg recall: 1.0000, avg query time: 240.118 ms
+[Recall] 4780/5000 queries, avg recall: 1.0000, avg query time: 240.034 ms
+[Recall] 4790/5000 queries, avg recall: 1.0000, avg query time: 239.922 ms
+[Recall] 4800/5000 queries, avg recall: 1.0000, avg query time: 239.852 ms
+[Recall] 4810/5000 queries, avg recall: 1.0000, avg query time: 239.834 ms
+[Recall] 4820/5000 queries, avg recall: 1.0000, avg query time: 239.712 ms
+[Recall] 4830/5000 queries, avg recall: 1.0000, avg query time: 239.671 ms
+[Recall] 4840/5000 queries, avg recall: 1.0000, avg query time: 239.576 ms
+[Recall] 4850/5000 queries, avg recall: 1.0000, avg query time: 239.475 ms
+[Recall] 4860/5000 queries, avg recall: 1.0000, avg query time: 239.376 ms
+[Recall] 4870/5000 queries, avg recall: 1.0000, avg query time: 239.308 ms
+[Recall] 4880/5000 queries, avg recall: 1.0000, avg query time: 239.219 ms
+[Recall] 4890/5000 queries, avg recall: 1.0000, avg query time: 239.101 ms
+[Recall] 4900/5000 queries, avg recall: 1.0000, avg query time: 239.006 ms
+[Recall] 4910/5000 queries, avg recall: 1.0000, avg query time: 238.897 ms
+[Recall] 4920/5000 queries, avg recall: 1.0000, avg query time: 239.482 ms
+[Recall] 4930/5000 queries, avg recall: 1.0000, avg query time: 239.340 ms
+[Recall] 4940/5000 queries, avg recall: 1.0000, avg query time: 239.324 ms
+[Recall] 4950/5000 queries, avg recall: 1.0000, avg query time: 239.260 ms
+[Recall] 4960/5000 queries, avg recall: 1.0000, avg query time: 239.223 ms
+[Recall] 4970/5000 queries, avg recall: 1.0000, avg query time: 239.123 ms
+[Recall] 4980/5000 queries, avg recall: 1.0000, avg query time: 239.018 ms
+[Recall] 4990/5000 queries, avg recall: 1.0000, avg query time: 238.950 ms
+[Recall] 5000/5000 queries, avg recall: 1.0000, avg query time: 238.925 ms
+[ANN] 10/5000 queries, valid=9, success=1.0000
+[ANN] 20/5000 queries, valid=18, success=1.0000
+[ANN] 30/5000 queries, valid=28, success=1.0000
+[ANN] 40/5000 queries, valid=35, success=1.0000
+[ANN] 50/5000 queries, valid=45, success=1.0000
+[ANN] 60/5000 queries, valid=55, success=1.0000
+[ANN] 70/5000 queries, valid=65, success=1.0000
+[ANN] 80/5000 queries, valid=75, success=1.0000
+[ANN] 90/5000 queries, valid=85, success=1.0000
+[ANN] 100/5000 queries, valid=93, success=1.0000
+[ANN] 110/5000 queries, valid=102, success=1.0000
+[ANN] 120/5000 queries, valid=110, success=1.0000
+[ANN] 130/5000 queries, valid=117, success=1.0000
+[ANN] 140/5000 queries, valid=127, success=1.0000
+[ANN] 150/5000 queries, valid=136, success=1.0000
+[ANN] 160/5000 queries, valid=144, success=1.0000
+[ANN] 170/5000 queries, valid=153, success=1.0000
+[ANN] 180/5000 queries, valid=163, success=1.0000
+[ANN] 190/5000 queries, valid=172, success=1.0000
+[ANN] 200/5000 queries, valid=182, success=1.0000
+[ANN] 210/5000 queries, valid=191, success=1.0000
+[ANN] 220/5000 queries, valid=201, success=1.0000
+[ANN] 230/5000 queries, valid=210, success=1.0000
+[ANN] 240/5000 queries, valid=220, success=1.0000
+[ANN] 250/5000 queries, valid=229, success=1.0000
+[ANN] 260/5000 queries, valid=239, success=1.0000
+[ANN] 270/5000 queries, valid=245, success=1.0000
+[ANN] 280/5000 queries, valid=255, success=1.0000
+[ANN] 290/5000 queries, valid=264, success=1.0000
+[ANN] 300/5000 queries, valid=272, success=1.0000
+[ANN] 310/5000 queries, valid=281, success=1.0000
+[ANN] 320/5000 queries, valid=291, success=1.0000
+[ANN] 330/5000 queries, valid=301, success=1.0000
+[ANN] 340/5000 queries, valid=311, success=1.0000
+[ANN] 350/5000 queries, valid=320, success=1.0000
+[ANN] 360/5000 queries, valid=330, success=1.0000
+[ANN] 370/5000 queries, valid=339, success=1.0000
+[ANN] 380/5000 queries, valid=348, success=1.0000
+[ANN] 390/5000 queries, valid=357, success=1.0000
+[ANN] 400/5000 queries, valid=367, success=1.0000
+[ANN] 410/5000 queries, valid=377, success=1.0000
+[ANN] 420/5000 queries, valid=386, success=1.0000
+[ANN] 430/5000 queries, valid=396, success=1.0000
+[ANN] 440/5000 queries, valid=404, success=1.0000
+[ANN] 450/5000 queries, valid=412, success=1.0000
+[ANN] 460/5000 queries, valid=421, success=1.0000
+[ANN] 470/5000 queries, valid=430, success=1.0000
+[ANN] 480/5000 queries, valid=438, success=1.0000
+[ANN] 490/5000 queries, valid=446, success=1.0000
+[ANN] 500/5000 queries, valid=454, success=1.0000
+[ANN] 510/5000 queries, valid=463, success=1.0000
+[ANN] 520/5000 queries, valid=471, success=1.0000
+[ANN] 530/5000 queries, valid=480, success=1.0000
+[ANN] 540/5000 queries, valid=489, success=1.0000
+[ANN] 550/5000 queries, valid=497, success=1.0000
+[ANN] 560/5000 queries, valid=506, success=1.0000
+[ANN] 570/5000 queries, valid=514, success=1.0000
+[ANN] 580/5000 queries, valid=524, success=1.0000
+[ANN] 590/5000 queries, valid=533, success=1.0000
+[ANN] 600/5000 queries, valid=543, success=1.0000
+[ANN] 610/5000 queries, valid=553, success=1.0000
+[ANN] 620/5000 queries, valid=562, success=1.0000
+[ANN] 630/5000 queries, valid=571, success=1.0000
+[ANN] 640/5000 queries, valid=581, success=1.0000
+[ANN] 650/5000 queries, valid=591, success=1.0000
+[ANN] 660/5000 queries, valid=601, success=1.0000
+[ANN] 670/5000 queries, valid=608, success=1.0000
+[ANN] 680/5000 queries, valid=618, success=1.0000
+[ANN] 690/5000 queries, valid=628, success=1.0000
+[ANN] 700/5000 queries, valid=637, success=1.0000
+[ANN] 710/5000 queries, valid=647, success=1.0000
+[ANN] 720/5000 queries, valid=655, success=1.0000
+[ANN] 730/5000 queries, valid=664, success=1.0000
+[ANN] 740/5000 queries, valid=673, success=1.0000
+[ANN] 750/5000 queries, valid=682, success=1.0000
+[ANN] 760/5000 queries, valid=690, success=1.0000
+[ANN] 770/5000 queries, valid=700, success=1.0000
+[ANN] 780/5000 queries, valid=710, success=1.0000
+[ANN] 790/5000 queries, valid=719, success=1.0000
+[ANN] 800/5000 queries, valid=727, success=1.0000
+[ANN] 810/5000 queries, valid=736, success=1.0000
+[ANN] 820/5000 queries, valid=744, success=1.0000
+[ANN] 830/5000 queries, valid=753, success=1.0000
+[ANN] 840/5000 queries, valid=760, success=1.0000
+[ANN] 850/5000 queries, valid=767, success=1.0000
+[ANN] 860/5000 queries, valid=777, success=1.0000
+[ANN] 870/5000 queries, valid=786, success=1.0000
+[ANN] 880/5000 queries, valid=796, success=1.0000
+[ANN] 890/5000 queries, valid=806, success=1.0000
+[ANN] 900/5000 queries, valid=812, success=1.0000
+[ANN] 910/5000 queries, valid=822, success=1.0000
+[ANN] 920/5000 queries, valid=830, success=1.0000
+[ANN] 930/5000 queries, valid=837, success=1.0000
+[ANN] 940/5000 queries, valid=846, success=1.0000
+[ANN] 950/5000 queries, valid=855, success=1.0000
+[ANN] 960/5000 queries, valid=865, success=1.0000
+[ANN] 970/5000 queries, valid=872, success=1.0000
+[ANN] 980/5000 queries, valid=881, success=1.0000
+[ANN] 990/5000 queries, valid=890, success=1.0000
+[ANN] 1000/5000 queries, valid=900, success=1.0000
+[ANN] 1010/5000 queries, valid=909, success=1.0000
+[ANN] 1020/5000 queries, valid=919, success=1.0000
+[ANN] 1030/5000 queries, valid=929, success=1.0000
+[ANN] 1040/5000 queries, valid=937, success=1.0000
+[ANN] 1050/5000 queries, valid=945, success=1.0000
+[ANN] 1060/5000 queries, valid=955, success=1.0000
+[ANN] 1070/5000 queries, valid=964, success=1.0000
+[ANN] 1080/5000 queries, valid=972, success=1.0000
+[ANN] 1090/5000 queries, valid=982, success=1.0000
+[ANN] 1100/5000 queries, valid=991, success=1.0000
+[ANN] 1110/5000 queries, valid=1001, success=1.0000
+[ANN] 1120/5000 queries, valid=1011, success=1.0000
+[ANN] 1130/5000 queries, valid=1019, success=1.0000
+[ANN] 1140/5000 queries, valid=1028, success=1.0000
+[ANN] 1150/5000 queries, valid=1038, success=1.0000
+[ANN] 1160/5000 queries, valid=1047, success=1.0000
+[ANN] 1170/5000 queries, valid=1057, success=1.0000
+[ANN] 1180/5000 queries, valid=1065, success=1.0000
+[ANN] 1190/5000 queries, valid=1075, success=1.0000
+[ANN] 1200/5000 queries, valid=1085, success=1.0000
+[ANN] 1210/5000 queries, valid=1093, success=1.0000
+[ANN] 1220/5000 queries, valid=1103, success=1.0000
+[ANN] 1230/5000 queries, valid=1112, success=1.0000
+[ANN] 1240/5000 queries, valid=1121, success=1.0000
+[ANN] 1250/5000 queries, valid=1130, success=1.0000
+[ANN] 1260/5000 queries, valid=1140, success=1.0000
+[ANN] 1270/5000 queries, valid=1150, success=1.0000
+[ANN] 1280/5000 queries, valid=1159, success=1.0000
+[ANN] 1290/5000 queries, valid=1166, success=1.0000
+[ANN] 1300/5000 queries, valid=1174, success=1.0000
+[ANN] 1310/5000 queries, valid=1183, success=1.0000
+[ANN] 1320/5000 queries, valid=1191, success=1.0000
+[ANN] 1330/5000 queries, valid=1199, success=1.0000
+[ANN] 1340/5000 queries, valid=1206, success=1.0000
+[ANN] 1350/5000 queries, valid=1216, success=1.0000
+[ANN] 1360/5000 queries, valid=1226, success=1.0000
+[ANN] 1370/5000 queries, valid=1233, success=1.0000
+[ANN] 1380/5000 queries, valid=1243, success=1.0000
+[ANN] 1390/5000 queries, valid=1252, success=1.0000
+[ANN] 1400/5000 queries, valid=1262, success=1.0000
+[ANN] 1410/5000 queries, valid=1272, success=1.0000
+[ANN] 1420/5000 queries, valid=1280, success=1.0000
+[ANN] 1430/5000 queries, valid=1290, success=1.0000
+[ANN] 1440/5000 queries, valid=1300, success=1.0000
+[ANN] 1450/5000 queries, valid=1308, success=1.0000
+[ANN] 1460/5000 queries, valid=1318, success=1.0000
+[ANN] 1470/5000 queries, valid=1327, success=1.0000
+[ANN] 1480/5000 queries, valid=1335, success=1.0000
+[ANN] 1490/5000 queries, valid=1343, success=1.0000
+[ANN] 1500/5000 queries, valid=1353, success=1.0000
+[ANN] 1510/5000 queries, valid=1361, success=1.0000
+[ANN] 1520/5000 queries, valid=1370, success=1.0000
+[ANN] 1530/5000 queries, valid=1380, success=1.0000
+[ANN] 1540/5000 queries, valid=1388, success=1.0000
+[ANN] 1550/5000 queries, valid=1397, success=1.0000
+[ANN] 1560/5000 queries, valid=1406, success=1.0000
+[ANN] 1570/5000 queries, valid=1416, success=1.0000
+[ANN] 1580/5000 queries, valid=1422, success=1.0000
+[ANN] 1590/5000 queries, valid=1431, success=1.0000
+[ANN] 1600/5000 queries, valid=1441, success=1.0000
+[ANN] 1610/5000 queries, valid=1447, success=1.0000
+[ANN] 1620/5000 queries, valid=1456, success=1.0000
+[ANN] 1630/5000 queries, valid=1465, success=1.0000
+[ANN] 1640/5000 queries, valid=1475, success=1.0000
+[ANN] 1650/5000 queries, valid=1484, success=1.0000
+[ANN] 1660/5000 queries, valid=1491, success=1.0000
+[ANN] 1670/5000 queries, valid=1501, success=1.0000
+[ANN] 1680/5000 queries, valid=1511, success=1.0000
+[ANN] 1690/5000 queries, valid=1519, success=1.0000
+[ANN] 1700/5000 queries, valid=1528, success=1.0000
+[ANN] 1710/5000 queries, valid=1537, success=1.0000
+[ANN] 1720/5000 queries, valid=1547, success=1.0000
+[ANN] 1730/5000 queries, valid=1555, success=1.0000
+[ANN] 1740/5000 queries, valid=1564, success=1.0000
+[ANN] 1750/5000 queries, valid=1573, success=1.0000
+[ANN] 1760/5000 queries, valid=1583, success=1.0000
+[ANN] 1770/5000 queries, valid=1592, success=1.0000
+[ANN] 1780/5000 queries, valid=1601, success=1.0000
+[ANN] 1790/5000 queries, valid=1611, success=1.0000
+[ANN] 1800/5000 queries, valid=1620, success=1.0000
+[ANN] 1810/5000 queries, valid=1629, success=1.0000
+[ANN] 1820/5000 queries, valid=1639, success=1.0000
+[ANN] 1830/5000 queries, valid=1647, success=1.0000
+[ANN] 1840/5000 queries, valid=1657, success=1.0000
+[ANN] 1850/5000 queries, valid=1666, success=1.0000
+[ANN] 1860/5000 queries, valid=1674, success=1.0000
+[ANN] 1870/5000 queries, valid=1684, success=1.0000
+[ANN] 1880/5000 queries, valid=1694, success=1.0000
+[ANN] 1890/5000 queries, valid=1704, success=1.0000
+[ANN] 1900/5000 queries, valid=1713, success=1.0000
+[ANN] 1910/5000 queries, valid=1722, success=1.0000
+[ANN] 1920/5000 queries, valid=1732, success=1.0000
+[ANN] 1930/5000 queries, valid=1739, success=1.0000
+[ANN] 1940/5000 queries, valid=1749, success=1.0000
+[ANN] 1950/5000 queries, valid=1759, success=1.0000
+[ANN] 1960/5000 queries, valid=1767, success=1.0000
+[ANN] 1970/5000 queries, valid=1777, success=1.0000
+[ANN] 1980/5000 queries, valid=1785, success=1.0000
+[ANN] 1990/5000 queries, valid=1794, success=1.0000
+[ANN] 2000/5000 queries, valid=1801, success=1.0000
+[ANN] 2010/5000 queries, valid=1808, success=1.0000
+[ANN] 2020/5000 queries, valid=1815, success=1.0000
+[ANN] 2030/5000 queries, valid=1824, success=1.0000
+[ANN] 2040/5000 queries, valid=1833, success=1.0000
+[ANN] 2050/5000 queries, valid=1843, success=1.0000
+[ANN] 2060/5000 queries, valid=1852, success=1.0000
+[ANN] 2070/5000 queries, valid=1861, success=1.0000
+[ANN] 2080/5000 queries, valid=1869, success=1.0000
+[ANN] 2090/5000 queries, valid=1878, success=1.0000
+[ANN] 2100/5000 queries, valid=1885, success=1.0000
+[ANN] 2110/5000 queries, valid=1894, success=1.0000
+[ANN] 2120/5000 queries, valid=1904, success=1.0000
+[ANN] 2130/5000 queries, valid=1914, success=1.0000
+[ANN] 2140/5000 queries, valid=1922, success=1.0000
+[ANN] 2150/5000 queries, valid=1932, success=1.0000
+[ANN] 2160/5000 queries, valid=1940, success=1.0000
+[ANN] 2170/5000 queries, valid=1949, success=1.0000
+[ANN] 2180/5000 queries, valid=1959, success=1.0000
+[ANN] 2190/5000 queries, valid=1969, success=1.0000
+[ANN] 2200/5000 queries, valid=1979, success=1.0000
+[ANN] 2210/5000 queries, valid=1989, success=1.0000
+[ANN] 2220/5000 queries, valid=1998, success=1.0000
+[ANN] 2230/5000 queries, valid=2008, success=1.0000
+[ANN] 2240/5000 queries, valid=2016, success=1.0000
+[ANN] 2250/5000 queries, valid=2025, success=1.0000
+[ANN] 2260/5000 queries, valid=2034, success=1.0000
+[ANN] 2270/5000 queries, valid=2043, success=1.0000
+[ANN] 2280/5000 queries, valid=2052, success=1.0000
+[ANN] 2290/5000 queries, valid=2060, success=1.0000
+[ANN] 2300/5000 queries, valid=2067, success=1.0000
+[ANN] 2310/5000 queries, valid=2077, success=1.0000
+[ANN] 2320/5000 queries, valid=2086, success=1.0000
+[ANN] 2330/5000 queries, valid=2095, success=1.0000
+[ANN] 2340/5000 queries, valid=2105, success=1.0000
+[ANN] 2350/5000 queries, valid=2112, success=1.0000
+[ANN] 2360/5000 queries, valid=2121, success=1.0000
+[ANN] 2370/5000 queries, valid=2130, success=1.0000
+[ANN] 2380/5000 queries, valid=2140, success=1.0000
+[ANN] 2390/5000 queries, valid=2147, success=1.0000
+[ANN] 2400/5000 queries, valid=2157, success=1.0000
+[ANN] 2410/5000 queries, valid=2166, success=1.0000
+[ANN] 2420/5000 queries, valid=2174, success=1.0000
+[ANN] 2430/5000 queries, valid=2184, success=1.0000
+[ANN] 2440/5000 queries, valid=2192, success=1.0000
+[ANN] 2450/5000 queries, valid=2202, success=1.0000
+[ANN] 2460/5000 queries, valid=2210, success=1.0000
+[ANN] 2470/5000 queries, valid=2217, success=1.0000
+[ANN] 2480/5000 queries, valid=2227, success=1.0000
+[ANN] 2490/5000 queries, valid=2234, success=1.0000
+[ANN] 2500/5000 queries, valid=2243, success=1.0000
+[ANN] 2510/5000 queries, valid=2253, success=1.0000
+[ANN] 2520/5000 queries, valid=2263, success=1.0000
+[ANN] 2530/5000 queries, valid=2273, success=1.0000
+[ANN] 2540/5000 queries, valid=2282, success=1.0000
+[ANN] 2550/5000 queries, valid=2292, success=1.0000
+[ANN] 2560/5000 queries, valid=2301, success=1.0000
+[ANN] 2570/5000 queries, valid=2310, success=1.0000
+[ANN] 2580/5000 queries, valid=2318, success=1.0000
+[ANN] 2590/5000 queries, valid=2327, success=1.0000
+[ANN] 2600/5000 queries, valid=2336, success=1.0000
+[ANN] 2610/5000 queries, valid=2346, success=1.0000
+[ANN] 2620/5000 queries, valid=2354, success=1.0000
+[ANN] 2630/5000 queries, valid=2363, success=1.0000
+[ANN] 2640/5000 queries, valid=2372, success=1.0000
+[ANN] 2650/5000 queries, valid=2380, success=1.0000
+[ANN] 2660/5000 queries, valid=2389, success=1.0000
+[ANN] 2670/5000 queries, valid=2397, success=1.0000
+[ANN] 2680/5000 queries, valid=2406, success=1.0000
+[ANN] 2690/5000 queries, valid=2414, success=1.0000
+[ANN] 2700/5000 queries, valid=2424, success=1.0000
+[ANN] 2710/5000 queries, valid=2432, success=1.0000
+[ANN] 2720/5000 queries, valid=2441, success=1.0000
+[ANN] 2730/5000 queries, valid=2450, success=1.0000
+[ANN] 2740/5000 queries, valid=2459, success=1.0000
+[ANN] 2750/5000 queries, valid=2467, success=1.0000
+[ANN] 2760/5000 queries, valid=2477, success=1.0000
+[ANN] 2770/5000 queries, valid=2487, success=1.0000
+[ANN] 2780/5000 queries, valid=2496, success=1.0000
+[ANN] 2790/5000 queries, valid=2505, success=1.0000
+[ANN] 2800/5000 queries, valid=2514, success=1.0000
+[ANN] 2810/5000 queries, valid=2523, success=1.0000
+[ANN] 2820/5000 queries, valid=2532, success=1.0000
+[ANN] 2830/5000 queries, valid=2542, success=1.0000
+[ANN] 2840/5000 queries, valid=2552, success=1.0000
+[ANN] 2850/5000 queries, valid=2559, success=1.0000
+[ANN] 2860/5000 queries, valid=2569, success=1.0000
+[ANN] 2870/5000 queries, valid=2579, success=1.0000
+[ANN] 2880/5000 queries, valid=2588, success=1.0000
+[ANN] 2890/5000 queries, valid=2598, success=1.0000
+[ANN] 2900/5000 queries, valid=2605, success=1.0000
+[ANN] 2910/5000 queries, valid=2614, success=1.0000
+[ANN] 2920/5000 queries, valid=2620, success=1.0000
+[ANN] 2930/5000 queries, valid=2628, success=1.0000
+[ANN] 2940/5000 queries, valid=2637, success=1.0000
+[ANN] 2950/5000 queries, valid=2644, success=1.0000
+[ANN] 2960/5000 queries, valid=2652, success=1.0000
+[ANN] 2970/5000 queries, valid=2662, success=1.0000
+[ANN] 2980/5000 queries, valid=2670, success=1.0000
+[ANN] 2990/5000 queries, valid=2680, success=1.0000
+[ANN] 3000/5000 queries, valid=2689, success=1.0000
+[ANN] 3010/5000 queries, valid=2699, success=1.0000
+[ANN] 3020/5000 queries, valid=2708, success=1.0000
+[ANN] 3030/5000 queries, valid=2718, success=1.0000
+[ANN] 3040/5000 queries, valid=2726, success=1.0000
+[ANN] 3050/5000 queries, valid=2735, success=1.0000
+[ANN] 3060/5000 queries, valid=2744, success=1.0000
+[ANN] 3070/5000 queries, valid=2753, success=1.0000
+[ANN] 3080/5000 queries, valid=2762, success=1.0000
+[ANN] 3090/5000 queries, valid=2770, success=1.0000
+[ANN] 3100/5000 queries, valid=2780, success=1.0000
+[ANN] 3110/5000 queries, valid=2790, success=1.0000
+[ANN] 3120/5000 queries, valid=2797, success=1.0000
+[ANN] 3130/5000 queries, valid=2807, success=1.0000
+[ANN] 3140/5000 queries, valid=2815, success=1.0000
+[ANN] 3150/5000 queries, valid=2825, success=1.0000
+[ANN] 3160/5000 queries, valid=2833, success=1.0000
+[ANN] 3170/5000 queries, valid=2842, success=1.0000
+[ANN] 3180/5000 queries, valid=2851, success=1.0000
+[ANN] 3190/5000 queries, valid=2860, success=1.0000
+[ANN] 3200/5000 queries, valid=2868, success=1.0000
+[ANN] 3210/5000 queries, valid=2878, success=1.0000
+[ANN] 3220/5000 queries, valid=2887, success=1.0000
+[ANN] 3230/5000 queries, valid=2896, success=1.0000
+[ANN] 3240/5000 queries, valid=2906, success=1.0000
+[ANN] 3250/5000 queries, valid=2916, success=1.0000
+[ANN] 3260/5000 queries, valid=2925, success=1.0000
+[ANN] 3270/5000 queries, valid=2935, success=1.0000
+[ANN] 3280/5000 queries, valid=2944, success=1.0000
+[ANN] 3290/5000 queries, valid=2954, success=1.0000
+[ANN] 3300/5000 queries, valid=2964, success=1.0000
+[ANN] 3310/5000 queries, valid=2972, success=1.0000
+[ANN] 3320/5000 queries, valid=2981, success=1.0000
+[ANN] 3330/5000 queries, valid=2991, success=1.0000
+[ANN] 3340/5000 queries, valid=3000, success=1.0000
+[ANN] 3350/5000 queries, valid=3010, success=1.0000
+[ANN] 3360/5000 queries, valid=3020, success=1.0000
+[ANN] 3370/5000 queries, valid=3028, success=1.0000
+[ANN] 3380/5000 queries, valid=3035, success=1.0000
+[ANN] 3390/5000 queries, valid=3044, success=1.0000
+[ANN] 3400/5000 queries, valid=3053, success=1.0000
+[ANN] 3410/5000 queries, valid=3061, success=1.0000
+[ANN] 3420/5000 queries, valid=3069, success=1.0000
+[ANN] 3430/5000 queries, valid=3079, success=1.0000
+[ANN] 3440/5000 queries, valid=3087, success=1.0000
+[ANN] 3450/5000 queries, valid=3094, success=1.0000
+[ANN] 3460/5000 queries, valid=3103, success=1.0000
+[ANN] 3470/5000 queries, valid=3112, success=1.0000
+[ANN] 3480/5000 queries, valid=3120, success=1.0000
+[ANN] 3490/5000 queries, valid=3128, success=1.0000
+[ANN] 3500/5000 queries, valid=3138, success=1.0000
+[ANN] 3510/5000 queries, valid=3146, success=1.0000
+[ANN] 3520/5000 queries, valid=3155, success=1.0000
+[ANN] 3530/5000 queries, valid=3165, success=1.0000
+[ANN] 3540/5000 queries, valid=3175, success=1.0000
+[ANN] 3550/5000 queries, valid=3184, success=1.0000
+[ANN] 3560/5000 queries, valid=3193, success=1.0000
+[ANN] 3570/5000 queries, valid=3202, success=1.0000
+[ANN] 3580/5000 queries, valid=3212, success=1.0000
+[ANN] 3590/5000 queries, valid=3222, success=1.0000
+[ANN] 3600/5000 queries, valid=3229, success=1.0000
+[ANN] 3610/5000 queries, valid=3238, success=1.0000
+[ANN] 3620/5000 queries, valid=3244, success=1.0000
+[ANN] 3630/5000 queries, valid=3252, success=1.0000
+[ANN] 3640/5000 queries, valid=3260, success=1.0000
+[ANN] 3650/5000 queries, valid=3268, success=1.0000
+[ANN] 3660/5000 queries, valid=3278, success=1.0000
+[ANN] 3670/5000 queries, valid=3288, success=1.0000
+[ANN] 3680/5000 queries, valid=3297, success=1.0000
+[ANN] 3690/5000 queries, valid=3306, success=1.0000
+[ANN] 3700/5000 queries, valid=3315, success=1.0000
+[ANN] 3710/5000 queries, valid=3324, success=1.0000
+[ANN] 3720/5000 queries, valid=3332, success=1.0000
+[ANN] 3730/5000 queries, valid=3342, success=1.0000
+[ANN] 3740/5000 queries, valid=3350, success=1.0000
+[ANN] 3750/5000 queries, valid=3359, success=1.0000
+[ANN] 3760/5000 queries, valid=3366, success=1.0000
+[ANN] 3770/5000 queries, valid=3375, success=1.0000
+[ANN] 3780/5000 queries, valid=3385, success=1.0000
+[ANN] 3790/5000 queries, valid=3393, success=1.0000
+[ANN] 3800/5000 queries, valid=3403, success=1.0000
+[ANN] 3810/5000 queries, valid=3412, success=1.0000
+[ANN] 3820/5000 queries, valid=3420, success=1.0000
+[ANN] 3830/5000 queries, valid=3430, success=1.0000
+[ANN] 3840/5000 queries, valid=3440, success=1.0000
+[ANN] 3850/5000 queries, valid=3450, success=1.0000
+[ANN] 3860/5000 queries, valid=3460, success=1.0000
+[ANN] 3870/5000 queries, valid=3469, success=1.0000
+[ANN] 3880/5000 queries, valid=3479, success=1.0000
+[ANN] 3890/5000 queries, valid=3489, success=1.0000
+[ANN] 3900/5000 queries, valid=3498, success=1.0000
+[ANN] 3910/5000 queries, valid=3508, success=1.0000
+[ANN] 3920/5000 queries, valid=3517, success=1.0000
+[ANN] 3930/5000 queries, valid=3526, success=1.0000
+[ANN] 3940/5000 queries, valid=3536, success=1.0000
+[ANN] 3950/5000 queries, valid=3544, success=1.0000
+[ANN] 3960/5000 queries, valid=3552, success=1.0000
+[ANN] 3970/5000 queries, valid=3561, success=1.0000
+[ANN] 3980/5000 queries, valid=3570, success=1.0000
+[ANN] 3990/5000 queries, valid=3579, success=1.0000
+[ANN] 4000/5000 queries, valid=3589, success=1.0000
+[ANN] 4010/5000 queries, valid=3597, success=1.0000
+[ANN] 4020/5000 queries, valid=3606, success=1.0000
+[ANN] 4030/5000 queries, valid=3615, success=1.0000
+[ANN] 4040/5000 queries, valid=3625, success=1.0000
+[ANN] 4050/5000 queries, valid=3635, success=1.0000
+[ANN] 4060/5000 queries, valid=3643, success=1.0000
+[ANN] 4070/5000 queries, valid=3653, success=1.0000
+[ANN] 4080/5000 queries, valid=3661, success=1.0000
+[ANN] 4090/5000 queries, valid=3670, success=1.0000
+[ANN] 4100/5000 queries, valid=3678, success=1.0000
+[ANN] 4110/5000 queries, valid=3687, success=1.0000
+[ANN] 4120/5000 queries, valid=3695, success=1.0000
+[ANN] 4130/5000 queries, valid=3705, success=1.0000
+[ANN] 4140/5000 queries, valid=3713, success=1.0000
+[ANN] 4150/5000 queries, valid=3723, success=1.0000
+[ANN] 4160/5000 queries, valid=3733, success=1.0000
+[ANN] 4170/5000 queries, valid=3742, success=1.0000
+[ANN] 4180/5000 queries, valid=3752, success=1.0000
+[ANN] 4190/5000 queries, valid=3759, success=1.0000
+[ANN] 4200/5000 queries, valid=3769, success=1.0000
+[ANN] 4210/5000 queries, valid=3777, success=1.0000
+[ANN] 4220/5000 queries, valid=3785, success=1.0000
+[ANN] 4230/5000 queries, valid=3793, success=1.0000
+[ANN] 4240/5000 queries, valid=3802, success=1.0000
+[ANN] 4250/5000 queries, valid=3811, success=1.0000
+[ANN] 4260/5000 queries, valid=3817, success=1.0000
+[ANN] 4270/5000 queries, valid=3824, success=1.0000
+[ANN] 4280/5000 queries, valid=3834, success=1.0000
+[ANN] 4290/5000 queries, valid=3844, success=1.0000
+[ANN] 4300/5000 queries, valid=3852, success=1.0000
+[ANN] 4310/5000 queries, valid=3860, success=1.0000
+[ANN] 4320/5000 queries, valid=3870, success=1.0000
+[ANN] 4330/5000 queries, valid=3880, success=1.0000
+[ANN] 4340/5000 queries, valid=3889, success=1.0000
+[ANN] 4350/5000 queries, valid=3898, success=1.0000
+[ANN] 4360/5000 queries, valid=3907, success=1.0000
+[ANN] 4370/5000 queries, valid=3913, success=1.0000
+[ANN] 4380/5000 queries, valid=3921, success=1.0000
+[ANN] 4390/5000 queries, valid=3928, success=1.0000
+[ANN] 4400/5000 queries, valid=3938, success=1.0000
+[ANN] 4410/5000 queries, valid=3946, success=1.0000
+[ANN] 4420/5000 queries, valid=3956, success=1.0000
+[ANN] 4430/5000 queries, valid=3965, success=1.0000
+[ANN] 4440/5000 queries, valid=3975, success=1.0000
+[ANN] 4450/5000 queries, valid=3982, success=1.0000
+[ANN] 4460/5000 queries, valid=3990, success=1.0000
+[ANN] 4470/5000 queries, valid=3999, success=1.0000
+[ANN] 4480/5000 queries, valid=4009, success=1.0000
+[ANN] 4490/5000 queries, valid=4019, success=1.0000
+[ANN] 4500/5000 queries, valid=4029, success=1.0000
+[ANN] 4510/5000 queries, valid=4039, success=1.0000
+[ANN] 4520/5000 queries, valid=4049, success=1.0000
+[ANN] 4530/5000 queries, valid=4057, success=1.0000
+[ANN] 4540/5000 queries, valid=4067, success=1.0000
+[ANN] 4550/5000 queries, valid=4076, success=1.0000
+[ANN] 4560/5000 queries, valid=4086, success=1.0000
+[ANN] 4570/5000 queries, valid=4094, success=1.0000
+[ANN] 4580/5000 queries, valid=4103, success=1.0000
+[ANN] 4590/5000 queries, valid=4113, success=1.0000
+[ANN] 4600/5000 queries, valid=4120, success=1.0000
+[ANN] 4610/5000 queries, valid=4129, success=1.0000
+[ANN] 4620/5000 queries, valid=4138, success=1.0000
+[ANN] 4630/5000 queries, valid=4147, success=1.0000
+[ANN] 4640/5000 queries, valid=4156, success=1.0000
+[ANN] 4650/5000 queries, valid=4165, success=1.0000
+[ANN] 4660/5000 queries, valid=4173, success=1.0000
+[ANN] 4670/5000 queries, valid=4183, success=1.0000
+[ANN] 4680/5000 queries, valid=4190, success=1.0000
+[ANN] 4690/5000 queries, valid=4198, success=1.0000
+[ANN] 4700/5000 queries, valid=4208, success=1.0000
+[ANN] 4710/5000 queries, valid=4217, success=1.0000
+[ANN] 4720/5000 queries, valid=4226, success=1.0000
+[ANN] 4730/5000 queries, valid=4234, success=1.0000
+[ANN] 4740/5000 queries, valid=4243, success=1.0000
+[ANN] 4750/5000 queries, valid=4252, success=1.0000
+[ANN] 4760/5000 queries, valid=4261, success=1.0000
+[ANN] 4770/5000 queries, valid=4270, success=1.0000
+[ANN] 4780/5000 queries, valid=4280, success=1.0000
+[ANN] 4790/5000 queries, valid=4289, success=1.0000
+[ANN] 4800/5000 queries, valid=4298, success=1.0000
+[ANN] 4810/5000 queries, valid=4306, success=1.0000
+[ANN] 4820/5000 queries, valid=4315, success=1.0000
+[ANN] 4830/5000 queries, valid=4323, success=1.0000
+[ANN] 4840/5000 queries, valid=4332, success=1.0000
+[ANN] 4850/5000 queries, valid=4338, success=1.0000
+[ANN] 4860/5000 queries, valid=4348, success=1.0000
+[ANN] 4870/5000 queries, valid=4358, success=1.0000
+[ANN] 4880/5000 queries, valid=4368, success=1.0000
+[ANN] 4890/5000 queries, valid=4375, success=1.0000
+[ANN] 4900/5000 queries, valid=4384, success=1.0000
+[ANN] 4910/5000 queries, valid=4392, success=1.0000
+[ANN] 4920/5000 queries, valid=4401, success=1.0000
+[ANN] 4930/5000 queries, valid=4410, success=1.0000
+[ANN] 4940/5000 queries, valid=4419, success=1.0000
+[ANN] 4950/5000 queries, valid=4427, success=1.0000
+[ANN] 4960/5000 queries, valid=4437, success=1.0000
+[ANN] 4970/5000 queries, valid=4444, success=1.0000
+[ANN] 4980/5000 queries, valid=4453, success=1.0000
+[ANN] 4990/5000 queries, valid=4461, success=1.0000
+[ANN] 5000/5000 queries, valid=4470, success=1.0000
+[Timing] (c,r)-ANN eval: 983.36 s (196.671 ms/query)
+[SUMMARY] k=512, c=1.5, r=0.5, K=50, n_insert=50000, n_queries=5000, recall=1.0000, (c,r)-ANN=1.0, memory=784.88 MB

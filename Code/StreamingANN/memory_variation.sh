@@ -4,15 +4,15 @@ set -euo pipefail
 FILES="data/sift_base.fvecs"
 
 # Parameter sweeps
-EPSILON_VALUES=(0.1 0.2 0.5 0.7 1.0)
-ETA_VALUES=(0.5 0.3)     # we’ll make two plots
+EPSILON_VALUES=(0.5 1.0)
+ETA_VALUES=(0.5)     
 R_VALUES=(1)
-N_VALUES=(500 1000 10000 20000 50000)
+N_VALUES=(64000 96000 128000 160000)
 
 K=50
 D=128
 N_QUERIES=1
-LOGDIR="logs/sann"
+LOGDIR="logs/sann_mem_variation"
 RESULTS="results_mem_variation.csv"
 
 mkdir -p "$LOGDIR"
@@ -113,6 +113,6 @@ echo "[INFO] All jobs done in ${total_elapsed}s"
 # ----------------------------
 # Plotting step
 # ----------------------------
-echo "[INFO] Generating plots..."
-python3 mem_variation_plot.py --csv "$RESULTS"
-echo "[INFO] Plots saved."
+# echo "[INFO] Generating plots..."
+# python3 mem_variation_plot.py --csv "$RESULTS"
+# echo "[INFO] Plots saved."

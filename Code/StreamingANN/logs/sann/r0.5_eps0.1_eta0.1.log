@@ -1,0 +1,38 @@
+[Init] Inputs : eta=0.10, epsilon=0.10, r=0.50
+[Init] LSH Parameters : w=1.330, p1=0.7010, p2=0.6722, rho=0.8945
+[Init] Data Structure Parameters : k=28, L=22773, key_bits=896, mode=speed
+[Build] Starting insertion...
+[Build] Inserted 100/50000 points, avg insert time: 140.193 ms
+[Build] Inserted 200/50000 points, avg insert time: 167.599 ms
+[Build] Inserted 300/50000 points, avg insert time: 154.555 ms
+[Build] Inserted 400/50000 points, avg insert time: 122.098 ms
+[Build] Inserted 500/50000 points, avg insert time: 175.145 ms
+[Build] Inserted 600/50000 points, avg insert time: 132.350 ms
+[Build] Inserted 700/50000 points, avg insert time: 134.610 ms
+[Build] Inserted 800/50000 points, avg insert time: 113.530 ms
+[Build] Inserted 900/50000 points, avg insert time: 116.829 ms
+[Build] Inserted 1000/50000 points, avg insert time: 160.009 ms
+[Build] Inserted 1100/50000 points, avg insert time: 173.795 ms
+[Build] Inserted 1200/50000 points, avg insert time: 286.454 ms
+[Build] Inserted 1300/50000 points, avg insert time: 148.421 ms
+[Build] Inserted 1400/50000 points, avg insert time: 5132.234 ms
+[Build] Inserted 1500/50000 points, avg insert time: 283.001 ms
+[Build] Inserted 1600/50000 points, avg insert time: 165.145 ms
+[Build] Inserted 1700/50000 points, avg insert time: 10250.833 ms
+[Build] Inserted 1800/50000 points, avg insert time: 309.428 ms
+[Build] Inserted 1900/50000 points, avg insert time: 552.281 ms
+[Build] Inserted 2000/50000 points, avg insert time: 323.677 ms
+[Build] Inserted 2100/50000 points, avg insert time: 504.413 ms
+[Build] Inserted 2200/50000 points, avg insert time: 13760.912 ms
+[Build] Inserted 2300/50000 points, avg insert time: 575.585 ms
+[Build] Inserted 2400/50000 points, avg insert time: 351.913 ms
+[Build] Inserted 2500/50000 points, avg insert time: 679.868 ms
+[Build] Inserted 2600/50000 points, avg insert time: 300.410 ms
+[Build] Inserted 2700/50000 points, avg insert time: 615.910 ms
+[Build] Inserted 2800/50000 points, avg insert time: 18495.971 ms
+[Build] Inserted 2900/50000 points, avg insert time: 455.619 ms
+[Build] Inserted 3000/50000 points, avg insert time: 823.217 ms
+[Build] Inserted 3100/50000 points, avg insert time: 686.579 ms
+[Build] Inserted 3200/50000 points, avg insert time: 339.039 ms
+[Build] Inserted 3300/50000 points, avg insert time: 939.881 ms
+[Build] Inserted 3400/50000 points, avg insert time: 728.271 ms

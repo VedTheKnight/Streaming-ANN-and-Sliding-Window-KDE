@@ -1,0 +1,41 @@
+[Init] Inputs : eta=0.50, epsilon=1.00, r=1.00
+[Init] LSH Parameters : w=3.772, p1=0.7885, p2=0.5891, rho=0.4491
+[Init] Data Structure Parameters : k=14, L=28, key_bits=448, mode=speed
+[Build] Starting insertion...
+[Build] Inserted 100/1000 points, avg insert time (ms): 0.013
+[Build] Inserted 200/1000 points, avg insert time (ms): 0.014
+[Build] Inserted 300/1000 points, avg insert time (ms): 0.013
+[Build] Inserted 400/1000 points, avg insert time (ms): 0.006
+[Build] Inserted 500/1000 points, avg insert time (ms): 0.006
+[Build] Inserted 600/1000 points, avg insert time (ms): 0.006
+[Build] Inserted 700/1000 points, avg insert time (ms): 0.053
+[Build] Inserted 800/1000 points, avg insert time (ms): 0.008
+[Build] Inserted 900/1000 points, avg insert time (ms): 0.019
+[Build] Inserted 1000/1000 points, avg insert time (ms): 0.008
+[Timing] Total insertion time: 0.02 s
+[Build] Starting queries...
+[Query] Processed 1/1 queries, avg query time (ms): 0.779
+[Timing] Total query time: 0.00 s
+[Eval] Computing ground truth top-K...
+[Timing] Ground truth (FAISS): 0.00 s (1.462 ms/query)
+[Timing] Ground truth computation: 0.02 s
+[Eval] Computing recall metrics...
+[Timing] Recall evaluation: 0.00 s
+[Eval] Computing (c,r)-ANN accuracy...
+[Timing] FAISS r* computation: 0.00 s (0.035 ms/query)
+[CR-ANN] 1/1 processed, avg time (ann.query): 0.376 ms
+[Timing] (c,r)-ANN eval: 0.00 s (0.722 ms/query)
+[Sanity Check] Total Relevant = 1
+[Timing] (c,r)-ANN evaluation: 0.00 s
+[Result] Memory breakdown (MB): {'hash_functions_MB': 0.195892333984375, 'bucket_ids_MB': 0.0033111572265625, 'num_ids': 868, 'num_buckets': 298, 'hash_tables_overhead_MB': 0.0250091552734375, 'total_MB': 0.224212646484375}
+[Result] Epsilon-recall: 0.5400
+[Result] (c,r)-ANN accuracy: 1.0000
+
+[Timing Summary]
+  Insert phase: 0.02 s
+  Query phase: 0.00 s
+  Ground truth: 0.02 s
+  Recall eval: 0.00 s
+  (c,r)-ANN eval: 0.00 s
+  Total time: 0.04 s
+[SUMMARY] r=1.0, eps=1.0, eta=0.5, recall=0.5400, (c,r)-ANN accuracy=1.0, memory=0.224212646484375

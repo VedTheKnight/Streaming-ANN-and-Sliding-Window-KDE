@@ -3,6 +3,8 @@ import time
 import argparse
 from JL_baseline import StreamingJL  # your class
 import gc
+import pandas as pd
+import faiss
 
 def load_fvecs_mmap(fname):
     """Memory-map .fvecs file (float32 vectors with dimension prefix)."""
@@ -12,9 +14,26 @@ def load_fvecs_mmap(fname):
     fv = fv.reshape(-1, dim + 1)
     return fv[:, 1:]  # drop dimension prefix
 
+def load_fashion_mnist_csv(fname):
+    """
+    Load Fashion-MNIST CSV file.
+    Assumes first column is label, remaining 784 columns are pixel values.
+    Scales pixel values to [0,1].
+    """
+    df = pd.read_csv(fname)
+    data = df.iloc[:, 1:].to_numpy(dtype=np.float32)  # drop label column
+    return data
+
+def build_faiss_index(data, metric=faiss.METRIC_L2):
+    d = data.shape[1]
+    index = faiss.IndexFlatL2(d) if metric == faiss.METRIC_L2 else faiss.IndexFlatIP(d)
+    index.add(data.astype(np.float32))
+    return index
+
+
 def run_experiment(dataset, n_insert, n_queries, K, c, r, k, log_interval=100):
-    insert_points = dataset[:n_insert]
-    query_points = dataset[n_insert:n_insert+n_queries]
+    insert_points = dataset[:n_insert].astype(np.float32)
+    query_points = dataset[n_insert:n_insert + n_queries].astype(np.float32)
 
     jl = StreamingJL(d=dataset.shape[1], n_max=n_insert, c=c, r=r, k=k, random_state=42)
 
@@ -25,83 +44,82 @@ def run_experiment(dataset, n_insert, n_queries, K, c, r, k, log_interval=100):
         jl.insert(x, i)
         t1 = time.time()
         insert_times.append(t1 - t0)
-        if (i+1) % log_interval == 0:
-            print(f"[Build] Inserted {i+1}/{n_insert} points, avg insert time: {np.mean(insert_times[-log_interval:])*1e3:.3f} ms")
+        if (i + 1) % log_interval == 0:
+            print(f"[Build] Inserted {i+1}/{n_insert} points, "
+                  f"avg insert time: {np.mean(insert_times[-log_interval:])*1e3:.3f} ms")
 
     avg_insert_time = np.mean(insert_times)
 
-    # ApproxRecall@K
+    # Build FAISS index for ground truth and ANN eval
+    gt_index = build_faiss_index(insert_points, metric=faiss.METRIC_L2)
+
+    # ApproxRecall@K using FAISS
     def approximate_recall(query_points, insert_points, jl, K, c, log_interval=10):
         recalls = []
-        total_time = 0.0
+        t0 = time.time()
 
-        for i, q in enumerate(query_points, start=1):
-            t0 = time.time()
-            dists = np.linalg.norm(insert_points - q, axis=1)
-            gt_topk = np.argsort(dists)[:K]
-            rK = dists[gt_topk[-1]]
+        # Ground truth in one batched call
+        D, I = gt_index.search(query_points, K)  # D = distances, I = indices
+        rK = np.sqrt(D[:, -1])  # distance to K-th NN
+
+        for i, (q, gt_ids, rK_q) in enumerate(zip(query_points, I, rK), start=1):
             approx = jl.query_topk(q, K)
-            t1 = time.time()
-            total_time += (t1 - t0)
-
-            hits = sum(1 for pid, _ in approx if np.linalg.norm(insert_points[pid]-q) <= c*rK)
+            hits = sum(1 for pid, _ in approx
+                       if np.linalg.norm(insert_points[pid] - q) <= c * rK_q)
             recalls.append(hits / K)
 
             if i % log_interval == 0 or i == len(query_points):
                 avg_recall = np.mean(recalls)
-                avg_time = total_time / i
-                print(f"[Recall] Processed {i}/{len(query_points)} queries, "
-                    f"avg recall so far: {avg_recall:.4f}, avg query time: {avg_time*1e3:.3f} ms")
+                avg_time = (time.time() - t0) / i
+                print(f"[Recall] {i}/{len(query_points)} queries, "
+                      f"avg recall: {avg_recall:.4f}, avg query time: {avg_time*1e3:.3f} ms")
 
         return np.mean(recalls)
-    
+
     recall = approximate_recall(query_points, insert_points, jl, K, c)
 
-    # (c,r)-ANN    
+    # (c,r)-ANN accuracy using FAISS
     def ann_accuracy(query_points, dataset, ann, c, r, log_interval=10):
         successes, total_relevant = 0, 0
-        total_time = 0.0
+        t0 = time.time()
 
-        for i, q in enumerate(query_points, start=1):
-            t0 = time.time()
-            dists = np.linalg.norm(dataset - q, axis=1)
-            r_star = np.min(dists)
-            t1 = time.time()
-            total_time += (t1 - t0)
+        # For each query, get NN distance (r*) quickly
+        D, I = gt_index.search(query_points, 1)
+        r_stars = np.sqrt(D[:, 0])
 
+        for i, (q, r_star) in enumerate(zip(query_points, r_stars), start=1):
             if r_star <= r:
                 total_relevant += 1
-                t0_q = time.time()
                 res = ann.query_topk(q, 1)
-                t1_q = time.time()
-                total_time += (t1_q - t0_q)
-
-                if res is not None:
-                    dist = np.linalg.norm(dataset[res[0][0]] - q)
-                    if dist <= c*r:
+                if res:
+                    pid, _ = res[0]
+                    dist = np.linalg.norm(dataset[pid] - q)
+                    if dist <= c * r:
                         successes += 1
 
             if i % log_interval == 0 or i == len(query_points):
-                print(f"[ANN] Processed {i}/{len(query_points)} queries, "
-                    f"valid queries so far: {total_relevant}, "
-                    f"success rate: {successes/total_relevant if total_relevant>0 else 0:.4f}")
+                print(f"[ANN] {i}/{len(query_points)} queries, "
+                      f"valid={total_relevant}, "
+                      f"success={successes/(total_relevant or 1):.4f}")
 
-        if total_relevant == 0:
-            return None
-        return successes / total_relevant
+        t_total = time.time() - t0
+        print(f"[Timing] (c,r)-ANN eval: {t_total:.2f} s "
+              f"({t_total/len(query_points)*1e3:.3f} ms/query)")
+
+        return None if total_relevant == 0 else successes / total_relevant
 
     cr_acc = ann_accuracy(query_points, insert_points, jl, c, r)
 
     mem_mb = jl.memory_breakdown()["total_MB"]
 
-    print(f"[SUMMARY] k={k}, c={c}, r={r}, K={K}, n_insert={n_insert}, n_queries={n_queries}, recall={recall:.4f}, (c,r)-ANN accuracy={cr_acc}, memory={mem_mb:.2f}")
+    print(f"[SUMMARY] k={k}, c={c}, r={r}, K={K}, "
+          f"n_insert={n_insert}, n_queries={n_queries}, "
+          f"recall={recall:.4f}, (c,r)-ANN={cr_acc}, memory={mem_mb:.2f} MB")
 
     del jl
-    import gc; gc.collect()
+    gc.collect()
 
     return recall, cr_acc, mem_mb
-
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--file", type=str, required=True)
@@ -115,10 +133,16 @@ if __name__ == "__main__":
 
     if args.file.endswith(".fvecs"):
         dataset = load_fvecs_mmap(args.file).astype(np.float32)
+        norms = np.linalg.norm(dataset, axis=1, keepdims=True)
+        norms[norms == 0] = 1.0  # avoid division by zero
+        dataset = dataset / norms  
+    elif args.file.endswith(".csv"):
+        dataset = load_fashion_mnist_csv(args.file)
+        norms = np.linalg.norm(dataset, axis=1, keepdims=True)
+        norms[norms == 0] = 1.0  # avoid division by zero
+        dataset = dataset / norms  
     else:
         dataset = np.load(args.file).astype(np.float32)
 
-    norms = np.linalg.norm(dataset, axis=1, keepdims=True)
-    norms[norms == 0] = 1.0  # avoid division by zero
-    dataset = dataset / norms   
+     
     run_experiment(dataset, args.n_insert, args.n_queries, args.K, args.c, args.r, args.k)

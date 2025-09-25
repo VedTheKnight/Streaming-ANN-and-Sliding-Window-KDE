@@ -1,0 +1,71 @@
+[Init] Inputs : eta=0.40, epsilon=0.50, r=1.00
+[Init] LSH Parameters : w=3.154, p1=0.7472, p2=0.6267, rho=0.6236
+[Init] Data Structure Parameters : k=18, L=236, key_bits=576, mode=speed
+[Build] Starting insertion...
+[Build] Inserted 100/4000 points, avg insert time (ms): 0.100
+[Build] Inserted 200/4000 points, avg insert time (ms): 0.092
+[Build] Inserted 300/4000 points, avg insert time (ms): 0.071
+[Build] Inserted 400/4000 points, avg insert time (ms): 0.265
+[Build] Inserted 500/4000 points, avg insert time (ms): 0.069
+[Build] Inserted 600/4000 points, avg insert time (ms): 0.074
+[Build] Inserted 700/4000 points, avg insert time (ms): 0.159
+[Build] Inserted 800/4000 points, avg insert time (ms): 0.080
+[Build] Inserted 900/4000 points, avg insert time (ms): 0.079
+[Build] Inserted 1000/4000 points, avg insert time (ms): 0.140
+[Build] Inserted 1100/4000 points, avg insert time (ms): 0.142
+[Build] Inserted 1200/4000 points, avg insert time (ms): 0.079
+[Build] Inserted 1300/4000 points, avg insert time (ms): 0.076
+[Build] Inserted 1400/4000 points, avg insert time (ms): 0.151
+[Build] Inserted 1500/4000 points, avg insert time (ms): 0.048
+[Build] Inserted 1600/4000 points, avg insert time (ms): 0.053
+[Build] Inserted 1700/4000 points, avg insert time (ms): 0.140
+[Build] Inserted 1800/4000 points, avg insert time (ms): 0.125
+[Build] Inserted 1900/4000 points, avg insert time (ms): 0.134
+[Build] Inserted 2000/4000 points, avg insert time (ms): 0.164
+[Build] Inserted 2100/4000 points, avg insert time (ms): 0.078
+[Build] Inserted 2200/4000 points, avg insert time (ms): 0.107
+[Build] Inserted 2300/4000 points, avg insert time (ms): 0.107
+[Build] Inserted 2400/4000 points, avg insert time (ms): 0.027
+[Build] Inserted 2500/4000 points, avg insert time (ms): 0.077
+[Build] Inserted 2600/4000 points, avg insert time (ms): 0.076
+[Build] Inserted 2700/4000 points, avg insert time (ms): 0.099
+[Build] Inserted 2800/4000 points, avg insert time (ms): 0.129
+[Build] Inserted 2900/4000 points, avg insert time (ms): 0.197
+[Build] Inserted 3000/4000 points, avg insert time (ms): 0.116
+[Build] Inserted 3100/4000 points, avg insert time (ms): 0.060
+[Build] Inserted 3200/4000 points, avg insert time (ms): 0.127
+[Build] Inserted 3300/4000 points, avg insert time (ms): 0.108
+[Build] Inserted 3400/4000 points, avg insert time (ms): 0.054
+[Build] Inserted 3500/4000 points, avg insert time (ms): 0.112
+[Build] Inserted 3600/4000 points, avg insert time (ms): 0.074
+[Build] Inserted 3700/4000 points, avg insert time (ms): 0.167
+[Build] Inserted 3800/4000 points, avg insert time (ms): 0.051
+[Build] Inserted 3900/4000 points, avg insert time (ms): 0.098
+[Build] Inserted 4000/4000 points, avg insert time (ms): 0.164
+[Timing] Total insertion time: 0.45 s
+[Build] Starting queries...
+[Query] Processed 1/1 queries, avg query time (ms): 3.455
+[Timing] Total query time: 0.00 s
+[Eval] Computing ground truth top-K...
+[Timing] Ground truth (FAISS): 0.00 s (0.249 ms/query)
+[Timing] Ground truth computation: 0.05 s
+[Eval] Computing recall metrics...
+[Timing] Recall evaluation: 0.00 s
+[Eval] Computing (c,r)-ANN accuracy...
+[Timing] FAISS r* computation: 0.00 s (0.145 ms/query)
+[CR-ANN] 1/1 processed, avg time (ann.query): 5.124 ms
+[Timing] (c,r)-ANN eval: 0.01 s (5.608 ms/query)
+[Sanity Check] Total Relevant = 1
+[Timing] (c,r)-ANN evaluation: 0.01 s
+[Result] Memory breakdown (MB): {'hash_functions_MB': 2.122833251953125, 'bucket_ids_MB': 0.1413421630859375, 'num_ids': 37052, 'num_buckets': 10824, 'hash_tables_overhead_MB': 0.90838623046875, 'total_MB': 3.1725616455078125}
+[Result] Epsilon-recall: 1.0000
+[Result] (c,r)-ANN accuracy: 1.0000
+
+[Timing Summary]
+  Insert phase: 0.45 s
+  Query phase: 0.00 s
+  Ground truth: 0.05 s
+  Recall eval: 0.00 s
+  (c,r)-ANN eval: 0.01 s
+  Total time: 0.52 s
+[SUMMARY] r=1.0, eps=0.5, eta=0.4, recall=1.0000, (c,r)-ANN accuracy=1.0, memory=3.1725616455078125

@@ -1,87 +1,87 @@
 #!/bin/bash
 set -euo pipefail
 
-FILES="data/sift_base.fvecs"
+FILES="data/fashion_mnist/fashion-mnist_train.csv"
 # FILES="data/encodings_combined.npy"
-EPSILON_VALUES=(0.5 1 0.1)
+EPSILON_VALUES=(1 0.9 0.8 0.7 0.6 0.5)
 ETA_VALUES=(0.1 0.2 0.3 0.4 0.5 0.7 0.9)
-R_VALUES=(1)
+R_VALUES=(0.5)
 # EPSILON_VALUES=(0.2)
 # ETA_VALUES=(0.1)
 # R_VALUES=(0.5)
 K=50
 N=50000
-D=128
+D=784
 N_QUERIES=5000
-LOGDIR="logs/sann"
-RESULTS="results.csv"
+LOGDIR="logs/sann_fm"
+RESULTS="results_fm.csv"
 
-# mkdir -p "$LOGDIR"
-# echo "r,epsilon,eta,recall,cr_ann_acc,memory_MB" > "$RESULTS"
+mkdir -p "$LOGDIR"
+echo "r,epsilon,eta,recall,cr_ann_acc,memory_MB" > "$RESULTS"
 
-# MAX_PARALLEL=4
-# running_pids=()
-# declare -A start_times   # pid → start time
-# declare -A jobs_info     # pid → "r eps eta"
+MAX_PARALLEL=4
+running_pids=()
+declare -A start_times   # pid → start time
+declare -A jobs_info     # pid → "r eps eta"
 
 script_start=$(date +%s)
 
-# # ----------------------------
-# # Launch jobs in parallel
-# # ----------------------------
-# for R in "${R_VALUES[@]}"; do
-#   for EPS in "${EPSILON_VALUES[@]}"; do
-#     for ETA in "${ETA_VALUES[@]}"; do
+# ----------------------------
+# Launch jobs in parallel
+# ----------------------------
+for R in "${R_VALUES[@]}"; do
+  for EPS in "${EPSILON_VALUES[@]}"; do
+    for ETA in "${ETA_VALUES[@]}"; do
 
-#       LOGFILE="$LOGDIR/r${R}_eps${EPS}_eta${ETA}.log"
-#       echo "[INFO] Launching r=$R eps=$EPS eta=$ETA (log: $LOGFILE)"
+      LOGFILE="$LOGDIR/r${R}_eps${EPS}_eta${ETA}.log"
+      echo "[INFO] Launching r=$R eps=$EPS eta=$ETA (log: $LOGFILE)"
 
-#       python3 -u mem_vs_recall.py \
-#           --files "$FILES" \
-#           --epsilon "$EPS" \
-#           --r "$R" \
-#           --K "$K" \
-#           --n "$N" \
-#           --n_queries "$N_QUERIES" \
-#           --eta "$ETA" > "$LOGFILE" 2>&1 &
+      python3 -u mem_vs_recall.py \
+          --files "$FILES" \
+          --epsilon "$EPS" \
+          --r "$R" \
+          --K "$K" \
+          --n "$N" \
+          --n_queries "$N_QUERIES" \
+          --eta "$ETA" > "$LOGFILE" 2>&1 &
 
-#       pid=$!
-#       running_pids+=($pid)
-#       start_times[$pid]=$(date +%s)
-#       jobs_info[$pid]="$EPS $ETA"
+      pid=$!
+      running_pids+=($pid)
+      start_times[$pid]=$(date +%s)
+      jobs_info[$pid]="$EPS $ETA"
 
-#       # throttle to MAX_PARALLEL
-#       if [[ ${#running_pids[@]} -ge $MAX_PARALLEL ]]; then
-#         wait -n
-#         finished_pid=$!
-#         end=$(date +%s)
-#         elapsed=$((end - start_times[$finished_pid]))
-#         echo "[INFO] Job eps=${jobs_info[$finished_pid]} finished in ${elapsed}s"
-#         # clean running list
-#         new_pids=()
-#         for pid in "${running_pids[@]}"; do
-#           if kill -0 "$pid" 2>/dev/null; then
-#             new_pids+=("$pid")
-#           fi
-#         done
-#         running_pids=("${new_pids[@]}")
-#       fi
+      # throttle to MAX_PARALLEL
+      if [[ ${#running_pids[@]} -ge $MAX_PARALLEL ]]; then
+        wait -n
+        finished_pid=$!
+        end=$(date +%s)
+        elapsed=$((end - start_times[$finished_pid]))
+        echo "[INFO] Job eps=${jobs_info[$finished_pid]} finished in ${elapsed}s"
+        # clean running list
+        new_pids=()
+        for pid in "${running_pids[@]}"; do
+          if kill -0 "$pid" 2>/dev/null; then
+            new_pids+=("$pid")
+          fi
+        done
+        running_pids=("${new_pids[@]}")
+      fi
 
-#     done
-#   done
-# done
+    done
+  done
+done
 
 
 
-# # Wait for remaining jobs
-# for pid in "${running_pids[@]}"; do
-#   wait "$pid"
-#   end=$(date +%s)
-#   elapsed=$((end - start_times[$pid]))
-#   echo "[INFO] Job r=${jobs_info[$pid]} finished in ${elapsed}s"
-# done
+# Wait for remaining jobs
+for pid in "${running_pids[@]}"; do
+  wait "$pid"
+  end=$(date +%s)
+  elapsed=$((end - start_times[$pid]))
+  echo "[INFO] Job r=${jobs_info[$pid]} finished in ${elapsed}s"
+done
 
-# echo "[INFO] All runs finished. Collecting results..."
+echo "[INFO] All runs finished. Collecting results..."
 
 # ----------------------------
 # Parse [SUMMARY] lines safely
