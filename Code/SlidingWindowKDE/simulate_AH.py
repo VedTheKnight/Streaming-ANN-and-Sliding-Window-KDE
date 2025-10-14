@@ -58,7 +58,7 @@ if __name__ == "__main__":
     for data_idx in range(50):
         # Load data
         data=np.load(f'synthetic_data/data_{data_idx+1}.npy')
-        print("Data loaded successfully")
+        print("\nData loaded successfully")
         data = data.astype(np.float32)
         dim = data.shape[1]
         print(f"Data shape: {data.shape}")
@@ -85,7 +85,7 @@ if __name__ == "__main__":
         sk_sz = []
         err_log = []
   
-        dir_name ="Synthetic_data_outputs"
+        dir_name ="Synthetic_data_outputs_L2"
         os.makedirs(dir_name, exist_ok=True)
         lb="Angular" if args.lsh=="1" else "L2"
         # f_n=f"error_vs_sz_{args.file_name}_{lb}.txt"
