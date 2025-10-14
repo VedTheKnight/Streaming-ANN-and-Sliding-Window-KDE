@@ -55,11 +55,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
 
-    plot_values=[]
-    sketch_size=[]
-    for data_idx in range(2):
+    for data_idx in range(50):
         # Load data
-        data=np.load(f'synthetic_data\data_{data_idx}.npy')
+        data=np.load(f'synthetic_data/data_{data_idx+1}.npy')
         print("Data loaded successfully")
         data = data.astype(np.float32)
         dim = data.shape[1]
@@ -118,21 +116,14 @@ if __name__ == "__main__":
             eps_rel = 1e-12
             rel_err = np.mean(np.abs(app_kde - true_kde) / np.clip(np.abs(true_kde), eps_rel, None))
             print(f"Mean A-KDE={np.mean(app_kde):.6f}, Mean Relative Error={rel_err:.6f}")
-            total_bytes = sum(sys.getsizeof(v) if not hasattr(v, 'nbytes') else v.nbytes for v in getattr(r_sketch, "sparse_dic", {}).values())
-            print(f"Size ={total_bytes/1024} \nWrite values to text file")
+            total_bytes = sum(v.nbytes if hasattr(v, 'nbytes') else np.array(v).nbytes for v in r_sketch.sparse_dic.values())
+            print(f"Size ={total_bytes/1024}")
             err_log.append(math.log(rel_err+1e-16))
             sk_sz.append(total_bytes/1024)
-            # with open(f_n, "a") as f:
-            #     f.write(f"{total_bytes/1024},{math.log(rel_err+1e-16)}\n")
             del r_sketch
-        plot_values.append[err_log]
-        sketch_size.append[sk_sz]
+        np.save(f'{dir_name}/err_values_{data_idx+1}.npy',np.array(err_log))
+        np.save(f'{dir_name}/sketch_sizes_{data_idx+1}.npy',np.array(sk_sz))    
         del err_log
         del sk_sz
 
-    plot_values=np.vstack(np.array(plot_values))
-    sketch_size=np.vstack(np.array(sketch_size))
-    print(plot_values.shape)
-    print(sketch_size.shape)
-    # plot_from_textfile(f_n)
     gc.collect()
