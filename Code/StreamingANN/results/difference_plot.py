@@ -9,7 +9,7 @@ streaming_df = pd.read_csv("streaming_ann_results.csv")
 
 # Parameters
 epsilon_vals = sorted(streaming_df['epsilon'].unique())
-raw_MB = (50000 * 128 * 4) / (1024 * 1024)
+raw_MB = (50000 * 784 * 4) / (1024 * 1024)
 
 # Fixed CR grid (common for all eps)
 CR_grid = np.linspace(0.03, 0.35, 300)
@@ -156,7 +156,7 @@ plt.title("Median Difference vs ε (StreamingANN vs JL)")
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
-plt.savefig("summary_difference.pdf")
+plt.savefig("summary_difference_jl.pdf")
 plt.close()
 
-print("Plots saved: recall_difference_fm.pdf, accuracy_difference_fm.pdf, summary_difference.pdf")
+print("Plots saved: recall_difference_fm.pdf, accuracy_difference_fm.pdf, summary_difference_jl.pdf")
