@@ -1,0 +1,2 @@
+usage: mc_compare.py [-h] [--b B] [--eps EPS]
+mc_compare.py: error: unrecognized arguments: mc_compare.txt
