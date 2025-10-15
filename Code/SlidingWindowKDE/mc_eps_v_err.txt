@@ -1,0 +1,1401 @@
+nohup: ignoring input
+
+Data 1 loaded
+Mean True KDE=274.697998 (time 0.01s)
+
+ EH error 0.05
+Update time: 7.00s
+Query time: 0.37s
+Mean Relative Error=0.041056
+
+ EH error 0.1
+Update time: 5.69s
+Query time: 0.37s
+Mean Relative Error=0.038363
+
+ EH error 0.2
+Update time: 5.19s
+Query time: 0.37s
+Mean Relative Error=0.033130
+
+ EH error 0.5
+Update time: 4.61s
+Query time: 0.37s
+Mean Relative Error=0.034162
+
+ EH error 1
+Update time: 4.60s
+Query time: 0.37s
+Mean Relative Error=0.040512
+
+Data 2 loaded
+Mean True KDE=277.038239 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.99s
+Query time: 0.37s
+Mean Relative Error=0.036987
+
+ EH error 0.1
+Update time: 5.74s
+Query time: 0.38s
+Mean Relative Error=0.040554
+
+ EH error 0.2
+Update time: 5.24s
+Query time: 0.37s
+Mean Relative Error=0.043369
+
+ EH error 0.5
+Update time: 4.74s
+Query time: 0.38s
+Mean Relative Error=0.029981
+
+ EH error 1
+Update time: 4.64s
+Query time: 0.37s
+Mean Relative Error=0.032805
+
+Data 3 loaded
+Mean True KDE=271.637024 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.98s
+Query time: 0.38s
+Mean Relative Error=0.028924
+
+ EH error 0.1
+Update time: 5.74s
+Query time: 0.37s
+Mean Relative Error=0.027632
+
+ EH error 0.2
+Update time: 5.23s
+Query time: 0.37s
+Mean Relative Error=0.043604
+
+ EH error 0.5
+Update time: 4.65s
+Query time: 0.38s
+Mean Relative Error=0.032325
+
+ EH error 1
+Update time: 4.65s
+Query time: 0.37s
+Mean Relative Error=0.041674
+
+Data 4 loaded
+Mean True KDE=277.251617 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.00s
+Query time: 0.37s
+Mean Relative Error=0.046261
+
+ EH error 0.1
+Update time: 5.76s
+Query time: 0.37s
+Mean Relative Error=0.050423
+
+ EH error 0.2
+Update time: 5.20s
+Query time: 0.38s
+Mean Relative Error=0.027054
+
+ EH error 0.5
+Update time: 4.62s
+Query time: 0.38s
+Mean Relative Error=0.029126
+
+ EH error 1
+Update time: 4.58s
+Query time: 0.37s
+Mean Relative Error=0.028924
+
+Data 5 loaded
+Mean True KDE=272.456177 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.05s
+Query time: 0.37s
+Mean Relative Error=0.030399
+
+ EH error 0.1
+Update time: 5.77s
+Query time: 0.37s
+Mean Relative Error=0.030544
+
+ EH error 0.2
+Update time: 5.27s
+Query time: 0.37s
+Mean Relative Error=0.032809
+
+ EH error 0.5
+Update time: 4.68s
+Query time: 0.37s
+Mean Relative Error=0.039180
+
+ EH error 1
+Update time: 4.63s
+Query time: 0.37s
+Mean Relative Error=0.043818
+
+Data 6 loaded
+Mean True KDE=273.400604 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.93s
+Query time: 0.37s
+Mean Relative Error=0.043022
+
+ EH error 0.1
+Update time: 5.73s
+Query time: 0.37s
+Mean Relative Error=0.042370
+
+ EH error 0.2
+Update time: 5.22s
+Query time: 0.37s
+Mean Relative Error=0.038963
+
+ EH error 0.5
+Update time: 4.64s
+Query time: 0.37s
+Mean Relative Error=0.035035
+
+ EH error 1
+Update time: 4.63s
+Query time: 0.37s
+Mean Relative Error=0.031883
+
+Data 7 loaded
+Mean True KDE=279.295746 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.06s
+Query time: 0.37s
+Mean Relative Error=0.049360
+
+ EH error 0.1
+Update time: 5.79s
+Query time: 0.37s
+Mean Relative Error=0.042237
+
+ EH error 0.2
+Update time: 5.27s
+Query time: 0.37s
+Mean Relative Error=0.038795
+
+ EH error 0.5
+Update time: 4.69s
+Query time: 0.37s
+Mean Relative Error=0.037636
+
+ EH error 1
+Update time: 4.70s
+Query time: 0.38s
+Mean Relative Error=0.034494
+
+Data 8 loaded
+Mean True KDE=274.106781 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.00s
+Query time: 0.38s
+Mean Relative Error=0.045998
+
+ EH error 0.1
+Update time: 5.75s
+Query time: 0.38s
+Mean Relative Error=0.041892
+
+ EH error 0.2
+Update time: 5.23s
+Query time: 0.37s
+Mean Relative Error=0.041970
+
+ EH error 0.5
+Update time: 4.63s
+Query time: 0.38s
+Mean Relative Error=0.039313
+
+ EH error 1
+Update time: 4.62s
+Query time: 0.37s
+Mean Relative Error=0.037353
+
+Data 9 loaded
+Mean True KDE=275.715637 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.02s
+Query time: 0.37s
+Mean Relative Error=0.036802
+
+ EH error 0.1
+Update time: 5.79s
+Query time: 0.37s
+Mean Relative Error=0.043620
+
+ EH error 0.2
+Update time: 5.29s
+Query time: 0.37s
+Mean Relative Error=0.035457
+
+ EH error 0.5
+Update time: 4.70s
+Query time: 0.38s
+Mean Relative Error=0.040753
+
+ EH error 1
+Update time: 4.65s
+Query time: 0.36s
+Mean Relative Error=0.037956
+
+Data 10 loaded
+Mean True KDE=278.162048 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.06s
+Query time: 0.37s
+Mean Relative Error=0.031764
+
+ EH error 0.1
+Update time: 5.76s
+Query time: 0.37s
+Mean Relative Error=0.040478
+
+ EH error 0.2
+Update time: 5.21s
+Query time: 0.37s
+Mean Relative Error=0.038211
+
+ EH error 0.5
+Update time: 4.65s
+Query time: 0.38s
+Mean Relative Error=0.033132
+
+ EH error 1
+Update time: 4.63s
+Query time: 0.37s
+Mean Relative Error=0.041248
+
+Data 11 loaded
+Mean True KDE=275.602325 (time 0.01s)
+
+ EH error 0.05
+Update time: 7.05s
+Query time: 0.37s
+Mean Relative Error=0.040417
+
+ EH error 0.1
+Update time: 5.76s
+Query time: 0.37s
+Mean Relative Error=0.030925
+
+ EH error 0.2
+Update time: 5.21s
+Query time: 0.37s
+Mean Relative Error=0.042298
+
+ EH error 0.5
+Update time: 4.62s
+Query time: 0.38s
+Mean Relative Error=0.036978
+
+ EH error 1
+Update time: 4.64s
+Query time: 0.37s
+Mean Relative Error=0.041673
+
+Data 12 loaded
+Mean True KDE=278.152008 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.97s
+Query time: 0.37s
+Mean Relative Error=0.027844
+
+ EH error 0.1
+Update time: 5.72s
+Query time: 0.37s
+Mean Relative Error=0.029262
+
+ EH error 0.2
+Update time: 5.20s
+Query time: 0.37s
+Mean Relative Error=0.035920
+
+ EH error 0.5
+Update time: 4.63s
+Query time: 0.38s
+Mean Relative Error=0.038598
+
+ EH error 1
+Update time: 4.59s
+Query time: 0.37s
+Mean Relative Error=0.037754
+
+Data 13 loaded
+Mean True KDE=279.161102 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.97s
+Query time: 0.38s
+Mean Relative Error=0.034500
+
+ EH error 0.1
+Update time: 5.69s
+Query time: 0.37s
+Mean Relative Error=0.032761
+
+ EH error 0.2
+Update time: 5.21s
+Query time: 0.38s
+Mean Relative Error=0.044933
+
+ EH error 0.5
+Update time: 4.62s
+Query time: 0.37s
+Mean Relative Error=0.036151
+
+ EH error 1
+Update time: 4.63s
+Query time: 0.38s
+Mean Relative Error=0.040859
+
+Data 14 loaded
+Mean True KDE=282.134674 (time 0.01s)
+
+ EH error 0.05
+Update time: 7.02s
+Query time: 0.37s
+Mean Relative Error=0.042723
+
+ EH error 0.1
+Update time: 5.75s
+Query time: 0.37s
+Mean Relative Error=0.062948
+
+ EH error 0.2
+Update time: 5.20s
+Query time: 0.37s
+Mean Relative Error=0.054852
+
+ EH error 0.5
+Update time: 4.64s
+Query time: 0.37s
+Mean Relative Error=0.038655
+
+ EH error 1
+Update time: 4.64s
+Query time: 0.38s
+Mean Relative Error=0.037004
+
+Data 15 loaded
+Mean True KDE=280.732239 (time 0.01s)
+
+ EH error 0.05
+Update time: 7.03s
+Query time: 0.37s
+Mean Relative Error=0.048150
+
+ EH error 0.1
+Update time: 5.73s
+Query time: 0.37s
+Mean Relative Error=0.036277
+
+ EH error 0.2
+Update time: 5.23s
+Query time: 0.38s
+Mean Relative Error=0.044331
+
+ EH error 0.5
+Update time: 4.63s
+Query time: 0.37s
+Mean Relative Error=0.037294
+
+ EH error 1
+Update time: 4.65s
+Query time: 0.37s
+Mean Relative Error=0.044162
+
+Data 16 loaded
+Mean True KDE=276.872528 (time 0.01s)
+
+ EH error 0.05
+Update time: 7.06s
+Query time: 0.38s
+Mean Relative Error=0.040735
+
+ EH error 0.1
+Update time: 5.77s
+Query time: 0.38s
+Mean Relative Error=0.041511
+
+ EH error 0.2
+Update time: 5.25s
+Query time: 0.37s
+Mean Relative Error=0.034940
+
+ EH error 0.5
+Update time: 4.63s
+Query time: 0.37s
+Mean Relative Error=0.032853
+
+ EH error 1
+Update time: 4.64s
+Query time: 0.37s
+Mean Relative Error=0.038228
+
+Data 17 loaded
+Mean True KDE=278.255676 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.00s
+Query time: 0.37s
+Mean Relative Error=0.052221
+
+ EH error 0.1
+Update time: 5.75s
+Query time: 0.37s
+Mean Relative Error=0.046772
+
+ EH error 0.2
+Update time: 5.22s
+Query time: 0.38s
+Mean Relative Error=0.045082
+
+ EH error 0.5
+Update time: 4.64s
+Query time: 0.38s
+Mean Relative Error=0.023354
+
+ EH error 1
+Update time: 4.64s
+Query time: 0.37s
+Mean Relative Error=0.039673
+
+Data 18 loaded
+Mean True KDE=273.463593 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.01s
+Query time: 0.37s
+Mean Relative Error=0.027486
+
+ EH error 0.1
+Update time: 5.75s
+Query time: 0.37s
+Mean Relative Error=0.033877
+
+ EH error 0.2
+Update time: 5.24s
+Query time: 0.37s
+Mean Relative Error=0.036402
+
+ EH error 0.5
+Update time: 4.66s
+Query time: 0.38s
+Mean Relative Error=0.029619
+
+ EH error 1
+Update time: 4.65s
+Query time: 0.37s
+Mean Relative Error=0.031813
+
+Data 19 loaded
+Mean True KDE=278.139618 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.02s
+Query time: 0.37s
+Mean Relative Error=0.042507
+
+ EH error 0.1
+Update time: 5.75s
+Query time: 0.37s
+Mean Relative Error=0.032817
+
+ EH error 0.2
+Update time: 5.29s
+Query time: 0.37s
+Mean Relative Error=0.038084
+
+ EH error 0.5
+Update time: 4.66s
+Query time: 0.37s
+Mean Relative Error=0.038942
+
+ EH error 1
+Update time: 4.66s
+Query time: 0.37s
+Mean Relative Error=0.040158
+
+Data 20 loaded
+Mean True KDE=278.178345 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.94s
+Query time: 0.36s
+Mean Relative Error=0.044804
+
+ EH error 0.1
+Update time: 5.73s
+Query time: 0.37s
+Mean Relative Error=0.040592
+
+ EH error 0.2
+Update time: 5.20s
+Query time: 0.38s
+Mean Relative Error=0.045504
+
+ EH error 0.5
+Update time: 4.63s
+Query time: 0.37s
+Mean Relative Error=0.040167
+
+ EH error 1
+Update time: 4.64s
+Query time: 0.37s
+Mean Relative Error=0.042616
+
+Data 21 loaded
+Mean True KDE=274.955627 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.00s
+Query time: 0.38s
+Mean Relative Error=0.037128
+
+ EH error 0.1
+Update time: 5.81s
+Query time: 0.38s
+Mean Relative Error=0.046467
+
+ EH error 0.2
+Update time: 5.28s
+Query time: 0.38s
+Mean Relative Error=0.044890
+
+ EH error 0.5
+Update time: 4.72s
+Query time: 0.38s
+Mean Relative Error=0.040582
+
+ EH error 1
+Update time: 4.65s
+Query time: 0.37s
+Mean Relative Error=0.028776
+
+Data 22 loaded
+Mean True KDE=278.892853 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.99s
+Query time: 0.38s
+Mean Relative Error=0.032754
+
+ EH error 0.1
+Update time: 5.78s
+Query time: 0.37s
+Mean Relative Error=0.035122
+
+ EH error 0.2
+Update time: 5.23s
+Query time: 0.38s
+Mean Relative Error=0.037185
+
+ EH error 0.5
+Update time: 4.65s
+Query time: 0.37s
+Mean Relative Error=0.043585
+
+ EH error 1
+Update time: 4.66s
+Query time: 0.37s
+Mean Relative Error=0.041195
+
+Data 23 loaded
+Mean True KDE=278.803345 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.98s
+Query time: 0.37s
+Mean Relative Error=0.048854
+
+ EH error 0.1
+Update time: 5.74s
+Query time: 0.37s
+Mean Relative Error=0.036770
+
+ EH error 0.2
+Update time: 5.21s
+Query time: 0.38s
+Mean Relative Error=0.045501
+
+ EH error 0.5
+Update time: 4.60s
+Query time: 0.38s
+Mean Relative Error=0.039008
+
+ EH error 1
+Update time: 4.62s
+Query time: 0.37s
+Mean Relative Error=0.046363
+
+Data 24 loaded
+Mean True KDE=279.441437 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.00s
+Query time: 0.38s
+Mean Relative Error=0.040031
+
+ EH error 0.1
+Update time: 5.76s
+Query time: 0.37s
+Mean Relative Error=0.040344
+
+ EH error 0.2
+Update time: 5.23s
+Query time: 0.38s
+Mean Relative Error=0.051186
+
+ EH error 0.5
+Update time: 4.63s
+Query time: 0.37s
+Mean Relative Error=0.038087
+
+ EH error 1
+Update time: 4.62s
+Query time: 0.37s
+Mean Relative Error=0.041620
+
+Data 25 loaded
+Mean True KDE=276.002136 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.00s
+Query time: 0.38s
+Mean Relative Error=0.042910
+
+ EH error 0.1
+Update time: 5.75s
+Query time: 0.37s
+Mean Relative Error=0.035916
+
+ EH error 0.2
+Update time: 5.21s
+Query time: 0.37s
+Mean Relative Error=0.042652
+
+ EH error 0.5
+Update time: 4.63s
+Query time: 0.37s
+Mean Relative Error=0.032392
+
+ EH error 1
+Update time: 4.64s
+Query time: 0.37s
+Mean Relative Error=0.037922
+
+Data 26 loaded
+Mean True KDE=277.599152 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.99s
+Query time: 0.38s
+Mean Relative Error=0.040960
+
+ EH error 0.1
+Update time: 5.74s
+Query time: 0.38s
+Mean Relative Error=0.055689
+
+ EH error 0.2
+Update time: 5.20s
+Query time: 0.38s
+Mean Relative Error=0.031544
+
+ EH error 0.5
+Update time: 4.65s
+Query time: 0.38s
+Mean Relative Error=0.028957
+
+ EH error 1
+Update time: 4.64s
+Query time: 0.38s
+Mean Relative Error=0.044007
+
+Data 27 loaded
+Mean True KDE=276.918915 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.01s
+Query time: 0.37s
+Mean Relative Error=0.037627
+
+ EH error 0.1
+Update time: 5.76s
+Query time: 0.37s
+Mean Relative Error=0.032519
+
+ EH error 0.2
+Update time: 5.22s
+Query time: 0.38s
+Mean Relative Error=0.056884
+
+ EH error 0.5
+Update time: 4.64s
+Query time: 0.38s
+Mean Relative Error=0.037425
+
+ EH error 1
+Update time: 4.64s
+Query time: 0.37s
+Mean Relative Error=0.037534
+
+Data 28 loaded
+Mean True KDE=272.753754 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.07s
+Query time: 0.37s
+Mean Relative Error=0.042383
+
+ EH error 0.1
+Update time: 5.75s
+Query time: 0.37s
+Mean Relative Error=0.036527
+
+ EH error 0.2
+Update time: 5.20s
+Query time: 0.38s
+Mean Relative Error=0.028538
+
+ EH error 0.5
+Update time: 4.66s
+Query time: 0.38s
+Mean Relative Error=0.024000
+
+ EH error 1
+Update time: 4.66s
+Query time: 0.38s
+Mean Relative Error=0.034495
+
+Data 29 loaded
+Mean True KDE=277.239624 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.02s
+Query time: 0.37s
+Mean Relative Error=0.032330
+
+ EH error 0.1
+Update time: 5.76s
+Query time: 0.37s
+Mean Relative Error=0.037817
+
+ EH error 0.2
+Update time: 5.21s
+Query time: 0.37s
+Mean Relative Error=0.029713
+
+ EH error 0.5
+Update time: 4.65s
+Query time: 0.37s
+Mean Relative Error=0.035042
+
+ EH error 1
+Update time: 4.65s
+Query time: 0.38s
+Mean Relative Error=0.034036
+
+Data 30 loaded
+Mean True KDE=275.370361 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.00s
+Query time: 0.37s
+Mean Relative Error=0.035503
+
+ EH error 0.1
+Update time: 5.74s
+Query time: 0.37s
+Mean Relative Error=0.033905
+
+ EH error 0.2
+Update time: 5.20s
+Query time: 0.37s
+Mean Relative Error=0.041791
+
+ EH error 0.5
+Update time: 4.63s
+Query time: 0.37s
+Mean Relative Error=0.040815
+
+ EH error 1
+Update time: 4.65s
+Query time: 0.38s
+Mean Relative Error=0.032720
+
+Data 31 loaded
+Mean True KDE=277.741119 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.99s
+Query time: 0.37s
+Mean Relative Error=0.044084
+
+ EH error 0.1
+Update time: 5.73s
+Query time: 0.37s
+Mean Relative Error=0.053548
+
+ EH error 0.2
+Update time: 5.20s
+Query time: 0.37s
+Mean Relative Error=0.038338
+
+ EH error 0.5
+Update time: 4.62s
+Query time: 0.37s
+Mean Relative Error=0.039714
+
+ EH error 1
+Update time: 4.62s
+Query time: 0.37s
+Mean Relative Error=0.047282
+
+Data 32 loaded
+Mean True KDE=279.442871 (time 0.01s)
+
+ EH error 0.05
+Update time: 7.06s
+Query time: 0.37s
+Mean Relative Error=0.053059
+
+ EH error 0.1
+Update time: 5.78s
+Query time: 0.38s
+Mean Relative Error=0.044625
+
+ EH error 0.2
+Update time: 5.17s
+Query time: 0.36s
+Mean Relative Error=0.054622
+
+ EH error 0.5
+Update time: 4.62s
+Query time: 0.37s
+Mean Relative Error=0.038461
+
+ EH error 1
+Update time: 4.63s
+Query time: 0.37s
+Mean Relative Error=0.039169
+
+Data 33 loaded
+Mean True KDE=277.260681 (time 0.01s)
+
+ EH error 0.05
+Update time: 7.04s
+Query time: 0.37s
+Mean Relative Error=0.036143
+
+ EH error 0.1
+Update time: 5.73s
+Query time: 0.37s
+Mean Relative Error=0.045261
+
+ EH error 0.2
+Update time: 5.20s
+Query time: 0.37s
+Mean Relative Error=0.045834
+
+ EH error 0.5
+Update time: 4.64s
+Query time: 0.38s
+Mean Relative Error=0.027516
+
+ EH error 1
+Update time: 4.59s
+Query time: 0.37s
+Mean Relative Error=0.032517
+
+Data 34 loaded
+Mean True KDE=277.727692 (time 0.01s)
+
+ EH error 0.05
+Update time: 7.07s
+Query time: 0.38s
+Mean Relative Error=0.036406
+
+ EH error 0.1
+Update time: 5.69s
+Query time: 0.37s
+Mean Relative Error=0.043193
+
+ EH error 0.2
+Update time: 5.16s
+Query time: 0.37s
+Mean Relative Error=0.038597
+
+ EH error 0.5
+Update time: 4.62s
+Query time: 0.37s
+Mean Relative Error=0.041022
+
+ EH error 1
+Update time: 4.67s
+Query time: 0.37s
+Mean Relative Error=0.030161
+
+Data 35 loaded
+Mean True KDE=276.845184 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.99s
+Query time: 0.38s
+Mean Relative Error=0.033196
+
+ EH error 0.1
+Update time: 5.75s
+Query time: 0.37s
+Mean Relative Error=0.031100
+
+ EH error 0.2
+Update time: 5.26s
+Query time: 0.38s
+Mean Relative Error=0.036283
+
+ EH error 0.5
+Update time: 4.67s
+Query time: 0.37s
+Mean Relative Error=0.029198
+
+ EH error 1
+Update time: 4.69s
+Query time: 0.38s
+Mean Relative Error=0.024281
+
+Data 36 loaded
+Mean True KDE=276.756500 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.02s
+Query time: 0.37s
+Mean Relative Error=0.040236
+
+ EH error 0.1
+Update time: 5.77s
+Query time: 0.38s
+Mean Relative Error=0.042279
+
+ EH error 0.2
+Update time: 5.22s
+Query time: 0.38s
+Mean Relative Error=0.045944
+
+ EH error 0.5
+Update time: 4.63s
+Query time: 0.38s
+Mean Relative Error=0.044748
+
+ EH error 1
+Update time: 4.63s
+Query time: 0.38s
+Mean Relative Error=0.040227
+
+Data 37 loaded
+Mean True KDE=278.434998 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.00s
+Query time: 0.38s
+Mean Relative Error=0.034701
+
+ EH error 0.1
+Update time: 5.74s
+Query time: 0.38s
+Mean Relative Error=0.033932
+
+ EH error 0.2
+Update time: 5.21s
+Query time: 0.37s
+Mean Relative Error=0.033747
+
+ EH error 0.5
+Update time: 4.64s
+Query time: 0.37s
+Mean Relative Error=0.032914
+
+ EH error 1
+Update time: 4.65s
+Query time: 0.37s
+Mean Relative Error=0.040030
+
+Data 38 loaded
+Mean True KDE=273.384430 (time 0.01s)
+
+ EH error 0.05
+Update time: 7.02s
+Query time: 0.37s
+Mean Relative Error=0.041398
+
+ EH error 0.1
+Update time: 5.75s
+Query time: 0.37s
+Mean Relative Error=0.033997
+
+ EH error 0.2
+Update time: 5.26s
+Query time: 0.38s
+Mean Relative Error=0.040489
+
+ EH error 0.5
+Update time: 4.66s
+Query time: 0.38s
+Mean Relative Error=0.036440
+
+ EH error 1
+Update time: 4.68s
+Query time: 0.38s
+Mean Relative Error=0.035309
+
+Data 39 loaded
+Mean True KDE=278.011353 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.97s
+Query time: 0.37s
+Mean Relative Error=0.057128
+
+ EH error 0.1
+Update time: 5.72s
+Query time: 0.37s
+Mean Relative Error=0.047981
+
+ EH error 0.2
+Update time: 5.23s
+Query time: 0.38s
+Mean Relative Error=0.032541
+
+ EH error 0.5
+Update time: 4.61s
+Query time: 0.37s
+Mean Relative Error=0.030097
+
+ EH error 1
+Update time: 4.60s
+Query time: 0.37s
+Mean Relative Error=0.027445
+
+Data 40 loaded
+Mean True KDE=280.248901 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.99s
+Query time: 0.38s
+Mean Relative Error=0.042958
+
+ EH error 0.1
+Update time: 5.75s
+Query time: 0.37s
+Mean Relative Error=0.052358
+
+ EH error 0.2
+Update time: 5.22s
+Query time: 0.38s
+Mean Relative Error=0.044409
+
+ EH error 0.5
+Update time: 4.63s
+Query time: 0.38s
+Mean Relative Error=0.036420
+
+ EH error 1
+Update time: 4.65s
+Query time: 0.38s
+Mean Relative Error=0.033580
+
+Data 41 loaded
+Mean True KDE=275.489349 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.02s
+Query time: 0.37s
+Mean Relative Error=0.048226
+
+ EH error 0.1
+Update time: 5.76s
+Query time: 0.37s
+Mean Relative Error=0.038465
+
+ EH error 0.2
+Update time: 5.22s
+Query time: 0.37s
+Mean Relative Error=0.047305
+
+ EH error 0.5
+Update time: 4.64s
+Query time: 0.38s
+Mean Relative Error=0.037419
+
+ EH error 1
+Update time: 4.65s
+Query time: 0.37s
+Mean Relative Error=0.037262
+
+Data 42 loaded
+Mean True KDE=278.824432 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.99s
+Query time: 0.37s
+Mean Relative Error=0.034163
+
+ EH error 0.1
+Update time: 5.75s
+Query time: 0.37s
+Mean Relative Error=0.046835
+
+ EH error 0.2
+Update time: 5.23s
+Query time: 0.37s
+Mean Relative Error=0.049341
+
+ EH error 0.5
+Update time: 4.65s
+Query time: 0.37s
+Mean Relative Error=0.035336
+
+ EH error 1
+Update time: 4.65s
+Query time: 0.38s
+Mean Relative Error=0.042873
+
+Data 43 loaded
+Mean True KDE=278.619354 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.01s
+Query time: 0.38s
+Mean Relative Error=0.040727
+
+ EH error 0.1
+Update time: 5.74s
+Query time: 0.37s
+Mean Relative Error=0.036858
+
+ EH error 0.2
+Update time: 5.23s
+Query time: 0.37s
+Mean Relative Error=0.043041
+
+ EH error 0.5
+Update time: 4.64s
+Query time: 0.37s
+Mean Relative Error=0.034781
+
+ EH error 1
+Update time: 4.66s
+Query time: 0.37s
+Mean Relative Error=0.030462
+
+Data 44 loaded
+Mean True KDE=279.455933 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.99s
+Query time: 0.37s
+Mean Relative Error=0.028428
+
+ EH error 0.1
+Update time: 5.71s
+Query time: 0.38s
+Mean Relative Error=0.041317
+
+ EH error 0.2
+Update time: 5.22s
+Query time: 0.37s
+Mean Relative Error=0.041365
+
+ EH error 0.5
+Update time: 4.65s
+Query time: 0.38s
+Mean Relative Error=0.036251
+
+ EH error 1
+Update time: 4.64s
+Query time: 0.38s
+Mean Relative Error=0.032582
+
+Data 45 loaded
+Mean True KDE=273.871185 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.00s
+Query time: 0.37s
+Mean Relative Error=0.036701
+
+ EH error 0.1
+Update time: 5.81s
+Query time: 0.37s
+Mean Relative Error=0.033899
+
+ EH error 0.2
+Update time: 5.24s
+Query time: 0.37s
+Mean Relative Error=0.040186
+
+ EH error 0.5
+Update time: 4.66s
+Query time: 0.38s
+Mean Relative Error=0.042037
+
+ EH error 1
+Update time: 4.66s
+Query time: 0.38s
+Mean Relative Error=0.045444
+
+Data 46 loaded
+Mean True KDE=274.374878 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.96s
+Query time: 0.37s
+Mean Relative Error=0.034360
+
+ EH error 0.1
+Update time: 5.70s
+Query time: 0.37s
+Mean Relative Error=0.037695
+
+ EH error 0.2
+Update time: 5.20s
+Query time: 0.37s
+Mean Relative Error=0.033622
+
+ EH error 0.5
+Update time: 4.62s
+Query time: 0.38s
+Mean Relative Error=0.034900
+
+ EH error 1
+Update time: 4.63s
+Query time: 0.37s
+Mean Relative Error=0.038544
+
+Data 47 loaded
+Mean True KDE=278.993927 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.95s
+Query time: 0.37s
+Mean Relative Error=0.038522
+
+ EH error 0.1
+Update time: 5.75s
+Query time: 0.37s
+Mean Relative Error=0.045437
+
+ EH error 0.2
+Update time: 5.18s
+Query time: 0.36s
+Mean Relative Error=0.041921
+
+ EH error 0.5
+Update time: 4.62s
+Query time: 0.37s
+Mean Relative Error=0.034427
+
+ EH error 1
+Update time: 4.57s
+Query time: 0.37s
+Mean Relative Error=0.030545
+
+Data 48 loaded
+Mean True KDE=278.137207 (time 0.00s)
+
+ EH error 0.05
+Update time: 6.99s
+Query time: 0.37s
+Mean Relative Error=0.037303
+
+ EH error 0.1
+Update time: 5.73s
+Query time: 0.37s
+Mean Relative Error=0.030914
+
+ EH error 0.2
+Update time: 5.19s
+Query time: 0.37s
+Mean Relative Error=0.035111
+
+ EH error 0.5
+Update time: 4.62s
+Query time: 0.37s
+Mean Relative Error=0.036926
+
+ EH error 1
+Update time: 4.61s
+Query time: 0.37s
+Mean Relative Error=0.030832
+
+Data 49 loaded
+Mean True KDE=275.671875 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.00s
+Query time: 0.38s
+Mean Relative Error=0.032825
+
+ EH error 0.1
+Update time: 5.73s
+Query time: 0.37s
+Mean Relative Error=0.025650
+
+ EH error 0.2
+Update time: 5.21s
+Query time: 0.38s
+Mean Relative Error=0.041616
+
+ EH error 0.5
+Update time: 4.62s
+Query time: 0.36s
+Mean Relative Error=0.026056
+
+ EH error 1
+Update time: 4.60s
+Query time: 0.37s
+Mean Relative Error=0.037155
+
+Data 50 loaded
+Mean True KDE=275.031433 (time 0.00s)
+
+ EH error 0.05
+Update time: 7.01s
+Query time: 0.37s
+Mean Relative Error=0.031116
+
+ EH error 0.1
+Update time: 5.74s
+Query time: 0.37s
+Mean Relative Error=0.031306
+
+ EH error 0.2
+Update time: 5.15s
+Query time: 0.37s
+Mean Relative Error=0.030835
+
+ EH error 0.5
+Update time: 4.61s
+Query time: 0.37s
+Mean Relative Error=0.027856
+
+ EH error 1
+Update time: 4.61s
+Query time: 0.37s
+Mean Relative Error=0.031007
