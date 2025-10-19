@@ -12,4 +12,9 @@ First of all you need to generate the daatsets.
 * **Synthetic data:** To generate synthetic data, run `data_generate.py`. The generated data will be saved in `/synthetic_data`.
 * **Real world data:**
   * For the `News headlines` data, we have generated the encodings as 384-dimensional vectors and saved them as `.npy` files in `/data`.
-  * For the `ROSIS Hyperspectral Images`, we have the image and binary mask saved as `data/hsi.npy` and `data/hsi_gt.npy` respectively. Run `hsi_data_gen.py` for preprocessing the data. The preprocessed HSI data will be stored as `data/hsi_data_points.npy`. 
+  * For the `ROSIS Hyperspectral Images`, we have the image and binary mask saved as `data/hsi.npy` and `data/hsi_gt.npy` respectively. Run `hsi_data_gen.py` for preprocessing the data. The preprocessed HSI data will be stored as `data/hsi_data_points.npy`.
+
+
+* **Utilities** The data structures for the `AKDE` algorithm are implemented in the files `buckets_DS.py`,`Exponential_Histogram.py`,`Ang_hash_AKDE.py`, `L2_hash_AKDE.py`,
+
+## Streaming ANN
