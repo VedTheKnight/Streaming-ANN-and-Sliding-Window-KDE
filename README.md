@@ -1,10 +1,17 @@
 # Streaming ANN and AKDE
-This repository contains codes of the proposed `ANN` and `AKDE` algorithms. The code is tested in Linux platform (python 3.11).
+This repository contains codes of the proposed `ANN` and `AKDE` algorithms.
 
 ## Run the codes
 The codes for AKDE are present in `Code/SlidingWindowKDE` whereas that of ANN are in `Code/StreamingANN`.
 
 ## AKDE
+The code is tested in Linux platform using python 3.12.0. The required python libraries for running the codes are as follows:
+* numpy
+* matplotlib
+* tqdm
+* torch
+* scipy
+
 Change the current directory to `/Code/SlidingWindowKDE/`.
 
 First of all you need to generate the daatsets. 
