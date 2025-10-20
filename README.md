@@ -33,7 +33,7 @@ Now we will enumerate the files for data structures and the algorithm implementa
 * `Ang_hash_AKDE.py`: using angular kernel.
 * `L2_hash_AKDE.py`: using Euclidean p-stable(p=2) kernel.
 
-Let us list out the procedure to conduct the three sets of experiments.
+The implementation of `RACE` algorithm by *Coleman & Shrivastava* is given in `RACE_19.py`. Let us list out the procedure to conduct the three sets of experiments.
 ### Variation of mean relative error with sketch size
 * **Real-world dataset** Run the following command in terminal to compute the log of mean relative errors for different sketch sizes corresponding to number of rows=100,200,400,800,1600,3200. We take the window size as 450.
   ```
