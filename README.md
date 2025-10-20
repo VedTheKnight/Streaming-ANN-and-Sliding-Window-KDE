@@ -27,24 +27,31 @@ Now we will enumerate the files for data structures and the algorithm implementa
 
 ### Variation of mean relative error with sketch size
 * **Real-world dataset** Run the following command in terminal to compute the log of mean relative errors for different sketch sizes corresponding to number of rows=100,200,400,800,1600,3200. We take the window size as 450.
-```
-python3 sketch_size.py --file_name text --n 10000 --n_query 1000 --lsh 1 --b 1 --eps 0.1
-```
-Explanations for options:
- * `file_name`: specifies the type of real-world dataset, text for **News headlines** or image for **ROSIS HSI**.
- * `n`: specifies number of streaming data (taken as 10000).
- * `n_query`: number of queries (taken as 1000).
- * `lsh`: specifies the type of LSH kernel, 1 for Angular and 2 for Euclidean.
- * `w`: specifies the width of the euclidean kernel.
- * `r`: specifies the range of the euclidean hash.
- * `b`: specifies the bandwidth of the hash function (taken as 1).
- * `eps`: relative error of the exponential histogram (taken as 0.1)
-
-* **Synthetic dataset** We use similar parameters like real-world dataset. Run the command
   ```
-  python simulate_AH.py --lsh 1 --w 4 --r 1000 --b 1 --eps 0.1
+  python3 sketch_size.py --file_name text --n 10000 --n_query 1000 --lsh 1 --b 1 --eps 0.1
   ```
+  Explanations for options:
+    * `file_name`: specifies the type of real-world dataset, text for **News headlines** or image for **ROSIS HSI**.
+    * `n`: specifies number of streaming data (taken as 10000).
+    * `n_query`: number of queries (taken as 1000).
+    * `lsh`: specifies the type of LSH kernel, 1 for Angular and 2 for Euclidean.
+    * `w`: specifies the width of the euclidean kernel.
+    * `r`: specifies the range of the euclidean hash.
+    * `b`: specifies the bandwidth of the hash function (taken as 1).
+    * `eps`: relative error of the exponential histogram (taken as 0.1).
   
+  For the aforesaid choice of dataset(text) and LSH(Angular) the error values and sketch sizes are saved in *error_vs_sz_text_Angular.txt*. We can get the plot by calling the utility function `graph_plotter.py` using appropriate parameters.
+
+* **Synthetic dataset**
+  We use similar parameters like real-world dataset. Run the command:
+  ```
+    python simulate_AH.py --lsh 2 --w 4 --r 1000 --b 1 --eps 0.1
+  ```
+  For each dataset *data_i.py*, the mean relative errors and sketch size are saved as *err_values_i.npy* and *sketch_sizes_i.npy* respectively in `Synthetic_data_outputs_L2` directory if we use euclidean LSH like in the foregoing command. For Angular hash, the outputs are saved in `Synthetic_data_outputs` directory. To plot the graphs for both Angular and Euclidean LSH, run the command
+  ```
+    python MC_plot_sketchsize.py
+  ```
+  The plots are saved as *MC_AH.pdf* in `Synthetic_data_outputs` directory and *MC_L2.pdf* in `Synthetic_data_outputs_L2` directory.
 ### Effect of window size on the mean relative error
 Run the following command to plot the log of mean relative errors versus number of rows for different values of window sizes (64,128,256,512,1024,2048). We have used L2 hash for the text data and Angular hash for the image data.
 ```
@@ -54,18 +61,18 @@ The options have the same explanation as before. The plot is saved as `Window_va
 
 ### Comparison of AKDE with RACE
 * **Real-world dataset** Run the following command to plot the performance of our algorithm **AKDE** with **RACE**. Note that AKDE works in the sliding window model(window size taken as 260) whereas RACE works in the general streaming setup. We have used *Angular LSH* for both the algorithms.
-```
-python compare2.py --data_type text --n 10000 --n_query 1000 --b 1 --eps 0.1
-```
-The option `data_type` specifies the type of dataset, text or image. The plot is saved as `mean_relative_error_vs_rows.pdf` in the `Outputs` directory.
+  ```
+  python compare2.py --data_type text --n 10000 --n_query 1000 --b 1 --eps 0.1
+  ```
+  The option `data_type` specifies the type of dataset, text or image. The plot is saved as `mean_relative_error_vs_rows.pdf` in the `Outputs` directory.
 * **Synthetic dataset**  Run the following command for synthetic dataset. Here also we have used Angular Hash and window size as 260.
-```
-python mc_compare.py --b 1 --eps 0.1
-```
-Here, the options have same explanation as before. The relative errors for RACE and AKDE are saved in *results_i.npy* for *i=1,2...,50* in `Synthetic_data_outputs_L2` directory. To plot the graph, run
-```
-python mc_plot_compare.py
-```
-The plot will be saved as `MC_compare.pdf` in `Synthetic_data_outputs` directory.
+  ```
+  python mc_compare.py --b 1 --eps 0.1
+  ```
+  Here, the options have same explanation as before. The relative errors for RACE and AKDE are saved in *results_i.npy* for *i=1,2...,50* in `Synthetic_data_outputs_L2` directory. To plot the graph, run
+  ```
+  python mc_plot_compare.py
+  ```
+  The plot will be saved as `MC_compare.pdf` in `Synthetic_data_outputs` directory.
 
 ## Streaming ANN
