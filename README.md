@@ -10,9 +10,10 @@ Change the current directory to `/Code/SlidingWindowKDE/`.
 First of all you need to generate the daatsets. 
 
 * **Synthetic data:** To generate synthetic data, run
-```python data_generate.py
-```
-The generated data will be saved as *data_1.npy,data_2.npy,...,dat_50.npy* in the directory `/synthetic_data`. We have generated 50 datasets of size 10000 each consisting of 200-dimensional vectors. We will use these data for monte carlo simulations to demonstrate the performance of our algorithm.
+  ```
+  python data_generate.py
+  ```
+  The generated data will be saved as *data_1.npy,data_2.npy,...,dat_50.npy* in the directory `/synthetic_data`. We have generated 50 datasets of size 10000 each consisting of 200-dimensional vectors. We will use these data for monte carlo simulations to demonstrate the performance of our algorithm.
 * **Real world data:**
   * For the `News headlines` data, we have generated the encodings as 384-dimensional vectors and saved them as `.npy` files in `/data`.
   * For the `ROSIS Hyperspectral Images`, we have the image and binary mask saved as `data/hsi.npy` and `data/hsi_gt.npy` respectively. Run `hsi_data_gen.py` for preprocessing the data. The preprocessed HSI data will be stored as `data/hsi_data_points.npy`.
@@ -25,6 +26,7 @@ Now we will enumerate the files for data structures and the algorithm implementa
 * `Ang_hash_AKDE.py`: using angular kernel.
 * `L2_hash_AKDE.py`: using Euclidean p-stable(p=2) kernel.
 
+Let us list out the procedure to conduct the three sets of experiments.
 ### Variation of mean relative error with sketch size
 * **Real-world dataset** Run the following command in terminal to compute the log of mean relative errors for different sketch sizes corresponding to number of rows=100,200,400,800,1600,3200. We take the window size as 450.
   ```
