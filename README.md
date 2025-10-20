@@ -1,11 +1,11 @@
 # Streaming ANN and AKDE
-This repository contains codes of the proposed `ANN` and `AKDE` algorithms.
+This repository contains the code of the proposed `ANN` and `AKDE` algorithms.
 
 ## Run the codes
-The codes for AKDE are present in `Code/SlidingWindowKDE` whereas that of ANN are in `Code/StreamingANN`.
+The codes for AKDE are present in `Code/SlidingWindowKDE`, whereas those of ANN are in `Code/StreamingANN`.
 
 ## AKDE
-The code is tested in Linux platform using python 3.12.0. The required python libraries for running the codes are as follows:
+The code is tested on Linux platform using Python 3.12.0. The required Python libraries for running the code are as follows:
 * numpy
 * matplotlib
 * tqdm
@@ -14,13 +14,13 @@ The code is tested in Linux platform using python 3.12.0. The required python li
 
 Change the current directory to `/Code/SlidingWindowKDE/`.
 
-First of all you need to generate the daatsets. 
+First of all, you need to generate the datasets. 
 
 * **Synthetic data:** To generate synthetic data, run
   ```
   python data_generate.py
   ```
-  The generated data will be saved as *data_1.npy,data_2.npy,...,dat_50.npy* in the directory `/synthetic_data`. We have generated 50 datasets of size 10000 each consisting of 200-dimensional vectors. We will use these data for monte carlo simulations to demonstrate the performance of our algorithm.
+  The generated data will be saved as *data_1.npy,data_2.npy,...,dat_50.npy* in the directory `/synthetic_data`. We have generated 50 datasets of size 10000 each, consisting of 200-dimensional vectors. We will use these data for Monte Carlo simulations to demonstrate the performance of our algorithm.
 * **Real world data:**
   * For the `News headlines` data, we have generated the encodings as 384-dimensional vectors and saved them as `.npy` files in `/data`.
   * For the `ROSIS Hyperspectral Images`, we have the image and binary mask saved as `data/hsi.npy` and `data/hsi_gt.npy` respectively. Run `hsi_data_gen.py` for preprocessing the data. The preprocessed HSI data will be stored as `data/hsi_data_points.npy`.
@@ -52,7 +52,7 @@ Let us list out the procedure to conduct the three sets of experiments.
   For the aforesaid choice of dataset(text) and LSH(Angular) the error values and sketch sizes are saved in *error_vs_sz_text_Angular.txt*. We can get the plot by calling the utility function `graph_plotter.py` using appropriate parameters.
 
 * **Synthetic dataset**
-  We use similar parameters like real-world dataset. Run the command:
+  We use the same setting as the real-world dataset. Run the command:
   ```
     python simulate_AH.py --lsh 2 --w 4 --r 1000 --b 1 --eps 0.1
   ```
@@ -62,7 +62,7 @@ Let us list out the procedure to conduct the three sets of experiments.
   ```
   The plots are saved as *MC_AH.pdf* in `Synthetic_data_outputs` directory and *MC_L2.pdf* in `Synthetic_data_outputs_L2` directory.
 ### Effect of window size on the mean relative error
-Run the following command to plot the log of mean relative errors versus number of rows for different values of window sizes (64,128,256,512,1024,2048). We have used L2 hash for the text data and Angular hash for the image data.
+Run the following command to plot the log of mean relative errors versus the number of rows for different values of window sizes (64,128,256,512,1024,2048). We have used L2 hash for the text data and Angular hash for the image data.
 ```
 python window_size.py --file_name text --n 10000 --n_query 1000 --lsh 2 --w 4 --r 1000 --b 1 --eps 0.1
 ```
@@ -74,11 +74,11 @@ The options have the same explanation as before. The plot is saved as `Window_va
   python compare2.py --data_type text --n 10000 --n_query 1000 --b 1 --eps 0.1
   ```
   The option `data_type` specifies the type of dataset, text or image. The plot is saved as `mean_relative_error_vs_rows.pdf` in the `Outputs` directory.
-* **Synthetic dataset**  Run the following command for synthetic dataset. Here also we have used Angular Hash and window size as 260.
+* **Synthetic dataset**  Run the following command for synthetic dataset. Here, we have used Angular Hash and a window size of 260.
   ```
   python mc_compare.py --b 1 --eps 0.1
   ```
-  Here, the options have same explanation as before. The relative errors for RACE and AKDE are saved in *results_i.npy* for *i=1,2...,50* in `Synthetic_data_outputs_L2` directory. To plot the graph, run
+  Here, the options have the same explanation as before. The relative errors for RACE and AKDE are saved in *results_i.npy* for *i=1,2...,50* in `Synthetic_data_outputs_L2` directory. To plot the graph, run
   ```
   python mc_plot_compare.py
   ```
