@@ -14,6 +14,13 @@ The code is tested on Linux platform using Python 3.12.0. The required Python li
 
 Change the current directory to `/Code/SlidingWindowKDE/`.
 
+<p align="center">
+  <img src="akde_update.png" alt="update image" width="80%"/>
+  <br>
+  <em>Figure 1: SW-AKDE update mechanism. </em>
+</p>
+
+
 First of all, you need to generate the datasets. 
 
 * **Synthetic data:** To generate synthetic data, run
