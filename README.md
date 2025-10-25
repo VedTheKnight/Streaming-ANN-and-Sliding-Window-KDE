@@ -12,14 +12,18 @@ The code is tested on Linux platform using Python 3.12.0. The required Python li
 * torch
 * scipy
 
-Change the current directory to `/Code/SlidingWindowKDE/`.
+Change the current directory to `/Code/SlidingWindowKDE/`. The different steps of the `SW-AKDE` algorithm are illustrated in Figs. 1 and 2.
 
 <p align="center">
   <img src="akde_update.png" alt="update image" width="80%"/>
   <br>
   <em>Figure 1: SW-AKDE update mechanism. </em>
 </p>
-
+<p align="center">
+  <img src="akde_query.png" alt="query image" width="75%"/>
+  <br>
+  <em>Figure 2: SW-AKDE query mechanism. </em>
+</p>
 
 First of all, you need to generate the datasets. 
 
