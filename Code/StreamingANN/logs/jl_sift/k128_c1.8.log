@@ -1,0 +1,1501 @@
+[Build] Inserted 100/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 200/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 300/50000 points, avg insert time: 0.079 ms
+[Build] Inserted 400/50000 points, avg insert time: 0.020 ms
+[Build] Inserted 500/50000 points, avg insert time: 0.045 ms
+[Build] Inserted 600/50000 points, avg insert time: 0.007 ms
+[Build] Inserted 700/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 800/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 900/50000 points, avg insert time: 0.075 ms
+[Build] Inserted 1000/50000 points, avg insert time: 0.012 ms
+[Build] Inserted 1100/50000 points, avg insert time: 0.011 ms
+[Build] Inserted 1200/50000 points, avg insert time: 0.022 ms
+[Build] Inserted 1300/50000 points, avg insert time: 0.052 ms
+[Build] Inserted 1400/50000 points, avg insert time: 0.013 ms
+[Build] Inserted 1500/50000 points, avg insert time: 0.075 ms
+[Build] Inserted 1600/50000 points, avg insert time: 0.011 ms
+[Build] Inserted 1700/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 1800/50000 points, avg insert time: 0.585 ms
+[Build] Inserted 1900/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 2000/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 2100/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 2200/50000 points, avg insert time: 0.153 ms
+[Build] Inserted 2300/50000 points, avg insert time: 0.020 ms
+[Build] Inserted 2400/50000 points, avg insert time: 0.078 ms
+[Build] Inserted 2500/50000 points, avg insert time: 0.064 ms
+[Build] Inserted 2600/50000 points, avg insert time: 0.061 ms
+[Build] Inserted 2700/50000 points, avg insert time: 0.068 ms
+[Build] Inserted 2800/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 2900/50000 points, avg insert time: 0.059 ms
+[Build] Inserted 3000/50000 points, avg insert time: 0.070 ms
+[Build] Inserted 3100/50000 points, avg insert time: 0.068 ms
+[Build] Inserted 3200/50000 points, avg insert time: 0.020 ms
+[Build] Inserted 3300/50000 points, avg insert time: 0.063 ms
+[Build] Inserted 3400/50000 points, avg insert time: 0.062 ms
+[Build] Inserted 3500/50000 points, avg insert time: 0.020 ms
+[Build] Inserted 3600/50000 points, avg insert time: 0.079 ms
+[Build] Inserted 3700/50000 points, avg insert time: 0.464 ms
+[Build] Inserted 3800/50000 points, avg insert time: 0.212 ms
+[Build] Inserted 3900/50000 points, avg insert time: 0.139 ms
+[Build] Inserted 4000/50000 points, avg insert time: 0.085 ms
+[Build] Inserted 4100/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 4200/50000 points, avg insert time: 0.057 ms
+[Build] Inserted 4300/50000 points, avg insert time: 0.075 ms
+[Build] Inserted 4400/50000 points, avg insert time: 0.061 ms
+[Build] Inserted 4500/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 4600/50000 points, avg insert time: 0.065 ms
+[Build] Inserted 4700/50000 points, avg insert time: 0.064 ms
+[Build] Inserted 4800/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 4900/50000 points, avg insert time: 0.062 ms
+[Build] Inserted 5000/50000 points, avg insert time: 0.082 ms
+[Build] Inserted 5100/50000 points, avg insert time: 0.218 ms
+[Build] Inserted 5200/50000 points, avg insert time: 0.078 ms
+[Build] Inserted 5300/50000 points, avg insert time: 0.143 ms
+[Build] Inserted 5400/50000 points, avg insert time: 0.022 ms
+[Build] Inserted 5500/50000 points, avg insert time: 0.142 ms
+[Build] Inserted 5600/50000 points, avg insert time: 0.064 ms
+[Build] Inserted 5700/50000 points, avg insert time: 0.067 ms
+[Build] Inserted 5800/50000 points, avg insert time: 0.019 ms
+[Build] Inserted 5900/50000 points, avg insert time: 0.064 ms
+[Build] Inserted 6000/50000 points, avg insert time: 0.138 ms
+[Build] Inserted 6100/50000 points, avg insert time: 0.022 ms
+[Build] Inserted 6200/50000 points, avg insert time: 0.056 ms
+[Build] Inserted 6300/50000 points, avg insert time: 0.070 ms
+[Build] Inserted 6400/50000 points, avg insert time: 0.066 ms
+[Build] Inserted 6500/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 6600/50000 points, avg insert time: 0.315 ms
+[Build] Inserted 6700/50000 points, avg insert time: 0.105 ms
+[Build] Inserted 6800/50000 points, avg insert time: 0.093 ms
+[Build] Inserted 6900/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 7000/50000 points, avg insert time: 0.185 ms
+[Build] Inserted 7100/50000 points, avg insert time: 0.035 ms
+[Build] Inserted 7200/50000 points, avg insert time: 0.118 ms
+[Build] Inserted 7300/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 7400/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 7500/50000 points, avg insert time: 0.058 ms
+[Build] Inserted 7600/50000 points, avg insert time: 0.023 ms
+[Build] Inserted 7700/50000 points, avg insert time: 0.133 ms
+[Build] Inserted 7800/50000 points, avg insert time: 0.116 ms
+[Build] Inserted 7900/50000 points, avg insert time: 0.090 ms
+[Build] Inserted 8000/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 8100/50000 points, avg insert time: 0.083 ms
+[Build] Inserted 8200/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 8300/50000 points, avg insert time: 0.063 ms
+[Build] Inserted 8400/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 8500/50000 points, avg insert time: 0.053 ms
+[Build] Inserted 8600/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 8700/50000 points, avg insert time: 0.062 ms
+[Build] Inserted 8800/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 8900/50000 points, avg insert time: 0.138 ms
+[Build] Inserted 9000/50000 points, avg insert time: 0.148 ms
+[Build] Inserted 9100/50000 points, avg insert time: 0.061 ms
+[Build] Inserted 9200/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 9300/50000 points, avg insert time: 0.057 ms
+[Build] Inserted 9400/50000 points, avg insert time: 0.013 ms
+[Build] Inserted 9500/50000 points, avg insert time: 0.046 ms
+[Build] Inserted 9600/50000 points, avg insert time: 0.058 ms
+[Build] Inserted 9700/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 9800/50000 points, avg insert time: 0.053 ms
+[Build] Inserted 9900/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 10000/50000 points, avg insert time: 0.059 ms
+[Build] Inserted 10100/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 10200/50000 points, avg insert time: 0.055 ms
+[Build] Inserted 10300/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 10400/50000 points, avg insert time: 0.058 ms
+[Build] Inserted 10500/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 10600/50000 points, avg insert time: 0.053 ms
+[Build] Inserted 10700/50000 points, avg insert time: 0.064 ms
+[Build] Inserted 10800/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 10900/50000 points, avg insert time: 0.059 ms
+[Build] Inserted 11000/50000 points, avg insert time: 0.044 ms
+[Build] Inserted 11100/50000 points, avg insert time: 0.170 ms
+[Build] Inserted 11200/50000 points, avg insert time: 0.064 ms
+[Build] Inserted 11300/50000 points, avg insert time: 0.071 ms
+[Build] Inserted 11400/50000 points, avg insert time: 0.051 ms
+[Build] Inserted 11500/50000 points, avg insert time: 0.099 ms
+[Build] Inserted 11600/50000 points, avg insert time: 0.052 ms
+[Build] Inserted 11700/50000 points, avg insert time: 0.072 ms
+[Build] Inserted 11800/50000 points, avg insert time: 0.021 ms
+[Build] Inserted 11900/50000 points, avg insert time: 0.039 ms
+[Build] Inserted 12000/50000 points, avg insert time: 0.076 ms
+[Build] Inserted 12100/50000 points, avg insert time: 0.063 ms
+[Build] Inserted 12200/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 12300/50000 points, avg insert time: 0.060 ms
+[Build] Inserted 12400/50000 points, avg insert time: 0.023 ms
+[Build] Inserted 12500/50000 points, avg insert time: 0.132 ms
+[Build] Inserted 12600/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 12700/50000 points, avg insert time: 0.132 ms
+[Build] Inserted 12800/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 12900/50000 points, avg insert time: 0.051 ms
+[Build] Inserted 13000/50000 points, avg insert time: 0.013 ms
+[Build] Inserted 13100/50000 points, avg insert time: 0.132 ms
+[Build] Inserted 13200/50000 points, avg insert time: 0.295 ms
+[Build] Inserted 13300/50000 points, avg insert time: 0.820 ms
+[Build] Inserted 13400/50000 points, avg insert time: 0.267 ms
+[Build] Inserted 13500/50000 points, avg insert time: 0.220 ms
+[Build] Inserted 13600/50000 points, avg insert time: 0.329 ms
+[Build] Inserted 13700/50000 points, avg insert time: 0.247 ms
+[Build] Inserted 13800/50000 points, avg insert time: 0.209 ms
+[Build] Inserted 13900/50000 points, avg insert time: 0.109 ms
+[Build] Inserted 14000/50000 points, avg insert time: 0.157 ms
+[Build] Inserted 14100/50000 points, avg insert time: 0.349 ms
+[Build] Inserted 14200/50000 points, avg insert time: 1.919 ms
+[Build] Inserted 14300/50000 points, avg insert time: 0.901 ms
+[Build] Inserted 14400/50000 points, avg insert time: 0.416 ms
+[Build] Inserted 14500/50000 points, avg insert time: 0.797 ms
+[Build] Inserted 14600/50000 points, avg insert time: 1.185 ms
+[Build] Inserted 14700/50000 points, avg insert time: 0.830 ms
+[Build] Inserted 14800/50000 points, avg insert time: 0.294 ms
+[Build] Inserted 14900/50000 points, avg insert time: 0.328 ms
+[Build] Inserted 15000/50000 points, avg insert time: 0.709 ms
+[Build] Inserted 15100/50000 points, avg insert time: 2.110 ms
+[Build] Inserted 15200/50000 points, avg insert time: 1.271 ms
+[Build] Inserted 15300/50000 points, avg insert time: 0.625 ms
+[Build] Inserted 15400/50000 points, avg insert time: 0.581 ms
+[Build] Inserted 15500/50000 points, avg insert time: 0.299 ms
+[Build] Inserted 15600/50000 points, avg insert time: 1.264 ms
+[Build] Inserted 15700/50000 points, avg insert time: 0.333 ms
+[Build] Inserted 15800/50000 points, avg insert time: 0.188 ms
+[Build] Inserted 15900/50000 points, avg insert time: 0.279 ms
+[Build] Inserted 16000/50000 points, avg insert time: 0.353 ms
+[Build] Inserted 16100/50000 points, avg insert time: 0.092 ms
+[Build] Inserted 16200/50000 points, avg insert time: 0.139 ms
+[Build] Inserted 16300/50000 points, avg insert time: 0.302 ms
+[Build] Inserted 16400/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 16500/50000 points, avg insert time: 0.078 ms
+[Build] Inserted 16600/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 16700/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 16800/50000 points, avg insert time: 0.189 ms
+[Build] Inserted 16900/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 17000/50000 points, avg insert time: 0.022 ms
+[Build] Inserted 17100/50000 points, avg insert time: 0.178 ms
+[Build] Inserted 17200/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 17300/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 17400/50000 points, avg insert time: 0.080 ms
+[Build] Inserted 17500/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 17600/50000 points, avg insert time: 0.115 ms
+[Build] Inserted 17700/50000 points, avg insert time: 0.222 ms
+[Build] Inserted 17800/50000 points, avg insert time: 0.229 ms
+[Build] Inserted 17900/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 18000/50000 points, avg insert time: 0.515 ms
+[Build] Inserted 18100/50000 points, avg insert time: 1.983 ms
+[Build] Inserted 18200/50000 points, avg insert time: 0.910 ms
+[Build] Inserted 18300/50000 points, avg insert time: 0.823 ms
+[Build] Inserted 18400/50000 points, avg insert time: 2.045 ms
+[Build] Inserted 18500/50000 points, avg insert time: 2.473 ms
+[Build] Inserted 18600/50000 points, avg insert time: 0.707 ms
+[Build] Inserted 18700/50000 points, avg insert time: 3.660 ms
+[Build] Inserted 18800/50000 points, avg insert time: 0.979 ms
+[Build] Inserted 18900/50000 points, avg insert time: 0.157 ms
+[Build] Inserted 19000/50000 points, avg insert time: 0.798 ms
+[Build] Inserted 19100/50000 points, avg insert time: 0.381 ms
+[Build] Inserted 19200/50000 points, avg insert time: 0.502 ms
+[Build] Inserted 19300/50000 points, avg insert time: 0.153 ms
+[Build] Inserted 19400/50000 points, avg insert time: 0.154 ms
+[Build] Inserted 19500/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 19600/50000 points, avg insert time: 0.138 ms
+[Build] Inserted 19700/50000 points, avg insert time: 0.019 ms
+[Build] Inserted 19800/50000 points, avg insert time: 0.268 ms
+[Build] Inserted 19900/50000 points, avg insert time: 1.377 ms
+[Build] Inserted 20000/50000 points, avg insert time: 0.409 ms
+[Build] Inserted 20100/50000 points, avg insert time: 0.448 ms
+[Build] Inserted 20200/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 20300/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 20400/50000 points, avg insert time: 0.157 ms
+[Build] Inserted 20500/50000 points, avg insert time: 0.089 ms
+[Build] Inserted 20600/50000 points, avg insert time: 0.019 ms
+[Build] Inserted 20700/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 20800/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 20900/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 21000/50000 points, avg insert time: 0.023 ms
+[Build] Inserted 21100/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 21200/50000 points, avg insert time: 0.134 ms
+[Build] Inserted 21300/50000 points, avg insert time: 0.021 ms
+[Build] Inserted 21400/50000 points, avg insert time: 0.021 ms
+[Build] Inserted 21500/50000 points, avg insert time: 0.662 ms
+[Build] Inserted 21600/50000 points, avg insert time: 0.246 ms
+[Build] Inserted 21700/50000 points, avg insert time: 0.488 ms
+[Build] Inserted 21800/50000 points, avg insert time: 0.590 ms
+[Build] Inserted 21900/50000 points, avg insert time: 0.527 ms
+[Build] Inserted 22000/50000 points, avg insert time: 0.106 ms
+[Build] Inserted 22100/50000 points, avg insert time: 0.649 ms
+[Build] Inserted 22200/50000 points, avg insert time: 1.650 ms
+[Build] Inserted 22300/50000 points, avg insert time: 1.818 ms
+[Build] Inserted 22400/50000 points, avg insert time: 0.324 ms
+[Build] Inserted 22500/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 22600/50000 points, avg insert time: 0.062 ms
+[Build] Inserted 22700/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 22800/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 22900/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 23000/50000 points, avg insert time: 0.019 ms
+[Build] Inserted 23100/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 23200/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 23300/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 23400/50000 points, avg insert time: 0.021 ms
+[Build] Inserted 23500/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 23600/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 23700/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 23800/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 23900/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 24000/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 24100/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 24200/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 24300/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 24400/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 24500/50000 points, avg insert time: 0.023 ms
+[Build] Inserted 24600/50000 points, avg insert time: 0.013 ms
+[Build] Inserted 24700/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 24800/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 24900/50000 points, avg insert time: 0.011 ms
+[Build] Inserted 25000/50000 points, avg insert time: 0.012 ms
+[Build] Inserted 25100/50000 points, avg insert time: 0.012 ms
+[Build] Inserted 25200/50000 points, avg insert time: 0.020 ms
+[Build] Inserted 25300/50000 points, avg insert time: 0.013 ms
+[Build] Inserted 25400/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 25500/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 25600/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 25700/50000 points, avg insert time: 0.013 ms
+[Build] Inserted 25800/50000 points, avg insert time: 0.013 ms
+[Build] Inserted 25900/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 26000/50000 points, avg insert time: 0.013 ms
+[Build] Inserted 26100/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 26200/50000 points, avg insert time: 0.019 ms
+[Build] Inserted 26300/50000 points, avg insert time: 0.013 ms
+[Build] Inserted 26400/50000 points, avg insert time: 0.019 ms
+[Build] Inserted 26500/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 26600/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 26700/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 26800/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 26900/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 27000/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 27100/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 27200/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 27300/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 27400/50000 points, avg insert time: 0.039 ms
+[Build] Inserted 27500/50000 points, avg insert time: 0.023 ms
+[Build] Inserted 27600/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 27700/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 27800/50000 points, avg insert time: 0.023 ms
+[Build] Inserted 27900/50000 points, avg insert time: 0.022 ms
+[Build] Inserted 28000/50000 points, avg insert time: 0.023 ms
+[Build] Inserted 28100/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 28200/50000 points, avg insert time: 0.039 ms
+[Build] Inserted 28300/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 28400/50000 points, avg insert time: 0.031 ms
+[Build] Inserted 28500/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 28600/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 28700/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 28800/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 28900/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 29000/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 29100/50000 points, avg insert time: 0.038 ms
+[Build] Inserted 29200/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 29300/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 29400/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 29500/50000 points, avg insert time: 0.049 ms
+[Build] Inserted 29600/50000 points, avg insert time: 0.023 ms
+[Build] Inserted 29700/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 29800/50000 points, avg insert time: 0.022 ms
+[Build] Inserted 29900/50000 points, avg insert time: 0.013 ms
+[Build] Inserted 30000/50000 points, avg insert time: 0.019 ms
+[Build] Inserted 30100/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 30200/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 30300/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 30400/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 30500/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 30600/50000 points, avg insert time: 0.013 ms
+[Build] Inserted 30700/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 30800/50000 points, avg insert time: 0.076 ms
+[Build] Inserted 30900/50000 points, avg insert time: 0.067 ms
+[Build] Inserted 31000/50000 points, avg insert time: 0.043 ms
+[Build] Inserted 31100/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 31200/50000 points, avg insert time: 0.183 ms
+[Build] Inserted 31300/50000 points, avg insert time: 0.023 ms
+[Build] Inserted 31400/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 31500/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 31600/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 31700/50000 points, avg insert time: 0.041 ms
+[Build] Inserted 31800/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 31900/50000 points, avg insert time: 0.040 ms
+[Build] Inserted 32000/50000 points, avg insert time: 0.037 ms
+[Build] Inserted 32100/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 32200/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 32300/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 32400/50000 points, avg insert time: 0.034 ms
+[Build] Inserted 32500/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 32600/50000 points, avg insert time: 0.067 ms
+[Build] Inserted 32700/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 32800/50000 points, avg insert time: 0.062 ms
+[Build] Inserted 32900/50000 points, avg insert time: 0.069 ms
+[Build] Inserted 33000/50000 points, avg insert time: 0.070 ms
+[Build] Inserted 33100/50000 points, avg insert time: 0.066 ms
+[Build] Inserted 33200/50000 points, avg insert time: 0.091 ms
+[Build] Inserted 33300/50000 points, avg insert time: 0.066 ms
+[Build] Inserted 33400/50000 points, avg insert time: 0.067 ms
+[Build] Inserted 33500/50000 points, avg insert time: 0.087 ms
+[Build] Inserted 33600/50000 points, avg insert time: 0.062 ms
+[Build] Inserted 33700/50000 points, avg insert time: 0.076 ms
+[Build] Inserted 33800/50000 points, avg insert time: 0.058 ms
+[Build] Inserted 33900/50000 points, avg insert time: 0.091 ms
+[Build] Inserted 34000/50000 points, avg insert time: 0.056 ms
+[Build] Inserted 34100/50000 points, avg insert time: 0.109 ms
+[Build] Inserted 34200/50000 points, avg insert time: 0.211 ms
+[Build] Inserted 34300/50000 points, avg insert time: 0.098 ms
+[Build] Inserted 34400/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 34500/50000 points, avg insert time: 0.060 ms
+[Build] Inserted 34600/50000 points, avg insert time: 0.097 ms
+[Build] Inserted 34700/50000 points, avg insert time: 0.100 ms
+[Build] Inserted 34800/50000 points, avg insert time: 0.026 ms
+[Build] Inserted 34900/50000 points, avg insert time: 0.093 ms
+[Build] Inserted 35000/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 35100/50000 points, avg insert time: 0.119 ms
+[Build] Inserted 35200/50000 points, avg insert time: 0.097 ms
+[Build] Inserted 35300/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 35400/50000 points, avg insert time: 0.033 ms
+[Build] Inserted 35500/50000 points, avg insert time: 0.042 ms
+[Build] Inserted 35600/50000 points, avg insert time: 0.112 ms
+[Build] Inserted 35700/50000 points, avg insert time: 0.082 ms
+[Build] Inserted 35800/50000 points, avg insert time: 0.239 ms
+[Build] Inserted 35900/50000 points, avg insert time: 0.043 ms
+[Build] Inserted 36000/50000 points, avg insert time: 0.052 ms
+[Build] Inserted 36100/50000 points, avg insert time: 0.097 ms
+[Build] Inserted 36200/50000 points, avg insert time: 0.078 ms
+[Build] Inserted 36300/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 36400/50000 points, avg insert time: 0.027 ms
+[Build] Inserted 36500/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 36600/50000 points, avg insert time: 0.023 ms
+[Build] Inserted 36700/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 36800/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 36900/50000 points, avg insert time: 0.022 ms
+[Build] Inserted 37000/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 37100/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 37200/50000 points, avg insert time: 0.019 ms
+[Build] Inserted 37300/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 37400/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 37500/50000 points, avg insert time: 0.022 ms
+[Build] Inserted 37600/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 37700/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 37800/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 37900/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 38000/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 38100/50000 points, avg insert time: 0.021 ms
+[Build] Inserted 38200/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 38300/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 38400/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 38500/50000 points, avg insert time: 0.022 ms
+[Build] Inserted 38600/50000 points, avg insert time: 0.025 ms
+[Build] Inserted 38700/50000 points, avg insert time: 0.020 ms
+[Build] Inserted 38800/50000 points, avg insert time: 0.021 ms
+[Build] Inserted 38900/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 39000/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 39100/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 39200/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 39300/50000 points, avg insert time: 0.021 ms
+[Build] Inserted 39400/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 39500/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 39600/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 39700/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 39800/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 39900/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 40000/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 40100/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 40200/50000 points, avg insert time: 0.028 ms
+[Build] Inserted 40300/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 40400/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 40500/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 40600/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 40700/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 40800/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 40900/50000 points, avg insert time: 0.029 ms
+[Build] Inserted 41000/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 41100/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 41200/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 41300/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 41400/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 41500/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 41600/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 41700/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 41800/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 41900/50000 points, avg insert time: 0.019 ms
+[Build] Inserted 42000/50000 points, avg insert time: 0.091 ms
+[Build] Inserted 42100/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 42200/50000 points, avg insert time: 0.030 ms
+[Build] Inserted 42300/50000 points, avg insert time: 0.019 ms
+[Build] Inserted 42400/50000 points, avg insert time: 0.061 ms
+[Build] Inserted 42500/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 42600/50000 points, avg insert time: 0.064 ms
+[Build] Inserted 42700/50000 points, avg insert time: 0.083 ms
+[Build] Inserted 42800/50000 points, avg insert time: 0.113 ms
+[Build] Inserted 42900/50000 points, avg insert time: 0.019 ms
+[Build] Inserted 43000/50000 points, avg insert time: 0.063 ms
+[Build] Inserted 43100/50000 points, avg insert time: 0.059 ms
+[Build] Inserted 43200/50000 points, avg insert time: 0.077 ms
+[Build] Inserted 43300/50000 points, avg insert time: 0.093 ms
+[Build] Inserted 43400/50000 points, avg insert time: 0.161 ms
+[Build] Inserted 43500/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 43600/50000 points, avg insert time: 0.137 ms
+[Build] Inserted 43700/50000 points, avg insert time: 0.032 ms
+[Build] Inserted 43800/50000 points, avg insert time: 0.152 ms
+[Build] Inserted 43900/50000 points, avg insert time: 4.571 ms
+[Build] Inserted 44000/50000 points, avg insert time: 0.173 ms
+[Build] Inserted 44100/50000 points, avg insert time: 0.020 ms
+[Build] Inserted 44200/50000 points, avg insert time: 0.088 ms
+[Build] Inserted 44300/50000 points, avg insert time: 0.195 ms
+[Build] Inserted 44400/50000 points, avg insert time: 0.020 ms
+[Build] Inserted 44500/50000 points, avg insert time: 0.137 ms
+[Build] Inserted 44600/50000 points, avg insert time: 0.389 ms
+[Build] Inserted 44700/50000 points, avg insert time: 0.019 ms
+[Build] Inserted 44800/50000 points, avg insert time: 0.144 ms
+[Build] Inserted 44900/50000 points, avg insert time: 0.191 ms
+[Build] Inserted 45000/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 45100/50000 points, avg insert time: 0.097 ms
+[Build] Inserted 45200/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 45300/50000 points, avg insert time: 0.081 ms
+[Build] Inserted 45400/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 45500/50000 points, avg insert time: 0.019 ms
+[Build] Inserted 45600/50000 points, avg insert time: 0.070 ms
+[Build] Inserted 45700/50000 points, avg insert time: 0.045 ms
+[Build] Inserted 45800/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 45900/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 46000/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 46100/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 46200/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 46300/50000 points, avg insert time: 0.019 ms
+[Build] Inserted 46400/50000 points, avg insert time: 0.024 ms
+[Build] Inserted 46500/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 46600/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 46700/50000 points, avg insert time: 0.023 ms
+[Build] Inserted 46800/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 46900/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 47000/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 47100/50000 points, avg insert time: 0.019 ms
+[Build] Inserted 47200/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 47300/50000 points, avg insert time: 0.015 ms
+[Build] Inserted 47400/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 47500/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 47600/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 47700/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 47800/50000 points, avg insert time: 0.050 ms
+[Build] Inserted 47900/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 48000/50000 points, avg insert time: 0.014 ms
+[Build] Inserted 48100/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 48200/50000 points, avg insert time: 0.016 ms
+[Build] Inserted 48300/50000 points, avg insert time: 0.013 ms
+[Build] Inserted 48400/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 48500/50000 points, avg insert time: 0.017 ms
+[Build] Inserted 48600/50000 points, avg insert time: 0.018 ms
+[Build] Inserted 48700/50000 points, avg insert time: 0.753 ms
+[Build] Inserted 48800/50000 points, avg insert time: 0.081 ms
+[Build] Inserted 48900/50000 points, avg insert time: 0.438 ms
+[Build] Inserted 49000/50000 points, avg insert time: 0.517 ms
+[Build] Inserted 49100/50000 points, avg insert time: 0.468 ms
+[Build] Inserted 49200/50000 points, avg insert time: 1.188 ms
+[Build] Inserted 49300/50000 points, avg insert time: 1.561 ms
+[Build] Inserted 49400/50000 points, avg insert time: 1.996 ms
+[Build] Inserted 49500/50000 points, avg insert time: 0.631 ms
+[Build] Inserted 49600/50000 points, avg insert time: 0.012 ms
+[Build] Inserted 49700/50000 points, avg insert time: 0.012 ms
+[Build] Inserted 49800/50000 points, avg insert time: 0.069 ms
+[Build] Inserted 49900/50000 points, avg insert time: 0.012 ms
+[Build] Inserted 50000/50000 points, avg insert time: 0.115 ms
+[Recall] Processed 10/5000 queries, avg recall so far: 1.0000, avg query time: 305.017 ms
+[Recall] Processed 20/5000 queries, avg recall so far: 1.0000, avg query time: 291.231 ms
+[Recall] Processed 30/5000 queries, avg recall so far: 1.0000, avg query time: 290.070 ms
+[Recall] Processed 40/5000 queries, avg recall so far: 1.0000, avg query time: 294.274 ms
+[Recall] Processed 50/5000 queries, avg recall so far: 1.0000, avg query time: 297.838 ms
+[Recall] Processed 60/5000 queries, avg recall so far: 1.0000, avg query time: 310.454 ms
+[Recall] Processed 70/5000 queries, avg recall so far: 1.0000, avg query time: 319.461 ms
+[Recall] Processed 80/5000 queries, avg recall so far: 1.0000, avg query time: 319.629 ms
+[Recall] Processed 90/5000 queries, avg recall so far: 1.0000, avg query time: 320.961 ms
+[Recall] Processed 100/5000 queries, avg recall so far: 1.0000, avg query time: 324.521 ms
+[Recall] Processed 110/5000 queries, avg recall so far: 1.0000, avg query time: 325.501 ms
+[Recall] Processed 120/5000 queries, avg recall so far: 1.0000, avg query time: 324.101 ms
+[Recall] Processed 130/5000 queries, avg recall so far: 1.0000, avg query time: 324.528 ms
+[Recall] Processed 140/5000 queries, avg recall so far: 1.0000, avg query time: 323.239 ms
+[Recall] Processed 150/5000 queries, avg recall so far: 1.0000, avg query time: 323.620 ms
+[Recall] Processed 160/5000 queries, avg recall so far: 1.0000, avg query time: 323.650 ms
+[Recall] Processed 170/5000 queries, avg recall so far: 1.0000, avg query time: 322.405 ms
+[Recall] Processed 180/5000 queries, avg recall so far: 1.0000, avg query time: 322.798 ms
+[Recall] Processed 190/5000 queries, avg recall so far: 1.0000, avg query time: 322.354 ms
+[Recall] Processed 200/5000 queries, avg recall so far: 1.0000, avg query time: 322.660 ms
+[Recall] Processed 210/5000 queries, avg recall so far: 1.0000, avg query time: 322.547 ms
+[Recall] Processed 220/5000 queries, avg recall so far: 1.0000, avg query time: 323.380 ms
+[Recall] Processed 230/5000 queries, avg recall so far: 1.0000, avg query time: 323.393 ms
+[Recall] Processed 240/5000 queries, avg recall so far: 1.0000, avg query time: 321.991 ms
+[Recall] Processed 250/5000 queries, avg recall so far: 1.0000, avg query time: 321.259 ms
+[Recall] Processed 260/5000 queries, avg recall so far: 1.0000, avg query time: 321.050 ms
+[Recall] Processed 270/5000 queries, avg recall so far: 1.0000, avg query time: 321.203 ms
+[Recall] Processed 280/5000 queries, avg recall so far: 1.0000, avg query time: 320.138 ms
+[Recall] Processed 290/5000 queries, avg recall so far: 1.0000, avg query time: 319.826 ms
+[Recall] Processed 300/5000 queries, avg recall so far: 1.0000, avg query time: 322.363 ms
+[Recall] Processed 310/5000 queries, avg recall so far: 1.0000, avg query time: 321.640 ms
+[Recall] Processed 320/5000 queries, avg recall so far: 1.0000, avg query time: 321.129 ms
+[Recall] Processed 330/5000 queries, avg recall so far: 1.0000, avg query time: 322.012 ms
+[Recall] Processed 340/5000 queries, avg recall so far: 1.0000, avg query time: 322.209 ms
+[Recall] Processed 350/5000 queries, avg recall so far: 1.0000, avg query time: 321.283 ms
+[Recall] Processed 360/5000 queries, avg recall so far: 1.0000, avg query time: 321.201 ms
+[Recall] Processed 370/5000 queries, avg recall so far: 1.0000, avg query time: 320.938 ms
+[Recall] Processed 380/5000 queries, avg recall so far: 1.0000, avg query time: 320.088 ms
+[Recall] Processed 390/5000 queries, avg recall so far: 1.0000, avg query time: 319.633 ms
+[Recall] Processed 400/5000 queries, avg recall so far: 1.0000, avg query time: 320.257 ms
+[Recall] Processed 410/5000 queries, avg recall so far: 1.0000, avg query time: 320.958 ms
+[Recall] Processed 420/5000 queries, avg recall so far: 1.0000, avg query time: 320.196 ms
+[Recall] Processed 430/5000 queries, avg recall so far: 1.0000, avg query time: 320.201 ms
+[Recall] Processed 440/5000 queries, avg recall so far: 1.0000, avg query time: 319.567 ms
+[Recall] Processed 450/5000 queries, avg recall so far: 1.0000, avg query time: 319.661 ms
+[Recall] Processed 460/5000 queries, avg recall so far: 1.0000, avg query time: 319.409 ms
+[Recall] Processed 470/5000 queries, avg recall so far: 1.0000, avg query time: 318.964 ms
+[Recall] Processed 480/5000 queries, avg recall so far: 1.0000, avg query time: 318.256 ms
+[Recall] Processed 490/5000 queries, avg recall so far: 1.0000, avg query time: 317.571 ms
+[Recall] Processed 500/5000 queries, avg recall so far: 1.0000, avg query time: 317.363 ms
+[Recall] Processed 510/5000 queries, avg recall so far: 1.0000, avg query time: 317.954 ms
+[Recall] Processed 520/5000 queries, avg recall so far: 1.0000, avg query time: 317.500 ms
+[Recall] Processed 530/5000 queries, avg recall so far: 1.0000, avg query time: 318.138 ms
+[Recall] Processed 540/5000 queries, avg recall so far: 1.0000, avg query time: 318.251 ms
+[Recall] Processed 550/5000 queries, avg recall so far: 1.0000, avg query time: 317.953 ms
+[Recall] Processed 560/5000 queries, avg recall so far: 1.0000, avg query time: 317.907 ms
+[Recall] Processed 570/5000 queries, avg recall so far: 1.0000, avg query time: 317.636 ms
+[Recall] Processed 580/5000 queries, avg recall so far: 1.0000, avg query time: 317.489 ms
+[Recall] Processed 590/5000 queries, avg recall so far: 1.0000, avg query time: 316.864 ms
+[Recall] Processed 600/5000 queries, avg recall so far: 1.0000, avg query time: 316.703 ms
+[Recall] Processed 610/5000 queries, avg recall so far: 1.0000, avg query time: 316.425 ms
+[Recall] Processed 620/5000 queries, avg recall so far: 1.0000, avg query time: 317.648 ms
+[Recall] Processed 630/5000 queries, avg recall so far: 1.0000, avg query time: 317.355 ms
+[Recall] Processed 640/5000 queries, avg recall so far: 1.0000, avg query time: 317.104 ms
+[Recall] Processed 650/5000 queries, avg recall so far: 1.0000, avg query time: 317.152 ms
+[Recall] Processed 660/5000 queries, avg recall so far: 1.0000, avg query time: 317.159 ms
+[Recall] Processed 670/5000 queries, avg recall so far: 1.0000, avg query time: 317.057 ms
+[Recall] Processed 680/5000 queries, avg recall so far: 1.0000, avg query time: 317.178 ms
+[Recall] Processed 690/5000 queries, avg recall so far: 1.0000, avg query time: 316.618 ms
+[Recall] Processed 700/5000 queries, avg recall so far: 1.0000, avg query time: 316.469 ms
+[Recall] Processed 710/5000 queries, avg recall so far: 1.0000, avg query time: 316.088 ms
+[Recall] Processed 720/5000 queries, avg recall so far: 1.0000, avg query time: 316.481 ms
+[Recall] Processed 730/5000 queries, avg recall so far: 1.0000, avg query time: 316.669 ms
+[Recall] Processed 740/5000 queries, avg recall so far: 1.0000, avg query time: 316.665 ms
+[Recall] Processed 750/5000 queries, avg recall so far: 1.0000, avg query time: 316.489 ms
+[Recall] Processed 760/5000 queries, avg recall so far: 1.0000, avg query time: 316.128 ms
+[Recall] Processed 770/5000 queries, avg recall so far: 1.0000, avg query time: 316.299 ms
+[Recall] Processed 780/5000 queries, avg recall so far: 1.0000, avg query time: 316.297 ms
+[Recall] Processed 790/5000 queries, avg recall so far: 1.0000, avg query time: 316.104 ms
+[Recall] Processed 800/5000 queries, avg recall so far: 1.0000, avg query time: 315.825 ms
+[Recall] Processed 810/5000 queries, avg recall so far: 1.0000, avg query time: 315.673 ms
+[Recall] Processed 820/5000 queries, avg recall so far: 1.0000, avg query time: 315.602 ms
+[Recall] Processed 830/5000 queries, avg recall so far: 1.0000, avg query time: 316.174 ms
+[Recall] Processed 840/5000 queries, avg recall so far: 1.0000, avg query time: 316.186 ms
+[Recall] Processed 850/5000 queries, avg recall so far: 1.0000, avg query time: 316.150 ms
+[Recall] Processed 860/5000 queries, avg recall so far: 1.0000, avg query time: 316.089 ms
+[Recall] Processed 870/5000 queries, avg recall so far: 1.0000, avg query time: 315.836 ms
+[Recall] Processed 880/5000 queries, avg recall so far: 1.0000, avg query time: 315.702 ms
+[Recall] Processed 890/5000 queries, avg recall so far: 1.0000, avg query time: 315.759 ms
+[Recall] Processed 900/5000 queries, avg recall so far: 1.0000, avg query time: 315.692 ms
+[Recall] Processed 910/5000 queries, avg recall so far: 1.0000, avg query time: 315.617 ms
+[Recall] Processed 920/5000 queries, avg recall so far: 1.0000, avg query time: 315.392 ms
+[Recall] Processed 930/5000 queries, avg recall so far: 1.0000, avg query time: 315.838 ms
+[Recall] Processed 940/5000 queries, avg recall so far: 1.0000, avg query time: 315.799 ms
+[Recall] Processed 950/5000 queries, avg recall so far: 1.0000, avg query time: 315.700 ms
+[Recall] Processed 960/5000 queries, avg recall so far: 1.0000, avg query time: 315.371 ms
+[Recall] Processed 970/5000 queries, avg recall so far: 1.0000, avg query time: 315.354 ms
+[Recall] Processed 980/5000 queries, avg recall so far: 1.0000, avg query time: 315.152 ms
+[Recall] Processed 990/5000 queries, avg recall so far: 1.0000, avg query time: 315.112 ms
+[Recall] Processed 1000/5000 queries, avg recall so far: 1.0000, avg query time: 315.014 ms
+[Recall] Processed 1010/5000 queries, avg recall so far: 1.0000, avg query time: 314.955 ms
+[Recall] Processed 1020/5000 queries, avg recall so far: 1.0000, avg query time: 314.871 ms
+[Recall] Processed 1030/5000 queries, avg recall so far: 1.0000, avg query time: 315.280 ms
+[Recall] Processed 1040/5000 queries, avg recall so far: 1.0000, avg query time: 315.180 ms
+[Recall] Processed 1050/5000 queries, avg recall so far: 1.0000, avg query time: 315.519 ms
+[Recall] Processed 1060/5000 queries, avg recall so far: 1.0000, avg query time: 315.370 ms
+[Recall] Processed 1070/5000 queries, avg recall so far: 1.0000, avg query time: 315.501 ms
+[Recall] Processed 1080/5000 queries, avg recall so far: 1.0000, avg query time: 315.295 ms
+[Recall] Processed 1090/5000 queries, avg recall so far: 1.0000, avg query time: 315.229 ms
+[Recall] Processed 1100/5000 queries, avg recall so far: 1.0000, avg query time: 315.175 ms
+[Recall] Processed 1110/5000 queries, avg recall so far: 1.0000, avg query time: 315.328 ms
+[Recall] Processed 1120/5000 queries, avg recall so far: 1.0000, avg query time: 315.219 ms
+[Recall] Processed 1130/5000 queries, avg recall so far: 1.0000, avg query time: 315.376 ms
+[Recall] Processed 1140/5000 queries, avg recall so far: 1.0000, avg query time: 315.553 ms
+[Recall] Processed 1150/5000 queries, avg recall so far: 1.0000, avg query time: 315.500 ms
+[Recall] Processed 1160/5000 queries, avg recall so far: 1.0000, avg query time: 315.516 ms
+[Recall] Processed 1170/5000 queries, avg recall so far: 1.0000, avg query time: 315.467 ms
+[Recall] Processed 1180/5000 queries, avg recall so far: 1.0000, avg query time: 315.398 ms
+[Recall] Processed 1190/5000 queries, avg recall so far: 1.0000, avg query time: 315.488 ms
+[Recall] Processed 1200/5000 queries, avg recall so far: 1.0000, avg query time: 315.311 ms
+[Recall] Processed 1210/5000 queries, avg recall so far: 1.0000, avg query time: 315.106 ms
+[Recall] Processed 1220/5000 queries, avg recall so far: 1.0000, avg query time: 314.991 ms
+[Recall] Processed 1230/5000 queries, avg recall so far: 1.0000, avg query time: 314.983 ms
+[Recall] Processed 1240/5000 queries, avg recall so far: 1.0000, avg query time: 315.294 ms
+[Recall] Processed 1250/5000 queries, avg recall so far: 1.0000, avg query time: 315.351 ms
+[Recall] Processed 1260/5000 queries, avg recall so far: 1.0000, avg query time: 315.176 ms
+[Recall] Processed 1270/5000 queries, avg recall so far: 1.0000, avg query time: 315.093 ms
+[Recall] Processed 1280/5000 queries, avg recall so far: 1.0000, avg query time: 315.059 ms
+[Recall] Processed 1290/5000 queries, avg recall so far: 1.0000, avg query time: 314.979 ms
+[Recall] Processed 1300/5000 queries, avg recall so far: 1.0000, avg query time: 314.957 ms
+[Recall] Processed 1310/5000 queries, avg recall so far: 1.0000, avg query time: 314.925 ms
+[Recall] Processed 1320/5000 queries, avg recall so far: 1.0000, avg query time: 314.849 ms
+[Recall] Processed 1330/5000 queries, avg recall so far: 1.0000, avg query time: 314.640 ms
+[Recall] Processed 1340/5000 queries, avg recall so far: 1.0000, avg query time: 314.475 ms
+[Recall] Processed 1350/5000 queries, avg recall so far: 1.0000, avg query time: 314.900 ms
+[Recall] Processed 1360/5000 queries, avg recall so far: 1.0000, avg query time: 314.797 ms
+[Recall] Processed 1370/5000 queries, avg recall so far: 1.0000, avg query time: 314.892 ms
+[Recall] Processed 1380/5000 queries, avg recall so far: 1.0000, avg query time: 314.886 ms
+[Recall] Processed 1390/5000 queries, avg recall so far: 1.0000, avg query time: 314.717 ms
+[Recall] Processed 1400/5000 queries, avg recall so far: 1.0000, avg query time: 314.525 ms
+[Recall] Processed 1410/5000 queries, avg recall so far: 1.0000, avg query time: 314.639 ms
+[Recall] Processed 1420/5000 queries, avg recall so far: 1.0000, avg query time: 314.465 ms
+[Recall] Processed 1430/5000 queries, avg recall so far: 1.0000, avg query time: 314.286 ms
+[Recall] Processed 1440/5000 queries, avg recall so far: 1.0000, avg query time: 314.461 ms
+[Recall] Processed 1450/5000 queries, avg recall so far: 1.0000, avg query time: 314.673 ms
+[Recall] Processed 1460/5000 queries, avg recall so far: 1.0000, avg query time: 314.711 ms
+[Recall] Processed 1470/5000 queries, avg recall so far: 1.0000, avg query time: 314.794 ms
+[Recall] Processed 1480/5000 queries, avg recall so far: 1.0000, avg query time: 314.864 ms
+[Recall] Processed 1490/5000 queries, avg recall so far: 1.0000, avg query time: 315.075 ms
+[Recall] Processed 1500/5000 queries, avg recall so far: 1.0000, avg query time: 315.069 ms
+[Recall] Processed 1510/5000 queries, avg recall so far: 1.0000, avg query time: 315.088 ms
+[Recall] Processed 1520/5000 queries, avg recall so far: 1.0000, avg query time: 314.997 ms
+[Recall] Processed 1530/5000 queries, avg recall so far: 1.0000, avg query time: 314.712 ms
+[Recall] Processed 1540/5000 queries, avg recall so far: 1.0000, avg query time: 314.795 ms
+[Recall] Processed 1550/5000 queries, avg recall so far: 1.0000, avg query time: 314.904 ms
+[Recall] Processed 1560/5000 queries, avg recall so far: 1.0000, avg query time: 314.841 ms
+[Recall] Processed 1570/5000 queries, avg recall so far: 1.0000, avg query time: 314.754 ms
+[Recall] Processed 1580/5000 queries, avg recall so far: 1.0000, avg query time: 314.650 ms
+[Recall] Processed 1590/5000 queries, avg recall so far: 1.0000, avg query time: 314.554 ms
+[Recall] Processed 1600/5000 queries, avg recall so far: 1.0000, avg query time: 314.384 ms
+[Recall] Processed 1610/5000 queries, avg recall so far: 1.0000, avg query time: 314.320 ms
+[Recall] Processed 1620/5000 queries, avg recall so far: 1.0000, avg query time: 314.337 ms
+[Recall] Processed 1630/5000 queries, avg recall so far: 1.0000, avg query time: 314.232 ms
+[Recall] Processed 1640/5000 queries, avg recall so far: 1.0000, avg query time: 314.135 ms
+[Recall] Processed 1650/5000 queries, avg recall so far: 1.0000, avg query time: 314.001 ms
+[Recall] Processed 1660/5000 queries, avg recall so far: 1.0000, avg query time: 314.251 ms
+[Recall] Processed 1670/5000 queries, avg recall so far: 1.0000, avg query time: 314.435 ms
+[Recall] Processed 1680/5000 queries, avg recall so far: 1.0000, avg query time: 314.431 ms
+[Recall] Processed 1690/5000 queries, avg recall so far: 1.0000, avg query time: 314.371 ms
+[Recall] Processed 1700/5000 queries, avg recall so far: 1.0000, avg query time: 314.328 ms
+[Recall] Processed 1710/5000 queries, avg recall so far: 1.0000, avg query time: 314.245 ms
+[Recall] Processed 1720/5000 queries, avg recall so far: 1.0000, avg query time: 314.330 ms
+[Recall] Processed 1730/5000 queries, avg recall so far: 1.0000, avg query time: 314.381 ms
+[Recall] Processed 1740/5000 queries, avg recall so far: 1.0000, avg query time: 314.524 ms
+[Recall] Processed 1750/5000 queries, avg recall so far: 1.0000, avg query time: 314.670 ms
+[Recall] Processed 1760/5000 queries, avg recall so far: 1.0000, avg query time: 314.859 ms
+[Recall] Processed 1770/5000 queries, avg recall so far: 1.0000, avg query time: 314.742 ms
+[Recall] Processed 1780/5000 queries, avg recall so far: 1.0000, avg query time: 314.717 ms
+[Recall] Processed 1790/5000 queries, avg recall so far: 1.0000, avg query time: 314.662 ms
+[Recall] Processed 1800/5000 queries, avg recall so far: 1.0000, avg query time: 314.569 ms
+[Recall] Processed 1810/5000 queries, avg recall so far: 1.0000, avg query time: 314.531 ms
+[Recall] Processed 1820/5000 queries, avg recall so far: 1.0000, avg query time: 314.515 ms
+[Recall] Processed 1830/5000 queries, avg recall so far: 1.0000, avg query time: 314.557 ms
+[Recall] Processed 1840/5000 queries, avg recall so far: 1.0000, avg query time: 314.445 ms
+[Recall] Processed 1850/5000 queries, avg recall so far: 1.0000, avg query time: 314.485 ms
+[Recall] Processed 1860/5000 queries, avg recall so far: 1.0000, avg query time: 314.823 ms
+[Recall] Processed 1870/5000 queries, avg recall so far: 1.0000, avg query time: 314.784 ms
+[Recall] Processed 1880/5000 queries, avg recall so far: 1.0000, avg query time: 314.753 ms
+[Recall] Processed 1890/5000 queries, avg recall so far: 1.0000, avg query time: 314.853 ms
+[Recall] Processed 1900/5000 queries, avg recall so far: 1.0000, avg query time: 314.716 ms
+[Recall] Processed 1910/5000 queries, avg recall so far: 1.0000, avg query time: 314.854 ms
+[Recall] Processed 1920/5000 queries, avg recall so far: 1.0000, avg query time: 314.886 ms
+[Recall] Processed 1930/5000 queries, avg recall so far: 1.0000, avg query time: 314.946 ms
+[Recall] Processed 1940/5000 queries, avg recall so far: 1.0000, avg query time: 314.951 ms
+[Recall] Processed 1950/5000 queries, avg recall so far: 1.0000, avg query time: 315.119 ms
+[Recall] Processed 1960/5000 queries, avg recall so far: 1.0000, avg query time: 315.235 ms
+[Recall] Processed 1970/5000 queries, avg recall so far: 1.0000, avg query time: 315.108 ms
+[Recall] Processed 1980/5000 queries, avg recall so far: 1.0000, avg query time: 315.080 ms
+[Recall] Processed 1990/5000 queries, avg recall so far: 1.0000, avg query time: 315.143 ms
+[Recall] Processed 2000/5000 queries, avg recall so far: 1.0000, avg query time: 315.072 ms
+[Recall] Processed 2010/5000 queries, avg recall so far: 1.0000, avg query time: 315.175 ms
+[Recall] Processed 2020/5000 queries, avg recall so far: 1.0000, avg query time: 315.077 ms
+[Recall] Processed 2030/5000 queries, avg recall so far: 1.0000, avg query time: 314.976 ms
+[Recall] Processed 2040/5000 queries, avg recall so far: 1.0000, avg query time: 315.029 ms
+[Recall] Processed 2050/5000 queries, avg recall so far: 1.0000, avg query time: 315.020 ms
+[Recall] Processed 2060/5000 queries, avg recall so far: 1.0000, avg query time: 315.054 ms
+[Recall] Processed 2070/5000 queries, avg recall so far: 1.0000, avg query time: 314.969 ms
+[Recall] Processed 2080/5000 queries, avg recall so far: 1.0000, avg query time: 314.934 ms
+[Recall] Processed 2090/5000 queries, avg recall so far: 1.0000, avg query time: 314.774 ms
+[Recall] Processed 2100/5000 queries, avg recall so far: 1.0000, avg query time: 314.830 ms
+[Recall] Processed 2110/5000 queries, avg recall so far: 1.0000, avg query time: 314.747 ms
+[Recall] Processed 2120/5000 queries, avg recall so far: 1.0000, avg query time: 314.731 ms
+[Recall] Processed 2130/5000 queries, avg recall so far: 1.0000, avg query time: 314.753 ms
+[Recall] Processed 2140/5000 queries, avg recall so far: 1.0000, avg query time: 314.743 ms
+[Recall] Processed 2150/5000 queries, avg recall so far: 1.0000, avg query time: 314.830 ms
+[Recall] Processed 2160/5000 queries, avg recall so far: 1.0000, avg query time: 314.840 ms
+[Recall] Processed 2170/5000 queries, avg recall so far: 1.0000, avg query time: 314.928 ms
+[Recall] Processed 2180/5000 queries, avg recall so far: 1.0000, avg query time: 314.843 ms
+[Recall] Processed 2190/5000 queries, avg recall so far: 1.0000, avg query time: 314.964 ms
+[Recall] Processed 2200/5000 queries, avg recall so far: 1.0000, avg query time: 315.108 ms
+[Recall] Processed 2210/5000 queries, avg recall so far: 1.0000, avg query time: 315.198 ms
+[Recall] Processed 2220/5000 queries, avg recall so far: 1.0000, avg query time: 315.166 ms
+[Recall] Processed 2230/5000 queries, avg recall so far: 1.0000, avg query time: 315.125 ms
+[Recall] Processed 2240/5000 queries, avg recall so far: 1.0000, avg query time: 315.046 ms
+[Recall] Processed 2250/5000 queries, avg recall so far: 1.0000, avg query time: 315.081 ms
+[Recall] Processed 2260/5000 queries, avg recall so far: 1.0000, avg query time: 314.976 ms
+[Recall] Processed 2270/5000 queries, avg recall so far: 1.0000, avg query time: 315.041 ms
+[Recall] Processed 2280/5000 queries, avg recall so far: 1.0000, avg query time: 315.245 ms
+[Recall] Processed 2290/5000 queries, avg recall so far: 1.0000, avg query time: 315.220 ms
+[Recall] Processed 2300/5000 queries, avg recall so far: 1.0000, avg query time: 315.166 ms
+[Recall] Processed 2310/5000 queries, avg recall so far: 1.0000, avg query time: 315.159 ms
+[Recall] Processed 2320/5000 queries, avg recall so far: 1.0000, avg query time: 315.104 ms
+[Recall] Processed 2330/5000 queries, avg recall so far: 1.0000, avg query time: 315.064 ms
+[Recall] Processed 2340/5000 queries, avg recall so far: 1.0000, avg query time: 315.167 ms
+[Recall] Processed 2350/5000 queries, avg recall so far: 1.0000, avg query time: 315.190 ms
+[Recall] Processed 2360/5000 queries, avg recall so far: 1.0000, avg query time: 315.223 ms
+[Recall] Processed 2370/5000 queries, avg recall so far: 1.0000, avg query time: 315.172 ms
+[Recall] Processed 2380/5000 queries, avg recall so far: 1.0000, avg query time: 315.184 ms
+[Recall] Processed 2390/5000 queries, avg recall so far: 1.0000, avg query time: 315.199 ms
+[Recall] Processed 2400/5000 queries, avg recall so far: 1.0000, avg query time: 315.227 ms
+[Recall] Processed 2410/5000 queries, avg recall so far: 1.0000, avg query time: 315.191 ms
+[Recall] Processed 2420/5000 queries, avg recall so far: 1.0000, avg query time: 315.060 ms
+[Recall] Processed 2430/5000 queries, avg recall so far: 1.0000, avg query time: 314.985 ms
+[Recall] Processed 2440/5000 queries, avg recall so far: 1.0000, avg query time: 314.973 ms
+[Recall] Processed 2450/5000 queries, avg recall so far: 1.0000, avg query time: 314.895 ms
+[Recall] Processed 2460/5000 queries, avg recall so far: 1.0000, avg query time: 314.844 ms
+[Recall] Processed 2470/5000 queries, avg recall so far: 1.0000, avg query time: 314.794 ms
+[Recall] Processed 2480/5000 queries, avg recall so far: 1.0000, avg query time: 314.845 ms
+[Recall] Processed 2490/5000 queries, avg recall so far: 1.0000, avg query time: 314.835 ms
+[Recall] Processed 2500/5000 queries, avg recall so far: 1.0000, avg query time: 314.960 ms
+[Recall] Processed 2510/5000 queries, avg recall so far: 1.0000, avg query time: 314.904 ms
+[Recall] Processed 2520/5000 queries, avg recall so far: 1.0000, avg query time: 314.973 ms
+[Recall] Processed 2530/5000 queries, avg recall so far: 1.0000, avg query time: 314.944 ms
+[Recall] Processed 2540/5000 queries, avg recall so far: 1.0000, avg query time: 314.976 ms
+[Recall] Processed 2550/5000 queries, avg recall so far: 1.0000, avg query time: 314.966 ms
+[Recall] Processed 2560/5000 queries, avg recall so far: 1.0000, avg query time: 314.928 ms
+[Recall] Processed 2570/5000 queries, avg recall so far: 1.0000, avg query time: 314.983 ms
+[Recall] Processed 2580/5000 queries, avg recall so far: 1.0000, avg query time: 314.955 ms
+[Recall] Processed 2590/5000 queries, avg recall so far: 1.0000, avg query time: 314.869 ms
+[Recall] Processed 2600/5000 queries, avg recall so far: 1.0000, avg query time: 314.876 ms
+[Recall] Processed 2610/5000 queries, avg recall so far: 1.0000, avg query time: 314.770 ms
+[Recall] Processed 2620/5000 queries, avg recall so far: 1.0000, avg query time: 314.695 ms
+[Recall] Processed 2630/5000 queries, avg recall so far: 1.0000, avg query time: 314.614 ms
+[Recall] Processed 2640/5000 queries, avg recall so far: 1.0000, avg query time: 314.557 ms
+[Recall] Processed 2650/5000 queries, avg recall so far: 1.0000, avg query time: 314.519 ms
+[Recall] Processed 2660/5000 queries, avg recall so far: 1.0000, avg query time: 314.352 ms
+[Recall] Processed 2670/5000 queries, avg recall so far: 1.0000, avg query time: 314.285 ms
+[Recall] Processed 2680/5000 queries, avg recall so far: 1.0000, avg query time: 314.413 ms
+[Recall] Processed 2690/5000 queries, avg recall so far: 1.0000, avg query time: 314.358 ms
+[Recall] Processed 2700/5000 queries, avg recall so far: 1.0000, avg query time: 314.389 ms
+[Recall] Processed 2710/5000 queries, avg recall so far: 1.0000, avg query time: 314.466 ms
+[Recall] Processed 2720/5000 queries, avg recall so far: 1.0000, avg query time: 314.433 ms
+[Recall] Processed 2730/5000 queries, avg recall so far: 1.0000, avg query time: 314.373 ms
+[Recall] Processed 2740/5000 queries, avg recall so far: 1.0000, avg query time: 314.410 ms
+[Recall] Processed 2750/5000 queries, avg recall so far: 1.0000, avg query time: 314.413 ms
+[Recall] Processed 2760/5000 queries, avg recall so far: 1.0000, avg query time: 314.368 ms
+[Recall] Processed 2770/5000 queries, avg recall so far: 1.0000, avg query time: 314.419 ms
+[Recall] Processed 2780/5000 queries, avg recall so far: 1.0000, avg query time: 314.501 ms
+[Recall] Processed 2790/5000 queries, avg recall so far: 1.0000, avg query time: 314.609 ms
+[Recall] Processed 2800/5000 queries, avg recall so far: 1.0000, avg query time: 314.640 ms
+[Recall] Processed 2810/5000 queries, avg recall so far: 1.0000, avg query time: 314.536 ms
+[Recall] Processed 2820/5000 queries, avg recall so far: 1.0000, avg query time: 314.477 ms
+[Recall] Processed 2830/5000 queries, avg recall so far: 1.0000, avg query time: 314.418 ms
+[Recall] Processed 2840/5000 queries, avg recall so far: 1.0000, avg query time: 314.442 ms
+[Recall] Processed 2850/5000 queries, avg recall so far: 1.0000, avg query time: 314.420 ms
+[Recall] Processed 2860/5000 queries, avg recall so far: 1.0000, avg query time: 314.350 ms
+[Recall] Processed 2870/5000 queries, avg recall so far: 1.0000, avg query time: 314.359 ms
+[Recall] Processed 2880/5000 queries, avg recall so far: 1.0000, avg query time: 314.416 ms
+[Recall] Processed 2890/5000 queries, avg recall so far: 1.0000, avg query time: 314.476 ms
+[Recall] Processed 2900/5000 queries, avg recall so far: 1.0000, avg query time: 314.527 ms
+[Recall] Processed 2910/5000 queries, avg recall so far: 1.0000, avg query time: 314.581 ms
+[Recall] Processed 2920/5000 queries, avg recall so far: 1.0000, avg query time: 314.549 ms
+[Recall] Processed 2930/5000 queries, avg recall so far: 1.0000, avg query time: 314.555 ms
+[Recall] Processed 2940/5000 queries, avg recall so far: 1.0000, avg query time: 314.483 ms
+[Recall] Processed 2950/5000 queries, avg recall so far: 1.0000, avg query time: 314.420 ms
+[Recall] Processed 2960/5000 queries, avg recall so far: 1.0000, avg query time: 314.387 ms
+[Recall] Processed 2970/5000 queries, avg recall so far: 1.0000, avg query time: 314.367 ms
+[Recall] Processed 2980/5000 queries, avg recall so far: 1.0000, avg query time: 314.422 ms
+[Recall] Processed 2990/5000 queries, avg recall so far: 1.0000, avg query time: 314.384 ms
+[Recall] Processed 3000/5000 queries, avg recall so far: 1.0000, avg query time: 314.404 ms
+[Recall] Processed 3010/5000 queries, avg recall so far: 1.0000, avg query time: 314.428 ms
+[Recall] Processed 3020/5000 queries, avg recall so far: 1.0000, avg query time: 314.424 ms
+[Recall] Processed 3030/5000 queries, avg recall so far: 1.0000, avg query time: 314.379 ms
+[Recall] Processed 3040/5000 queries, avg recall so far: 1.0000, avg query time: 314.349 ms
+[Recall] Processed 3050/5000 queries, avg recall so far: 1.0000, avg query time: 314.373 ms
+[Recall] Processed 3060/5000 queries, avg recall so far: 1.0000, avg query time: 314.347 ms
+[Recall] Processed 3070/5000 queries, avg recall so far: 1.0000, avg query time: 314.402 ms
+[Recall] Processed 3080/5000 queries, avg recall so far: 1.0000, avg query time: 314.369 ms
+[Recall] Processed 3090/5000 queries, avg recall so far: 1.0000, avg query time: 314.348 ms
+[Recall] Processed 3100/5000 queries, avg recall so far: 1.0000, avg query time: 314.384 ms
+[Recall] Processed 3110/5000 queries, avg recall so far: 1.0000, avg query time: 314.501 ms
+[Recall] Processed 3120/5000 queries, avg recall so far: 1.0000, avg query time: 314.453 ms
+[Recall] Processed 3130/5000 queries, avg recall so far: 1.0000, avg query time: 314.439 ms
+[Recall] Processed 3140/5000 queries, avg recall so far: 1.0000, avg query time: 314.418 ms
+[Recall] Processed 3150/5000 queries, avg recall so far: 1.0000, avg query time: 314.426 ms
+[Recall] Processed 3160/5000 queries, avg recall so far: 1.0000, avg query time: 314.455 ms
+[Recall] Processed 3170/5000 queries, avg recall so far: 1.0000, avg query time: 314.370 ms
+[Recall] Processed 3180/5000 queries, avg recall so far: 1.0000, avg query time: 314.386 ms
+[Recall] Processed 3190/5000 queries, avg recall so far: 1.0000, avg query time: 314.456 ms
+[Recall] Processed 3200/5000 queries, avg recall so far: 1.0000, avg query time: 314.456 ms
+[Recall] Processed 3210/5000 queries, avg recall so far: 1.0000, avg query time: 314.468 ms
+[Recall] Processed 3220/5000 queries, avg recall so far: 1.0000, avg query time: 314.478 ms
+[Recall] Processed 3230/5000 queries, avg recall so far: 1.0000, avg query time: 314.465 ms
+[Recall] Processed 3240/5000 queries, avg recall so far: 1.0000, avg query time: 314.437 ms
+[Recall] Processed 3250/5000 queries, avg recall so far: 1.0000, avg query time: 314.435 ms
+[Recall] Processed 3260/5000 queries, avg recall so far: 1.0000, avg query time: 314.393 ms
+[Recall] Processed 3270/5000 queries, avg recall so far: 1.0000, avg query time: 314.338 ms
+[Recall] Processed 3280/5000 queries, avg recall so far: 1.0000, avg query time: 314.320 ms
+[Recall] Processed 3290/5000 queries, avg recall so far: 1.0000, avg query time: 314.293 ms
+[Recall] Processed 3300/5000 queries, avg recall so far: 1.0000, avg query time: 314.269 ms
+[Recall] Processed 3310/5000 queries, avg recall so far: 1.0000, avg query time: 314.361 ms
+[Recall] Processed 3320/5000 queries, avg recall so far: 1.0000, avg query time: 314.332 ms
+[Recall] Processed 3330/5000 queries, avg recall so far: 1.0000, avg query time: 314.452 ms
+[Recall] Processed 3340/5000 queries, avg recall so far: 1.0000, avg query time: 314.509 ms
+[Recall] Processed 3350/5000 queries, avg recall so far: 1.0000, avg query time: 314.475 ms
+[Recall] Processed 3360/5000 queries, avg recall so far: 1.0000, avg query time: 314.514 ms
+[Recall] Processed 3370/5000 queries, avg recall so far: 1.0000, avg query time: 314.576 ms
+[Recall] Processed 3380/5000 queries, avg recall so far: 1.0000, avg query time: 314.635 ms
+[Recall] Processed 3390/5000 queries, avg recall so far: 1.0000, avg query time: 314.657 ms
+[Recall] Processed 3400/5000 queries, avg recall so far: 1.0000, avg query time: 314.672 ms
+[Recall] Processed 3410/5000 queries, avg recall so far: 1.0000, avg query time: 314.645 ms
+[Recall] Processed 3420/5000 queries, avg recall so far: 1.0000, avg query time: 314.633 ms
+[Recall] Processed 3430/5000 queries, avg recall so far: 1.0000, avg query time: 314.637 ms
+[Recall] Processed 3440/5000 queries, avg recall so far: 1.0000, avg query time: 314.586 ms
+[Recall] Processed 3450/5000 queries, avg recall so far: 1.0000, avg query time: 314.543 ms
+[Recall] Processed 3460/5000 queries, avg recall so far: 1.0000, avg query time: 314.475 ms
+[Recall] Processed 3470/5000 queries, avg recall so far: 1.0000, avg query time: 314.499 ms
+[Recall] Processed 3480/5000 queries, avg recall so far: 1.0000, avg query time: 314.493 ms
+[Recall] Processed 3490/5000 queries, avg recall so far: 1.0000, avg query time: 314.468 ms
+[Recall] Processed 3500/5000 queries, avg recall so far: 1.0000, avg query time: 314.511 ms
+[Recall] Processed 3510/5000 queries, avg recall so far: 1.0000, avg query time: 314.541 ms
+[Recall] Processed 3520/5000 queries, avg recall so far: 1.0000, avg query time: 314.612 ms
+[Recall] Processed 3530/5000 queries, avg recall so far: 1.0000, avg query time: 314.664 ms
+[Recall] Processed 3540/5000 queries, avg recall so far: 1.0000, avg query time: 314.590 ms
+[Recall] Processed 3550/5000 queries, avg recall so far: 1.0000, avg query time: 314.669 ms
+[Recall] Processed 3560/5000 queries, avg recall so far: 1.0000, avg query time: 314.675 ms
+[Recall] Processed 3570/5000 queries, avg recall so far: 1.0000, avg query time: 314.621 ms
+[Recall] Processed 3580/5000 queries, avg recall so far: 1.0000, avg query time: 314.661 ms
+[Recall] Processed 3590/5000 queries, avg recall so far: 1.0000, avg query time: 314.602 ms
+[Recall] Processed 3600/5000 queries, avg recall so far: 1.0000, avg query time: 314.570 ms
+[Recall] Processed 3610/5000 queries, avg recall so far: 1.0000, avg query time: 314.607 ms
+[Recall] Processed 3620/5000 queries, avg recall so far: 1.0000, avg query time: 314.624 ms
+[Recall] Processed 3630/5000 queries, avg recall so far: 1.0000, avg query time: 314.634 ms
+[Recall] Processed 3640/5000 queries, avg recall so far: 1.0000, avg query time: 314.618 ms
+[Recall] Processed 3650/5000 queries, avg recall so far: 1.0000, avg query time: 314.538 ms
+[Recall] Processed 3660/5000 queries, avg recall so far: 1.0000, avg query time: 314.487 ms
+[Recall] Processed 3670/5000 queries, avg recall so far: 1.0000, avg query time: 314.424 ms
+[Recall] Processed 3680/5000 queries, avg recall so far: 1.0000, avg query time: 314.436 ms
+[Recall] Processed 3690/5000 queries, avg recall so far: 1.0000, avg query time: 314.382 ms
+[Recall] Processed 3700/5000 queries, avg recall so far: 1.0000, avg query time: 314.337 ms
+[Recall] Processed 3710/5000 queries, avg recall so far: 1.0000, avg query time: 314.455 ms
+[Recall] Processed 3720/5000 queries, avg recall so far: 1.0000, avg query time: 314.400 ms
+[Recall] Processed 3730/5000 queries, avg recall so far: 1.0000, avg query time: 314.409 ms
+[Recall] Processed 3740/5000 queries, avg recall so far: 1.0000, avg query time: 314.383 ms
+[Recall] Processed 3750/5000 queries, avg recall so far: 1.0000, avg query time: 314.335 ms
+[Recall] Processed 3760/5000 queries, avg recall so far: 1.0000, avg query time: 314.352 ms
+[Recall] Processed 3770/5000 queries, avg recall so far: 1.0000, avg query time: 314.371 ms
+[Recall] Processed 3780/5000 queries, avg recall so far: 1.0000, avg query time: 314.393 ms
+[Recall] Processed 3790/5000 queries, avg recall so far: 1.0000, avg query time: 314.388 ms
+[Recall] Processed 3800/5000 queries, avg recall so far: 1.0000, avg query time: 314.372 ms
+[Recall] Processed 3810/5000 queries, avg recall so far: 1.0000, avg query time: 314.424 ms
+[Recall] Processed 3820/5000 queries, avg recall so far: 1.0000, avg query time: 314.444 ms
+[Recall] Processed 3830/5000 queries, avg recall so far: 1.0000, avg query time: 314.450 ms
+[Recall] Processed 3840/5000 queries, avg recall so far: 1.0000, avg query time: 314.610 ms
+[Recall] Processed 3850/5000 queries, avg recall so far: 1.0000, avg query time: 314.602 ms
+[Recall] Processed 3860/5000 queries, avg recall so far: 1.0000, avg query time: 314.682 ms
+[Recall] Processed 3870/5000 queries, avg recall so far: 1.0000, avg query time: 314.649 ms
+[Recall] Processed 3880/5000 queries, avg recall so far: 1.0000, avg query time: 314.647 ms
+[Recall] Processed 3890/5000 queries, avg recall so far: 1.0000, avg query time: 314.657 ms
+[Recall] Processed 3900/5000 queries, avg recall so far: 1.0000, avg query time: 314.677 ms
+[Recall] Processed 3910/5000 queries, avg recall so far: 1.0000, avg query time: 314.630 ms
+[Recall] Processed 3920/5000 queries, avg recall so far: 1.0000, avg query time: 314.606 ms
+[Recall] Processed 3930/5000 queries, avg recall so far: 1.0000, avg query time: 314.590 ms
+[Recall] Processed 3940/5000 queries, avg recall so far: 1.0000, avg query time: 314.588 ms
+[Recall] Processed 3950/5000 queries, avg recall so far: 1.0000, avg query time: 314.568 ms
+[Recall] Processed 3960/5000 queries, avg recall so far: 1.0000, avg query time: 314.550 ms
+[Recall] Processed 3970/5000 queries, avg recall so far: 1.0000, avg query time: 314.555 ms
+[Recall] Processed 3980/5000 queries, avg recall so far: 1.0000, avg query time: 314.505 ms
+[Recall] Processed 3990/5000 queries, avg recall so far: 1.0000, avg query time: 314.464 ms
+[Recall] Processed 4000/5000 queries, avg recall so far: 1.0000, avg query time: 314.473 ms
+[Recall] Processed 4010/5000 queries, avg recall so far: 1.0000, avg query time: 314.457 ms
+[Recall] Processed 4020/5000 queries, avg recall so far: 1.0000, avg query time: 314.518 ms
+[Recall] Processed 4030/5000 queries, avg recall so far: 1.0000, avg query time: 314.531 ms
+[Recall] Processed 4040/5000 queries, avg recall so far: 1.0000, avg query time: 314.522 ms
+[Recall] Processed 4050/5000 queries, avg recall so far: 1.0000, avg query time: 314.531 ms
+[Recall] Processed 4060/5000 queries, avg recall so far: 1.0000, avg query time: 314.588 ms
+[Recall] Processed 4070/5000 queries, avg recall so far: 1.0000, avg query time: 314.531 ms
+[Recall] Processed 4080/5000 queries, avg recall so far: 1.0000, avg query time: 314.516 ms
+[Recall] Processed 4090/5000 queries, avg recall so far: 1.0000, avg query time: 314.489 ms
+[Recall] Processed 4100/5000 queries, avg recall so far: 1.0000, avg query time: 314.496 ms
+[Recall] Processed 4110/5000 queries, avg recall so far: 1.0000, avg query time: 314.451 ms
+[Recall] Processed 4120/5000 queries, avg recall so far: 1.0000, avg query time: 314.427 ms
+[Recall] Processed 4130/5000 queries, avg recall so far: 1.0000, avg query time: 314.373 ms
+[Recall] Processed 4140/5000 queries, avg recall so far: 1.0000, avg query time: 314.377 ms
+[Recall] Processed 4150/5000 queries, avg recall so far: 1.0000, avg query time: 314.355 ms
+[Recall] Processed 4160/5000 queries, avg recall so far: 1.0000, avg query time: 314.335 ms
+[Recall] Processed 4170/5000 queries, avg recall so far: 1.0000, avg query time: 314.319 ms
+[Recall] Processed 4180/5000 queries, avg recall so far: 1.0000, avg query time: 314.310 ms
+[Recall] Processed 4190/5000 queries, avg recall so far: 1.0000, avg query time: 314.264 ms
+[Recall] Processed 4200/5000 queries, avg recall so far: 1.0000, avg query time: 314.270 ms
+[Recall] Processed 4210/5000 queries, avg recall so far: 1.0000, avg query time: 314.254 ms
+[Recall] Processed 4220/5000 queries, avg recall so far: 1.0000, avg query time: 314.268 ms
+[Recall] Processed 4230/5000 queries, avg recall so far: 1.0000, avg query time: 314.260 ms
+[Recall] Processed 4240/5000 queries, avg recall so far: 1.0000, avg query time: 314.273 ms
+[Recall] Processed 4250/5000 queries, avg recall so far: 1.0000, avg query time: 314.250 ms
+[Recall] Processed 4260/5000 queries, avg recall so far: 1.0000, avg query time: 314.254 ms
+[Recall] Processed 4270/5000 queries, avg recall so far: 1.0000, avg query time: 314.329 ms
+[Recall] Processed 4280/5000 queries, avg recall so far: 1.0000, avg query time: 314.273 ms
+[Recall] Processed 4290/5000 queries, avg recall so far: 1.0000, avg query time: 314.273 ms
+[Recall] Processed 4300/5000 queries, avg recall so far: 1.0000, avg query time: 314.287 ms
+[Recall] Processed 4310/5000 queries, avg recall so far: 1.0000, avg query time: 314.272 ms
+[Recall] Processed 4320/5000 queries, avg recall so far: 1.0000, avg query time: 314.273 ms
+[Recall] Processed 4330/5000 queries, avg recall so far: 1.0000, avg query time: 314.289 ms
+[Recall] Processed 4340/5000 queries, avg recall so far: 1.0000, avg query time: 314.342 ms
+[Recall] Processed 4350/5000 queries, avg recall so far: 1.0000, avg query time: 314.359 ms
+[Recall] Processed 4360/5000 queries, avg recall so far: 1.0000, avg query time: 314.317 ms
+[Recall] Processed 4370/5000 queries, avg recall so far: 1.0000, avg query time: 314.350 ms
+[Recall] Processed 4380/5000 queries, avg recall so far: 1.0000, avg query time: 314.415 ms
+[Recall] Processed 4390/5000 queries, avg recall so far: 1.0000, avg query time: 314.355 ms
+[Recall] Processed 4400/5000 queries, avg recall so far: 1.0000, avg query time: 314.390 ms
+[Recall] Processed 4410/5000 queries, avg recall so far: 1.0000, avg query time: 314.421 ms
+[Recall] Processed 4420/5000 queries, avg recall so far: 1.0000, avg query time: 314.433 ms
+[Recall] Processed 4430/5000 queries, avg recall so far: 1.0000, avg query time: 314.455 ms
+[Recall] Processed 4440/5000 queries, avg recall so far: 1.0000, avg query time: 314.415 ms
+[Recall] Processed 4450/5000 queries, avg recall so far: 1.0000, avg query time: 314.381 ms
+[Recall] Processed 4460/5000 queries, avg recall so far: 1.0000, avg query time: 314.382 ms
+[Recall] Processed 4470/5000 queries, avg recall so far: 1.0000, avg query time: 314.433 ms
+[Recall] Processed 4480/5000 queries, avg recall so far: 1.0000, avg query time: 314.447 ms
+[Recall] Processed 4490/5000 queries, avg recall so far: 1.0000, avg query time: 314.430 ms
+[Recall] Processed 4500/5000 queries, avg recall so far: 1.0000, avg query time: 314.510 ms
+[Recall] Processed 4510/5000 queries, avg recall so far: 1.0000, avg query time: 314.490 ms
+[Recall] Processed 4520/5000 queries, avg recall so far: 1.0000, avg query time: 314.514 ms
+[Recall] Processed 4530/5000 queries, avg recall so far: 1.0000, avg query time: 314.522 ms
+[Recall] Processed 4540/5000 queries, avg recall so far: 1.0000, avg query time: 314.524 ms
+[Recall] Processed 4550/5000 queries, avg recall so far: 1.0000, avg query time: 314.503 ms
+[Recall] Processed 4560/5000 queries, avg recall so far: 1.0000, avg query time: 314.460 ms
+[Recall] Processed 4570/5000 queries, avg recall so far: 1.0000, avg query time: 314.448 ms
+[Recall] Processed 4580/5000 queries, avg recall so far: 1.0000, avg query time: 314.451 ms
+[Recall] Processed 4590/5000 queries, avg recall so far: 1.0000, avg query time: 314.465 ms
+[Recall] Processed 4600/5000 queries, avg recall so far: 1.0000, avg query time: 314.476 ms
+[Recall] Processed 4610/5000 queries, avg recall so far: 1.0000, avg query time: 314.497 ms
+[Recall] Processed 4620/5000 queries, avg recall so far: 1.0000, avg query time: 314.523 ms
+[Recall] Processed 4630/5000 queries, avg recall so far: 1.0000, avg query time: 314.518 ms
+[Recall] Processed 4640/5000 queries, avg recall so far: 1.0000, avg query time: 314.582 ms
+[Recall] Processed 4650/5000 queries, avg recall so far: 1.0000, avg query time: 314.542 ms
+[Recall] Processed 4660/5000 queries, avg recall so far: 1.0000, avg query time: 314.564 ms
+[Recall] Processed 4670/5000 queries, avg recall so far: 1.0000, avg query time: 314.601 ms
+[Recall] Processed 4680/5000 queries, avg recall so far: 1.0000, avg query time: 314.603 ms
+[Recall] Processed 4690/5000 queries, avg recall so far: 1.0000, avg query time: 314.621 ms
+[Recall] Processed 4700/5000 queries, avg recall so far: 1.0000, avg query time: 314.670 ms
+[Recall] Processed 4710/5000 queries, avg recall so far: 1.0000, avg query time: 314.703 ms
+[Recall] Processed 4720/5000 queries, avg recall so far: 1.0000, avg query time: 314.659 ms
+[Recall] Processed 4730/5000 queries, avg recall so far: 1.0000, avg query time: 314.677 ms
+[Recall] Processed 4740/5000 queries, avg recall so far: 1.0000, avg query time: 314.738 ms
+[Recall] Processed 4750/5000 queries, avg recall so far: 1.0000, avg query time: 314.816 ms
+[Recall] Processed 4760/5000 queries, avg recall so far: 1.0000, avg query time: 314.834 ms
+[Recall] Processed 4770/5000 queries, avg recall so far: 1.0000, avg query time: 314.901 ms
+[Recall] Processed 4780/5000 queries, avg recall so far: 1.0000, avg query time: 314.912 ms
+[Recall] Processed 4790/5000 queries, avg recall so far: 1.0000, avg query time: 314.946 ms
+[Recall] Processed 4800/5000 queries, avg recall so far: 1.0000, avg query time: 314.955 ms
+[Recall] Processed 4810/5000 queries, avg recall so far: 1.0000, avg query time: 314.918 ms
+[Recall] Processed 4820/5000 queries, avg recall so far: 1.0000, avg query time: 314.893 ms
+[Recall] Processed 4830/5000 queries, avg recall so far: 1.0000, avg query time: 314.931 ms
+[Recall] Processed 4840/5000 queries, avg recall so far: 1.0000, avg query time: 314.895 ms
+[Recall] Processed 4850/5000 queries, avg recall so far: 1.0000, avg query time: 314.879 ms
+[Recall] Processed 4860/5000 queries, avg recall so far: 1.0000, avg query time: 314.877 ms
+[Recall] Processed 4870/5000 queries, avg recall so far: 1.0000, avg query time: 314.883 ms
+[Recall] Processed 4880/5000 queries, avg recall so far: 1.0000, avg query time: 314.849 ms
+[Recall] Processed 4890/5000 queries, avg recall so far: 1.0000, avg query time: 314.863 ms
+[Recall] Processed 4900/5000 queries, avg recall so far: 1.0000, avg query time: 314.841 ms
+[Recall] Processed 4910/5000 queries, avg recall so far: 1.0000, avg query time: 314.831 ms
+[Recall] Processed 4920/5000 queries, avg recall so far: 1.0000, avg query time: 314.765 ms
+[Recall] Processed 4930/5000 queries, avg recall so far: 1.0000, avg query time: 314.812 ms
+[Recall] Processed 4940/5000 queries, avg recall so far: 1.0000, avg query time: 314.925 ms
+[Recall] Processed 4950/5000 queries, avg recall so far: 1.0000, avg query time: 314.918 ms
+[Recall] Processed 4960/5000 queries, avg recall so far: 1.0000, avg query time: 314.917 ms
+[Recall] Processed 4970/5000 queries, avg recall so far: 1.0000, avg query time: 314.940 ms
+[Recall] Processed 4980/5000 queries, avg recall so far: 1.0000, avg query time: 314.959 ms
+[Recall] Processed 4990/5000 queries, avg recall so far: 1.0000, avg query time: 314.963 ms
+[Recall] Processed 5000/5000 queries, avg recall so far: 1.0000, avg query time: 314.914 ms
+[ANN] Processed 10/5000 queries, valid queries so far: 8, success rate: 1.0000
+[ANN] Processed 20/5000 queries, valid queries so far: 17, success rate: 1.0000
+[ANN] Processed 30/5000 queries, valid queries so far: 25, success rate: 1.0000
+[ANN] Processed 40/5000 queries, valid queries so far: 32, success rate: 1.0000
+[ANN] Processed 50/5000 queries, valid queries so far: 40, success rate: 1.0000
+[ANN] Processed 60/5000 queries, valid queries so far: 49, success rate: 1.0000
+[ANN] Processed 70/5000 queries, valid queries so far: 57, success rate: 1.0000
+[ANN] Processed 80/5000 queries, valid queries so far: 67, success rate: 1.0000
+[ANN] Processed 90/5000 queries, valid queries so far: 75, success rate: 1.0000
+[ANN] Processed 100/5000 queries, valid queries so far: 84, success rate: 1.0000
+[ANN] Processed 110/5000 queries, valid queries so far: 94, success rate: 1.0000
+[ANN] Processed 120/5000 queries, valid queries so far: 101, success rate: 1.0000
+[ANN] Processed 130/5000 queries, valid queries so far: 110, success rate: 1.0000
+[ANN] Processed 140/5000 queries, valid queries so far: 114, success rate: 1.0000
+[ANN] Processed 150/5000 queries, valid queries so far: 119, success rate: 1.0000
+[ANN] Processed 160/5000 queries, valid queries so far: 128, success rate: 1.0000
+[ANN] Processed 170/5000 queries, valid queries so far: 137, success rate: 1.0000
+[ANN] Processed 180/5000 queries, valid queries so far: 145, success rate: 1.0000
+[ANN] Processed 190/5000 queries, valid queries so far: 153, success rate: 1.0000
+[ANN] Processed 200/5000 queries, valid queries so far: 163, success rate: 1.0000
+[ANN] Processed 210/5000 queries, valid queries so far: 170, success rate: 1.0000
+[ANN] Processed 220/5000 queries, valid queries so far: 176, success rate: 1.0000
+[ANN] Processed 230/5000 queries, valid queries so far: 181, success rate: 1.0000
+[ANN] Processed 240/5000 queries, valid queries so far: 184, success rate: 1.0000
+[ANN] Processed 250/5000 queries, valid queries so far: 190, success rate: 1.0000
+[ANN] Processed 260/5000 queries, valid queries so far: 198, success rate: 1.0000
+[ANN] Processed 270/5000 queries, valid queries so far: 203, success rate: 1.0000
+[ANN] Processed 280/5000 queries, valid queries so far: 208, success rate: 1.0000
+[ANN] Processed 290/5000 queries, valid queries so far: 217, success rate: 1.0000
+[ANN] Processed 300/5000 queries, valid queries so far: 224, success rate: 1.0000
+[ANN] Processed 310/5000 queries, valid queries so far: 228, success rate: 1.0000
+[ANN] Processed 320/5000 queries, valid queries so far: 234, success rate: 1.0000
+[ANN] Processed 330/5000 queries, valid queries so far: 240, success rate: 1.0000
+[ANN] Processed 340/5000 queries, valid queries so far: 241, success rate: 1.0000
+[ANN] Processed 350/5000 queries, valid queries so far: 251, success rate: 1.0000
+[ANN] Processed 360/5000 queries, valid queries so far: 260, success rate: 1.0000
+[ANN] Processed 370/5000 queries, valid queries so far: 268, success rate: 1.0000
+[ANN] Processed 380/5000 queries, valid queries so far: 270, success rate: 1.0000
+[ANN] Processed 390/5000 queries, valid queries so far: 275, success rate: 1.0000
+[ANN] Processed 400/5000 queries, valid queries so far: 279, success rate: 1.0000
+[ANN] Processed 410/5000 queries, valid queries so far: 285, success rate: 1.0000
+[ANN] Processed 420/5000 queries, valid queries so far: 289, success rate: 1.0000
+[ANN] Processed 430/5000 queries, valid queries so far: 295, success rate: 1.0000
+[ANN] Processed 440/5000 queries, valid queries so far: 299, success rate: 1.0000
+[ANN] Processed 450/5000 queries, valid queries so far: 301, success rate: 1.0000
+[ANN] Processed 460/5000 queries, valid queries so far: 308, success rate: 1.0000
+[ANN] Processed 470/5000 queries, valid queries so far: 314, success rate: 1.0000
+[ANN] Processed 480/5000 queries, valid queries so far: 319, success rate: 1.0000
+[ANN] Processed 490/5000 queries, valid queries so far: 326, success rate: 1.0000
+[ANN] Processed 500/5000 queries, valid queries so far: 334, success rate: 1.0000
+[ANN] Processed 510/5000 queries, valid queries so far: 341, success rate: 1.0000
+[ANN] Processed 520/5000 queries, valid queries so far: 350, success rate: 1.0000
+[ANN] Processed 530/5000 queries, valid queries so far: 357, success rate: 1.0000
+[ANN] Processed 540/5000 queries, valid queries so far: 366, success rate: 1.0000
+[ANN] Processed 550/5000 queries, valid queries so far: 376, success rate: 1.0000
+[ANN] Processed 560/5000 queries, valid queries so far: 386, success rate: 1.0000
+[ANN] Processed 570/5000 queries, valid queries so far: 396, success rate: 1.0000
+[ANN] Processed 580/5000 queries, valid queries so far: 400, success rate: 1.0000
+[ANN] Processed 590/5000 queries, valid queries so far: 409, success rate: 1.0000
+[ANN] Processed 600/5000 queries, valid queries so far: 419, success rate: 1.0000
+[ANN] Processed 610/5000 queries, valid queries so far: 427, success rate: 1.0000
+[ANN] Processed 620/5000 queries, valid queries so far: 433, success rate: 1.0000
+[ANN] Processed 630/5000 queries, valid queries so far: 443, success rate: 1.0000
+[ANN] Processed 640/5000 queries, valid queries so far: 451, success rate: 1.0000
+[ANN] Processed 650/5000 queries, valid queries so far: 461, success rate: 1.0000
+[ANN] Processed 660/5000 queries, valid queries so far: 470, success rate: 1.0000
+[ANN] Processed 670/5000 queries, valid queries so far: 479, success rate: 1.0000
+[ANN] Processed 680/5000 queries, valid queries so far: 489, success rate: 1.0000
+[ANN] Processed 690/5000 queries, valid queries so far: 499, success rate: 1.0000
+[ANN] Processed 700/5000 queries, valid queries so far: 509, success rate: 1.0000
+[ANN] Processed 710/5000 queries, valid queries so far: 519, success rate: 1.0000
+[ANN] Processed 720/5000 queries, valid queries so far: 529, success rate: 1.0000
+[ANN] Processed 730/5000 queries, valid queries so far: 538, success rate: 1.0000
+[ANN] Processed 740/5000 queries, valid queries so far: 542, success rate: 1.0000
+[ANN] Processed 750/5000 queries, valid queries so far: 548, success rate: 1.0000
+[ANN] Processed 760/5000 queries, valid queries so far: 555, success rate: 1.0000
+[ANN] Processed 770/5000 queries, valid queries so far: 565, success rate: 1.0000
+[ANN] Processed 780/5000 queries, valid queries so far: 575, success rate: 1.0000
+[ANN] Processed 790/5000 queries, valid queries so far: 585, success rate: 1.0000
+[ANN] Processed 800/5000 queries, valid queries so far: 595, success rate: 1.0000
+[ANN] Processed 810/5000 queries, valid queries so far: 604, success rate: 1.0000
+[ANN] Processed 820/5000 queries, valid queries so far: 611, success rate: 1.0000
+[ANN] Processed 830/5000 queries, valid queries so far: 620, success rate: 1.0000
+[ANN] Processed 840/5000 queries, valid queries so far: 628, success rate: 1.0000
+[ANN] Processed 850/5000 queries, valid queries so far: 638, success rate: 1.0000
+[ANN] Processed 860/5000 queries, valid queries so far: 646, success rate: 1.0000
+[ANN] Processed 870/5000 queries, valid queries so far: 652, success rate: 1.0000
+[ANN] Processed 880/5000 queries, valid queries so far: 661, success rate: 1.0000
+[ANN] Processed 890/5000 queries, valid queries so far: 670, success rate: 1.0000
+[ANN] Processed 900/5000 queries, valid queries so far: 677, success rate: 1.0000
+[ANN] Processed 910/5000 queries, valid queries so far: 687, success rate: 1.0000
+[ANN] Processed 920/5000 queries, valid queries so far: 695, success rate: 1.0000
+[ANN] Processed 930/5000 queries, valid queries so far: 704, success rate: 1.0000
+[ANN] Processed 940/5000 queries, valid queries so far: 711, success rate: 1.0000
+[ANN] Processed 950/5000 queries, valid queries so far: 718, success rate: 1.0000
+[ANN] Processed 960/5000 queries, valid queries so far: 727, success rate: 1.0000
+[ANN] Processed 970/5000 queries, valid queries so far: 737, success rate: 1.0000
+[ANN] Processed 980/5000 queries, valid queries so far: 747, success rate: 1.0000
+[ANN] Processed 990/5000 queries, valid queries so far: 756, success rate: 1.0000
+[ANN] Processed 1000/5000 queries, valid queries so far: 762, success rate: 1.0000
+[ANN] Processed 1010/5000 queries, valid queries so far: 770, success rate: 1.0000
+[ANN] Processed 1020/5000 queries, valid queries so far: 778, success rate: 1.0000
+[ANN] Processed 1030/5000 queries, valid queries so far: 788, success rate: 1.0000
+[ANN] Processed 1040/5000 queries, valid queries so far: 798, success rate: 1.0000
+[ANN] Processed 1050/5000 queries, valid queries so far: 808, success rate: 1.0000
+[ANN] Processed 1060/5000 queries, valid queries so far: 816, success rate: 1.0000
+[ANN] Processed 1070/5000 queries, valid queries so far: 826, success rate: 1.0000
+[ANN] Processed 1080/5000 queries, valid queries so far: 836, success rate: 1.0000
+[ANN] Processed 1090/5000 queries, valid queries so far: 846, success rate: 1.0000
+[ANN] Processed 1100/5000 queries, valid queries so far: 854, success rate: 1.0000
+[ANN] Processed 1110/5000 queries, valid queries so far: 859, success rate: 1.0000
+[ANN] Processed 1120/5000 queries, valid queries so far: 869, success rate: 1.0000
+[ANN] Processed 1130/5000 queries, valid queries so far: 877, success rate: 1.0000
+[ANN] Processed 1140/5000 queries, valid queries so far: 887, success rate: 1.0000
+[ANN] Processed 1150/5000 queries, valid queries so far: 894, success rate: 1.0000
+[ANN] Processed 1160/5000 queries, valid queries so far: 901, success rate: 1.0000
+[ANN] Processed 1170/5000 queries, valid queries so far: 908, success rate: 1.0000
+[ANN] Processed 1180/5000 queries, valid queries so far: 916, success rate: 1.0000
+[ANN] Processed 1190/5000 queries, valid queries so far: 926, success rate: 1.0000
+[ANN] Processed 1200/5000 queries, valid queries so far: 935, success rate: 1.0000
+[ANN] Processed 1210/5000 queries, valid queries so far: 941, success rate: 1.0000
+[ANN] Processed 1220/5000 queries, valid queries so far: 951, success rate: 1.0000
+[ANN] Processed 1230/5000 queries, valid queries so far: 958, success rate: 1.0000
+[ANN] Processed 1240/5000 queries, valid queries so far: 966, success rate: 1.0000
+[ANN] Processed 1250/5000 queries, valid queries so far: 975, success rate: 1.0000
+[ANN] Processed 1260/5000 queries, valid queries so far: 981, success rate: 1.0000
+[ANN] Processed 1270/5000 queries, valid queries so far: 989, success rate: 1.0000
+[ANN] Processed 1280/5000 queries, valid queries so far: 999, success rate: 1.0000
+[ANN] Processed 1290/5000 queries, valid queries so far: 1009, success rate: 1.0000
+[ANN] Processed 1300/5000 queries, valid queries so far: 1019, success rate: 1.0000
+[ANN] Processed 1310/5000 queries, valid queries so far: 1029, success rate: 1.0000
+[ANN] Processed 1320/5000 queries, valid queries so far: 1038, success rate: 1.0000
+[ANN] Processed 1330/5000 queries, valid queries so far: 1048, success rate: 1.0000
+[ANN] Processed 1340/5000 queries, valid queries so far: 1056, success rate: 1.0000
+[ANN] Processed 1350/5000 queries, valid queries so far: 1066, success rate: 1.0000
+[ANN] Processed 1360/5000 queries, valid queries so far: 1075, success rate: 1.0000
+[ANN] Processed 1370/5000 queries, valid queries so far: 1083, success rate: 1.0000
+[ANN] Processed 1380/5000 queries, valid queries so far: 1093, success rate: 1.0000
+[ANN] Processed 1390/5000 queries, valid queries so far: 1103, success rate: 1.0000
+[ANN] Processed 1400/5000 queries, valid queries so far: 1112, success rate: 1.0000
+[ANN] Processed 1410/5000 queries, valid queries so far: 1120, success rate: 1.0000
+[ANN] Processed 1420/5000 queries, valid queries so far: 1129, success rate: 1.0000
+[ANN] Processed 1430/5000 queries, valid queries so far: 1137, success rate: 1.0000
+[ANN] Processed 1440/5000 queries, valid queries so far: 1147, success rate: 1.0000
+[ANN] Processed 1450/5000 queries, valid queries so far: 1156, success rate: 1.0000
+[ANN] Processed 1460/5000 queries, valid queries so far: 1166, success rate: 1.0000
+[ANN] Processed 1470/5000 queries, valid queries so far: 1174, success rate: 1.0000
+[ANN] Processed 1480/5000 queries, valid queries so far: 1183, success rate: 1.0000
+[ANN] Processed 1490/5000 queries, valid queries so far: 1192, success rate: 1.0000
+[ANN] Processed 1500/5000 queries, valid queries so far: 1202, success rate: 1.0000
+[ANN] Processed 1510/5000 queries, valid queries so far: 1212, success rate: 1.0000
+[ANN] Processed 1520/5000 queries, valid queries so far: 1222, success rate: 1.0000
+[ANN] Processed 1530/5000 queries, valid queries so far: 1228, success rate: 1.0000
+[ANN] Processed 1540/5000 queries, valid queries so far: 1238, success rate: 1.0000
+[ANN] Processed 1550/5000 queries, valid queries so far: 1248, success rate: 1.0000
+[ANN] Processed 1560/5000 queries, valid queries so far: 1257, success rate: 1.0000
+[ANN] Processed 1570/5000 queries, valid queries so far: 1266, success rate: 1.0000
+[ANN] Processed 1580/5000 queries, valid queries so far: 1275, success rate: 1.0000
+[ANN] Processed 1590/5000 queries, valid queries so far: 1285, success rate: 1.0000
+[ANN] Processed 1600/5000 queries, valid queries so far: 1294, success rate: 1.0000
+[ANN] Processed 1610/5000 queries, valid queries so far: 1304, success rate: 1.0000
+[ANN] Processed 1620/5000 queries, valid queries so far: 1314, success rate: 1.0000
+[ANN] Processed 1630/5000 queries, valid queries so far: 1323, success rate: 1.0000
+[ANN] Processed 1640/5000 queries, valid queries so far: 1333, success rate: 1.0000
+[ANN] Processed 1650/5000 queries, valid queries so far: 1340, success rate: 1.0000
+[ANN] Processed 1660/5000 queries, valid queries so far: 1348, success rate: 1.0000
+[ANN] Processed 1670/5000 queries, valid queries so far: 1357, success rate: 1.0000
+[ANN] Processed 1680/5000 queries, valid queries so far: 1363, success rate: 1.0000
+[ANN] Processed 1690/5000 queries, valid queries so far: 1372, success rate: 1.0000
+[ANN] Processed 1700/5000 queries, valid queries so far: 1380, success rate: 1.0000
+[ANN] Processed 1710/5000 queries, valid queries so far: 1390, success rate: 1.0000
+[ANN] Processed 1720/5000 queries, valid queries so far: 1399, success rate: 1.0000
+[ANN] Processed 1730/5000 queries, valid queries so far: 1404, success rate: 1.0000
+[ANN] Processed 1740/5000 queries, valid queries so far: 1410, success rate: 1.0000
+[ANN] Processed 1750/5000 queries, valid queries so far: 1419, success rate: 1.0000
+[ANN] Processed 1760/5000 queries, valid queries so far: 1427, success rate: 1.0000
+[ANN] Processed 1770/5000 queries, valid queries so far: 1436, success rate: 1.0000
+[ANN] Processed 1780/5000 queries, valid queries so far: 1444, success rate: 1.0000
+[ANN] Processed 1790/5000 queries, valid queries so far: 1451, success rate: 1.0000
+[ANN] Processed 1800/5000 queries, valid queries so far: 1456, success rate: 1.0000
+[ANN] Processed 1810/5000 queries, valid queries so far: 1461, success rate: 1.0000
+[ANN] Processed 1820/5000 queries, valid queries so far: 1469, success rate: 1.0000
+[ANN] Processed 1830/5000 queries, valid queries so far: 1476, success rate: 1.0000
+[ANN] Processed 1840/5000 queries, valid queries so far: 1486, success rate: 1.0000
+[ANN] Processed 1850/5000 queries, valid queries so far: 1493, success rate: 1.0000
+[ANN] Processed 1860/5000 queries, valid queries so far: 1503, success rate: 1.0000
+[ANN] Processed 1870/5000 queries, valid queries so far: 1511, success rate: 1.0000
+[ANN] Processed 1880/5000 queries, valid queries so far: 1519, success rate: 1.0000
+[ANN] Processed 1890/5000 queries, valid queries so far: 1527, success rate: 1.0000
+[ANN] Processed 1900/5000 queries, valid queries so far: 1536, success rate: 1.0000
+[ANN] Processed 1910/5000 queries, valid queries so far: 1546, success rate: 1.0000
+[ANN] Processed 1920/5000 queries, valid queries so far: 1556, success rate: 1.0000
+[ANN] Processed 1930/5000 queries, valid queries so far: 1565, success rate: 1.0000
+[ANN] Processed 1940/5000 queries, valid queries so far: 1575, success rate: 1.0000
+[ANN] Processed 1950/5000 queries, valid queries so far: 1583, success rate: 1.0000
+[ANN] Processed 1960/5000 queries, valid queries so far: 1590, success rate: 1.0000
+[ANN] Processed 1970/5000 queries, valid queries so far: 1594, success rate: 1.0000
+[ANN] Processed 1980/5000 queries, valid queries so far: 1602, success rate: 1.0000
+[ANN] Processed 1990/5000 queries, valid queries so far: 1610, success rate: 1.0000
+[ANN] Processed 2000/5000 queries, valid queries so far: 1619, success rate: 1.0000
+[ANN] Processed 2010/5000 queries, valid queries so far: 1625, success rate: 1.0000
+[ANN] Processed 2020/5000 queries, valid queries so far: 1635, success rate: 1.0000
+[ANN] Processed 2030/5000 queries, valid queries so far: 1642, success rate: 1.0000
+[ANN] Processed 2040/5000 queries, valid queries so far: 1650, success rate: 1.0000
+[ANN] Processed 2050/5000 queries, valid queries so far: 1659, success rate: 1.0000
+[ANN] Processed 2060/5000 queries, valid queries so far: 1666, success rate: 1.0000
+[ANN] Processed 2070/5000 queries, valid queries so far: 1676, success rate: 1.0000
+[ANN] Processed 2080/5000 queries, valid queries so far: 1683, success rate: 1.0000
+[ANN] Processed 2090/5000 queries, valid queries so far: 1693, success rate: 1.0000
+[ANN] Processed 2100/5000 queries, valid queries so far: 1703, success rate: 1.0000
+[ANN] Processed 2110/5000 queries, valid queries so far: 1712, success rate: 1.0000
+[ANN] Processed 2120/5000 queries, valid queries so far: 1722, success rate: 1.0000
+[ANN] Processed 2130/5000 queries, valid queries so far: 1731, success rate: 1.0000
+[ANN] Processed 2140/5000 queries, valid queries so far: 1741, success rate: 1.0000
+[ANN] Processed 2150/5000 queries, valid queries so far: 1748, success rate: 1.0000
+[ANN] Processed 2160/5000 queries, valid queries so far: 1758, success rate: 1.0000
+[ANN] Processed 2170/5000 queries, valid queries so far: 1766, success rate: 1.0000
+[ANN] Processed 2180/5000 queries, valid queries so far: 1776, success rate: 1.0000
+[ANN] Processed 2190/5000 queries, valid queries so far: 1786, success rate: 1.0000
+[ANN] Processed 2200/5000 queries, valid queries so far: 1796, success rate: 1.0000
+[ANN] Processed 2210/5000 queries, valid queries so far: 1804, success rate: 1.0000
+[ANN] Processed 2220/5000 queries, valid queries so far: 1811, success rate: 1.0000
+[ANN] Processed 2230/5000 queries, valid queries so far: 1821, success rate: 1.0000
+[ANN] Processed 2240/5000 queries, valid queries so far: 1830, success rate: 1.0000
+[ANN] Processed 2250/5000 queries, valid queries so far: 1839, success rate: 1.0000
+[ANN] Processed 2260/5000 queries, valid queries so far: 1849, success rate: 1.0000
+[ANN] Processed 2270/5000 queries, valid queries so far: 1859, success rate: 1.0000
+[ANN] Processed 2280/5000 queries, valid queries so far: 1869, success rate: 1.0000
+[ANN] Processed 2290/5000 queries, valid queries so far: 1878, success rate: 1.0000
+[ANN] Processed 2300/5000 queries, valid queries so far: 1888, success rate: 1.0000
+[ANN] Processed 2310/5000 queries, valid queries so far: 1897, success rate: 1.0000
+[ANN] Processed 2320/5000 queries, valid queries so far: 1907, success rate: 1.0000
+[ANN] Processed 2330/5000 queries, valid queries so far: 1917, success rate: 1.0000
+[ANN] Processed 2340/5000 queries, valid queries so far: 1927, success rate: 1.0000
+[ANN] Processed 2350/5000 queries, valid queries so far: 1937, success rate: 1.0000
+[ANN] Processed 2360/5000 queries, valid queries so far: 1947, success rate: 1.0000
+[ANN] Processed 2370/5000 queries, valid queries so far: 1957, success rate: 1.0000
+[ANN] Processed 2380/5000 queries, valid queries so far: 1964, success rate: 1.0000
+[ANN] Processed 2390/5000 queries, valid queries so far: 1972, success rate: 1.0000
+[ANN] Processed 2400/5000 queries, valid queries so far: 1981, success rate: 1.0000
+[ANN] Processed 2410/5000 queries, valid queries so far: 1988, success rate: 1.0000
+[ANN] Processed 2420/5000 queries, valid queries so far: 1996, success rate: 1.0000
+[ANN] Processed 2430/5000 queries, valid queries so far: 2005, success rate: 1.0000
+[ANN] Processed 2440/5000 queries, valid queries so far: 2014, success rate: 1.0000
+[ANN] Processed 2450/5000 queries, valid queries so far: 2023, success rate: 1.0000
+[ANN] Processed 2460/5000 queries, valid queries so far: 2031, success rate: 1.0000
+[ANN] Processed 2470/5000 queries, valid queries so far: 2041, success rate: 1.0000
+[ANN] Processed 2480/5000 queries, valid queries so far: 2051, success rate: 1.0000
+[ANN] Processed 2490/5000 queries, valid queries so far: 2061, success rate: 1.0000
+[ANN] Processed 2500/5000 queries, valid queries so far: 2071, success rate: 1.0000
+[ANN] Processed 2510/5000 queries, valid queries so far: 2078, success rate: 1.0000
+[ANN] Processed 2520/5000 queries, valid queries so far: 2086, success rate: 1.0000
+[ANN] Processed 2530/5000 queries, valid queries so far: 2095, success rate: 1.0000
+[ANN] Processed 2540/5000 queries, valid queries so far: 2104, success rate: 1.0000
+[ANN] Processed 2550/5000 queries, valid queries so far: 2112, success rate: 1.0000
+[ANN] Processed 2560/5000 queries, valid queries so far: 2121, success rate: 1.0000
+[ANN] Processed 2570/5000 queries, valid queries so far: 2130, success rate: 1.0000
+[ANN] Processed 2580/5000 queries, valid queries so far: 2140, success rate: 1.0000
+[ANN] Processed 2590/5000 queries, valid queries so far: 2150, success rate: 1.0000
+[ANN] Processed 2600/5000 queries, valid queries so far: 2159, success rate: 1.0000
+[ANN] Processed 2610/5000 queries, valid queries so far: 2169, success rate: 1.0000
+[ANN] Processed 2620/5000 queries, valid queries so far: 2179, success rate: 1.0000
+[ANN] Processed 2630/5000 queries, valid queries so far: 2187, success rate: 1.0000
+[ANN] Processed 2640/5000 queries, valid queries so far: 2194, success rate: 1.0000
+[ANN] Processed 2650/5000 queries, valid queries so far: 2202, success rate: 1.0000
+[ANN] Processed 2660/5000 queries, valid queries so far: 2211, success rate: 1.0000
+[ANN] Processed 2670/5000 queries, valid queries so far: 2220, success rate: 1.0000
+[ANN] Processed 2680/5000 queries, valid queries so far: 2229, success rate: 1.0000
+[ANN] Processed 2690/5000 queries, valid queries so far: 2238, success rate: 1.0000
+[ANN] Processed 2700/5000 queries, valid queries so far: 2247, success rate: 1.0000
+[ANN] Processed 2710/5000 queries, valid queries so far: 2256, success rate: 1.0000
+[ANN] Processed 2720/5000 queries, valid queries so far: 2265, success rate: 1.0000
+[ANN] Processed 2730/5000 queries, valid queries so far: 2275, success rate: 1.0000
+[ANN] Processed 2740/5000 queries, valid queries so far: 2283, success rate: 1.0000
+[ANN] Processed 2750/5000 queries, valid queries so far: 2291, success rate: 1.0000
+[ANN] Processed 2760/5000 queries, valid queries so far: 2299, success rate: 1.0000
+[ANN] Processed 2770/5000 queries, valid queries so far: 2307, success rate: 1.0000
+[ANN] Processed 2780/5000 queries, valid queries so far: 2317, success rate: 1.0000
+[ANN] Processed 2790/5000 queries, valid queries so far: 2325, success rate: 1.0000
+[ANN] Processed 2800/5000 queries, valid queries so far: 2333, success rate: 1.0000
+[ANN] Processed 2810/5000 queries, valid queries so far: 2340, success rate: 1.0000
+[ANN] Processed 2820/5000 queries, valid queries so far: 2347, success rate: 1.0000
+[ANN] Processed 2830/5000 queries, valid queries so far: 2356, success rate: 1.0000
+[ANN] Processed 2840/5000 queries, valid queries so far: 2364, success rate: 1.0000
+[ANN] Processed 2850/5000 queries, valid queries so far: 2374, success rate: 1.0000
+[ANN] Processed 2860/5000 queries, valid queries so far: 2380, success rate: 1.0000
+[ANN] Processed 2870/5000 queries, valid queries so far: 2389, success rate: 1.0000
+[ANN] Processed 2880/5000 queries, valid queries so far: 2398, success rate: 1.0000
+[ANN] Processed 2890/5000 queries, valid queries so far: 2408, success rate: 1.0000
+[ANN] Processed 2900/5000 queries, valid queries so far: 2414, success rate: 1.0000
+[ANN] Processed 2910/5000 queries, valid queries so far: 2422, success rate: 1.0000
+[ANN] Processed 2920/5000 queries, valid queries so far: 2429, success rate: 1.0000
+[ANN] Processed 2930/5000 queries, valid queries so far: 2437, success rate: 1.0000
+[ANN] Processed 2940/5000 queries, valid queries so far: 2444, success rate: 1.0000
+[ANN] Processed 2950/5000 queries, valid queries so far: 2454, success rate: 1.0000
+[ANN] Processed 2960/5000 queries, valid queries so far: 2463, success rate: 1.0000
+[ANN] Processed 2970/5000 queries, valid queries so far: 2473, success rate: 1.0000
+[ANN] Processed 2980/5000 queries, valid queries so far: 2480, success rate: 1.0000
+[ANN] Processed 2990/5000 queries, valid queries so far: 2487, success rate: 1.0000
+[ANN] Processed 3000/5000 queries, valid queries so far: 2494, success rate: 1.0000
+[ANN] Processed 3010/5000 queries, valid queries so far: 2503, success rate: 1.0000
+[ANN] Processed 3020/5000 queries, valid queries so far: 2511, success rate: 1.0000
+[ANN] Processed 3030/5000 queries, valid queries so far: 2519, success rate: 1.0000
+[ANN] Processed 3040/5000 queries, valid queries so far: 2528, success rate: 1.0000
+[ANN] Processed 3050/5000 queries, valid queries so far: 2535, success rate: 1.0000
+[ANN] Processed 3060/5000 queries, valid queries so far: 2542, success rate: 1.0000
+[ANN] Processed 3070/5000 queries, valid queries so far: 2552, success rate: 1.0000
+[ANN] Processed 3080/5000 queries, valid queries so far: 2560, success rate: 1.0000
+[ANN] Processed 3090/5000 queries, valid queries so far: 2566, success rate: 1.0000
+[ANN] Processed 3100/5000 queries, valid queries so far: 2576, success rate: 1.0000
+[ANN] Processed 3110/5000 queries, valid queries so far: 2583, success rate: 1.0000
+[ANN] Processed 3120/5000 queries, valid queries so far: 2592, success rate: 1.0000
+[ANN] Processed 3130/5000 queries, valid queries so far: 2601, success rate: 1.0000
+[ANN] Processed 3140/5000 queries, valid queries so far: 2611, success rate: 1.0000
+[ANN] Processed 3150/5000 queries, valid queries so far: 2619, success rate: 1.0000
+[ANN] Processed 3160/5000 queries, valid queries so far: 2627, success rate: 1.0000
+[ANN] Processed 3170/5000 queries, valid queries so far: 2637, success rate: 1.0000
+[ANN] Processed 3180/5000 queries, valid queries so far: 2647, success rate: 1.0000
+[ANN] Processed 3190/5000 queries, valid queries so far: 2656, success rate: 1.0000
+[ANN] Processed 3200/5000 queries, valid queries so far: 2665, success rate: 1.0000
+[ANN] Processed 3210/5000 queries, valid queries so far: 2674, success rate: 1.0000
+[ANN] Processed 3220/5000 queries, valid queries so far: 2681, success rate: 1.0000
+[ANN] Processed 3230/5000 queries, valid queries so far: 2691, success rate: 1.0000
+[ANN] Processed 3240/5000 queries, valid queries so far: 2698, success rate: 1.0000
+[ANN] Processed 3250/5000 queries, valid queries so far: 2704, success rate: 1.0000
+[ANN] Processed 3260/5000 queries, valid queries so far: 2713, success rate: 1.0000
+[ANN] Processed 3270/5000 queries, valid queries so far: 2723, success rate: 1.0000
+[ANN] Processed 3280/5000 queries, valid queries so far: 2732, success rate: 1.0000
+[ANN] Processed 3290/5000 queries, valid queries so far: 2742, success rate: 1.0000
+[ANN] Processed 3300/5000 queries, valid queries so far: 2750, success rate: 1.0000
+[ANN] Processed 3310/5000 queries, valid queries so far: 2760, success rate: 1.0000
+[ANN] Processed 3320/5000 queries, valid queries so far: 2768, success rate: 1.0000
+[ANN] Processed 3330/5000 queries, valid queries so far: 2777, success rate: 1.0000
+[ANN] Processed 3340/5000 queries, valid queries so far: 2787, success rate: 1.0000
+[ANN] Processed 3350/5000 queries, valid queries so far: 2797, success rate: 1.0000
+[ANN] Processed 3360/5000 queries, valid queries so far: 2807, success rate: 1.0000
+[ANN] Processed 3370/5000 queries, valid queries so far: 2817, success rate: 1.0000
+[ANN] Processed 3380/5000 queries, valid queries so far: 2827, success rate: 1.0000
+[ANN] Processed 3390/5000 queries, valid queries so far: 2836, success rate: 1.0000
+[ANN] Processed 3400/5000 queries, valid queries so far: 2846, success rate: 1.0000
+[ANN] Processed 3410/5000 queries, valid queries so far: 2854, success rate: 1.0000
+[ANN] Processed 3420/5000 queries, valid queries so far: 2863, success rate: 1.0000
+[ANN] Processed 3430/5000 queries, valid queries so far: 2872, success rate: 1.0000
+[ANN] Processed 3440/5000 queries, valid queries so far: 2882, success rate: 1.0000
+[ANN] Processed 3450/5000 queries, valid queries so far: 2892, success rate: 1.0000
+[ANN] Processed 3460/5000 queries, valid queries so far: 2902, success rate: 1.0000
+[ANN] Processed 3470/5000 queries, valid queries so far: 2910, success rate: 1.0000
+[ANN] Processed 3480/5000 queries, valid queries so far: 2919, success rate: 1.0000
+[ANN] Processed 3490/5000 queries, valid queries so far: 2928, success rate: 1.0000
+[ANN] Processed 3500/5000 queries, valid queries so far: 2937, success rate: 1.0000
+[ANN] Processed 3510/5000 queries, valid queries so far: 2946, success rate: 1.0000
+[ANN] Processed 3520/5000 queries, valid queries so far: 2956, success rate: 1.0000
+[ANN] Processed 3530/5000 queries, valid queries so far: 2966, success rate: 1.0000
+[ANN] Processed 3540/5000 queries, valid queries so far: 2974, success rate: 1.0000
+[ANN] Processed 3550/5000 queries, valid queries so far: 2983, success rate: 1.0000
+[ANN] Processed 3560/5000 queries, valid queries so far: 2993, success rate: 1.0000
+[ANN] Processed 3570/5000 queries, valid queries so far: 3001, success rate: 1.0000
+[ANN] Processed 3580/5000 queries, valid queries so far: 3010, success rate: 1.0000
+[ANN] Processed 3590/5000 queries, valid queries so far: 3020, success rate: 1.0000
+[ANN] Processed 3600/5000 queries, valid queries so far: 3027, success rate: 1.0000
+[ANN] Processed 3610/5000 queries, valid queries so far: 3037, success rate: 1.0000
+[ANN] Processed 3620/5000 queries, valid queries so far: 3047, success rate: 1.0000
+[ANN] Processed 3630/5000 queries, valid queries so far: 3055, success rate: 1.0000
+[ANN] Processed 3640/5000 queries, valid queries so far: 3061, success rate: 1.0000
+[ANN] Processed 3650/5000 queries, valid queries so far: 3071, success rate: 1.0000
+[ANN] Processed 3660/5000 queries, valid queries so far: 3080, success rate: 1.0000
+[ANN] Processed 3670/5000 queries, valid queries so far: 3090, success rate: 1.0000
+[ANN] Processed 3680/5000 queries, valid queries so far: 3100, success rate: 1.0000
+[ANN] Processed 3690/5000 queries, valid queries so far: 3108, success rate: 1.0000
+[ANN] Processed 3700/5000 queries, valid queries so far: 3115, success rate: 1.0000
+[ANN] Processed 3710/5000 queries, valid queries so far: 3125, success rate: 1.0000
+[ANN] Processed 3720/5000 queries, valid queries so far: 3133, success rate: 1.0000
+[ANN] Processed 3730/5000 queries, valid queries so far: 3141, success rate: 1.0000
+[ANN] Processed 3740/5000 queries, valid queries so far: 3148, success rate: 1.0000
+[ANN] Processed 3750/5000 queries, valid queries so far: 3157, success rate: 1.0000
+[ANN] Processed 3760/5000 queries, valid queries so far: 3165, success rate: 1.0000
+[ANN] Processed 3770/5000 queries, valid queries so far: 3174, success rate: 1.0000
+[ANN] Processed 3780/5000 queries, valid queries so far: 3181, success rate: 1.0000
+[ANN] Processed 3790/5000 queries, valid queries so far: 3191, success rate: 1.0000
+[ANN] Processed 3800/5000 queries, valid queries so far: 3199, success rate: 1.0000
+[ANN] Processed 3810/5000 queries, valid queries so far: 3209, success rate: 1.0000
+[ANN] Processed 3820/5000 queries, valid queries so far: 3215, success rate: 1.0000
+[ANN] Processed 3830/5000 queries, valid queries so far: 3223, success rate: 1.0000
+[ANN] Processed 3840/5000 queries, valid queries so far: 3231, success rate: 1.0000
+[ANN] Processed 3850/5000 queries, valid queries so far: 3241, success rate: 1.0000
+[ANN] Processed 3860/5000 queries, valid queries so far: 3250, success rate: 1.0000
+[ANN] Processed 3870/5000 queries, valid queries so far: 3259, success rate: 1.0000
+[ANN] Processed 3880/5000 queries, valid queries so far: 3266, success rate: 1.0000
+[ANN] Processed 3890/5000 queries, valid queries so far: 3276, success rate: 1.0000
+[ANN] Processed 3900/5000 queries, valid queries so far: 3280, success rate: 1.0000
+[ANN] Processed 3910/5000 queries, valid queries so far: 3285, success rate: 1.0000
+[ANN] Processed 3920/5000 queries, valid queries so far: 3292, success rate: 1.0000
+[ANN] Processed 3930/5000 queries, valid queries so far: 3300, success rate: 1.0000
+[ANN] Processed 3940/5000 queries, valid queries so far: 3306, success rate: 1.0000
+[ANN] Processed 3950/5000 queries, valid queries so far: 3315, success rate: 1.0000
+[ANN] Processed 3960/5000 queries, valid queries so far: 3323, success rate: 1.0000
+[ANN] Processed 3970/5000 queries, valid queries so far: 3333, success rate: 1.0000
+[ANN] Processed 3980/5000 queries, valid queries so far: 3340, success rate: 1.0000
+[ANN] Processed 3990/5000 queries, valid queries so far: 3346, success rate: 1.0000
+[ANN] Processed 4000/5000 queries, valid queries so far: 3355, success rate: 1.0000
+[ANN] Processed 4010/5000 queries, valid queries so far: 3365, success rate: 1.0000
+[ANN] Processed 4020/5000 queries, valid queries so far: 3375, success rate: 1.0000
+[ANN] Processed 4030/5000 queries, valid queries so far: 3383, success rate: 1.0000
+[ANN] Processed 4040/5000 queries, valid queries so far: 3391, success rate: 1.0000
+[ANN] Processed 4050/5000 queries, valid queries so far: 3397, success rate: 1.0000
+[ANN] Processed 4060/5000 queries, valid queries so far: 3405, success rate: 1.0000
+[ANN] Processed 4070/5000 queries, valid queries so far: 3412, success rate: 1.0000
+[ANN] Processed 4080/5000 queries, valid queries so far: 3416, success rate: 1.0000
+[ANN] Processed 4090/5000 queries, valid queries so far: 3423, success rate: 1.0000
+[ANN] Processed 4100/5000 queries, valid queries so far: 3431, success rate: 1.0000
+[ANN] Processed 4110/5000 queries, valid queries so far: 3440, success rate: 1.0000
+[ANN] Processed 4120/5000 queries, valid queries so far: 3447, success rate: 1.0000
+[ANN] Processed 4130/5000 queries, valid queries so far: 3455, success rate: 1.0000
+[ANN] Processed 4140/5000 queries, valid queries so far: 3463, success rate: 1.0000
+[ANN] Processed 4150/5000 queries, valid queries so far: 3472, success rate: 1.0000
+[ANN] Processed 4160/5000 queries, valid queries so far: 3482, success rate: 1.0000
+[ANN] Processed 4170/5000 queries, valid queries so far: 3490, success rate: 1.0000
+[ANN] Processed 4180/5000 queries, valid queries so far: 3499, success rate: 1.0000
+[ANN] Processed 4190/5000 queries, valid queries so far: 3509, success rate: 1.0000
+[ANN] Processed 4200/5000 queries, valid queries so far: 3515, success rate: 1.0000
+[ANN] Processed 4210/5000 queries, valid queries so far: 3525, success rate: 1.0000
+[ANN] Processed 4220/5000 queries, valid queries so far: 3535, success rate: 1.0000
+[ANN] Processed 4230/5000 queries, valid queries so far: 3544, success rate: 1.0000
+[ANN] Processed 4240/5000 queries, valid queries so far: 3554, success rate: 1.0000
+[ANN] Processed 4250/5000 queries, valid queries so far: 3562, success rate: 1.0000
+[ANN] Processed 4260/5000 queries, valid queries so far: 3569, success rate: 1.0000
+[ANN] Processed 4270/5000 queries, valid queries so far: 3576, success rate: 1.0000
+[ANN] Processed 4280/5000 queries, valid queries so far: 3585, success rate: 1.0000
+[ANN] Processed 4290/5000 queries, valid queries so far: 3594, success rate: 1.0000
+[ANN] Processed 4300/5000 queries, valid queries so far: 3602, success rate: 1.0000
+[ANN] Processed 4310/5000 queries, valid queries so far: 3610, success rate: 1.0000
+[ANN] Processed 4320/5000 queries, valid queries so far: 3617, success rate: 1.0000
+[ANN] Processed 4330/5000 queries, valid queries so far: 3624, success rate: 1.0000
+[ANN] Processed 4340/5000 queries, valid queries so far: 3634, success rate: 1.0000
+[ANN] Processed 4350/5000 queries, valid queries so far: 3644, success rate: 1.0000
+[ANN] Processed 4360/5000 queries, valid queries so far: 3654, success rate: 1.0000
+[ANN] Processed 4370/5000 queries, valid queries so far: 3663, success rate: 1.0000
+[ANN] Processed 4380/5000 queries, valid queries so far: 3672, success rate: 1.0000
+[ANN] Processed 4390/5000 queries, valid queries so far: 3682, success rate: 1.0000
+[ANN] Processed 4400/5000 queries, valid queries so far: 3691, success rate: 1.0000
+[ANN] Processed 4410/5000 queries, valid queries so far: 3701, success rate: 1.0000
+[ANN] Processed 4420/5000 queries, valid queries so far: 3710, success rate: 1.0000
+[ANN] Processed 4430/5000 queries, valid queries so far: 3719, success rate: 1.0000
+[ANN] Processed 4440/5000 queries, valid queries so far: 3729, success rate: 1.0000
+[ANN] Processed 4450/5000 queries, valid queries so far: 3737, success rate: 1.0000
+[ANN] Processed 4460/5000 queries, valid queries so far: 3745, success rate: 1.0000
+[ANN] Processed 4470/5000 queries, valid queries so far: 3752, success rate: 1.0000
+[ANN] Processed 4480/5000 queries, valid queries so far: 3758, success rate: 1.0000
+[ANN] Processed 4490/5000 queries, valid queries so far: 3767, success rate: 1.0000
+[ANN] Processed 4500/5000 queries, valid queries so far: 3776, success rate: 1.0000
+[ANN] Processed 4510/5000 queries, valid queries so far: 3784, success rate: 1.0000
+[ANN] Processed 4520/5000 queries, valid queries so far: 3792, success rate: 1.0000
+[ANN] Processed 4530/5000 queries, valid queries so far: 3800, success rate: 1.0000
+[ANN] Processed 4540/5000 queries, valid queries so far: 3810, success rate: 1.0000
+[ANN] Processed 4550/5000 queries, valid queries so far: 3818, success rate: 1.0000
+[ANN] Processed 4560/5000 queries, valid queries so far: 3827, success rate: 1.0000
+[ANN] Processed 4570/5000 queries, valid queries so far: 3836, success rate: 1.0000
+[ANN] Processed 4580/5000 queries, valid queries so far: 3845, success rate: 1.0000
+[ANN] Processed 4590/5000 queries, valid queries so far: 3855, success rate: 1.0000
+[ANN] Processed 4600/5000 queries, valid queries so far: 3864, success rate: 1.0000
+[ANN] Processed 4610/5000 queries, valid queries so far: 3870, success rate: 1.0000
+[ANN] Processed 4620/5000 queries, valid queries so far: 3879, success rate: 1.0000
+[ANN] Processed 4630/5000 queries, valid queries so far: 3889, success rate: 1.0000
+[ANN] Processed 4640/5000 queries, valid queries so far: 3899, success rate: 1.0000
+[ANN] Processed 4650/5000 queries, valid queries so far: 3908, success rate: 1.0000
+[ANN] Processed 4660/5000 queries, valid queries so far: 3918, success rate: 1.0000
+[ANN] Processed 4670/5000 queries, valid queries so far: 3926, success rate: 1.0000
+[ANN] Processed 4680/5000 queries, valid queries so far: 3936, success rate: 1.0000
+[ANN] Processed 4690/5000 queries, valid queries so far: 3945, success rate: 1.0000
+[ANN] Processed 4700/5000 queries, valid queries so far: 3955, success rate: 1.0000
+[ANN] Processed 4710/5000 queries, valid queries so far: 3965, success rate: 1.0000
+[ANN] Processed 4720/5000 queries, valid queries so far: 3974, success rate: 1.0000
+[ANN] Processed 4730/5000 queries, valid queries so far: 3982, success rate: 1.0000
+[ANN] Processed 4740/5000 queries, valid queries so far: 3991, success rate: 1.0000
+[ANN] Processed 4750/5000 queries, valid queries so far: 3998, success rate: 1.0000
+[ANN] Processed 4760/5000 queries, valid queries so far: 4007, success rate: 1.0000
+[ANN] Processed 4770/5000 queries, valid queries so far: 4017, success rate: 1.0000
+[ANN] Processed 4780/5000 queries, valid queries so far: 4025, success rate: 1.0000
+[ANN] Processed 4790/5000 queries, valid queries so far: 4033, success rate: 1.0000
+[ANN] Processed 4800/5000 queries, valid queries so far: 4041, success rate: 1.0000
+[ANN] Processed 4810/5000 queries, valid queries so far: 4050, success rate: 1.0000
+[ANN] Processed 4820/5000 queries, valid queries so far: 4057, success rate: 1.0000
+[ANN] Processed 4830/5000 queries, valid queries so far: 4067, success rate: 1.0000
+[ANN] Processed 4840/5000 queries, valid queries so far: 4076, success rate: 1.0000
+[ANN] Processed 4850/5000 queries, valid queries so far: 4086, success rate: 1.0000
+[ANN] Processed 4860/5000 queries, valid queries so far: 4095, success rate: 1.0000
+[ANN] Processed 4870/5000 queries, valid queries so far: 4103, success rate: 1.0000
+[ANN] Processed 4880/5000 queries, valid queries so far: 4112, success rate: 1.0000
+[ANN] Processed 4890/5000 queries, valid queries so far: 4120, success rate: 1.0000
+[ANN] Processed 4900/5000 queries, valid queries so far: 4129, success rate: 1.0000
+[ANN] Processed 4910/5000 queries, valid queries so far: 4137, success rate: 1.0000
+[ANN] Processed 4920/5000 queries, valid queries so far: 4146, success rate: 1.0000
+[ANN] Processed 4930/5000 queries, valid queries so far: 4156, success rate: 1.0000
+[ANN] Processed 4940/5000 queries, valid queries so far: 4166, success rate: 1.0000
+[ANN] Processed 4950/5000 queries, valid queries so far: 4173, success rate: 1.0000
+[ANN] Processed 4960/5000 queries, valid queries so far: 4182, success rate: 1.0000
+[ANN] Processed 4970/5000 queries, valid queries so far: 4190, success rate: 1.0000
+[ANN] Processed 4980/5000 queries, valid queries so far: 4199, success rate: 1.0000
+[ANN] Processed 4990/5000 queries, valid queries so far: 4208, success rate: 1.0000
+[ANN] Processed 5000/5000 queries, valid queries so far: 4218, success rate: 1.0000
+[SUMMARY] k=128, c=1.8, r=0.5, K=50, n_insert=50000, n_queries=5000, recall=1.0000, (c,r)-ANN accuracy=1.0, memory=197.47
