@@ -101,7 +101,6 @@ The code is tested on Linux platform using Python 3.10.12. The required Python l
 * numpy
 * matplotlib
 * tqdm
-* torch
 * scipy
 * pandas
 * faiss
@@ -137,8 +136,8 @@ Now we will enumerate the files for data structures and the algorithm implementa
 
 **Utilities:** 
 The main algorithmic components of Streaming-ANN and the baseline are implemented in the files `src/StreamingANN.py` and `src/JL_baseline.py`.
-* src/StreamingANN.py: the proposed streaming ANN algorithm.
-* src/JL_baseline.py: Johnson–Lindenstrauss baseline for comparison.
+* `src/StreamingANN.py`: the proposed streaming ANN algorithm.
+* `src/JL_baseline.py`: Johnson–Lindenstrauss baseline for comparison.
 
 All experimental configurations and plotting utilities are organized into three main sets of experiments, as described below.
 
@@ -265,10 +264,9 @@ results/results_mem_variation.csv
 
 In order to plot the figure, one can use `plot/mem_variation_plot.py`. Simply copy the results csv into the same directory as the script as before and run:
 ```
-
-```
 python mem_variation_plot.py --csv results_mem_variation.csv --dim 128 --outdir plots
 ```
+
 The options for the script are as follows : 
   * `csv`: Path to the results CSV file generated from the memory variation experiment
   * `dim`: Dimensionality of the dataset (used for the linear memory reference)
