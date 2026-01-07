@@ -21,7 +21,7 @@ plt.plot(n_row,x_mean2,marker='*',mec='black',linestyle='-',color='green',lw=1.7
 plt.xlabel('Number of rows')
 plt.ylabel('Log mean relative error')
 plt.legend()
-plt.title('Mean relative error vs Number of rows')
+# plt.title('Mean relative error vs Number of rows')
 plt.grid(True)
 f_n="Synthetic_data_outputs/MC_compare.pdf"
 plt.savefig(f_n)

@@ -22,7 +22,7 @@ plt.plot(x_mean1,y_mean1,marker='*',mec='black',linestyle='-',color='blue',lw=1.
 plt.xlabel('Sketch size in KB')
 plt.ylabel('Log mean relative error')
 plt.legend()
-plt.title('Mean relative error vs Sketch size')
+# plt.title('Mean relative error vs Sketch size')
 plt.grid(True)
 f_n="Synthetic_data_outputs/MC_AH.pdf"
 plt.savefig(f_n)
@@ -43,11 +43,11 @@ y_mean2=np.mean(y_cum,axis=0)
 
 plt.figure(figsize=(10,6),dpi=100)
 plt.plot(x_mean2,y_mean2,marker='*',mec='black',linestyle='-',color='blue',lw=1.75, label='L2 Hash')
-# plt.xlabel('Sketch size in KB')
-plt.xlabel('Number of rows in the sketch')
+plt.xlabel('Sketch size in KB')
+# plt.xlabel('Number of rows in the sketch')
 plt.ylabel('Log mean relative error')
 plt.legend()
-plt.title('Mean relative error vs Rows')
+# plt.title('Mean relative error vs sketch size')
 plt.grid(True)
 f_n="Synthetic_data_outputs_L2/MC_L2.pdf"
 plt.savefig(f_n)
