@@ -1,0 +1,22 @@
+nohup: ignoring input
+Data shape: (80000, 384)
+---------Parameters for original RACE----------
+Bandwidth parameter=1,  Data dimension 384
+Number of streaming data=10000, Number of queries=1000
+----------------------------
+---------Parameters for Sliding window RACE----------
+Bandwidth parameter=1, Window size=260, Relative error of EH=0.1, Data dimension 384
+Relative error of A-KDE =0.210000, Number of streaming data=10000, Number of queries=1000
+----------------------------
+Time taken to compute true KDE for 1000 queries is 105.73 seconds
+Mean True KDE=5206.928833
+Time taken to compute true KDE for 1000 queries is 2.74 seconds
+Mean True KDE=135.427871
+Rows =100
+Rows =200
+Rows =400
+Rows =800
+Rows =1600
+Rows =3200
+ In plot section 
+Finished plotting

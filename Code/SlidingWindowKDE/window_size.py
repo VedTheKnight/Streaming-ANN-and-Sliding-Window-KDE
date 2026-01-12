@@ -146,10 +146,11 @@ if __name__=="__main__":
         
     plt.xlabel('Number of rows')
     plt.ylabel('Log(Mean Relative Error)')
-    plt.title('Mean Relative Error vs Number of Rows '+lb)
+    # plt.title('Mean Relative Error vs Number of Rows '+lb)
     plt.legend()
+    plt.grid(True)
     # plt.show()
-    plt.savefig(f_n)
+    plt.savefig(f_n,dpi=300)
     plt.close()
     f.close()
     gc.collect()

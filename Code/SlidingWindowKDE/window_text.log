@@ -1,0 +1,278 @@
+nohup: ignoring input
+Data shape: (10000, 384)
+---------Parameters for Sliding window RACE----------
+Bandwidth parameter=1, Relative error of EH=0.1, Data dimension 384
+Relative error of A-KDE =0.210000, Number of streaming data=10000, Number of queries=1000
+----------------------------
+True KDE calculation done in 166.12 s
+Destination path /home/srijan/Streaming-ANN-and-Sliding-Window-KDE/Code/SlidingWindowKDE/Outputs/text/Window_variation_text.pdf
+
+Window size 64
+
+Rows =100
+Adding data to sketch
+Update time: 7.37s
+Querying the sketch
+Query time: 0.56s
+Mean A-KDE=49.005660, Mean Relative Error=0.051299
+
+Rows =200
+Adding data to sketch
+Update time: 14.81s
+Querying the sketch
+Query time: 1.15s
+Mean A-KDE=48.643155, Mean Relative Error=0.042697
+
+Rows =400
+Adding data to sketch
+Update time: 29.96s
+Querying the sketch
+Query time: 2.29s
+Mean A-KDE=47.223471, Mean Relative Error=0.014943
+
+Rows =800
+Adding data to sketch
+Update time: 60.40s
+Querying the sketch
+Query time: 4.62s
+Mean A-KDE=47.649489, Mean Relative Error=0.020959
+
+Rows =1600
+Adding data to sketch
+Update time: 121.04s
+Querying the sketch
+Query time: 9.25s
+Mean A-KDE=47.104473, Mean Relative Error=0.009548
+
+Rows =3200
+Adding data to sketch
+Update time: 241.91s
+Querying the sketch
+Query time: 18.46s
+Mean A-KDE=47.319545, Mean Relative Error=0.013767
+ In plot section 
+
+Window size 128
+
+Rows =100
+Adding data to sketch
+Update time: 7.46s
+Querying the sketch
+Query time: 0.57s
+Mean A-KDE=94.978495, Mean Relative Error=0.027048
+
+Rows =200
+Adding data to sketch
+Update time: 15.18s
+Querying the sketch
+Query time: 1.15s
+Mean A-KDE=95.311520, Mean Relative Error=0.024273
+
+Rows =400
+Adding data to sketch
+Update time: 30.34s
+Querying the sketch
+Query time: 2.33s
+Mean A-KDE=94.881331, Mean Relative Error=0.019032
+
+Rows =800
+Adding data to sketch
+Update time: 60.66s
+Querying the sketch
+Query time: 4.64s
+Mean A-KDE=92.263127, Mean Relative Error=0.012337
+
+Rows =1600
+Adding data to sketch
+Update time: 121.99s
+Querying the sketch
+Query time: 9.19s
+Mean A-KDE=94.007712, Mean Relative Error=0.008599
+
+Rows =3200
+Adding data to sketch
+Update time: 249.21s
+Querying the sketch
+Query time: 18.70s
+Mean A-KDE=93.996441, Mean Relative Error=0.007856
+ In plot section 
+
+Window size 256
+
+Rows =100
+Adding data to sketch
+Update time: 7.61s
+Querying the sketch
+Query time: 0.58s
+Mean A-KDE=181.321950, Mean Relative Error=0.032476
+
+Rows =200
+Adding data to sketch
+Update time: 15.31s
+Querying the sketch
+Query time: 1.16s
+Mean A-KDE=187.312928, Mean Relative Error=0.016065
+
+Rows =400
+Adding data to sketch
+Update time: 30.66s
+Querying the sketch
+Query time: 2.33s
+Mean A-KDE=188.291172, Mean Relative Error=0.013584
+
+Rows =800
+Adding data to sketch
+Update time: 61.45s
+Querying the sketch
+Query time: 4.61s
+Mean A-KDE=186.537098, Mean Relative Error=0.007799
+
+Rows =1600
+Adding data to sketch
+Update time: 123.99s
+Querying the sketch
+Query time: 9.33s
+Mean A-KDE=185.274703, Mean Relative Error=0.007914
+
+Rows =3200
+Adding data to sketch
+Update time: 255.06s
+Querying the sketch
+Query time: 18.57s
+Mean A-KDE=187.377538, Mean Relative Error=0.005634
+ In plot section 
+
+Window size 512
+
+Rows =100
+Adding data to sketch
+Update time: 7.59s
+Querying the sketch
+Query time: 0.57s
+Mean A-KDE=374.756005, Mean Relative Error=0.021501
+
+Rows =200
+Adding data to sketch
+Update time: 15.37s
+Querying the sketch
+Query time: 1.15s
+Mean A-KDE=377.396675, Mean Relative Error=0.019154
+
+Rows =400
+Adding data to sketch
+Update time: 30.96s
+Querying the sketch
+Query time: 2.35s
+Mean A-KDE=374.878543, Mean Relative Error=0.012109
+
+Rows =800
+Adding data to sketch
+Update time: 62.44s
+Querying the sketch
+Query time: 4.70s
+Mean A-KDE=373.977079, Mean Relative Error=0.008066
+
+Rows =1600
+Adding data to sketch
+Update time: 125.28s
+Querying the sketch
+Query time: 9.37s
+Mean A-KDE=374.271138, Mean Relative Error=0.006066
+
+Rows =3200
+Adding data to sketch
+Update time: 259.99s
+Querying the sketch
+Query time: 18.77s
+Mean A-KDE=373.752372, Mean Relative Error=0.004295
+ In plot section 
+
+Window size 1024
+
+Rows =100
+Adding data to sketch
+Update time: 7.64s
+Querying the sketch
+Query time: 0.57s
+Mean A-KDE=713.139850, Mean Relative Error=0.044406
+
+Rows =200
+Adding data to sketch
+Update time: 15.36s
+Querying the sketch
+Query time: 1.16s
+Mean A-KDE=732.678832, Mean Relative Error=0.020549
+
+Rows =400
+Adding data to sketch
+Update time: 31.24s
+Querying the sketch
+Query time: 2.33s
+Mean A-KDE=757.754268, Mean Relative Error=0.017733
+
+Rows =800
+Adding data to sketch
+Update time: 62.97s
+Querying the sketch
+Query time: 4.74s
+Mean A-KDE=754.836711, Mean Relative Error=0.013076
+
+Rows =1600
+Adding data to sketch
+Update time: 125.90s
+Querying the sketch
+Query time: 9.32s
+Mean A-KDE=748.896453, Mean Relative Error=0.006106
+
+Rows =3200
+Adding data to sketch
+Update time: 261.89s
+Querying the sketch
+Query time: 18.90s
+Mean A-KDE=745.481371, Mean Relative Error=0.003864
+ In plot section 
+
+Window size 2048
+
+Rows =100
+Adding data to sketch
+Update time: 7.67s
+Querying the sketch
+Query time: 0.58s
+Mean A-KDE=1538.562800, Mean Relative Error=0.035992
+
+Rows =200
+Adding data to sketch
+Update time: 15.43s
+Querying the sketch
+Query time: 1.17s
+Mean A-KDE=1512.757110, Mean Relative Error=0.020052
+
+Rows =400
+Adding data to sketch
+Update time: 31.10s
+Querying the sketch
+Query time: 2.32s
+Mean A-KDE=1478.842616, Mean Relative Error=0.013179
+
+Rows =800
+Adding data to sketch
+Update time: 62.27s
+Querying the sketch
+Query time: 4.58s
+Mean A-KDE=1478.182743, Mean Relative Error=0.010936
+
+Rows =1600
+Adding data to sketch
+Update time: 125.52s
+Querying the sketch
+Query time: 9.33s
+Mean A-KDE=1478.723161, Mean Relative Error=0.009280
+
+Rows =3200
+Adding data to sketch
+Update time: 263.52s
+Querying the sketch
+Query time: 18.69s
+Mean A-KDE=1490.636569, Mean Relative Error=0.003903
+ In plot section 

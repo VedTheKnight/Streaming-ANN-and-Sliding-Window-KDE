@@ -70,7 +70,7 @@ if __name__=="__main__":
 # computing true KDE in the normal setting 
     true_kde_1=np.zeros(n_query) # true kde for the n_query query points
     st_time=time.time()
-    for j in tqdm(range(n_query), desc="Traversing the data for true KDE"):
+    for j in range(n_query):
         for i in range(num_data):
             true_kde_1[j]+=math.pow(1-1/np.pi*angle_between_vectors(data[i,:],query[j]),k) # calculating the collision probability
 
@@ -81,7 +81,7 @@ if __name__=="__main__":
 # computing true KDE in the sliding window setting 
     true_kde_2=np.zeros(n_query) # true kde for the last N data points
     st_time=time.time()
-    for j in tqdm(range(n_query), desc="Traversing the data for true KDE"):
+    for j in range(n_query):
         for i in range(num_data-N,num_data):
             true_kde_2[j]+=math.pow(1-1/np.pi*angle_between_vectors(data[i,:],query[j]),k) # calculating the collision probability
     # print(f'True KDE={true_kde:.6f}')
@@ -97,29 +97,31 @@ if __name__=="__main__":
 
     # sk_sz_1=[] # size of RACE sketch
     # sk_sz_2=[] # size of sliding window RACE sketch
-
+    file_oup=open(f'Outputs/compare_{arg.data_type}.txt','w')
+    file_oup.write('Rows\t RACE error \t AKDE error\n')
     for i in range(len(n_row)):
         
         r_sketch=RACE_1(n_row[i],2,k,dim)# creating an instance of a RACE'19 sketch
         app_kde=np.zeros(n_query) # approximate kde
         print(f'Rows ={n_row[i]}')
         st_time=time.time()
-        for j in tqdm(range(num_data), desc="Adding data to RACE sketch"):
+        for j in range(num_data):
             r_sketch.update_counter(data[j,:]) # updating the sketch with the streaming data  
         end_time=time.time()
         st_time=time.time()
-        for j in tqdm(range(n_query),desc='Answering queries'):
+        for j in range(n_query):
             app_kde[j]=r_sketch.query(query[j]) # calculate the approximate kde from the race sketch
         end_time=time.time()
         rel_err=np.mean(abs((app_kde-true_kde_1)/true_kde_1)) # calculate relative error
+
         err1.append(np.log(rel_err))
-        print(f'Mean A-KDE={np.mean(app_kde):.6f} Mean Relative error={rel_err:.6f}')
+        # print(f'Mean A-KDE={np.mean(app_kde):.6f} Mean Relative error={rel_err:.6f}')
         del r_sketch # delete the sketch to free memory
- 
+        
         r_sketch=RACE_Ah(n_row[i],2,k,dim,N,eps)# creating an instance of a SW RACE sketch
         
         st_time=time.time()
-        for j in tqdm(range(num_data), desc="Adding data to (SW) RACE sketch"):
+        for j in range(num_data):
             r_sketch.update_counter(data[j,:],j+1) # updating the sketch with the streaming data  
         end_time=time.time()
         st_time=time.time()
@@ -127,28 +129,31 @@ if __name__=="__main__":
             app_kde[j]=r_sketch.query1(query[j]) # calculate the approximate kde from the race sketch
         end_time=time.time()
         rel_err=np.mean(abs((app_kde-true_kde_2)/true_kde_2)) # calculate relative error
-        print(f'Mean A-KDE={np.mean(app_kde):.6f} Mean Relative error={rel_err:.6f}\n')
+        # print(f'Mean A-KDE={np.mean(app_kde):.6f} Mean Relative error={rel_err:.6f}\n')
         err2.append(np.log(rel_err))
         del r_sketch # delete the sketch to free memory
+        file_oup.write(f'{n_row[i]}\t{err1[-1]}\t{err2[-1]}\n')
     
 # plotting the graphs
 # create a directory to store the graph
+    file_oup.close()
     print(" In plot section ")
     current_dir = os.getcwd()
     tar_dir=os.path.join(current_dir,"Outputs",arg.data_type)
     os.makedirs(tar_dir,exist_ok=True)
 
     plt.figure(figsize=(10,6))
-    plt.plot(n_row, err1, marker='*',mec='black',linestyle='-',color='blue',lw=1.75, label='Original RACE')
-    plt.plot(n_row, err2, marker='*',mec='black',linestyle='-',color='green',lw=1.75,label='Sliding Window RACE')
+    plt.plot(n_row, err1, marker='*',mec='black',linestyle='-',color='blue',lw=1.75, label='RACE')
+    plt.plot(n_row, err2, marker='*',mec='black',linestyle='-',color='green',lw=1.75,label='SW-AKDE')
     plt.xlabel('Number of Rows in RACE Sketch')
     plt.ylabel('Log(Mean Relative Error)')
-    plt.title('Mean Relative Error vs Number of Rows')
+    # plt.title('Mean Relative Error vs Number of Rows')
     plt.legend()
     plt.grid(True)
     # plt.show()
     f_n=tar_dir+"/mean_relative_error_vs_rows.pdf"
-    plt.savefig(f_n)
+    plt.savefig(f_n,dpi=300)
     plt.close()
+    print("Finished plotting")
 
     gc.collect()
